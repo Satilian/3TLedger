@@ -4,14 +4,238 @@
     {
       "type": "frame",
       "id": "bi8Au",
-      "x": 0,
-      "y": 0,
+      "x": -379,
+      "y": -204,
       "name": "Frame",
       "clip": true,
-      "width": 800,
-      "height": 600,
+      "width": 1524,
+      "height": 936,
       "fill": "#FFFFFF",
-      "layout": "none"
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "EsPkm",
+          "x": 0,
+          "y": 0,
+          "name": "colors",
+          "width": 1489,
+          "height": 140,
+          "stroke": "#e5e7eb",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "gap": 20,
+          "padding": 20,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Cl1L4",
+              "fill": "#111827",
+              "width": 100,
+              "height": 100
+            },
+            {
+              "type": "rectangle",
+              "id": "N9C5xy",
+              "fill": "#f8f9fb",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner"
+            },
+            {
+              "type": "rectangle",
+              "id": "vFuvY",
+              "fill": "#fafafa",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner"
+            },
+            {
+              "type": "rectangle",
+              "id": "RMlee",
+              "fill": "#ffffff",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner"
+            },
+            {
+              "type": "rectangle",
+              "id": "HAGBQ",
+              "fill": "#10b981",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner"
+            },
+            {
+              "type": "rectangle",
+              "id": "k6TL7Y",
+              "fill": "#14b8a6",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "id": "q2ycNB",
+              "fill": "#ef4444",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1
+            },
+            {
+              "type": "rectangle",
+              "id": "Mwlex",
+              "fill": "#6366f1",
+              "width": 100,
+              "height": 100,
+              "stroke": "#e5e7eb",
+              "strokeWidth": 1,
+              "strokeAlignment": "inner"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ASQnq",
+          "x": 314,
+          "y": 171,
+          "name": "Frame 2",
+          "clip": true,
+          "width": 1175,
+          "height": 266,
+          "fill": "#FFFFFF",
+          "stroke": "#e5e7eb",
+          "strokeWidth": 1,
+          "strokeAlignment": "inner",
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "VdOtb",
+              "x": 22,
+              "y": 21,
+              "fill": "#000000",
+              "content": "3T Ledger \n──────────────────── \n◎ Transparency \n◎ Trust \n◎ Trail \n──────────────────── \nAccounts \nBudgets \nOrganizations \nSettings",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "h9NC1",
+              "x": 381.5668257756563,
+              "y": 20.5,
+              "fill": "#000000",
+              "textGrowth": "fixed-width-height",
+              "width": 793,
+              "height": 231,
+              "content": "Каждый раздел будет не просто страницей, а отдельным взглядом на одни и те же данные:\n\n - Transparency — показывает структуру финансов: счета, категории, потоки денег, объяснение \n    каждой суммы.\n\n - Trust — совместная работа: кто внес изменения, какие операции ожидают подтверждения, кто \n    имеет доступ.\n\n - Trail — полная история изменений, журнал действий, возможность проследить эволюцию бюджета.",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "q3T8c",
+          "x": 9,
+          "y": 150,
+          "name": "fonts",
+          "clip": true,
+          "width": 225,
+          "height": 219,
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "RmFCk",
+              "fill": "#000000",
+              "content": "Inter",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "yF7bE",
+              "fill": "#000000",
+              "content": "Geist",
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "M7EUA",
+              "fill": "#000000",
+              "content": "IBM Plex Sans",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": 32,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "cMJ4u",
+              "fill": "#000000",
+              "content": "IBM Plex Sans",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "OjcfV",
+              "fill": "#000000",
+              "content": "IBM Plex Sans",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "HGS4G",
+              "fill": "#000000",
+              "content": "IBM Plex Sans",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "L2ke8",
+              "fill": "#000000",
+              "content": "IBM Plex Sans",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Nla63",
+              "fill": "#000000",
+              "content": "IBM Plex Sans",
+              "fontFamily": "IBM Plex Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
     }
   ],
   "fileToken": "25e17838-536c-4ce2-a8a1-7d23ef744335"
