@@ -1,0 +1,4564 @@
+{
+  "version": "2.15",
+  "children": [
+    {
+      "type": "frame",
+      "id": "r8L42k",
+      "x": -4438.985611510792,
+      "y": -110,
+      "name": "Profile",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "#f8f9fb",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "M0PFhL",
+          "x": 0,
+          "y": 0,
+          "name": "Profile sidebar",
+          "width": 224,
+          "height": 820,
+          "fill": "#111827",
+          "stroke": "#11182712",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LHsT9",
+              "name": "Profile brand",
+              "height": 32,
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VeJas",
+                  "name": "Profile brand mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "sxXwU",
+                  "name": "Profile brand label",
+                  "fill": "#ffffff",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "IgcIZ",
+              "name": "Profile account section",
+              "fill": "#6b7280",
+              "content": "ACCOUNT",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "frame",
+              "id": "vzctS",
+              "name": "Profile Profile nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#6366f12e",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "cUzQh",
+                  "name": "Profile Profile nav label",
+                  "fill": "#ffffff",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "L14v8u",
+              "name": "Profile Settings nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FBjzp",
+                  "name": "Profile Settings nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ROtxR",
+              "name": "Profile Notifications nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OcWha",
+                  "name": "Profile Notifications nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vY8Gs",
+              "name": "Profile Billing nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xR9IT",
+                  "name": "Profile Billing nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XSFKD",
+              "name": "Profile Privacy nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SteXe",
+                  "name": "Profile Privacy nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VsOuF",
+              "name": "Profile Help & Support nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K0FcQ",
+                  "name": "Profile Help & Support nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "KidqD",
+              "name": "Profile side fill",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "pcZQ6",
+              "name": "Profile signout",
+              "fill": "#f87171",
+              "content": "Sign out",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DvVFA",
+          "x": 224,
+          "y": 0,
+          "name": "Profile content",
+          "width": 956,
+          "height": 820,
+          "fill": "#f8f9fb",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            26,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "NYocc",
+              "name": "Profile topbar",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WjUc2",
+                  "name": "Profile breadcrumb",
+                  "fill": "#6b7280",
+                  "content": "Personal workspace  /  Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KhwPS",
+                  "name": "Profile user",
+                  "fill": "#374151",
+                  "content": "Alex Kim  ·  Free",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hsfX3",
+              "name": "Profile header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Esgdd",
+                  "name": "Profile title",
+                  "fill": "#111827",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ZawDs",
+                  "name": "Profile subtitle",
+                  "fill": "#6b7280",
+                  "content": "Manage your identity and public account details.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "z7ZWT",
+              "name": "Profile Personal information",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pbh9Y",
+                  "name": "Profile Personal information heading",
+                  "fill": "#111827",
+                  "content": "Personal information",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "ohCBr",
+                  "name": "Profile Profile photo",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mc7XO",
+                      "name": "Profile Profile photo copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I8B1T5",
+                          "name": "Profile Profile photo label",
+                          "fill": "#374151",
+                          "content": "Profile photo",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "UbnBX",
+                          "name": "Profile Profile photo detail",
+                          "fill": "#6b7280",
+                          "content": "Shown in your workspace",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K0eeK",
+                      "name": "Profile Profile photo action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ng9Og",
+                          "name": "Profile Profile photo action label",
+                          "fill": "#374151",
+                          "content": "Change",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GaEgz",
+                  "name": "Profile Display name",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L0JilX",
+                      "name": "Profile Display name copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FQTIo",
+                          "name": "Profile Display name label",
+                          "fill": "#374151",
+                          "content": "Display name",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "v9OtK7",
+                          "name": "Profile Display name detail",
+                          "fill": "#6b7280",
+                          "content": "Alex Kim",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JETHG",
+                      "name": "Profile Display name action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I3lcEh",
+                          "name": "Profile Display name action label",
+                          "fill": "#374151",
+                          "content": "Edit",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "JAkrG",
+                  "name": "Profile Email address",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZcV8A",
+                      "name": "Profile Email address copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s9ZwN",
+                          "name": "Profile Email address label",
+                          "fill": "#374151",
+                          "content": "Email address",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "h93zK",
+                          "name": "Profile Email address detail",
+                          "fill": "#6b7280",
+                          "content": "alex@3tledger.app",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Nm5DY",
+                      "name": "Profile Email address action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O72eO",
+                          "name": "Profile Email address action label",
+                          "fill": "#374151",
+                          "content": "Edit",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EkDb9",
+              "name": "Profile Security",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "R4sSj",
+                  "name": "Profile Security heading",
+                  "fill": "#111827",
+                  "content": "Security",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "EbpK1",
+                  "name": "Profile Password",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lIGP5",
+                      "name": "Profile Password copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h4EYo",
+                          "name": "Profile Password label",
+                          "fill": "#374151",
+                          "content": "Password",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "nQOef",
+                          "name": "Profile Password detail",
+                          "fill": "#6b7280",
+                          "content": "Last changed 2 months ago",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tvzum",
+                      "name": "Profile Password action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "a3KiTR",
+                          "name": "Profile Password action label",
+                          "fill": "#374151",
+                          "content": "Update password",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oSc7I",
+                  "name": "Profile Two-factor authentication",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "J6k1bl",
+                      "name": "Profile Two-factor authentication copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "OtWDy",
+                          "name": "Profile Two-factor authentication label",
+                          "fill": "#374151",
+                          "content": "Two-factor authentication",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "gzjEl",
+                          "name": "Profile Two-factor authentication detail",
+                          "fill": "#6b7280",
+                          "content": "Not enabled",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "v9Ose",
+                      "name": "Profile Two-factor authentication action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "MsRxc",
+                          "name": "Profile Two-factor authentication action label",
+                          "fill": "#ffffff",
+                          "content": "Enable",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "p5wYnU",
+      "x": -3176.9856115107923,
+      "y": -110,
+      "name": "Settings",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "#f8f9fb",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "PGlRx",
+          "x": 0,
+          "y": 0,
+          "name": "Settings sidebar",
+          "width": 224,
+          "height": 820,
+          "fill": "#111827",
+          "stroke": "#11182712",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Oa9kd",
+              "name": "Settings brand",
+              "height": 32,
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "g6AJA9",
+                  "name": "Settings brand mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "GpQrv",
+                  "name": "Settings brand label",
+                  "fill": "#ffffff",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "B8sjyh",
+              "name": "Settings account section",
+              "fill": "#6b7280",
+              "content": "ACCOUNT",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "frame",
+              "id": "nDPZi",
+              "name": "Settings Profile nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QSMJb",
+                  "name": "Settings Profile nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uHJi6",
+              "name": "Settings Settings nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#4f46e5",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rZx4u",
+                  "name": "Settings Settings nav label",
+                  "fill": "#ffffff",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Svx5m",
+              "name": "Settings Notifications nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "FT7lB",
+                  "name": "Settings Notifications nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "f7fvQg",
+              "name": "Settings Billing nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IZ7DK",
+                  "name": "Settings Billing nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H2zo3",
+              "name": "Settings Privacy nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "E8I9q",
+                  "name": "Settings Privacy nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wgNgT",
+              "name": "Settings Help & Support nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BGJyR",
+                  "name": "Settings Help & Support nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "gQSuE",
+              "name": "Settings side fill",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "FVCUy",
+              "name": "Settings signout",
+              "fill": "#f87171",
+              "content": "Sign out",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BbTPP",
+          "x": 224,
+          "y": 0,
+          "name": "Settings content",
+          "width": 956,
+          "height": 820,
+          "fill": "#f8f9fb",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            26,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "yFi4t",
+              "name": "Settings topbar",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "d0Os4",
+                  "name": "Settings breadcrumb",
+                  "fill": "#6b7280",
+                  "content": "Personal workspace  /  Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "V8e6G4",
+                  "name": "Settings user",
+                  "fill": "#374151",
+                  "content": "Alex Kim  ·  Free",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HvvIe",
+              "name": "Settings header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AwjrQ",
+                  "name": "Settings title",
+                  "fill": "#111827",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "z4GrNH",
+                  "name": "Settings subtitle",
+                  "fill": "#6b7280",
+                  "content": "Control how 3T Ledger works for you.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "YFwqT",
+              "name": "Settings Workspace preferences",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mYDXL",
+                  "name": "Settings Workspace preferences heading",
+                  "fill": "#111827",
+                  "content": "Workspace preferences",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "bdFpr",
+                  "name": "Settings Default currency",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "i227Aq",
+                      "name": "Settings Default currency copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wq3kt",
+                          "name": "Settings Default currency label",
+                          "fill": "#374151",
+                          "content": "Default currency",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z3FP9A",
+                          "name": "Settings Default currency detail",
+                          "fill": "#6b7280",
+                          "content": "United States Dollar (USD)",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "F1VH3",
+                      "name": "Settings Default currency action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g1mSuJ",
+                          "name": "Settings Default currency action label",
+                          "fill": "#374151",
+                          "content": "Change",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QTNdC",
+                  "name": "Settings Week starts on",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "id9u7",
+                      "name": "Settings Week starts on copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q21oe",
+                          "name": "Settings Week starts on label",
+                          "fill": "#374151",
+                          "content": "Week starts on",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "A4NyU",
+                          "name": "Settings Week starts on detail",
+                          "fill": "#6b7280",
+                          "content": "Monday",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MCbR6",
+                      "name": "Settings Week starts on action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pyfdB",
+                          "name": "Settings Week starts on action label",
+                          "fill": "#374151",
+                          "content": "Change",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A6VcoB",
+                  "name": "Settings Date format",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kyLuC",
+                      "name": "Settings Date format copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ff7df",
+                          "name": "Settings Date format label",
+                          "fill": "#374151",
+                          "content": "Date format",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "WQ1Rx",
+                          "name": "Settings Date format detail",
+                          "fill": "#6b7280",
+                          "content": "20 Mar 2025",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "k3N6Bz",
+                      "name": "Settings Date format action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "z0g73",
+                          "name": "Settings Date format action label",
+                          "fill": "#374151",
+                          "content": "Change",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FFrfP",
+              "name": "Settings Data preferences",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V6s1M",
+                  "name": "Settings Data preferences heading",
+                  "fill": "#111827",
+                  "content": "Data preferences",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "pgM0s",
+                  "name": "Settings Auto-categorization",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "iG4U6",
+                      "name": "Settings Auto-categorization copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "f0Lz6D",
+                          "name": "Settings Auto-categorization label",
+                          "fill": "#374151",
+                          "content": "Auto-categorization",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HgyQg",
+                          "name": "Settings Auto-categorization detail",
+                          "fill": "#6b7280",
+                          "content": "Rules run on new transactions",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "N7QM3Y",
+                      "name": "Settings Auto-categorization action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FQ6EE",
+                          "name": "Settings Auto-categorization action label",
+                          "fill": "#ffffff",
+                          "content": "On",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IwdfB",
+                  "name": "Settings Compact tables",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "B5XAI",
+                      "name": "Settings Compact tables copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Y8aYnd",
+                          "name": "Settings Compact tables label",
+                          "fill": "#374151",
+                          "content": "Compact tables",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L0DFM",
+                          "name": "Settings Compact tables detail",
+                          "fill": "#6b7280",
+                          "content": "Use a denser transaction view",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UhxHU",
+                      "name": "Settings Compact tables action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "qVvSk",
+                          "name": "Settings Compact tables action label",
+                          "fill": "#374151",
+                          "content": "Off",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "saLxT",
+      "x": -1916.9856115107923,
+      "y": -110,
+      "name": "Notifications",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "#f8f9fb",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Rwsme",
+          "x": 0,
+          "y": 0,
+          "name": "Notifications sidebar",
+          "width": 224,
+          "height": 820,
+          "fill": "#111827",
+          "stroke": "#11182712",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "e0lGC",
+              "name": "Notifications brand",
+              "height": 32,
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EnIOA",
+                  "name": "Notifications brand mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "nzXD0",
+                  "name": "Notifications brand label",
+                  "fill": "#ffffff",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "s5woY9",
+              "name": "Notifications account section",
+              "fill": "#6b7280",
+              "content": "ACCOUNT",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "frame",
+              "id": "FbXbb",
+              "name": "Notifications Profile nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wUWKY",
+                  "name": "Notifications Profile nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ndwQh",
+              "name": "Notifications Settings nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tm2Rv",
+                  "name": "Notifications Settings nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tDycB",
+              "name": "Notifications Notifications nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#4f46e5",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Biwgw",
+                  "name": "Notifications Notifications nav label",
+                  "fill": "#ffffff",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "fziE9",
+              "name": "Notifications Billing nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "b6Ht5",
+                  "name": "Notifications Billing nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kquR2",
+              "name": "Notifications Privacy nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ozr29",
+                  "name": "Notifications Privacy nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "I3sGv",
+              "name": "Notifications Help & Support nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y2kr9",
+                  "name": "Notifications Help & Support nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cDdB6",
+              "name": "Notifications side fill",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "ODC8v",
+              "name": "Notifications signout",
+              "fill": "#f87171",
+              "content": "Sign out",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "L5INk",
+          "x": 224,
+          "y": 0,
+          "name": "Notifications content",
+          "width": 956,
+          "height": 820,
+          "fill": "#f8f9fb",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            26,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "LrEiB",
+              "name": "Notifications topbar",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h7Oxb",
+                  "name": "Notifications breadcrumb",
+                  "fill": "#6b7280",
+                  "content": "Personal workspace  /  Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WWP49",
+                  "name": "Notifications user",
+                  "fill": "#374151",
+                  "content": "Alex Kim  ·  Free",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oGXhc",
+              "name": "Notifications header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "o5Qew",
+                  "name": "Notifications title",
+                  "fill": "#111827",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "qXse7",
+                  "name": "Notifications subtitle",
+                  "fill": "#6b7280",
+                  "content": "Choose where and when 3T Ledger reaches you.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mqw32",
+              "name": "Notifications Email notifications",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sAlql",
+                  "name": "Notifications Email notifications heading",
+                  "fill": "#111827",
+                  "content": "Email notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "ivLWk",
+                  "name": "Notifications Weekly summary",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AGS2j",
+                      "name": "Notifications Weekly summary copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Mfw7D",
+                          "name": "Notifications Weekly summary label",
+                          "fill": "#374151",
+                          "content": "Weekly summary",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZbyET",
+                          "name": "Notifications Weekly summary detail",
+                          "fill": "#6b7280",
+                          "content": "A weekly look at your cash flow",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bPAPj",
+                      "name": "Notifications Weekly summary action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "hbeIP",
+                          "name": "Notifications Weekly summary action label",
+                          "fill": "#ffffff",
+                          "content": "On",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "bEGil",
+                  "name": "Notifications Budget alerts",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nFZV6",
+                      "name": "Notifications Budget alerts copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "k7uvP",
+                          "name": "Notifications Budget alerts label",
+                          "fill": "#374151",
+                          "content": "Budget alerts",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "YC966",
+                          "name": "Notifications Budget alerts detail",
+                          "fill": "#6b7280",
+                          "content": "When you approach a budget limit",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "o8ftZ6",
+                      "name": "Notifications Budget alerts action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zyEyP",
+                          "name": "Notifications Budget alerts action label",
+                          "fill": "#ffffff",
+                          "content": "On",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "H6m8it",
+                  "name": "Notifications Account activity",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "ZnVOm",
+                      "name": "Notifications Account activity copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EER2K",
+                          "name": "Notifications Account activity label",
+                          "fill": "#374151",
+                          "content": "Account activity",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uq7yR",
+                          "name": "Notifications Account activity detail",
+                          "fill": "#6b7280",
+                          "content": "Unusual or uncategorized activity",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "acNaO",
+                      "name": "Notifications Account activity action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "n9wGd8",
+                          "name": "Notifications Account activity action label",
+                          "fill": "#374151",
+                          "content": "Off",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cx9rk",
+              "name": "Notifications In-app notifications",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Tsziv",
+                  "name": "Notifications In-app notifications heading",
+                  "fill": "#111827",
+                  "content": "In-app notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "YPdCu",
+                  "name": "Notifications Product updates",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dl5Ve",
+                      "name": "Notifications Product updates copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fWzVv",
+                          "name": "Notifications Product updates label",
+                          "fill": "#374151",
+                          "content": "Product updates",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "W8e37p",
+                          "name": "Notifications Product updates detail",
+                          "fill": "#6b7280",
+                          "content": "New features and improvements",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "niXAW",
+                      "name": "Notifications Product updates action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "zuXbz",
+                          "name": "Notifications Product updates action label",
+                          "fill": "#ffffff",
+                          "content": "On",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "EszLF",
+      "x": -656.9856115107923,
+      "y": -110,
+      "name": "Billing",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "#f8f9fb",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "nwsdg",
+          "x": 0,
+          "y": 0,
+          "name": "Billing sidebar",
+          "width": 224,
+          "height": 820,
+          "fill": "#111827",
+          "stroke": "#11182712",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "iGOm4",
+              "name": "Billing brand",
+              "height": 32,
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "sSber",
+                  "name": "Billing brand mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "Kjpsa",
+                  "name": "Billing brand label",
+                  "fill": "#ffffff",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SkSNJ",
+              "name": "Billing account section",
+              "fill": "#6b7280",
+              "content": "ACCOUNT",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "frame",
+              "id": "j9xtl",
+              "name": "Billing Profile nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uXMF3",
+                  "name": "Billing Profile nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Y5cuob",
+              "name": "Billing Settings nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uBwTO",
+                  "name": "Billing Settings nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aPbBN",
+              "name": "Billing Notifications nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JOHc1",
+                  "name": "Billing Notifications nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NbPyK",
+              "name": "Billing Billing nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#4f46e5",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tCTIn",
+                  "name": "Billing Billing nav label",
+                  "fill": "#ffffff",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mf0Wv",
+              "name": "Billing Privacy nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vZFbs",
+                  "name": "Billing Privacy nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EOXwl",
+              "name": "Billing Help & Support nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Lste2",
+                  "name": "Billing Help & Support nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ceunt",
+              "name": "Billing side fill",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "ABRa0",
+              "name": "Billing signout",
+              "fill": "#f87171",
+              "content": "Sign out",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "H5GLPi",
+          "x": 224,
+          "y": 0,
+          "name": "Billing content",
+          "width": 956,
+          "height": 820,
+          "fill": "#f8f9fb",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            26,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "YwR6f",
+              "name": "Billing topbar",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "PYhiG",
+                  "name": "Billing breadcrumb",
+                  "fill": "#6b7280",
+                  "content": "Personal workspace  /  Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vZHio",
+                  "name": "Billing user",
+                  "fill": "#374151",
+                  "content": "Alex Kim  ·  Free",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uELDt",
+              "name": "Billing header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r6Lm1",
+                  "name": "Billing title",
+                  "fill": "#111827",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "y3xU87",
+                  "name": "Billing subtitle",
+                  "fill": "#6b7280",
+                  "content": "Plan and payment details for your workspace.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "IuKVy",
+              "name": "Billing Current plan",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O9dR1",
+                  "name": "Billing Current plan heading",
+                  "fill": "#111827",
+                  "content": "Current plan",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "MgkrO",
+                  "name": "Billing Free plan",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "W9ABnm",
+                      "name": "Billing Free plan copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "kXPeU",
+                          "name": "Billing Free plan label",
+                          "fill": "#374151",
+                          "content": "Free plan",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "uBXtK",
+                          "name": "Billing Free plan detail",
+                          "fill": "#6b7280",
+                          "content": "Personal finance essentials · $0 / month",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Sas5W",
+                      "name": "Billing Free plan action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lmpiJ",
+                          "name": "Billing Free plan action label",
+                          "fill": "#ffffff",
+                          "content": "Upgrade plan",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XPt6x",
+              "name": "Billing Payment method",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YY7Dc",
+                  "name": "Billing Payment method heading",
+                  "fill": "#111827",
+                  "content": "Payment method",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "h8LZd",
+                  "name": "Billing Payment method",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "WU1FX",
+                      "name": "Billing Payment method copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KYV3R",
+                          "name": "Billing Payment method label",
+                          "fill": "#374151",
+                          "content": "Payment method",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kEY5K",
+                          "name": "Billing Payment method detail",
+                          "fill": "#6b7280",
+                          "content": "No payment method on file",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HmmFv",
+                      "name": "Billing Payment method action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EcWOY",
+                          "name": "Billing Payment method action label",
+                          "fill": "#374151",
+                          "content": "Add card",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WwJ2Y",
+              "name": "Billing Billing history",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vMapi",
+                  "name": "Billing Billing history heading",
+                  "fill": "#111827",
+                  "content": "Billing history",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "Ti4CD",
+                  "name": "Billing Invoices",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SscJL",
+                      "name": "Billing Invoices copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "nDixD",
+                          "name": "Billing Invoices label",
+                          "fill": "#374151",
+                          "content": "Invoices",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "O4zms",
+                          "name": "Billing Invoices detail",
+                          "fill": "#6b7280",
+                          "content": "No invoices yet",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pvpYG",
+                      "name": "Billing Invoices action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sWybg",
+                          "name": "Billing Invoices action label",
+                          "fill": "#374151",
+                          "content": "View history",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "I8U4o3",
+      "x": 603.0143884892077,
+      "y": -110,
+      "name": "Privacy",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "#f8f9fb",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "wGITy",
+          "x": 0,
+          "y": 0,
+          "name": "Privacy sidebar",
+          "width": 224,
+          "height": 820,
+          "fill": "#111827",
+          "stroke": "#11182712",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "qUyce",
+              "name": "Privacy brand",
+              "height": 32,
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "lr7Z4",
+                  "name": "Privacy brand mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "fz82t",
+                  "name": "Privacy brand label",
+                  "fill": "#ffffff",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ajQwI",
+              "name": "Privacy account section",
+              "fill": "#6b7280",
+              "content": "ACCOUNT",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "frame",
+              "id": "LFbVC",
+              "name": "Privacy Profile nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Q1Bvx",
+                  "name": "Privacy Profile nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cU6HF",
+              "name": "Privacy Settings nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NY441",
+                  "name": "Privacy Settings nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "i0lH8Z",
+              "name": "Privacy Notifications nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "k5JyK3",
+                  "name": "Privacy Notifications nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "W12y4q",
+              "name": "Privacy Billing nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jzcIA",
+                  "name": "Privacy Billing nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dQGp8",
+              "name": "Privacy Privacy nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#4f46e5",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r50U1w",
+                  "name": "Privacy Privacy nav label",
+                  "fill": "#ffffff",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XoY0v",
+              "name": "Privacy Help & Support nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zb8yY",
+                  "name": "Privacy Help & Support nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V9dh7",
+              "name": "Privacy side fill",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "I0tfv",
+              "name": "Privacy signout",
+              "fill": "#f87171",
+              "content": "Sign out",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Fh04J",
+          "x": 224,
+          "y": 0,
+          "name": "Privacy content",
+          "width": 956,
+          "height": 820,
+          "fill": "#f8f9fb",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            26,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "r1Rwky",
+              "name": "Privacy topbar",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uSoW4",
+                  "name": "Privacy breadcrumb",
+                  "fill": "#6b7280",
+                  "content": "Personal workspace  /  Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "r0UiIU",
+                  "name": "Privacy user",
+                  "fill": "#374151",
+                  "content": "Alex Kim  ·  Free",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "a9djN5",
+              "name": "Privacy header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KOddh",
+                  "name": "Privacy title",
+                  "fill": "#111827",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "C06pj",
+                  "name": "Privacy subtitle",
+                  "fill": "#6b7280",
+                  "content": "Decide how your data is stored, exported, and removed.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Jc4nQ",
+              "name": "Privacy Your data",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IAGHS",
+                  "name": "Privacy Your data heading",
+                  "fill": "#111827",
+                  "content": "Your data",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "MU0eK",
+                  "name": "Privacy Export your data",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pmNo9",
+                      "name": "Privacy Export your data copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Z3uga",
+                          "name": "Privacy Export your data label",
+                          "fill": "#374151",
+                          "content": "Export your data",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "EYYBI",
+                          "name": "Privacy Export your data detail",
+                          "fill": "#6b7280",
+                          "content": "Download transactions, accounts, and categories",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "H0fJmp",
+                      "name": "Privacy Export your data action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "l4oul",
+                          "name": "Privacy Export your data action label",
+                          "fill": "#374151",
+                          "content": "Request export",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WBuTE",
+                  "name": "Privacy Connected services",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "H2zeG",
+                      "name": "Privacy Connected services copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "u6XNA",
+                          "name": "Privacy Connected services label",
+                          "fill": "#374151",
+                          "content": "Connected services",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "m4WTQJ",
+                          "name": "Privacy Connected services detail",
+                          "fill": "#6b7280",
+                          "content": "No connections shared with third parties",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TtjB5",
+                      "name": "Privacy Connected services action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bbn9O",
+                          "name": "Privacy Connected services action label",
+                          "fill": "#374151",
+                          "content": "Review",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hu0nt",
+              "name": "Privacy Danger zone",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ohvrW",
+                  "name": "Privacy Danger zone heading",
+                  "fill": "#111827",
+                  "content": "Danger zone",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "Y35EO3",
+                  "name": "Privacy Delete workspace",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "NTtFJ",
+                      "name": "Privacy Delete workspace copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "fkaUc",
+                          "name": "Privacy Delete workspace label",
+                          "fill": "#374151",
+                          "content": "Delete workspace",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "z36DDI",
+                          "name": "Privacy Delete workspace detail",
+                          "fill": "#6b7280",
+                          "content": "Permanently remove your data",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "w6pcL",
+                      "name": "Privacy Delete workspace action",
+                      "height": 34,
+                      "fill": "#fef2f2",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ghsmj",
+                          "name": "Privacy Delete workspace action label",
+                          "fill": "#dc2626",
+                          "content": "Delete workspace",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Pv52a",
+      "x": 1863.0143884892077,
+      "y": -110,
+      "name": "Help & Support",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "#f8f9fb",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "sdJV9",
+          "x": 0,
+          "y": 0,
+          "name": "Help & Support sidebar",
+          "width": 224,
+          "height": 820,
+          "fill": "#111827",
+          "stroke": "#11182712",
+          "strokeWidth": {
+            "right": 1
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            24,
+            14
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "mEIuI",
+              "name": "Help & Support brand",
+              "height": 32,
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mUTnL",
+                  "name": "Help & Support brand mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "Hhifv",
+                  "name": "Help & Support brand label",
+                  "fill": "#ffffff",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "OpYcb",
+              "name": "Help & Support account section",
+              "fill": "#6b7280",
+              "content": "ACCOUNT",
+              "fontFamily": "Inter",
+              "fontSize": 10,
+              "fontWeight": "600",
+              "letterSpacing": 0.7
+            },
+            {
+              "type": "frame",
+              "id": "GeNGQ",
+              "name": "Help & Support Profile nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B2mS5",
+                  "name": "Help & Support Profile nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Profile",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Idq51",
+              "name": "Help & Support Settings nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EcWyG",
+                  "name": "Help & Support Settings nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Settings",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ra0vT",
+              "name": "Help & Support Notifications nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MBjwh",
+                  "name": "Help & Support Notifications nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Notifications",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "wri0v",
+              "name": "Help & Support Billing nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rxdjX",
+                  "name": "Help & Support Billing nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Billing",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iY2uq",
+              "name": "Help & Support Privacy nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#111827",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "yGV5p",
+                  "name": "Help & Support Privacy nav label",
+                  "fill": "#a7b0c0",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PCP7w",
+              "name": "Help & Support Help & Support nav",
+              "width": "fill_container",
+              "height": 38,
+              "fill": "#4f46e5",
+              "cornerRadius": 8,
+              "padding": [
+                0,
+                10
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "S7b7Qk",
+                  "name": "Help & Support Help & Support nav label",
+                  "fill": "#ffffff",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NiQti",
+              "name": "Help & Support side fill",
+              "width": "fill_container",
+              "height": "fill_container"
+            },
+            {
+              "type": "text",
+              "id": "S9J3it",
+              "name": "Help & Support signout",
+              "fill": "#f87171",
+              "content": "Sign out",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b4Gqj",
+          "x": 224,
+          "y": 0,
+          "name": "Help & Support content",
+          "width": 956,
+          "height": 820,
+          "fill": "#f8f9fb",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            26,
+            40
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "iW1kJ",
+              "name": "Help & Support topbar",
+              "width": "fill_container",
+              "height": 30,
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "swjl8",
+                  "name": "Help & Support breadcrumb",
+                  "fill": "#6b7280",
+                  "content": "Personal workspace  /  Account",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "sMKlc",
+                  "name": "Help & Support user",
+                  "fill": "#374151",
+                  "content": "Alex Kim  ·  Free",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qSk6l",
+              "name": "Help & Support header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Jd9wi",
+                  "name": "Help & Support title",
+                  "fill": "#111827",
+                  "content": "Help & Support",
+                  "fontFamily": "Inter",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "JyMbH",
+                  "name": "Help & Support subtitle",
+                  "fill": "#6b7280",
+                  "content": "Find answers or contact the 3T Ledger support team.",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zxCmW",
+              "name": "Help & Support Get help",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Km5J8",
+                  "name": "Help & Support Get help heading",
+                  "fill": "#111827",
+                  "content": "Get help",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "UhXOc",
+                  "name": "Help & Support Help center",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AZoge",
+                      "name": "Help & Support Help center copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m2vmV6",
+                          "name": "Help & Support Help center label",
+                          "fill": "#374151",
+                          "content": "Help center",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "TGhJ9",
+                          "name": "Help & Support Help center detail",
+                          "fill": "#6b7280",
+                          "content": "Guides for accounts, budgets, and reports",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JVmeQ",
+                      "name": "Help & Support Help center action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZNfKu",
+                          "name": "Help & Support Help center action label",
+                          "fill": "#374151",
+                          "content": "Open help center",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ztrmS",
+                  "name": "Help & Support Contact support",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M4IgrB",
+                      "name": "Help & Support Contact support copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "rT8q8",
+                          "name": "Help & Support Contact support label",
+                          "fill": "#374151",
+                          "content": "Contact support",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "L5RZr",
+                          "name": "Help & Support Contact support detail",
+                          "fill": "#6b7280",
+                          "content": "We usually reply within one business day",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "A4phHF",
+                      "name": "Help & Support Contact support action",
+                      "height": 34,
+                      "fill": "#6366f1",
+                      "cornerRadius": 8,
+                      "stroke": "#ffffff00",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mHNnZ",
+                          "name": "Help & Support Contact support action label",
+                          "fill": "#ffffff",
+                          "content": "Send message",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RtpMF",
+              "name": "Help & Support Resources",
+              "width": "fill_container",
+              "fill": "#ffffff",
+              "cornerRadius": 12,
+              "stroke": "#11182712",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 14,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "qJMTY",
+                  "name": "Help & Support Resources heading",
+                  "fill": "#111827",
+                  "content": "Resources",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "650"
+                },
+                {
+                  "type": "frame",
+                  "id": "Q9wJO",
+                  "name": "Help & Support Keyboard shortcuts",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m1bDz",
+                      "name": "Help & Support Keyboard shortcuts copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "On0pg",
+                          "name": "Help & Support Keyboard shortcuts label",
+                          "fill": "#374151",
+                          "content": "Keyboard shortcuts",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CPcag",
+                          "name": "Help & Support Keyboard shortcuts detail",
+                          "fill": "#6b7280",
+                          "content": "Navigate faster with command shortcuts",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "POuMW",
+                      "name": "Help & Support Keyboard shortcuts action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WNsQl",
+                          "name": "Help & Support Keyboard shortcuts action label",
+                          "fill": "#374151",
+                          "content": "View shortcuts",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Vktqz",
+                  "name": "Help & Support System status",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gwquV",
+                      "name": "Help & Support System status copy",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 3,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TorUf",
+                          "name": "Help & Support System status label",
+                          "fill": "#374151",
+                          "content": "System status",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tJBGF",
+                          "name": "Help & Support System status detail",
+                          "fill": "#6b7280",
+                          "content": "All systems operational",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qXlrs",
+                      "name": "Help & Support System status action",
+                      "height": 34,
+                      "fill": "#ffffff",
+                      "cornerRadius": 8,
+                      "stroke": "#1118271a",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        11
+                      ],
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mzfRo",
+                          "name": "Help & Support System status action label",
+                          "fill": "#374151",
+                          "content": "View status",
+                          "fontFamily": "Inter",
+                          "fontSize": 12,
+                          "fontWeight": "600"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "bCmQW",
+      "x": 3123.0143884892077,
+      "y": -110,
+      "name": "Sign in",
+      "clip": true,
+      "width": 640,
+      "height": 720,
+      "fill": "#f8f9fb",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Y6j9lI",
+          "name": "Sign in card",
+          "width": 400,
+          "fill": "#ffffff",
+          "cornerRadius": 12,
+          "stroke": "#11182712",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "DrXYp",
+              "name": "Sign in brand",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qsSEP",
+                  "name": "Sign in mark",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "jwTqg",
+                  "name": "Sign in brand label",
+                  "fill": "#111827",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "VOEXT",
+              "name": "Sign in title",
+              "fill": "#111827",
+              "content": "Welcome back",
+              "fontFamily": "Inter",
+              "fontSize": 26,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "N0Unz",
+              "name": "Sign in subtitle",
+              "fill": "#6b7280",
+              "content": "Sign in to continue to your personal workspace.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "z0rT3W",
+              "name": "Sign in Email address",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "KQVPp",
+                  "name": "Sign in Email address label",
+                  "fill": "#374151",
+                  "content": "Email address",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "NBZMh",
+                  "name": "Sign in Email address input",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "stroke": "#1118271f",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "rWr9B",
+                      "name": "Sign in Email address value",
+                      "fill": "#6b7280",
+                      "content": "alex@3tledger.app",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Hkksk",
+              "name": "Sign in Password",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "B8KayK",
+                  "name": "Sign in Password label",
+                  "fill": "#374151",
+                  "content": "Password",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "CEaY3",
+                  "name": "Sign in Password input",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "stroke": "#1118271f",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "McHIM",
+                      "name": "Sign in Password value",
+                      "fill": "#6b7280",
+                      "content": "••••••••••",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D58uN",
+              "name": "Sign in submit",
+              "width": "fill_container",
+              "height": 42,
+              "fill": "#6366f1",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TqWPP",
+                  "name": "Sign in submit label",
+                  "fill": "#ffffff",
+                  "content": "Sign in",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "k6teFp",
+              "name": "Sign in footer",
+              "fill": "#6366f1",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Forgot password?  ·  Create an account",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "R8pYh",
+      "x": 3843.0143884892077,
+      "y": -110,
+      "name": "Sign out",
+      "clip": true,
+      "width": 640,
+      "height": 560,
+      "fill": "#f8f9fb",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "UPwUh",
+          "name": "Sign out dialog",
+          "width": 400,
+          "fill": "#ffffff",
+          "cornerRadius": 12,
+          "stroke": "#11182712",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 18,
+          "padding": 32,
+          "children": [
+            {
+              "type": "text",
+              "id": "dvr5P",
+              "name": "Sign out icon",
+              "fill": "#ef4444",
+              "content": "↗",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "LKJAT",
+              "name": "Sign out title",
+              "fill": "#111827",
+              "content": "Sign out of 3T Ledger?",
+              "fontFamily": "Inter",
+              "fontSize": 23,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "VIiUu",
+              "name": "Sign out message",
+              "fill": "#6b7280",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "You can sign back in at any time to access your workspace.",
+              "lineHeight": 1.5,
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "WzunY",
+              "name": "Sign out actions",
+              "width": "fill_container",
+              "gap": 10,
+              "justifyContent": "end",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VnemQ",
+                  "name": "Sign out cancel",
+                  "height": 38,
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "stroke": "#1118271f",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "vvz5l",
+                      "name": "Sign out cancel label",
+                      "fill": "#374151",
+                      "content": "Cancel",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "knq5M",
+                  "name": "Sign out confirm",
+                  "height": 38,
+                  "fill": "#ef4444",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "padding": [
+                    0,
+                    14
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bkLDv",
+                      "name": "Sign out confirm label",
+                      "fill": "#ffffff",
+                      "content": "Sign out",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "600"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "n6k086",
+      "x": 4563.014388489208,
+      "y": -110,
+      "name": "Sign up",
+      "clip": true,
+      "width": 640,
+      "height": 780,
+      "fill": "#f8f9fb",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dYgdh",
+          "name": "Sign up card",
+          "width": 400,
+          "fill": "#ffffff",
+          "cornerRadius": 12,
+          "stroke": "#11182712",
+          "strokeWidth": 1,
+          "layout": "vertical",
+          "gap": 16,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "TgSgC",
+              "name": "Sign up brand",
+              "gap": 9,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "xUuus",
+                  "name": "Sign up mark",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "#6366f1",
+                  "cornerRadius": 8
+                },
+                {
+                  "type": "text",
+                  "id": "FPIqb",
+                  "name": "Sign up brand label",
+                  "fill": "#111827",
+                  "content": "3T Ledger",
+                  "fontFamily": "Inter",
+                  "fontSize": 17,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SlTWH",
+              "name": "Sign up title",
+              "fill": "#111827",
+              "content": "Create your workspace",
+              "fontFamily": "Inter",
+              "fontSize": 26,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "UCaru",
+              "name": "Sign up subtitle",
+              "fill": "#6b7280",
+              "content": "Start with a clear picture of your money.",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "MeizO",
+              "name": "Sign up Full name",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rX02V",
+                  "name": "Sign up Full name label",
+                  "fill": "#374151",
+                  "content": "Full name",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "yDmRE",
+                  "name": "Sign up Full name input",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "stroke": "#1118271f",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "x7QoO4",
+                      "name": "Sign up Full name value",
+                      "fill": "#9ca3af",
+                      "content": "Alex Kim",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FC8dD",
+              "name": "Sign up Email address",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "WIljW",
+                  "name": "Sign up Email address label",
+                  "fill": "#374151",
+                  "content": "Email address",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "R9cxkb",
+                  "name": "Sign up Email address input",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "stroke": "#1118271f",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VAp3z",
+                      "name": "Sign up Email address value",
+                      "fill": "#9ca3af",
+                      "content": "alex@company.com",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dEvHP",
+              "name": "Sign up Password",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NnsWT",
+                  "name": "Sign up Password label",
+                  "fill": "#374151",
+                  "content": "Password",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "q3jPP",
+                  "name": "Sign up Password input",
+                  "width": "fill_container",
+                  "height": 42,
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "stroke": "#1118271f",
+                  "strokeWidth": 1,
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I9uvHf",
+                      "name": "Sign up Password value",
+                      "fill": "#9ca3af",
+                      "content": "Create a strong password",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oic0a",
+              "name": "Sign up terms",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jQprI",
+                  "name": "Sign up checkbox",
+                  "width": 16,
+                  "height": 16,
+                  "fill": "#ffffff",
+                  "cornerRadius": 4,
+                  "stroke": "#11182733",
+                  "strokeWidth": 1
+                },
+                {
+                  "type": "text",
+                  "id": "pwhc6",
+                  "name": "Sign up terms copy",
+                  "fill": "#6b7280",
+                  "content": "I agree to the Terms and Privacy Policy",
+                  "fontFamily": "Inter",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "D9Tv5",
+              "name": "Sign up submit",
+              "width": "fill_container",
+              "height": 42,
+              "fill": "#6366f1",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zWamP",
+                  "name": "Sign up submit label",
+                  "fill": "#ffffff",
+                  "content": "Create account",
+                  "fontFamily": "Inter",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "vWdFN",
+              "name": "Sign up footer",
+              "fill": "#6366f1",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Already have an account?  Sign in",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}
