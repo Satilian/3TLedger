@@ -1,5 +1,5 @@
 {
-  "version": "2.14",
+  "version": "2.15",
   "children": [
     {
       "type": "frame",
@@ -231,6 +231,107 @@
               "content": "IBM Plex Sans",
               "fontFamily": "IBM Plex Sans",
               "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "lAbva",
+      "x": -379,
+      "y": 797,
+      "name": "Frame 3",
+      "clip": true,
+      "width": 1524,
+      "height": 888,
+      "fill": "#FFFFFF",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "XwMUB",
+          "x": 34,
+          "y": 30,
+          "name": "button",
+          "context": "button",
+          "width": 127.17,
+          "height": 31.5,
+          "fill": "#6366f1",
+          "cornerRadius": 8.75,
+          "gap": 7,
+          "padding": [
+            7,
+            14
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QSFEB",
+              "name": "svg",
+              "context": "Plus - svg",
+              "clip": true,
+              "width": 15,
+              "height": 15,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "Y1uo2u",
+                  "x": 3.125,
+                  "y": 3.125,
+                  "geometry": "M0 4.375l8.75 0m-4.375-4.375l0 8.75",
+                  "width": 8.75,
+                  "height": 8.75,
+                  "stroke": "#FFF",
+                  "strokeWidth": 1.25,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "aACFg",
+              "name": "Add Category",
+              "fill": "#ffffff",
+              "content": "Add Category",
+              "lineHeight": 1.43,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12.25,
+              "fontWeight": "500"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gjqBI",
+          "x": 213,
+          "y": 30,
+          "name": "Income Categories",
+          "context": "button",
+          "height": 31.5,
+          "cornerRadius": 6.75,
+          "layout": "vertical",
+          "padding": [
+            7,
+            14
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "kmOtI",
+              "fill": "#6b7280",
+              "content": "Income Categories",
+              "lineHeight": 1.43,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 12.25,
               "fontWeight": "normal"
             }
           ]
