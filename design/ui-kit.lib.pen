@@ -25,7 +25,7 @@
               "type": "text",
               "id": "QfvwJ",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Buttons",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -56,7 +56,7 @@
                       "type": "text",
                       "id": "p9JtB",
                       "name": "Label",
-                      "fill": "$text-on-primary",
+                      "fill": "$color-white",
                       "content": "Primary Button",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -69,7 +69,7 @@
                   "id": "TwtZA",
                   "name": "Button Secondary",
                   "reusable": true,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-base",
                   "stroke": "$color-border",
                   "strokeWidth": 1,
@@ -84,7 +84,7 @@
                       "type": "text",
                       "id": "U6yL6f",
                       "name": "Label",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "Secondary Button",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -110,7 +110,7 @@
                       "type": "text",
                       "id": "DIqPC",
                       "name": "Label",
-                      "fill": "$text-on-primary",
+                      "fill": "$color-white",
                       "content": "Success",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -136,7 +136,7 @@
                       "type": "text",
                       "id": "tcarG",
                       "name": "Label",
-                      "fill": "$text-on-primary",
+                      "fill": "$color-white",
                       "content": "Danger",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -160,7 +160,7 @@
               "type": "text",
               "id": "nZplR",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Input Fields",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -180,7 +180,7 @@
                   "reusable": true,
                   "width": 200,
                   "height": 36,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-base",
                   "stroke": "$color-border",
                   "strokeWidth": 1,
@@ -191,7 +191,7 @@
                       "type": "text",
                       "id": "C30KY",
                       "name": "Placeholder",
-                      "fill": "$text-tertiary",
+                      "fill": "$color-text",
                       "content": "Enter text...",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -206,7 +206,7 @@
                   "reusable": true,
                   "width": 200,
                   "height": 36,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-base",
                   "stroke": "$color-primary",
                   "strokeWidth": 2,
@@ -217,7 +217,7 @@
                       "type": "text",
                       "id": "mJSqC",
                       "name": "Value",
-                      "fill": "$text-primary",
+                      "fill": "$color-text",
                       "content": "Focused input",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -232,7 +232,7 @@
                   "reusable": true,
                   "width": 200,
                   "height": 36,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-base",
                   "stroke": "$color-error",
                   "strokeWidth": 1,
@@ -243,7 +243,7 @@
                       "type": "text",
                       "id": "ROrGN",
                       "name": "Value",
-                      "fill": "$text-primary",
+                      "fill": "$color-text",
                       "content": "Error state",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -267,7 +267,7 @@
               "type": "text",
               "id": "WMOr6",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Badges",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -392,7 +392,7 @@
               "type": "text",
               "id": "jN7yu",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Cards",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -411,14 +411,14 @@
                   "name": "Card Basic",
                   "reusable": true,
                   "width": 240,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-md",
                   "stroke": "$color-border",
                   "strokeWidth": 1,
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
-                    "color": "$shadow-color",
+                    "color": "$color-shadow",
                     "offset": {
                       "x": 0,
                       "y": 1
@@ -433,7 +433,7 @@
                       "type": "text",
                       "id": "vq4IL",
                       "name": "Title",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "Card Title",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -443,7 +443,7 @@
                       "type": "text",
                       "id": "oSgbu",
                       "name": "Description",
-                      "fill": "$text-secondary",
+                      "fill": "#000000",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Card description text goes here",
@@ -459,12 +459,12 @@
                   "name": "Card Elevated",
                   "reusable": true,
                   "width": 240,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-md",
                   "effect": {
                     "type": "shadow",
                     "shadowType": "outer",
-                    "color": "$shadow-color",
+                    "color": "$color-shadow",
                     "offset": {
                       "x": 0,
                       "y": 4
@@ -479,7 +479,7 @@
                       "type": "text",
                       "id": "Dcpcn",
                       "name": "Title",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "Elevated Card",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -489,7 +489,7 @@
                       "type": "text",
                       "id": "sy9sq",
                       "name": "Description",
-                      "fill": "$text-secondary",
+                      "fill": "#000000",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Card with stronger shadow",
@@ -515,7 +515,7 @@
               "type": "text",
               "id": "L1Twcv",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Avatars",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -569,7 +569,7 @@
                       "type": "text",
                       "id": "BZLrf",
                       "name": "Initials",
-                      "fill": "$text-on-primary",
+                      "fill": "#000000",
                       "content": "CD",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -593,7 +593,7 @@
                       "type": "text",
                       "id": "i8Sqru",
                       "name": "Initials",
-                      "fill": "$text-on-primary",
+                      "fill": "#000000",
                       "content": "EF",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -617,7 +617,7 @@
               "type": "text",
               "id": "ZbgsH",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Form Controls",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -638,7 +638,7 @@
                   "reusable": true,
                   "width": 16,
                   "height": 16,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-sm",
                   "stroke": "$color-border",
                   "strokeWidth": 2
@@ -665,7 +665,7 @@
                       "height": 12,
                       "icon": "check",
                       "library": "lucide",
-                      "fill": "$text-on-primary"
+                      "fill": "#000000"
                     }
                   ]
                 },
@@ -676,7 +676,7 @@
                   "reusable": true,
                   "width": 16,
                   "height": 16,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-full",
                   "stroke": "$color-border",
                   "strokeWidth": 2
@@ -688,7 +688,7 @@
                   "reusable": true,
                   "width": 16,
                   "height": 16,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-full",
                   "stroke": "$color-primary",
                   "strokeWidth": 2,
@@ -721,7 +721,7 @@
                       "type": "ellipse",
                       "id": "qXc84",
                       "name": "Knob",
-                      "fill": "$color-background",
+                      "fill": "$color-white",
                       "width": 16,
                       "height": 16
                     }
@@ -744,7 +744,7 @@
                       "type": "ellipse",
                       "id": "I1IRt",
                       "name": "Knob",
-                      "fill": "$color-background",
+                      "fill": "$color-white",
                       "width": 16,
                       "height": 16
                     }
@@ -766,7 +766,7 @@
               "type": "text",
               "id": "k8m55U",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Alerts",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -808,7 +808,7 @@
                       "type": "text",
                       "id": "wx6If",
                       "name": "Message",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "This is an informational message",
@@ -846,7 +846,7 @@
                       "type": "text",
                       "id": "y0mTc",
                       "name": "Message",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Operation completed successfully",
@@ -884,7 +884,7 @@
                       "type": "text",
                       "id": "ifC7L",
                       "name": "Message",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Warning: Please review this action",
@@ -922,7 +922,7 @@
                       "type": "text",
                       "id": "uxTNE",
                       "name": "Message",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Error: Something went wrong",
@@ -948,7 +948,7 @@
               "type": "text",
               "id": "xLpZT",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Icons",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -980,7 +980,7 @@
                       "height": 20,
                       "icon": "house",
                       "library": "lucide",
-                      "fill": "$text-primary"
+                      "fill": "#000000"
                     }
                   ]
                 },
@@ -1002,7 +1002,7 @@
                       "height": 20,
                       "icon": "user",
                       "library": "lucide",
-                      "fill": "$text-primary"
+                      "fill": "#000000"
                     }
                   ]
                 },
@@ -1024,7 +1024,7 @@
                       "height": 20,
                       "icon": "settings",
                       "library": "lucide",
-                      "fill": "$text-primary"
+                      "fill": "#000000"
                     }
                   ]
                 },
@@ -1046,7 +1046,7 @@
                       "height": 20,
                       "icon": "search",
                       "library": "lucide",
-                      "fill": "$text-primary"
+                      "fill": "#000000"
                     }
                   ]
                 },
@@ -1068,7 +1068,7 @@
                       "height": 20,
                       "icon": "bell",
                       "library": "lucide",
-                      "fill": "$text-primary"
+                      "fill": "#000000"
                     }
                   ]
                 },
@@ -1090,7 +1090,7 @@
                       "height": 20,
                       "icon": "menu",
                       "library": "lucide",
-                      "fill": "$text-primary"
+                      "fill": "#000000"
                     }
                   ]
                 }
@@ -1110,7 +1110,7 @@
               "type": "text",
               "id": "U4e3kS",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Dropdown & Menu Items",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1130,7 +1130,7 @@
                   "name": "Menu Item",
                   "reusable": true,
                   "width": 240,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-base",
                   "gap": "$spacing-2",
                   "padding": "$spacing-3",
@@ -1144,13 +1144,13 @@
                       "height": 16,
                       "icon": "file",
                       "library": "lucide",
-                      "fill": "$text-secondary"
+                      "fill": "#000000"
                     },
                     {
                       "type": "text",
                       "id": "cp5xZ",
                       "name": "Label",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "Menu Item",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -1178,13 +1178,13 @@
                       "height": 16,
                       "icon": "file",
                       "library": "lucide",
-                      "fill": "$text-secondary"
+                      "fill": "#000000"
                     },
                     {
                       "type": "text",
                       "id": "Wvqep",
                       "name": "Label",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "Menu Item Hover",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -1242,7 +1242,7 @@
               "type": "text",
               "id": "rk1aU",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "List Items",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1261,7 +1261,7 @@
                   "name": "List Item",
                   "reusable": true,
                   "width": 400,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "stroke": "$color-border-light",
                   "strokeWidth": {
                     "bottom": 1
@@ -1285,7 +1285,7 @@
                           "type": "text",
                           "id": "R1zUX",
                           "name": "Initial",
-                          "fill": "$text-on-primary",
+                          "fill": "$color-white",
                           "content": "U",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-sm",
@@ -1305,7 +1305,7 @@
                           "type": "text",
                           "id": "pv08c",
                           "name": "Title",
-                          "fill": "$text-primary",
+                          "fill": "#000000",
                           "content": "List Item Title",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-base",
@@ -1315,7 +1315,7 @@
                           "type": "text",
                           "id": "qI1O8",
                           "name": "Subtitle",
-                          "fill": "$text-secondary",
+                          "fill": "#000000",
                           "content": "Secondary text",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-sm",
@@ -1341,7 +1341,7 @@
               "type": "text",
               "id": "hKClN",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Dividers",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1389,7 +1389,7 @@
               "type": "text",
               "id": "NZyw5",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Progress Bars",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1461,7 +1461,7 @@
               "type": "text",
               "id": "D0ZqG",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Tags",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1494,7 +1494,7 @@
                       "type": "text",
                       "id": "zSp2e",
                       "name": "Label",
-                      "fill": "$text-primary",
+                      "fill": "$color-text",
                       "content": "Tag",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -1520,7 +1520,7 @@
                       "type": "text",
                       "id": "Mt76w",
                       "name": "Label",
-                      "fill": "$text-on-primary",
+                      "fill": "$color-white",
                       "content": "Primary",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -1548,7 +1548,7 @@
                       "type": "text",
                       "id": "JuDAD",
                       "name": "Label",
-                      "fill": "$text-primary",
+                      "fill": "$color-text",
                       "content": "Removable",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -1562,7 +1562,7 @@
                       "height": 12,
                       "icon": "x",
                       "library": "lucide",
-                      "fill": "$text-secondary"
+                      "fill": "#000000"
                     }
                   ]
                 }
@@ -1582,7 +1582,7 @@
               "type": "text",
               "id": "ygAyK",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Tooltips",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1621,7 +1621,7 @@
                       "type": "text",
                       "id": "v7LkX",
                       "name": "Text",
-                      "fill": "$text-on-primary",
+                      "fill": "$color-white",
                       "content": "Tooltip text",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -1634,7 +1634,7 @@
                   "id": "fPqJY",
                   "name": "Tooltip Light",
                   "reusable": true,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "cornerRadius": "$radius-base",
                   "stroke": "$color-border",
                   "strokeWidth": 1,
@@ -1657,7 +1657,7 @@
                       "type": "text",
                       "id": "SlZa6",
                       "name": "Text",
-                      "fill": "$text-primary",
+                      "fill": "$color-text",
                       "content": "Tooltip text",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -1681,7 +1681,7 @@
               "type": "text",
               "id": "bXUmz",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Table Elements",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1719,7 +1719,7 @@
                           "type": "text",
                           "id": "HL3c2",
                           "name": "Label",
-                          "fill": "$text-secondary",
+                          "fill": "$color-text",
                           "content": "Name",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-sm",
@@ -1739,7 +1739,7 @@
                           "type": "text",
                           "id": "aGeqz",
                           "name": "Label",
-                          "fill": "$text-secondary",
+                          "fill": "$color-text",
                           "content": "Email",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-sm",
@@ -1759,7 +1759,7 @@
                           "type": "text",
                           "id": "eYZAl",
                           "name": "Label",
-                          "fill": "$text-secondary",
+                          "fill": "$color-text",
                           "content": "Status",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-sm",
@@ -1779,7 +1779,7 @@
                           "type": "text",
                           "id": "h6hpZ",
                           "name": "Label",
-                          "fill": "$text-secondary",
+                          "fill": "$color-text",
                           "content": "Actions",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-sm",
@@ -1796,25 +1796,29 @@
                   "reusable": true,
                   "width": 600,
                   "height": 52,
-                  "fill": "$color-background",
+                  "fill": "$color-white",
                   "stroke": "$color-border-light",
                   "strokeWidth": {
                     "bottom": 1
                   },
+                  "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
                       "id": "J3gvL",
                       "name": "Cell",
                       "width": "fill_container",
-                      "padding": "$spacing-3",
+                      "padding": [
+                        0,
+                        "$spacing-3"
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
                           "id": "oSttz",
                           "name": "Value",
-                          "fill": "$text-primary",
+                          "fill": "$color-text",
                           "content": "John Doe",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-base",
@@ -1827,14 +1831,17 @@
                       "id": "D8qbh1",
                       "name": "Cell",
                       "width": "fill_container",
-                      "padding": "$spacing-3",
+                      "padding": [
+                        0,
+                        "$spacing-3"
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
                           "type": "text",
                           "id": "ybhcG",
                           "name": "Value",
-                          "fill": "$text-primary",
+                          "fill": "$color-text",
                           "content": "john@example.com",
                           "fontFamily": "$font-family-sans",
                           "fontSize": "$font-size-base",
@@ -1847,7 +1854,10 @@
                       "id": "lJMyu",
                       "name": "Cell",
                       "width": "fill_container",
-                      "padding": "$spacing-3",
+                      "padding": [
+                        0,
+                        "$spacing-3"
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -1880,7 +1890,10 @@
                       "id": "ZEECZ",
                       "name": "Cell",
                       "width": "fill_container",
-                      "padding": "$spacing-3",
+                      "padding": [
+                        0,
+                        "$spacing-3"
+                      ],
                       "alignItems": "center",
                       "children": [
                         {
@@ -1891,7 +1904,7 @@
                           "height": 16,
                           "icon": "ellipsis",
                           "library": "lucide",
-                          "fill": "$text-secondary"
+                          "fill": "#000000"
                         }
                       ]
                     }
@@ -1911,7 +1924,7 @@
       "name": "Token Samples",
       "width": "fit_content(0)",
       "height": "fit_content(0)",
-      "fill": "$color-background",
+      "fill": "#000000",
       "layout": "vertical",
       "gap": "$spacing-4",
       "padding": "$spacing-6"
@@ -1923,7 +1936,7 @@
       "y": 0,
       "name": "Token Samples",
       "width": 800,
-      "fill": "$color-background",
+      "fill": "$color-white",
       "layout": "vertical",
       "gap": "$spacing-6",
       "padding": "$spacing-6",
@@ -1940,7 +1953,7 @@
               "type": "text",
               "id": "F5H7B3",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Colors",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -1976,7 +1989,7 @@
                       "type": "text",
                       "id": "ohQkk",
                       "name": "Name",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "color-gray-900",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -1986,7 +1999,7 @@
                       "type": "text",
                       "id": "D2Uj2",
                       "name": "Value",
-                      "fill": "$text-secondary",
+                      "fill": "#000000",
                       "content": "#111827",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -2010,7 +2023,7 @@
               "type": "text",
               "id": "iGvfs",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Spacing",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -2031,7 +2044,7 @@
                   "type": "text",
                   "id": "Q0IjQ",
                   "name": "Label",
-                  "fill": "$text-secondary",
+                  "fill": "#000000",
                   "content": "spacing-0.5 = 2px",
                   "fontFamily": "$font-family-sans",
                   "fontSize": "$font-size-sm",
@@ -2088,7 +2101,7 @@
               "type": "text",
               "id": "JtpJV",
               "name": "Section Title",
-              "fill": "$text-primary",
+              "fill": "#000000",
               "content": "Font Weights",
               "fontFamily": "$font-family-sans",
               "fontSize": "$font-size-lg",
@@ -2115,7 +2128,7 @@
                       "type": "text",
                       "id": "vG5Lh",
                       "name": "Label",
-                      "fill": "$text-secondary",
+                      "fill": "#000000",
                       "content": "Normal (400)",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -2125,7 +2138,7 @@
                       "type": "text",
                       "id": "dNidd",
                       "name": "Sample",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "The quick brown fox",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -2147,7 +2160,7 @@
                       "type": "text",
                       "id": "Z8aE8",
                       "name": "Label",
-                      "fill": "$text-secondary",
+                      "fill": "#000000",
                       "content": "Medium (500)",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -2157,7 +2170,7 @@
                       "type": "text",
                       "id": "Zn2vt",
                       "name": "Sample",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "The quick brown fox",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -2179,7 +2192,7 @@
                       "type": "text",
                       "id": "cOH0n",
                       "name": "Label",
-                      "fill": "$text-secondary",
+                      "fill": "#000000",
                       "content": "Semibold (600)",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-sm",
@@ -2189,7 +2202,7 @@
                       "type": "text",
                       "id": "S6j8q",
                       "name": "Sample",
-                      "fill": "$text-primary",
+                      "fill": "#000000",
                       "content": "The quick brown fox",
                       "fontFamily": "$font-family-sans",
                       "fontSize": "$font-size-base",
@@ -2229,7 +2242,6 @@
       "type": "color",
       "value": "#94A3B8"
     },
-
     "color-extra-1": {
       "type": "color",
       "value": "#818CF8"
@@ -2242,7 +2254,6 @@
       "type": "color",
       "value": "#64748B"
     },
-
     "color-success": {
       "type": "color",
       "value": "#10B981"
@@ -2271,7 +2282,6 @@
       "type": "color",
       "value": "#14B8A6"
     },
-
     "color-text": {
       "type": "color",
       "value": "#111827"
@@ -2284,7 +2294,6 @@
       "type": "color",
       "value": "#9CA3AF"
     },
-
     "color-background-alt": {
       "type": "color",
       "value": "#F8F9FB"
@@ -2297,16 +2306,18 @@
       "type": "color",
       "value": "#11182712"
     },
+    "color-border-inverse": {
+      "type": "color",
+      "value": "#f8f9fb17"
+    },
     "color-gray-900": {
       "type": "color",
       "value": "#111827"
     },
-
     "color-shadow": {
       "type": "color",
       "value": "#00000019"
     },
-
     "spacing-0.5": {
       "type": "number",
       "value": 2
@@ -2331,7 +2342,6 @@
       "type": "number",
       "value": 24
     },
-
     "radius-sm": {
       "type": "number",
       "value": 4
@@ -2348,25 +2358,38 @@
       "type": "number",
       "value": 9999
     },
-
     "font-family-sans": {
       "type": "string",
       "value": "Inter"
     },
-
-    "font-size-sm": {
+    "font-size-xs": {
       "type": "number",
-      "value": 11
+      "value": 10
     },
-    "font-size-base": {
+    "font-size-sm": {
       "type": "number",
       "value": 12
     },
+    "font-size-base": {
+      "type": "number",
+      "value": 14
+    },
+    "font-size-md": {
+      "type": "number",
+      "value": 16
+    },
     "font-size-lg": {
       "type": "number",
-      "value": 15
+      "value": 18
     },
-
+    "font-size-xl": {
+      "type": "number",
+      "value": 20
+    },
+    "font-size-xxl": {
+      "type": "number",
+      "value": 24
+    },
     "font-weight-normal": {
       "type": "string",
       "value": "normal"

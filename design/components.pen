@@ -35,15 +35,11 @@
               "layout": "vertical",
               "children": [
                 {
-                  "id": "QQJGw",
+                  "id": "EOTWU",
                   "type": "ref",
-                  "ref": "Jdgj2",
-                  "name": "header",
-                  "descendants": {
-                    "ITp6U": {
-                      "content": "Budget Planning"
-                    }
-                  }
+                  "ref": "EE8Qa",
+                  "x": 0,
+                  "y": 0
                 },
                 {
                   "type": "frame",
@@ -2325,96 +2321,6 @@
                           ]
                         }
                       ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "dgMri",
-              "layoutPosition": "absolute",
-              "x": 10.5,
-              "y": 10.5,
-              "name": "button",
-              "context": "V5 - button",
-              "width": 31.5,
-              "height": 31.5,
-              "fill": "#111827",
-              "cornerRadius": 8.75,
-              "effect": [
-                {
-                  "type": "shadow",
-                  "shadowType": "outer",
-                  "color": "#0000001a",
-                  "offset": {
-                    "x": 0,
-                    "y": 10
-                  },
-                  "blur": 12
-                },
-                {
-                  "type": "shadow",
-                  "shadowType": "outer",
-                  "color": "#0000001a",
-                  "offset": {
-                    "x": 0,
-                    "y": 4
-                  },
-                  "blur": 2
-                }
-              ],
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "T56ylD",
-                  "name": "svg",
-                  "context": "Menu - svg",
-                  "clip": true,
-                  "width": 18,
-                  "height": 18,
-                  "layout": "none",
-                  "children": [
-                    {
-                      "type": "path",
-                      "id": "e4SWit",
-                      "x": 3,
-                      "y": 9,
-                      "geometry": "M0 0l12 0",
-                      "width": 12,
-                      "height": 0,
-                      "stroke": "#FFF",
-                      "strokeWidth": 1.5,
-                      "strokeLinejoin": "round",
-                      "strokeLinecap": "round"
-                    },
-                    {
-                      "type": "path",
-                      "id": "a5qbFv",
-                      "x": 3,
-                      "y": 4.5,
-                      "geometry": "M0 0l12 0",
-                      "width": 12,
-                      "height": 0,
-                      "stroke": "#FFF",
-                      "strokeWidth": 1.5,
-                      "strokeLinejoin": "round",
-                      "strokeLinecap": "round"
-                    },
-                    {
-                      "type": "path",
-                      "id": "QTqFk",
-                      "x": 3,
-                      "y": 13.5,
-                      "geometry": "M0 0l12 0",
-                      "width": 12,
-                      "height": 0,
-                      "stroke": "#FFF",
-                      "strokeWidth": 1.5,
-                      "strokeLinejoin": "round",
-                      "strokeLinecap": "round"
                     }
                   ]
                 }
@@ -5351,7 +5257,7 @@
       "id": "vy9PJ",
       "x": 12611.19,
       "y": -2202,
-      "name": "budger-planning",
+      "name": "budget-planning",
       "context": "body",
       "clip": true,
       "width": 1440,
@@ -67909,7 +67815,8 @@
                   "name": "header",
                   "descendants": {
                     "ITp6U": {
-                      "content": "Accounts"
+                      "content": "Accounts",
+                      "fontSize": 18
                     }
                   }
                 },
@@ -87333,935 +87240,924 @@
           "context": "N8 - aside",
           "width": 210,
           "height": "fill_container(570)",
+          "fill": "$r:color-text",
           "layout": "vertical",
           "children": [
             {
               "type": "frame",
-              "id": "CHXak",
+              "id": "sb0Js",
               "name": "div",
               "context": "div",
               "width": "fill_container",
-              "height": "fill_container",
-              "fill": "#111827",
-              "layout": "vertical",
+              "stroke": "#f8f9fb17",
+              "strokeWidth": {
+                "bottom": 1
+              },
+              "strokeAlignment": "inner",
+              "padding": [
+                17.5,
+                14,
+                18.5,
+                14
+              ],
+              "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
-                  "id": "sb0Js",
+                  "id": "e5Xi0b",
                   "name": "div",
                   "context": "div",
                   "width": "fill_container",
-                  "stroke": "#f8f9fb17",
-                  "strokeWidth": {
-                    "bottom": 1
-                  },
-                  "strokeAlignment": "inner",
+                  "gap": 8.75,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Wpn6m",
+                      "name": "div",
+                      "context": "div",
+                      "width": 28,
+                      "height": 28,
+                      "fill": {
+                        "type": "gradient",
+                        "gradientType": "linear",
+                        "enabled": true,
+                        "rotation": -135,
+                        "size": {
+                          "height": 1
+                        },
+                        "colors": [
+                          {
+                            "color": "#10b981",
+                            "position": 0
+                          },
+                          {
+                            "color": "#14b8a6",
+                            "position": 1
+                          }
+                        ]
+                      },
+                      "cornerRadius": 8.75,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jXu40",
+                          "name": "3T",
+                          "context": "span",
+                          "fill": "#ffffff",
+                          "content": "3T",
+                          "lineHeight": 1.33,
+                          "fontFamily": "Roboto Slab",
+                          "fontSize": 10.5,
+                          "fontWeight": "700",
+                          "letterSpacing": -0.31
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W73Jgx",
+                      "name": "div",
+                      "context": "div",
+                      "layout": "vertical",
+                      "gap": 1.75,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "h6vpX",
+                          "name": "3T Ledger",
+                          "context": "p",
+                          "fill": "$r:color-white",
+                          "content": "3T Ledger",
+                          "lineHeight": 1,
+                          "fontFamily": "Roboto Slab",
+                          "fontSize": 15,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "eo0Aq",
+                          "name": "Personal Finance",
+                          "context": "p",
+                          "fill": "#6b7280",
+                          "content": "Personal Finance",
+                          "lineHeight": 1.33,
+                          "fontFamily": "Inter",
+                          "fontSize": 10.5,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TtsnW",
+                  "name": "button",
+                  "context": "button",
+                  "width": 24.5,
+                  "height": 24.5,
+                  "cornerRadius": 6.75,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "S0VqOM",
+                      "name": "svg",
+                      "context": "ChevronLeft - svg",
+                      "clip": true,
+                      "width": 15,
+                      "height": 15,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "MTJtj",
+                          "x": 5.625,
+                          "y": 3.75,
+                          "geometry": "M3.75 7.5l-3.75-3.75 3.75-3.75",
+                          "width": 3.75,
+                          "height": 7.5,
+                          "stroke": "#6B7280",
+                          "strokeWidth": 1.25,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "HmKfy",
+              "name": "nav",
+              "context": "nav",
+              "clip": true,
+              "width": "fill_container",
+              "height": 442,
+              "layout": "vertical",
+              "gap": 1.75,
+              "padding": [
+                10.5,
+                7
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mr2N8",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "fill": "#6366f12e",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
                   "padding": [
-                    17.5,
-                    14,
-                    18.5,
-                    14
+                    8.75,
+                    10.5
                   ],
                   "alignItems": "center",
                   "children": [
                     {
                       "type": "frame",
-                      "id": "e5Xi0b",
-                      "name": "div",
-                      "context": "div",
-                      "width": "fill_container",
-                      "gap": 8.75,
-                      "alignItems": "center",
+                      "id": "hrf1X",
+                      "name": "svg",
+                      "context": "LayoutDashboard - svg",
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "Wpn6m",
-                          "name": "div",
-                          "context": "div",
-                          "width": 28,
-                          "height": 28,
-                          "fill": {
-                            "type": "gradient",
-                            "gradientType": "linear",
-                            "enabled": true,
-                            "rotation": -135,
-                            "size": {
-                              "height": 1
-                            },
-                            "colors": [
-                              {
-                                "color": "#10b981",
-                                "position": 0
-                              },
-                              {
-                                "color": "#14b8a6",
-                                "position": 1
-                              }
-                            ]
-                          },
-                          "cornerRadius": 8.75,
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "jXu40",
-                              "name": "3T",
-                              "context": "span",
-                              "fill": "#ffffff",
-                              "content": "3T",
-                              "lineHeight": 1.33,
-                              "fontFamily": "Roboto Slab",
-                              "fontSize": 10.5,
-                              "fontWeight": "700",
-                              "letterSpacing": -0.31
-                            }
-                          ]
+                          "type": "rectangle",
+                          "cornerRadius": 0.7083333333333334,
+                          "id": "y1yT8d",
+                          "x": 2.125,
+                          "y": 2.125,
+                          "width": 4.958333333333334,
+                          "height": 6.375,
+                          "stroke": "#A5B4FC",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
                         },
                         {
-                          "type": "frame",
-                          "id": "W73Jgx",
-                          "name": "div",
-                          "context": "div",
-                          "layout": "vertical",
-                          "gap": 1.75,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "h6vpX",
-                              "name": "3T Ledger",
-                              "context": "p",
-                              "fill": "#ffffff",
-                              "content": "3T Ledger",
-                              "lineHeight": 1,
-                              "fontFamily": "Roboto Slab",
-                              "fontSize": 15,
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "text",
-                              "id": "eo0Aq",
-                              "name": "Personal Finance",
-                              "context": "p",
-                              "fill": "#6b7280",
-                              "content": "Personal Finance",
-                              "lineHeight": 1.33,
-                              "fontFamily": "Inter",
-                              "fontSize": 10.5,
-                              "fontWeight": "normal"
-                            }
-                          ]
+                          "type": "rectangle",
+                          "cornerRadius": 0.7083333333333334,
+                          "id": "pAeOM",
+                          "x": 9.916666666666668,
+                          "y": 2.125,
+                          "width": 4.958333333333334,
+                          "height": 3.541666666666667,
+                          "stroke": "#A5B4FC",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 0.7083333333333334,
+                          "id": "laLoR",
+                          "x": 9.916666666666668,
+                          "y": 8.5,
+                          "width": 4.958333333333334,
+                          "height": 6.375,
+                          "stroke": "#A5B4FC",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": 0.7083333333333334,
+                          "id": "MGKBp",
+                          "x": 2.125,
+                          "y": 11.333333333333334,
+                          "width": 4.958333333333334,
+                          "height": 3.541666666666667,
+                          "stroke": "#A5B4FC",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
                         }
                       ]
                     },
                     {
+                      "type": "text",
+                      "id": "uHxtD",
+                      "name": "Dashboard",
+                      "context": "span",
+                      "fill": "#a5b4fc",
+                      "content": "Dashboard",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "ellipse",
+                      "id": "ChJDs",
+                      "name": "span",
+                      "context": "span",
+                      "fill": "#6366f1",
+                      "width": 5.25,
+                      "height": 5.25
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y5wy1",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
                       "type": "frame",
-                      "id": "TtsnW",
-                      "name": "button",
-                      "context": "button",
-                      "width": 24.5,
-                      "height": 24.5,
-                      "cornerRadius": 6.75,
+                      "id": "PMmdE",
+                      "name": "svg",
+                      "context": "Wallet - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "QalcV",
+                          "x": 2.125,
+                          "y": 2.125,
+                          "geometry": "M11.33333 2.83333l0-2.125c0-0.3912-0.31713-0.70833-0.70833-0.70833l-9.20833 0c-0.7824 0-1.41667 0.63426-1.41667 1.41667 0 0.7824 0.63426 1.41667 1.41667 1.41666l10.625 0c0.3912 0 0.70833 0.31713 0.70833 0.70834l0 2.83333-2.125 0c-0.7824 0-1.41667 0.63426-1.41667 1.41667 0 0.7824 0.63426 1.41667 1.41667 1.41666l2.125 0c0.3912 0 0.70833-0.31713 0.70833-0.70833l0-1.41667c0-0.3912-0.31713-0.70833-0.70833-0.70833",
+                          "width": 13.458333015441895,
+                          "height": 9.208333015441895,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "kjME1",
+                          "x": 2.125,
+                          "y": 3.5416665077209473,
+                          "geometry": "M0 0l0 9.91667c0 0.7824 0.63426 1.41667 1.41667 1.41666l10.625 0c0.3912 0 0.70833-0.31713 0.70833-0.70833l0-2.83333",
+                          "width": 12.75,
+                          "height": 11.333333492279053,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Q4YVSR",
+                      "name": "Accounts",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Accounts",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WbZLu",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "diUeE",
+                      "name": "svg",
+                      "context": "ArrowLeftRight - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "cJlLc",
+                          "x": 2.8333332538604736,
+                          "y": 2.125,
+                          "geometry": "M2.83333 0l-2.83333 2.83333 2.83333 2.83334m-2.83333-2.83334l11.33333 0m-2.83333 9.91667l2.83333-2.83333-2.83333-2.83334m2.83333 2.83334l-11.33333 0",
+                          "width": 11.333332777023315,
+                          "height": 12.75,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Cuqj2",
+                      "name": "Transactions",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Transactions",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xG3sE",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "EsJqV",
+                      "name": "svg",
+                      "context": "TrendingUp - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "s3nzw",
+                          "x": 1.4166666269302368,
+                          "y": 4.9583330154418945,
+                          "geometry": "M14.16667 0l-6.02084 6.02083-3.54166-3.54166-4.60417 4.60416",
+                          "width": 14.166666388511658,
+                          "height": 7.0833330154418945,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "Spr1f",
+                          "x": 11.333333015441895,
+                          "y": 4.9583330154418945,
+                          "geometry": "M0 0l4.25 0 0 4.25",
+                          "width": 4.25,
+                          "height": 4.25,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "EVFV5",
+                      "name": "Income",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Income",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nHLMZ",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kDAgi",
+                      "name": "svg",
+                      "context": "TrendingDown - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "UcniA",
+                          "x": 1.4166666269302368,
+                          "y": 4.9583330154418945,
+                          "geometry": "M14.16667 7.08333l-6.02084-6.02083-3.54166 3.54167-4.60417-4.60417",
+                          "width": 14.166666388511658,
+                          "height": 7.0833330154418945,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "X54nB",
+                          "x": 11.333333015441895,
+                          "y": 7.791666507720947,
+                          "geometry": "M0 4.25l4.25 0 0-4.25",
+                          "width": 4.25,
+                          "height": 4.249999523162842,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "j1WNln",
+                      "name": "Expenses",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Expenses",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SVmBV",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "cpjhl",
+                      "name": "svg",
+                      "context": "Repeat - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "c2Uh0",
+                          "x": 12.041666030883789,
+                          "y": 1.4166666269302368,
+                          "geometry": "M0 0l2.83333 2.83333-2.83333 2.83334",
+                          "width": 2.833333969116211,
+                          "height": 5.666666388511658,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "EnAVS",
+                          "x": 2.125,
+                          "y": 4.25,
+                          "geometry": "M0 3.54167l0-0.70834c0-1.56481 1.26853-2.83333 2.83333-2.83333l9.91667 0m-9.91667 11.33333l-2.83333-2.83333 2.83333-2.83333",
+                          "width": 12.75,
+                          "height": 11.333333015441895,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "raEmR",
+                          "x": 2.125,
+                          "y": 9.208333015441895,
+                          "geometry": "M12.75 0l0 0.70833c0 1.56481-1.26853 2.83333-2.83333 2.83334l-9.91667 0",
+                          "width": 12.75,
+                          "height": 3.5416669845581055,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "fGaNg",
+                      "name": "Transfers",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Transfers",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "he2ty",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "M9ht5",
+                      "name": "svg",
+                      "context": "Tag - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "ICQHF",
+                          "x": 1.4166666269302368,
+                          "y": 1.4166666269302368,
+                          "geometry": "M7.49842 0.41508c-0.26561-0.26569-0.62589-0.415-1.00159-0.41508l-5.08016 0c-0.7824 0-1.41667 0.63426-1.41667 1.41667l0 5.08016c0.00008 0.37569 0.14939 0.73597 0.41508 1.00159l6.16534 6.16533c0.67019 0.66596 1.75231 0.66596 2.4225 0l4.66083-4.66083c0.66596-0.67019 0.66596-1.75231 0-2.4225l-6.16533-6.16534z",
+                          "width": 14.163220763206482,
+                          "height": 14.163220763206482,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "y7OIl9",
+                          "x": 4.958333333333334,
+                          "y": 4.958333333333334,
+                          "fill": "#9CA3AF",
+                          "width": 0.7083333333333334,
+                          "height": 0.7083333333333334,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Tj1I0",
+                      "name": "Categories",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Categories",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "x4xfLT",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "f5sYQ6",
+                      "name": "svg",
+                      "context": "ChartNoAxesColumn - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "Lyb5j",
+                          "x": 12.75,
+                          "y": 7.0833330154418945,
+                          "geometry": "M0 7.08333l0-7.08333",
+                          "width": 0,
+                          "height": 7.0833330154418945,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "akFUa",
+                          "x": 8.5,
+                          "y": 2.8333332538604736,
+                          "geometry": "M0 11.33333l0-11.33333",
+                          "width": 0,
+                          "height": 11.333332777023315,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "WVfrz",
+                          "x": 4.25,
+                          "y": 9.916666030883789,
+                          "geometry": "M0 4.25l0-4.25",
+                          "width": 0,
+                          "height": 4.25,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "kQCEj",
+                      "name": "Statistics",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Statistics",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uFSQt",
+                  "name": "button",
+                  "context": "button",
+                  "width": "fill_container",
+                  "cornerRadius": 8.75,
+                  "gap": 10.5,
+                  "padding": [
+                    8.75,
+                    10.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "RpJY2",
+                      "name": "svg",
+                      "context": "Target - svg",
+                      "opacity": 0.85,
+                      "clip": true,
+                      "width": 17,
+                      "height": 17,
+                      "layout": "none",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "bLOmn",
+                          "x": 1.4166666666666667,
+                          "y": 1.4166666666666667,
+                          "width": 14.166666666666668,
+                          "height": 14.166666666666668,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "tXNdu",
+                          "x": 4.25,
+                          "y": 4.25,
+                          "width": 8.5,
+                          "height": 8.5,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "ellipse",
+                          "id": "QSdQY",
+                          "x": 7.083333333333334,
+                          "y": 7.083333333333334,
+                          "width": 2.8333333333333335,
+                          "height": 2.8333333333333335,
+                          "stroke": "#9CA3AF",
+                          "strokeWidth": 1.4166666666666667,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "A3HfDd",
+                      "name": "Budget Planning",
+                      "context": "span",
+                      "fill": "#9ca3af",
+                      "content": "Budget Planning",
+                      "lineHeight": 1.43,
+                      "fontFamily": "Inter",
+                      "fontSize": 12.25,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bq1gz",
+              "name": "div",
+              "context": "div",
+              "width": "fill_container",
+              "stroke": "$r:color-border-inverse",
+              "strokeWidth": {
+                "top": 1
+              },
+              "strokeAlignment": "inner",
+              "layout": "vertical",
+              "padding": [
+                15,
+                10.5,
+                14,
+                10.5
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "bGNS0",
+                  "name": "div",
+                  "context": "div",
+                  "width": "fill_container",
+                  "gap": 10.5,
+                  "padding": [
+                    0,
+                    3.5
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "F2TePX",
+                      "name": "AK",
+                      "context": "div",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "$r:color-primary",
+                      "cornerRadius": 33554400,
+                      "layout": "vertical",
                       "justifyContent": "center",
                       "alignItems": "center",
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "S0VqOM",
-                          "name": "svg",
-                          "context": "ChevronLeft - svg",
-                          "clip": true,
-                          "width": 15,
-                          "height": 15,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "MTJtj",
-                              "x": 5.625,
-                              "y": 3.75,
-                              "geometry": "M3.75 7.5l-3.75-3.75 3.75-3.75",
-                              "width": 3.75,
-                              "height": 7.5,
-                              "stroke": "#6B7280",
-                              "strokeWidth": 1.25,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "HmKfy",
-                  "name": "nav",
-                  "context": "nav",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": 442,
-                  "layout": "vertical",
-                  "gap": 1.75,
-                  "padding": [
-                    10.5,
-                    7
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "mr2N8",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "fill": "#6366f12e",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "hrf1X",
-                          "name": "svg",
-                          "context": "LayoutDashboard - svg",
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "rectangle",
-                              "cornerRadius": 0.7083333333333334,
-                              "id": "y1yT8d",
-                              "x": 2.125,
-                              "y": 2.125,
-                              "width": 4.958333333333334,
-                              "height": 6.375,
-                              "stroke": "#A5B4FC",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "rectangle",
-                              "cornerRadius": 0.7083333333333334,
-                              "id": "pAeOM",
-                              "x": 9.916666666666668,
-                              "y": 2.125,
-                              "width": 4.958333333333334,
-                              "height": 3.541666666666667,
-                              "stroke": "#A5B4FC",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "rectangle",
-                              "cornerRadius": 0.7083333333333334,
-                              "id": "laLoR",
-                              "x": 9.916666666666668,
-                              "y": 8.5,
-                              "width": 4.958333333333334,
-                              "height": 6.375,
-                              "stroke": "#A5B4FC",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "rectangle",
-                              "cornerRadius": 0.7083333333333334,
-                              "id": "MGKBp",
-                              "x": 2.125,
-                              "y": 11.333333333333334,
-                              "width": 4.958333333333334,
-                              "height": 3.541666666666667,
-                              "stroke": "#A5B4FC",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
                           "type": "text",
-                          "id": "uHxtD",
-                          "name": "Dashboard",
-                          "context": "span",
-                          "fill": "#a5b4fc",
-                          "content": "Dashboard",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        },
-                        {
-                          "type": "ellipse",
-                          "id": "ChJDs",
-                          "name": "span",
-                          "context": "span",
-                          "fill": "#6366f1",
-                          "width": 5.25,
-                          "height": 5.25
+                          "id": "DeGM1",
+                          "fill": "$r:color-white",
+                          "content": "AK",
+                          "lineHeight": 1.33,
+                          "fontFamily": "Plus Jakarta Sans",
+                          "fontSize": 10.5,
+                          "fontWeight": "600"
                         }
                       ]
                     },
                     {
                       "type": "frame",
-                      "id": "y5wy1",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "PMmdE",
-                          "name": "svg",
-                          "context": "Wallet - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "QalcV",
-                              "x": 2.125,
-                              "y": 2.125,
-                              "geometry": "M11.33333 2.83333l0-2.125c0-0.3912-0.31713-0.70833-0.70833-0.70833l-9.20833 0c-0.7824 0-1.41667 0.63426-1.41667 1.41667 0 0.7824 0.63426 1.41667 1.41667 1.41666l10.625 0c0.3912 0 0.70833 0.31713 0.70833 0.70834l0 2.83333-2.125 0c-0.7824 0-1.41667 0.63426-1.41667 1.41667 0 0.7824 0.63426 1.41667 1.41667 1.41666l2.125 0c0.3912 0 0.70833-0.31713 0.70833-0.70833l0-1.41667c0-0.3912-0.31713-0.70833-0.70833-0.70833",
-                              "width": 13.458333015441895,
-                              "height": 9.208333015441895,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "kjME1",
-                              "x": 2.125,
-                              "y": 3.5416665077209473,
-                              "geometry": "M0 0l0 9.91667c0 0.7824 0.63426 1.41667 1.41667 1.41666l10.625 0c0.3912 0 0.70833-0.31713 0.70833-0.70833l0-2.83333",
-                              "width": 12.75,
-                              "height": 11.333333492279053,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "Q4YVSR",
-                          "name": "Accounts",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Accounts",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "WbZLu",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "diUeE",
-                          "name": "svg",
-                          "context": "ArrowLeftRight - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "cJlLc",
-                              "x": 2.8333332538604736,
-                              "y": 2.125,
-                              "geometry": "M2.83333 0l-2.83333 2.83333 2.83333 2.83334m-2.83333-2.83334l11.33333 0m-2.83333 9.91667l2.83333-2.83333-2.83333-2.83334m2.83333 2.83334l-11.33333 0",
-                              "width": 11.333332777023315,
-                              "height": 12.75,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "Cuqj2",
-                          "name": "Transactions",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Transactions",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "xG3sE",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "EsJqV",
-                          "name": "svg",
-                          "context": "TrendingUp - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "s3nzw",
-                              "x": 1.4166666269302368,
-                              "y": 4.9583330154418945,
-                              "geometry": "M14.16667 0l-6.02084 6.02083-3.54166-3.54166-4.60417 4.60416",
-                              "width": 14.166666388511658,
-                              "height": 7.0833330154418945,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "Spr1f",
-                              "x": 11.333333015441895,
-                              "y": 4.9583330154418945,
-                              "geometry": "M0 0l4.25 0 0 4.25",
-                              "width": 4.25,
-                              "height": 4.25,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "EVFV5",
-                          "name": "Income",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Income",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "nHLMZ",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "kDAgi",
-                          "name": "svg",
-                          "context": "TrendingDown - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "UcniA",
-                              "x": 1.4166666269302368,
-                              "y": 4.9583330154418945,
-                              "geometry": "M14.16667 7.08333l-6.02084-6.02083-3.54166 3.54167-4.60417-4.60417",
-                              "width": 14.166666388511658,
-                              "height": 7.0833330154418945,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "X54nB",
-                              "x": 11.333333015441895,
-                              "y": 7.791666507720947,
-                              "geometry": "M0 4.25l4.25 0 0-4.25",
-                              "width": 4.25,
-                              "height": 4.249999523162842,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "j1WNln",
-                          "name": "Expenses",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Expenses",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "SVmBV",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "cpjhl",
-                          "name": "svg",
-                          "context": "Repeat - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "c2Uh0",
-                              "x": 12.041666030883789,
-                              "y": 1.4166666269302368,
-                              "geometry": "M0 0l2.83333 2.83333-2.83333 2.83334",
-                              "width": 2.833333969116211,
-                              "height": 5.666666388511658,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "EnAVS",
-                              "x": 2.125,
-                              "y": 4.25,
-                              "geometry": "M0 3.54167l0-0.70834c0-1.56481 1.26853-2.83333 2.83333-2.83333l9.91667 0m-9.91667 11.33333l-2.83333-2.83333 2.83333-2.83333",
-                              "width": 12.75,
-                              "height": 11.333333015441895,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "raEmR",
-                              "x": 2.125,
-                              "y": 9.208333015441895,
-                              "geometry": "M12.75 0l0 0.70833c0 1.56481-1.26853 2.83333-2.83333 2.83334l-9.91667 0",
-                              "width": 12.75,
-                              "height": 3.5416669845581055,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "fGaNg",
-                          "name": "Transfers",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Transfers",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "he2ty",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "M9ht5",
-                          "name": "svg",
-                          "context": "Tag - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "ICQHF",
-                              "x": 1.4166666269302368,
-                              "y": 1.4166666269302368,
-                              "geometry": "M7.49842 0.41508c-0.26561-0.26569-0.62589-0.415-1.00159-0.41508l-5.08016 0c-0.7824 0-1.41667 0.63426-1.41667 1.41667l0 5.08016c0.00008 0.37569 0.14939 0.73597 0.41508 1.00159l6.16534 6.16533c0.67019 0.66596 1.75231 0.66596 2.4225 0l4.66083-4.66083c0.66596-0.67019 0.66596-1.75231 0-2.4225l-6.16533-6.16534z",
-                              "width": 14.163220763206482,
-                              "height": 14.163220763206482,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "ellipse",
-                              "id": "y7OIl9",
-                              "x": 4.958333333333334,
-                              "y": 4.958333333333334,
-                              "fill": "#9CA3AF",
-                              "width": 0.7083333333333334,
-                              "height": 0.7083333333333334,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "Tj1I0",
-                          "name": "Categories",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Categories",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "x4xfLT",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "f5sYQ6",
-                          "name": "svg",
-                          "context": "ChartNoAxesColumn - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "path",
-                              "id": "Lyb5j",
-                              "x": 12.75,
-                              "y": 7.0833330154418945,
-                              "geometry": "M0 7.08333l0-7.08333",
-                              "width": 0,
-                              "height": 7.0833330154418945,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "akFUa",
-                              "x": 8.5,
-                              "y": 2.8333332538604736,
-                              "geometry": "M0 11.33333l0-11.33333",
-                              "width": 0,
-                              "height": 11.333332777023315,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "path",
-                              "id": "WVfrz",
-                              "x": 4.25,
-                              "y": 9.916666030883789,
-                              "geometry": "M0 4.25l0-4.25",
-                              "width": 0,
-                              "height": 4.25,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "kQCEj",
-                          "name": "Statistics",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Statistics",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    },
-                    {
-                      "type": "frame",
-                      "id": "uFSQt",
-                      "name": "button",
-                      "context": "button",
-                      "width": "fill_container",
-                      "cornerRadius": 8.75,
-                      "gap": 10.5,
-                      "padding": [
-                        8.75,
-                        10.5
-                      ],
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "frame",
-                          "id": "RpJY2",
-                          "name": "svg",
-                          "context": "Target - svg",
-                          "opacity": 0.85,
-                          "clip": true,
-                          "width": 17,
-                          "height": 17,
-                          "layout": "none",
-                          "children": [
-                            {
-                              "type": "ellipse",
-                              "id": "bLOmn",
-                              "x": 1.4166666666666667,
-                              "y": 1.4166666666666667,
-                              "width": 14.166666666666668,
-                              "height": 14.166666666666668,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "ellipse",
-                              "id": "tXNdu",
-                              "x": 4.25,
-                              "y": 4.25,
-                              "width": 8.5,
-                              "height": 8.5,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            },
-                            {
-                              "type": "ellipse",
-                              "id": "QSdQY",
-                              "x": 7.083333333333334,
-                              "y": 7.083333333333334,
-                              "width": 2.8333333333333335,
-                              "height": 2.8333333333333335,
-                              "stroke": "#9CA3AF",
-                              "strokeWidth": 1.4166666666666667,
-                              "strokeLinejoin": "round",
-                              "strokeLinecap": "round"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "text",
-                          "id": "A3HfDd",
-                          "name": "Budget Planning",
-                          "context": "span",
-                          "fill": "#9ca3af",
-                          "content": "Budget Planning",
-                          "lineHeight": 1.43,
-                          "fontFamily": "Inter",
-                          "fontSize": 12.25,
-                          "fontWeight": "normal"
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "bq1gz",
-                  "name": "div",
-                  "context": "div",
-                  "width": "fill_container",
-                  "stroke": "#f8f9fb17",
-                  "strokeWidth": {
-                    "top": 1
-                  },
-                  "strokeAlignment": "inner",
-                  "layout": "vertical",
-                  "padding": [
-                    15,
-                    10.5,
-                    14,
-                    10.5
-                  ],
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "bGNS0",
+                      "id": "SD8sV",
                       "name": "div",
                       "context": "div",
-                      "width": "fill_container",
-                      "gap": 10.5,
-                      "padding": [
-                        0,
-                        3.5
-                      ],
-                      "alignItems": "center",
+                      "height": 31.5,
+                      "layout": "vertical",
                       "children": [
                         {
-                          "type": "frame",
-                          "id": "F2TePX",
-                          "name": "AK",
-                          "context": "div",
-                          "width": 28,
-                          "height": 28,
-                          "fill": "#6366f1",
-                          "cornerRadius": 33554400,
-                          "layout": "vertical",
-                          "justifyContent": "center",
-                          "alignItems": "center",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "DeGM1",
-                              "fill": "#ffffff",
-                              "content": "AK",
-                              "lineHeight": 1.33,
-                              "fontFamily": "Plus Jakarta Sans",
-                              "fontSize": 10.5,
-                              "fontWeight": "600"
-                            }
-                          ]
+                          "type": "text",
+                          "id": "iTkWR",
+                          "name": "Alex Kim",
+                          "context": "p",
+                          "fill": "$r:color-white",
+                          "content": "Alex Kim",
+                          "lineHeight": 1.43,
+                          "fontFamily": "Inter",
+                          "fontSize": 12.25,
+                          "fontWeight": "500"
                         },
                         {
-                          "type": "frame",
-                          "id": "SD8sV",
-                          "name": "div",
-                          "context": "div",
-                          "height": 31.5,
-                          "layout": "vertical",
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "iTkWR",
-                              "name": "Alex Kim",
-                              "context": "p",
-                              "fill": "#f8f9fb",
-                              "content": "Alex Kim",
-                              "lineHeight": 1.43,
-                              "fontFamily": "Inter",
-                              "fontSize": 12.25,
-                              "fontWeight": "500"
-                            },
-                            {
-                              "type": "text",
-                              "id": "QuXyh",
-                              "name": "alex@3tledger.com",
-                              "context": "p",
-                              "fill": "#6b7280",
-                              "content": "alex@3tledger.com",
-                              "lineHeight": 1.33,
-                              "fontFamily": "Inter",
-                              "fontSize": 10.5,
-                              "fontWeight": "normal"
-                            }
-                          ]
+                          "type": "text",
+                          "id": "QuXyh",
+                          "name": "alex@3tledger.com",
+                          "context": "p",
+                          "fill": "$r:color-text-secondary",
+                          "content": "alex@3tledger.com",
+                          "lineHeight": 1.33,
+                          "fontFamily": "Inter",
+                          "fontSize": 10.5,
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -88281,7 +88177,7 @@
           "clip": true,
           "width": 224,
           "height": 472.5,
-          "fill": "#ffffff",
+          "fill": "$r:color-white",
           "cornerRadius": 12.75,
           "stroke": "#1118271a",
           "strokeWidth": 1,
@@ -89255,13 +89151,13 @@
           "type": "frame",
           "id": "CU2dS",
           "x": 708,
-          "y": 153,
+          "y": 207,
           "name": "card",
           "context": "div",
           "clip": true,
           "width": 393,
           "height": 242,
-          "fill": "#ffffff",
+          "fill": "$r:color-white",
           "cornerRadius": 12.75,
           "stroke": "#0000001a",
           "strokeWidth": 1,
@@ -89321,7 +89217,7 @@
                   "content": "Card Title",
                   "lineHeight": 1.5,
                   "fontFamily": "Inter",
-                  "fontSize": 15,
+                  "fontSize": "$r:font-size-md",
                   "fontWeight": "600"
                 },
                 {
@@ -89333,8 +89229,197 @@
                   "content": "Last 7",
                   "lineHeight": 1.33,
                   "fontFamily": "Inter",
-                  "fontSize": 10.5,
+                  "fontSize": "$r:font-size-xs",
                   "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "GLFVz",
+          "x": 23,
+          "y": 35,
+          "name": "backdrop",
+          "context": "N8 - div",
+          "fill": "#00000099",
+          "width": "fill_container(393)",
+          "height": "fill_container(570)"
+        },
+        {
+          "type": "frame",
+          "id": "EE8Qa",
+          "x": 708,
+          "y": 115,
+          "name": "header-sm",
+          "context": "header",
+          "reusable": true,
+          "clip": true,
+          "width": "fill_container(393)",
+          "height": 64,
+          "fill": "#ffffff",
+          "stroke": "#11182714",
+          "strokeWidth": {
+            "bottom": 1
+          },
+          "strokeAlignment": "inner",
+          "padding": [
+            0,
+            "$r:spacing-3"
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "JfgUq",
+              "name": "burget-menu",
+              "padding": "$r:spacing-1",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IuwCg",
+                  "name": "button",
+                  "context": "V5 - button",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$r:color-gray-900",
+                  "cornerRadius": 8.75,
+                  "effect": [
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#0000001a",
+                      "offset": {
+                        "x": 0,
+                        "y": 10
+                      },
+                      "blur": 12
+                    },
+                    {
+                      "type": "shadow",
+                      "shadowType": "outer",
+                      "color": "#0000001a",
+                      "offset": {
+                        "x": 0,
+                        "y": 4
+                      },
+                      "blur": 2
+                    }
+                  ],
+                  "layout": "vertical",
+                  "justifyContent": "space_around",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "L9O3sX",
+                      "name": "svg",
+                      "context": "Menu - svg",
+                      "clip": true,
+                      "width": 18,
+                      "height": 18,
+                      "layout": "vertical",
+                      "justifyContent": "space_around",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "path",
+                          "id": "a1zED",
+                          "geometry": "M0 0l12 0",
+                          "width": 12,
+                          "height": 0,
+                          "stroke": "$r:color-white",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "uiPPd",
+                          "geometry": "M0 0l12 0",
+                          "width": 12,
+                          "height": 0,
+                          "stroke": "$r:color-white",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        },
+                        {
+                          "type": "path",
+                          "id": "Lbfnr",
+                          "geometry": "M0 0l12 0",
+                          "width": 12,
+                          "height": 0,
+                          "stroke": "$r:color-white",
+                          "strokeWidth": 1.5,
+                          "strokeLinejoin": "round",
+                          "strokeLinecap": "round"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ryFQU",
+              "name": "page-title",
+              "context": "div",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mWOPE",
+                  "name": "Dashboard",
+                  "context": "h2",
+                  "fill": "$r:color-text",
+                  "content": "Page Title",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Roboto Slab",
+                  "fontSize": "$r:font-size-lg",
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "sceqa",
+              "name": "uset-button",
+              "context": "button",
+              "cornerRadius": 8.75,
+              "padding": "$r:spacing-1",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "TJmu3",
+                  "name": "AK",
+                  "context": "div",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$r:color-primary",
+                  "cornerRadius": 33554400,
+                  "layout": "vertical",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sZ2nh",
+                      "fill": "#ffffff",
+                      "content": "AK",
+                      "lineHeight": 1.33,
+                      "textAlign": "center",
+                      "fontFamily": "Inter",
+                      "fontSize": "$r:font-size-xs",
+                      "fontWeight": "600"
+                    }
+                  ]
                 }
               ]
             }
@@ -89347,9 +89432,10 @@
           "y": 35,
           "name": "Header",
           "reusable": true,
-          "width": 1200,
+          "clip": true,
+          "width": "fill_container(1200)",
           "height": 64,
-          "fill": "#ffffff",
+          "fill": "$r:color-white",
           "stroke": "#11182714",
           "strokeWidth": {
             "bottom": 1
@@ -89375,11 +89461,11 @@
                   "type": "text",
                   "id": "ITp6U",
                   "name": "pageTitle",
-                  "fill": "#111827",
+                  "fill": "$r:color-text",
                   "content": "Page Title",
                   "lineHeight": 1.5,
                   "fontFamily": "Roboto Slab",
-                  "fontSize": 17,
+                  "fontSize": "$r:font-size-lg",
                   "fontWeight": "600"
                 }
               ]
@@ -89395,9 +89481,9 @@
                   "type": "frame",
                   "id": "ST6Jp",
                   "name": "dateBadge",
-                  "fill": "#f8f9fb",
-                  "cornerRadius": 8.75,
-                  "stroke": "#11182714",
+                  "fill": "$r:color-background-alt",
+                  "cornerRadius": "$r:radius-md",
+                  "stroke": "$r:color-border-light",
                   "strokeWidth": 1,
                   "strokeAlignment": "inner",
                   "gap": 7,
@@ -89411,7 +89497,7 @@
                       "type": "ellipse",
                       "id": "kft32",
                       "name": "statusIndicator",
-                      "fill": "#10b981",
+                      "fill": "$r:color-info",
                       "width": 7,
                       "height": 7
                     },
@@ -89419,11 +89505,11 @@
                       "type": "text",
                       "id": "OcVMS",
                       "name": "dateText",
-                      "fill": "#6b7280",
+                      "fill": "$r:color-text-secondary",
                       "content": "August 4, 2026",
                       "lineHeight": 1.33,
                       "fontFamily": "Inter",
-                      "fontSize": 10.5,
+                      "fontSize": "$r:font-size-xs",
                       "fontWeight": "normal"
                     }
                   ]
@@ -89447,7 +89533,7 @@
                       "name": "avatar",
                       "width": 28,
                       "height": 28,
-                      "fill": "#6366f1",
+                      "fill": "$r:color-primary",
                       "cornerRadius": 33554400,
                       "layout": "vertical",
                       "justifyContent": "center",
@@ -89461,7 +89547,7 @@
                           "content": "AK",
                           "lineHeight": 1.43,
                           "fontFamily": "Inter",
-                          "fontSize": 10.5,
+                          "fontSize": "$r:font-size-xs",
                           "fontWeight": "600"
                         }
                       ]
@@ -89478,11 +89564,11 @@
                           "type": "text",
                           "id": "iXkLg",
                           "name": "name",
-                          "fill": "#111827",
+                          "fill": "$r:color-text",
                           "content": "Username",
                           "lineHeight": 1.43,
                           "fontFamily": "Inter",
-                          "fontSize": 11.5,
+                          "fontSize": "$r:font-size-sm",
                           "fontWeight": "500"
                         },
                         {
@@ -89493,7 +89579,7 @@
                           "content": "email@example.com",
                           "lineHeight": 1.43,
                           "fontFamily": "Inter",
-                          "fontSize": 9.5,
+                          "fontSize": "$r:font-size-xs",
                           "fontWeight": "normal"
                         }
                       ]
@@ -89513,17 +89599,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "rectangle",
-          "id": "GLFVz",
-          "x": 23,
-          "y": 35,
-          "name": "backdrop",
-          "context": "N8 - div",
-          "fill": "#00000099",
-          "width": "fill_container(393)",
-          "height": "fill_container(570)"
         }
       ]
     }
