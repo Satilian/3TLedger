@@ -4560,5 +4560,10 @@
       ]
     }
   ],
+  "imports": {
+    "V": "../system/tokens.lib.pen",
+    "S": "../system/ui-kit.lib.pen",
+    "K": "../system/components.lib.pen"
+  },
   "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
 }
