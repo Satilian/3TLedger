@@ -24,11 +24,11 @@
           "strokeWidth": {
             "bottom": 1
           },
+          "gap": 200,
           "padding": [
             3,
             0
           ],
-          "justifyContent": "space_between",
           "alignItems": "center",
           "children": [
             {
@@ -40,34 +40,23 @@
               "children": [
                 {
                   "type": "text",
-                  "id": "c64TKG",
-                  "name": "Description",
-                  "fill": "$x:color-text-secondary",
-                  "content": "All active tokens, with a visual specimen for each value.",
-                  "fontFamily": "$x:font-family-sans",
-                  "fontSize": "$x:font-size-base",
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "GuyxK",
-                  "name": "Eyebrow",
-                  "fill": "$x:color-primary",
-                  "content": "UI KIT / FOUNDATION TOKENS",
-                  "fontFamily": "$x:font-family-sans",
-                  "fontSize": "$x:font-size-sm",
-                  "fontWeight": "600",
-                  "letterSpacing": 0.6
-                },
-                {
-                  "type": "text",
                   "id": "x7DEq",
                   "name": "Title",
                   "fill": "$x:color-text",
                   "content": "Token library",
-                  "fontFamily": "$x:font-family-sans",
+                  "fontFamily": "Inter",
                   "fontSize": 28,
                   "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "c64TKG",
+                  "name": "Description",
+                  "fill": "$x:color-text-secondary",
+                  "content": "All active tokens, with a visual specimen for each value.",
+                  "fontFamily": "Inter",
+                  "fontSize": "$x:font-size-base",
+                  "fontWeight": "normal"
                 }
               ]
             },
@@ -75,16 +64,16 @@
               "type": "group",
               "id": "hPIAs",
               "name": "Token Groups",
-              "layout": "horizontal",
-              "alignItems": "center",
               "children": [
                 {
                   "type": "text",
                   "id": "WMT0U",
+                  "x": -23.578270639604966,
+                  "y": 0,
                   "name": "Fundation",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285718,
+                  "width": 70,
                   "content": "Foundation\n ├── Color\n ├── Typography\n ├── Spacing\n ├── Sizing\n ├── Radius\n ├── Border\n ├── Shadow\n ├── Opacity\n ├── Blur\n ├── Shape",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -93,10 +82,12 @@
                 {
                   "type": "text",
                   "id": "HvMeX",
+                  "x": 58.98444282761682,
+                  "y": 0,
                   "name": "Layout",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285718,
+                  "width": 70,
                   "content": " Layout\n ├── Grid\n ├── Layout\n ├── Breakpoints\n ├── Z-Index\n ├── Elevation",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -105,10 +96,12 @@
                 {
                   "type": "text",
                   "id": "TqrG6",
+                  "x": 170.66780531954794,
+                  "y": 0,
                   "name": "Motion",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285721,
+                  "width": 70,
                   "content": " Motion\n ├── Motion\n ├── Animation",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -117,10 +110,12 @@
                 {
                   "type": "text",
                   "id": "NJh2N",
+                  "x": 282.35116781147883,
+                  "y": 0,
                   "name": "Assets",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285721,
+                  "width": 70,
                   "content": " Assets\n ├── Iconography\n ├── Illustration",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -129,10 +124,12 @@
                 {
                   "type": "text",
                   "id": "HYogm",
+                  "x": 394.03453030340995,
+                  "y": 0,
                   "name": "Interaction",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285721,
+                  "width": 70,
                   "content": " Interaction\n ├── States\n ├── Accessibility",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -141,10 +138,12 @@
                 {
                   "type": "text",
                   "id": "fKU89",
+                  "x": 505.7178927953411,
+                  "y": 0,
                   "name": "Theming",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285721,
+                  "width": 70,
                   "content": " Theming\n ├── Theme\n ├── Density\n ├── Platform",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -153,10 +152,12 @@
                 {
                   "type": "text",
                   "id": "O3eFA",
+                  "x": 617.4012552872722,
+                  "y": 0,
                   "name": "Components",
                   "fill": "#000000",
                   "textGrowth": "fixed-width",
-                  "width": 89.14285714285715,
+                  "width": 70,
                   "content": " Components\n ├── Button\n ├── Input\n ├── Card\n ├── Modal\n ├── Tooltip\n ├── Dropdown\n └── ...",
                   "fontFamily": "Inter",
                   "fontSize": "$x:radius-base",
@@ -173,6 +174,7 @@
           "y": 144,
           "name": "Colors",
           "width": "fill_container(1071)",
+          "height": 363,
           "layout": "vertical",
           "gap": "$x:spacing-3",
           "children": [
@@ -182,7 +184,7 @@
               "name": "Color Tokens Title",
               "fill": "$x:color-text",
               "content": "Color",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -241,7 +243,7 @@
                               "name": "color-primary Label",
                               "fill": "$x:color-text",
                               "content": "color-primary",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -251,7 +253,7 @@
                               "name": "color-primary Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#6366F1",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -296,7 +298,7 @@
                               "name": "color-border Label",
                               "fill": "$x:color-text",
                               "content": "color-extra-1",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -306,7 +308,7 @@
                               "name": "color-border Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#818CF8",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -351,7 +353,7 @@
                               "name": "color-primary-light Label",
                               "fill": "$x:color-text",
                               "content": "color-primary-light",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -361,7 +363,62 @@
                               "name": "color-primary-light Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#A5B4FC",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
+                              "fontSize": "$x:font-size-sm",
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CDAmI",
+                      "name": "color-primary-border Sample",
+                      "width": "fill_container",
+                      "fill": "$x:color-white",
+                      "cornerRadius": "$x:radius-base",
+                      "stroke": "$x:color-border-light",
+                      "strokeWidth": 1,
+                      "gap": "$x:spacing-2",
+                      "padding": "$x:spacing-2",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": "$x:radius-sm",
+                          "id": "iRzbg",
+                          "name": "color-primary-border Swatch",
+                          "fill": "$x:color-primary-border",
+                          "width": 38,
+                          "height": 28,
+                          "stroke": "$x:color-border",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hVhLH",
+                          "name": "color-primary-border Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "aqeg5",
+                              "name": "color-primary-border Label",
+                              "fill": "$x:color-text",
+                              "content": "color-primary-border",
+                              "fontFamily": "Inter",
+                              "fontSize": "$x:font-size-sm",
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "Z2xbQA",
+                              "name": "color-primary-border Value",
+                              "fill": "$x:color-text-tertiary",
+                              "content": "#6366F133",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -406,7 +463,7 @@
                               "name": "color-primary-bg-light Label",
                               "fill": "$x:color-text",
                               "content": "color-primary-bg-light",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -416,7 +473,7 @@
                               "name": "color-primary-bg-light Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#6366F10A",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -436,61 +493,6 @@
                   "layout": "vertical",
                   "gap": "$x:spacing-2",
                   "children": [
-                    {
-                      "type": "frame",
-                      "id": "CDAmI",
-                      "name": "color-primary-border Sample",
-                      "width": "fill_container",
-                      "fill": "$x:color-white",
-                      "cornerRadius": "$x:radius-base",
-                      "stroke": "$x:color-border-light",
-                      "strokeWidth": 1,
-                      "gap": "$x:spacing-2",
-                      "padding": "$x:spacing-2",
-                      "alignItems": "center",
-                      "children": [
-                        {
-                          "type": "rectangle",
-                          "cornerRadius": "$x:radius-sm",
-                          "id": "iRzbg",
-                          "name": "color-primary-border Swatch",
-                          "fill": "$x:color-primary-border",
-                          "width": 38,
-                          "height": 28,
-                          "stroke": "$x:color-border",
-                          "strokeWidth": 1
-                        },
-                        {
-                          "type": "frame",
-                          "id": "hVhLH",
-                          "name": "color-primary-border Info",
-                          "layout": "vertical",
-                          "gap": 2,
-                          "children": [
-                            {
-                              "type": "text",
-                              "id": "aqeg5",
-                              "name": "color-primary-border Label",
-                              "fill": "$x:color-text",
-                              "content": "color-primary-border",
-                              "fontFamily": "$x:font-family-sans",
-                              "fontSize": "$x:font-size-sm",
-                              "fontWeight": "600"
-                            },
-                            {
-                              "type": "text",
-                              "id": "Z2xbQA",
-                              "name": "color-primary-border Value",
-                              "fill": "$x:color-text-tertiary",
-                              "content": "#6366F133",
-                              "fontFamily": "$x:font-family-sans",
-                              "fontSize": "$x:font-size-sm",
-                              "fontWeight": "normal"
-                            }
-                          ]
-                        }
-                      ]
-                    },
                     {
                       "type": "frame",
                       "id": "OOZi3",
@@ -528,7 +530,7 @@
                               "name": "color-info Label",
                               "fill": "$x:color-text",
                               "content": "color-info",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -538,7 +540,7 @@
                               "name": "color-info Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#14B8A6",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -583,7 +585,7 @@
                               "name": "color-success Label",
                               "fill": "$x:color-text",
                               "content": "color-success",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -593,7 +595,7 @@
                               "name": "color-success Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#10B981",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -638,7 +640,7 @@
                               "name": "color-border-light Label",
                               "fill": "$x:color-text",
                               "content": "color-extra-2",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -648,7 +650,7 @@
                               "name": "color-border-light Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#34D399",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -693,7 +695,7 @@
                               "name": "color-success-bg Label",
                               "fill": "$x:color-text",
                               "content": "color-success-bg",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -703,7 +705,7 @@
                               "name": "color-success-bg Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#ECFDF5",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -760,7 +762,7 @@
                               "name": "color-error Label",
                               "fill": "$x:color-text",
                               "content": "color-error",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -770,7 +772,7 @@
                               "name": "color-error Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#EF4444",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -815,7 +817,7 @@
                               "name": "color-warning Label",
                               "fill": "$x:color-text",
                               "content": "color-warning",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -825,7 +827,7 @@
                               "name": "color-warning Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#F59E0B",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -870,7 +872,7 @@
                               "name": "color-warning-bg Label",
                               "fill": "$x:color-text",
                               "content": "color-warning-bg",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -880,7 +882,7 @@
                               "name": "color-warning-bg Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#FEFCE8",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -925,7 +927,7 @@
                               "name": "color-error-bg Label",
                               "fill": "$x:color-text",
                               "content": "color-error-bg",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -935,7 +937,7 @@
                               "name": "color-error-bg Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#FEF2F2",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -992,7 +994,7 @@
                               "name": "color-text Label",
                               "fill": "$x:color-text",
                               "content": "color-text",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1002,7 +1004,7 @@
                               "name": "color-text Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#111827",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1047,7 +1049,7 @@
                               "name": "color-text-secondary Label",
                               "fill": "$x:color-text",
                               "content": "color-text-secondary",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1057,7 +1059,7 @@
                               "name": "color-text-secondary Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#6B7280",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1102,7 +1104,7 @@
                               "name": "shadow-color Label",
                               "fill": "$x:color-text",
                               "content": "color-extra-3",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1112,7 +1114,7 @@
                               "name": "shadow-color Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#64748B",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1157,7 +1159,7 @@
                               "name": "color-secondary-light Label",
                               "fill": "$x:color-text",
                               "content": "color-secondary-light",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1167,7 +1169,7 @@
                               "name": "color-secondary-light Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#94A3B8",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1212,7 +1214,7 @@
                               "name": "color-text-tertiary Label",
                               "fill": "$x:color-text",
                               "content": "color-text-tertiary",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1222,7 +1224,62 @@
                               "name": "color-text-tertiary Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#9CA3AF",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
+                              "fontSize": "$x:font-size-sm",
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nmdJG",
+                      "name": "color-text-tertiary Sample",
+                      "width": "fill_container",
+                      "fill": "$x:color-white",
+                      "cornerRadius": "$x:radius-base",
+                      "stroke": "$x:color-border-light",
+                      "strokeWidth": 1,
+                      "gap": "$x:spacing-2",
+                      "padding": "$x:spacing-2",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "rectangle",
+                          "cornerRadius": "$x:radius-sm",
+                          "id": "R3olg9",
+                          "name": "color-text-tertiary Swatch",
+                          "fill": "$x:color-backdrop",
+                          "width": 38,
+                          "height": 28,
+                          "stroke": "$x:color-border",
+                          "strokeWidth": 1
+                        },
+                        {
+                          "type": "frame",
+                          "id": "e3OFWN",
+                          "name": "color-text-tertiary Info",
+                          "layout": "vertical",
+                          "gap": 2,
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "m5Asyj",
+                              "name": "color-text-tertiary Label",
+                              "fill": "$x:color-text",
+                              "content": "color-backdrop",
+                              "fontFamily": "Inter",
+                              "fontSize": "$x:font-size-sm",
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "text",
+                              "id": "wJW6p",
+                              "name": "color-text-tertiary Value",
+                              "fill": "$x:color-text-tertiary",
+                              "content": "#00000099",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1279,7 +1336,7 @@
                               "name": "color-border Label",
                               "fill": "$x:color-text",
                               "content": "color-border",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1289,7 +1346,7 @@
                               "name": "color-border Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#0000001A",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1334,7 +1391,7 @@
                               "name": "color-border-light Label",
                               "fill": "$x:color-text",
                               "content": "color-border-light",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1344,7 +1401,7 @@
                               "name": "color-border-light Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#11182712",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1389,7 +1446,7 @@
                               "name": "color-border-light Label",
                               "fill": "$x:color-text",
                               "content": "color-border-inverse",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1399,7 +1456,7 @@
                               "name": "color-border-light Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#f8f9fb17",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1444,7 +1501,7 @@
                               "name": "shadow-color Label",
                               "fill": "$x:color-text",
                               "content": "shadow-color",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1454,7 +1511,7 @@
                               "name": "shadow-color Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#00000019",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1499,7 +1556,7 @@
                               "name": "color-white-alt Label",
                               "fill": "$x:color-text",
                               "content": "color-background-alt",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1509,7 +1566,7 @@
                               "name": "color-white-alt Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#F8F9FB",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1554,7 +1611,7 @@
                               "name": "color-white Label",
                               "fill": "$x:color-text",
                               "content": "color-white",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "600"
                             },
@@ -1564,7 +1621,7 @@
                               "name": "color-white Value",
                               "fill": "$x:color-text-tertiary",
                               "content": "#FFFFFF",
-                              "fontFamily": "$x:font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$x:font-size-sm",
                               "fontWeight": "normal"
                             }
@@ -1582,7 +1639,7 @@
           "type": "frame",
           "id": "rzk9K",
           "x": 32,
-          "y": 465,
+          "y": 544,
           "name": "Typography",
           "width": "fill_container(1376)",
           "layout": "vertical",
@@ -1594,7 +1651,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Typography",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -1602,15 +1659,15 @@
               "type": "frame",
               "id": "knk5j",
               "name": "Metric Samples Grid",
-              "width": 200,
-              "layout": "vertical",
+              "width": "fill_container",
               "gap": "$x:spacing-2",
+              "alignItems": "center",
               "children": [
                 {
                   "type": "frame",
                   "id": "uCl90",
                   "name": "font-family-sans Sample",
-                  "width": "fill_container",
+                  "width": 252,
                   "fill": "$x:color-white",
                   "cornerRadius": "$x:radius-base",
                   "stroke": "$x:color-border-light",
@@ -1632,8 +1689,8 @@
                           "id": "c22AA",
                           "name": "font-family-sans Specimen",
                           "fill": "$x:color-text",
-                          "content": "Inter — Aa 012",
-                          "fontFamily": "$x:font-family-sans",
+                          "content": "Preview — Aa 012",
+                          "fontFamily": "$x:font-primary",
                           "fontSize": "$x:font-size-lg",
                           "fontWeight": "600"
                         }
@@ -1652,8 +1709,8 @@
                           "id": "a3ESM1",
                           "name": "font-family-sans Label",
                           "fill": "$x:color-text-tertiary",
-                          "content": "font-family-sans",
-                          "fontFamily": "$x:font-family-sans",
+                          "content": "font-primary",
+                          "fontFamily": "$x:font-primary",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -1663,7 +1720,137 @@
                           "name": "font-family-sans Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "Inter",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "$x:font-primary",
+                          "fontSize": "$x:font-size-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "o7gzYB",
+                  "name": "font-family-sans Sample",
+                  "width": 255,
+                  "fill": "$x:color-white",
+                  "cornerRadius": "$x:radius-base",
+                  "stroke": "$x:color-border-light",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": "$x:spacing-2",
+                  "padding": "$x:spacing-2",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "A2yqYU",
+                      "name": "font-family-sans Preview",
+                      "width": "fill_container",
+                      "height": 32,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p3cbl",
+                          "name": "font-family-sans Specimen",
+                          "fill": "$x:color-text",
+                          "content": "Preview — Aa 012",
+                          "fontFamily": "$x:font-secondary",
+                          "fontSize": "$x:font-size-lg",
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "nn7ac",
+                      "name": "font-family-sans Info",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Xfze2",
+                          "name": "font-family-sans Label",
+                          "fill": "$x:color-text-tertiary",
+                          "content": "font-secondary",
+                          "fontFamily": "$x:font-primary",
+                          "fontSize": "$x:font-size-sm",
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Kg062",
+                          "name": "font-family-sans Value",
+                          "fill": "$x:color-text-tertiary",
+                          "content": "Plus Jakarta Sans ",
+                          "fontFamily": "$x:font-primary",
+                          "fontSize": "$x:font-size-sm",
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "WGk57",
+                  "name": "font-family-sans Sample",
+                  "width": 255,
+                  "fill": "$x:color-white",
+                  "cornerRadius": "$x:radius-base",
+                  "stroke": "$x:color-border-light",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": "$x:spacing-2",
+                  "padding": "$x:spacing-2",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gaLxK",
+                      "name": "font-family-sans Preview",
+                      "width": "fill_container",
+                      "height": 32,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "XRx6S",
+                          "name": "font-family-sans Specimen",
+                          "fill": "$x:color-text",
+                          "content": "Preview — Aa 012",
+                          "fontFamily": "$x:font-tertiary",
+                          "fontSize": "$x:font-size-lg",
+                          "fontWeight": "600"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wVglD",
+                      "name": "font-family-sans Info",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "eBCU6",
+                          "name": "font-family-sans Label",
+                          "fill": "$x:color-text-tertiary",
+                          "content": "font-tertiary",
+                          "fontFamily": "$x:font-primary",
+                          "fontSize": "$x:font-size-sm",
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "H1C3sD",
+                          "name": "font-family-sans Value",
+                          "fill": "$x:color-text-tertiary",
+                          "content": "Roboto Slab",
+                          "fontFamily": "$x:font-primary",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -1679,7 +1866,7 @@
           "type": "frame",
           "id": "NUiYZ",
           "x": 32,
-          "y": 588,
+          "y": 698,
           "name": "Spacing",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -1690,7 +1877,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Spacing",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -1748,7 +1935,7 @@
                           "name": "spacing-1 Label",
                           "fill": "$x:color-text",
                           "content": "spacing-0.5",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -1758,7 +1945,7 @@
                           "name": "spacing-1 Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "2",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -1812,7 +1999,7 @@
                           "name": "spacing-1 Label",
                           "fill": "$x:color-text",
                           "content": "spacing-1",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -1822,7 +2009,7 @@
                           "name": "spacing-1 Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -1876,7 +2063,7 @@
                           "name": "spacing-2 Label",
                           "fill": "$x:color-text",
                           "content": "spacing-2",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -1886,7 +2073,7 @@
                           "name": "spacing-2 Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "8",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -1940,7 +2127,7 @@
                           "name": "spacing-3 Label",
                           "fill": "$x:color-text",
                           "content": "spacing-3",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -1950,7 +2137,7 @@
                           "name": "spacing-3 Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "12",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2004,7 +2191,7 @@
                           "name": "spacing-4 Label",
                           "fill": "$x:color-text",
                           "content": "spacing-4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2014,7 +2201,7 @@
                           "name": "spacing-4 Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "16",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2068,7 +2255,7 @@
                           "name": "spacing-6 Label",
                           "fill": "$x:color-text",
                           "content": "spacing-6",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2078,7 +2265,7 @@
                           "name": "spacing-6 Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "24",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2094,7 +2281,7 @@
           "type": "frame",
           "id": "c8HgU2",
           "x": 252,
-          "y": 588,
+          "y": 698,
           "name": "Sizing",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -2105,7 +2292,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Sizing",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -2144,7 +2331,7 @@
                           "name": "Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-xs",
                           "fontWeight": "600"
                         }
@@ -2164,7 +2351,7 @@
                           "name": "Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-xs",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2174,7 +2361,7 @@
                           "name": "Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "10",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2209,7 +2396,7 @@
                           "name": "font-size-sm Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         }
@@ -2229,7 +2416,7 @@
                           "name": "font-size-sm Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-sm",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2239,7 +2426,7 @@
                           "name": "font-size-sm Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "12",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2274,7 +2461,7 @@
                           "name": "font-size-base Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-base",
                           "fontWeight": "600"
                         }
@@ -2294,7 +2481,7 @@
                           "name": "font-size-base Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-base",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2304,7 +2491,7 @@
                           "name": "font-size-base Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "14",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2339,7 +2526,7 @@
                           "name": "Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-md",
                           "fontWeight": "600"
                         }
@@ -2359,7 +2546,7 @@
                           "name": "Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-xs",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2369,7 +2556,7 @@
                           "name": "Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "16",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2404,7 +2591,7 @@
                           "name": "font-size-lg Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-lg",
                           "fontWeight": "600"
                         }
@@ -2424,7 +2611,7 @@
                           "name": "font-size-lg Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-lg",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2434,7 +2621,7 @@
                           "name": "font-size-lg Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "18",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2469,7 +2656,7 @@
                           "name": "Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-lg",
                           "fontWeight": "600"
                         }
@@ -2489,7 +2676,7 @@
                           "name": "Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-lg",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2499,7 +2686,7 @@
                           "name": "Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "20",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2534,7 +2721,7 @@
                           "name": "Specimen",
                           "fill": "$x:color-text",
                           "content": "Aa Text",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-xxl",
                           "fontWeight": "600"
                         }
@@ -2554,7 +2741,7 @@
                           "name": "Label",
                           "fill": "$x:color-text-tertiary",
                           "content": "font-size-lg",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2564,7 +2751,7 @@
                           "name": "Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "24",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2580,7 +2767,7 @@
           "type": "frame",
           "id": "Bl3eb",
           "x": 473,
-          "y": 588,
+          "y": 698,
           "name": "Radius",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -2591,7 +2778,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Radius",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -2650,7 +2837,7 @@
                           "name": "radius-sm Label",
                           "fill": "$x:color-text",
                           "content": "radius-sm",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2660,7 +2847,7 @@
                           "name": "radius-sm Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2714,7 +2901,7 @@
                           "name": "radius-base Label",
                           "fill": "$x:color-text",
                           "content": "radius-base",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2724,7 +2911,7 @@
                           "name": "radius-base Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "6",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2778,7 +2965,7 @@
                           "name": "radius-md Label",
                           "fill": "$x:color-text",
                           "content": "radius-md",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2788,7 +2975,7 @@
                           "name": "radius-md Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "8",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2842,7 +3029,7 @@
                           "name": "radius-full Label",
                           "fill": "$x:color-text",
                           "content": "radius-full",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2852,7 +3039,7 @@
                           "name": "radius-full Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "9999",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2868,7 +3055,7 @@
           "type": "frame",
           "id": "ZbjEd",
           "x": 693,
-          "y": 588,
+          "y": 698,
           "name": "Border",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -2879,7 +3066,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Border",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -2938,7 +3125,7 @@
                           "name": "shadow Label",
                           "fill": "$x:color-text",
                           "content": "shadow",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -2948,7 +3135,7 @@
                           "name": "shadow Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -2964,7 +3151,7 @@
           "type": "frame",
           "id": "SgaBo",
           "x": 32,
-          "y": 1231,
+          "y": 1341,
           "name": "Shadow",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -2975,7 +3162,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Shadow",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -3011,12 +3198,34 @@
                       "children": [
                         {
                           "type": "rectangle",
-                          "cornerRadius": "$x:radius-sm",
+                          "cornerRadius": "$x:radius-full",
                           "id": "JYigH",
                           "name": "radius-sm Radius Preview",
-                          "fill": "$x:color-primary",
+                          "fill": "$x:color-background-alt",
                           "width": 72,
-                          "height": 28
+                          "height": 28,
+                          "effect": [
+                            {
+                              "type": "shadow",
+                              "shadowType": "outer",
+                              "color": "$x:color-shadow",
+                              "offset": {
+                                "x": 0,
+                                "y": 1
+                              },
+                              "blur": 3
+                            },
+                            {
+                              "type": "shadow",
+                              "shadowType": "outer",
+                              "color": "$x:color-shadow",
+                              "offset": {
+                                "x": 0,
+                                "y": 1
+                              },
+                              "blur": 1
+                            }
+                          ]
                         }
                       ]
                     },
@@ -3034,7 +3243,7 @@
                           "name": "shadow Label",
                           "fill": "$x:color-text",
                           "content": "shadow",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -3044,7 +3253,7 @@
                           "name": "shadow Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -3060,7 +3269,7 @@
           "type": "frame",
           "id": "sq1d4",
           "x": 252,
-          "y": 1231,
+          "y": 1341,
           "name": "Opacity",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -3071,7 +3280,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Opacity",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -3130,7 +3339,7 @@
                           "name": "shadow Label",
                           "fill": "$x:color-text",
                           "content": "shadow",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -3140,7 +3349,7 @@
                           "name": "shadow Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -3156,7 +3365,7 @@
           "type": "frame",
           "id": "KZLxD",
           "x": 473,
-          "y": 1231,
+          "y": 1341,
           "name": "Blur",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -3167,7 +3376,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Blur",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -3226,7 +3435,7 @@
                           "name": "shadow Label",
                           "fill": "$x:color-text",
                           "content": "shadow",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -3236,7 +3445,7 @@
                           "name": "shadow Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }
@@ -3252,7 +3461,7 @@
           "type": "frame",
           "id": "U7YtK",
           "x": 693,
-          "y": 1231,
+          "y": 1341,
           "name": "Shape",
           "layout": "vertical",
           "gap": "$x:spacing-3",
@@ -3263,7 +3472,7 @@
               "name": "Metric Tokens Title",
               "fill": "$x:color-text",
               "content": "Shape",
-              "fontFamily": "$x:font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$x:font-size-lg",
               "fontWeight": "700"
             },
@@ -3322,7 +3531,7 @@
                           "name": "shadow Label",
                           "fill": "$x:color-text",
                           "content": "shadow",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "600"
                         },
@@ -3332,7 +3541,7 @@
                           "name": "shadow Value",
                           "fill": "$x:color-text-tertiary",
                           "content": "4",
-                          "fontFamily": "$x:font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$x:font-size-sm",
                           "fontWeight": "normal"
                         }

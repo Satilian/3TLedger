@@ -7,7 +7,7 @@
       "x": 1756,
       "y": 0,
       "name": "UI Kit",
-      "width": 1600,
+      "width": 714,
       "fill": "$color-background-alt",
       "layout": "vertical",
       "gap": "$spacing-6",
@@ -27,9 +27,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Buttons",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -58,9 +58,9 @@
                       "name": "Label",
                       "fill": "$color-white",
                       "content": "Primary Button",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -86,9 +86,9 @@
                       "name": "Label",
                       "fill": "#000000",
                       "content": "Secondary Button",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -112,9 +112,9 @@
                       "name": "Label",
                       "fill": "$color-white",
                       "content": "Success",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -138,9 +138,9 @@
                       "name": "Label",
                       "fill": "$color-white",
                       "content": "Danger",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -162,9 +162,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Input Fields",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -193,9 +193,9 @@
                       "name": "Placeholder",
                       "fill": "$color-text",
                       "content": "Enter text...",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -219,9 +219,9 @@
                       "name": "Value",
                       "fill": "$color-text",
                       "content": "Focused input",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -245,9 +245,9 @@
                       "name": "Value",
                       "fill": "$color-text",
                       "content": "Error state",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -269,9 +269,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Badges",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -298,9 +298,9 @@
                       "name": "Label",
                       "fill": "$color-primary",
                       "content": "Primary",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -322,9 +322,9 @@
                       "name": "Label",
                       "fill": "$color-success",
                       "content": "Success",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -346,9 +346,9 @@
                       "name": "Label",
                       "fill": "$color-warning",
                       "content": "Warning",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -370,9 +370,9 @@
                       "name": "Label",
                       "fill": "$color-error",
                       "content": "Error",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -394,9 +394,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Cards",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -435,9 +435,9 @@
                       "name": "Title",
                       "fill": "#000000",
                       "content": "Card Title",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-semibold"
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -447,9 +447,9 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Card description text goes here",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -481,9 +481,9 @@
                       "name": "Title",
                       "fill": "#000000",
                       "content": "Elevated Card",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-semibold"
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "text",
@@ -493,9 +493,9 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Card with stronger shadow",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -517,9 +517,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Avatars",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -547,9 +547,9 @@
                       "name": "Initials",
                       "fill": "$color-primary",
                       "content": "AB",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-semibold"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -571,9 +571,9 @@
                       "name": "Initials",
                       "fill": "#000000",
                       "content": "CD",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-semibold"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -595,9 +595,9 @@
                       "name": "Initials",
                       "fill": "#000000",
                       "content": "EF",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-semibold"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -619,9 +619,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Form Controls",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -768,9 +768,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Alerts",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -812,9 +812,9 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "This is an informational message",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -850,9 +850,9 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Operation completed successfully",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -888,9 +888,9 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Warning: Please review this action",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -926,9 +926,9 @@
                       "textGrowth": "fixed-width",
                       "width": "fill_container",
                       "content": "Error: Something went wrong",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -950,9 +950,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Icons",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1112,9 +1112,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Dropdown & Menu Items",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1152,9 +1152,9 @@
                       "name": "Label",
                       "fill": "#000000",
                       "content": "Menu Item",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1186,9 +1186,9 @@
                       "name": "Label",
                       "fill": "#000000",
                       "content": "Menu Item Hover",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1220,9 +1220,9 @@
                       "name": "Label",
                       "fill": "$color-primary",
                       "content": "Active Item",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1244,9 +1244,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "List Items",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1287,9 +1287,9 @@
                           "name": "Initial",
                           "fill": "$color-white",
                           "content": "U",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-sm",
-                          "fontWeight": "$font-weight-semibold"
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1307,9 +1307,9 @@
                           "name": "Title",
                           "fill": "#000000",
                           "content": "List Item Title",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-base",
-                          "fontWeight": "$font-weight-medium"
+                          "fontWeight": "normal"
                         },
                         {
                           "type": "text",
@@ -1317,9 +1317,9 @@
                           "name": "Subtitle",
                           "fill": "#000000",
                           "content": "Secondary text",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-sm",
-                          "fontWeight": "$font-weight-normal"
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1343,9 +1343,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Dividers",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1391,9 +1391,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Progress Bars",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1463,9 +1463,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Tags",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1496,9 +1496,9 @@
                       "name": "Label",
                       "fill": "$color-text",
                       "content": "Tag",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1522,9 +1522,9 @@
                       "name": "Label",
                       "fill": "$color-white",
                       "content": "Primary",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1550,9 +1550,9 @@
                       "name": "Label",
                       "fill": "$color-text",
                       "content": "Removable",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-medium"
+                      "fontWeight": "normal"
                     },
                     {
                       "type": "icon",
@@ -1584,9 +1584,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Tooltips",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1600,7 +1600,7 @@
                   "id": "tN3Pd",
                   "name": "Tooltip Dark",
                   "reusable": true,
-                  "fill": "$color-gray-900",
+                  "fill": "#000000",
                   "cornerRadius": "$radius-base",
                   "effect": {
                     "type": "shadow",
@@ -1623,9 +1623,9 @@
                       "name": "Text",
                       "fill": "$color-white",
                       "content": "Tooltip text",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 },
@@ -1659,9 +1659,9 @@
                       "name": "Text",
                       "fill": "$color-text",
                       "content": "Tooltip text",
-                      "fontFamily": "$font-family-sans",
+                      "fontFamily": "Inter",
                       "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
+                      "fontWeight": "normal"
                     }
                   ]
                 }
@@ -1683,9 +1683,9 @@
               "name": "Section Title",
               "fill": "#000000",
               "content": "Table Elements",
-              "fontFamily": "$font-family-sans",
+              "fontFamily": "Inter",
               "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -1721,9 +1721,9 @@
                           "name": "Label",
                           "fill": "$color-text",
                           "content": "Name",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-sm",
-                          "fontWeight": "$font-weight-semibold"
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1741,9 +1741,9 @@
                           "name": "Label",
                           "fill": "$color-text",
                           "content": "Email",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-sm",
-                          "fontWeight": "$font-weight-semibold"
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1761,9 +1761,9 @@
                           "name": "Label",
                           "fill": "$color-text",
                           "content": "Status",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-sm",
-                          "fontWeight": "$font-weight-semibold"
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1781,9 +1781,9 @@
                           "name": "Label",
                           "fill": "$color-text",
                           "content": "Actions",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-sm",
-                          "fontWeight": "$font-weight-semibold"
+                          "fontWeight": "normal"
                         }
                       ]
                     }
@@ -1820,9 +1820,9 @@
                           "name": "Value",
                           "fill": "$color-text",
                           "content": "John Doe",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-base",
-                          "fontWeight": "$font-weight-normal"
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1843,9 +1843,9 @@
                           "name": "Value",
                           "fill": "$color-text",
                           "content": "john@example.com",
-                          "fontFamily": "$font-family-sans",
+                          "fontFamily": "Inter",
                           "fontSize": "$font-size-base",
-                          "fontWeight": "$font-weight-normal"
+                          "fontWeight": "normal"
                         }
                       ]
                     },
@@ -1877,9 +1877,9 @@
                               "name": "Label",
                               "fill": "$color-success",
                               "content": "Active",
-                              "fontFamily": "$font-family-sans",
+                              "fontFamily": "Inter",
                               "fontSize": "$font-size-sm",
-                              "fontWeight": "$font-weight-medium"
+                              "fontWeight": "normal"
                             }
                           ]
                         }
@@ -1928,299 +1928,16 @@
       "layout": "vertical",
       "gap": "$spacing-4",
       "padding": "$spacing-6"
-    },
-    {
-      "type": "frame",
-      "id": "w7dg4a",
-      "x": 3436,
-      "y": 0,
-      "name": "Token Samples",
-      "width": 800,
-      "fill": "$color-white",
-      "layout": "vertical",
-      "gap": "$spacing-6",
-      "padding": "$spacing-6",
-      "children": [
-        {
-          "type": "frame",
-          "id": "wD0Z3",
-          "name": "Colors",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": "$spacing-3",
-          "children": [
-            {
-              "type": "text",
-              "id": "F5H7B3",
-              "name": "Section Title",
-              "fill": "#000000",
-              "content": "Colors",
-              "fontFamily": "$font-family-sans",
-              "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
-            },
-            {
-              "type": "frame",
-              "id": "wDbp3",
-              "name": "color-gray-900",
-              "fill": "$color-background-alt",
-              "cornerRadius": "$radius-base",
-              "gap": "$spacing-3",
-              "padding": "$spacing-3",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "MiWv8",
-                  "name": "Swatch",
-                  "width": 60,
-                  "height": 60,
-                  "fill": "$color-gray-900",
-                  "cornerRadius": "$radius-base"
-                },
-                {
-                  "type": "frame",
-                  "id": "Wyigl",
-                  "name": "Info",
-                  "layout": "vertical",
-                  "gap": "$spacing-1",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "ohQkk",
-                      "name": "Name",
-                      "fill": "#000000",
-                      "content": "color-gray-900",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-medium"
-                    },
-                    {
-                      "type": "text",
-                      "id": "D2Uj2",
-                      "name": "Value",
-                      "fill": "#000000",
-                      "content": "#111827",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "uvPfF",
-          "name": "Spacing",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": "$spacing-3",
-          "children": [
-            {
-              "type": "text",
-              "id": "iGvfs",
-              "name": "Section Title",
-              "fill": "#000000",
-              "content": "Spacing",
-              "fontFamily": "$font-family-sans",
-              "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
-            },
-            {
-              "type": "frame",
-              "id": "S2zS8",
-              "name": "spacing-0.5 (2px)",
-              "width": "fill_container",
-              "fill": "$color-background-alt",
-              "cornerRadius": "$radius-base",
-              "layout": "vertical",
-              "gap": "$spacing-2",
-              "padding": "$spacing-3",
-              "children": [
-                {
-                  "type": "text",
-                  "id": "Q0IjQ",
-                  "name": "Label",
-                  "fill": "#000000",
-                  "content": "spacing-0.5 = 2px",
-                  "fontFamily": "$font-family-sans",
-                  "fontSize": "$font-size-sm",
-                  "fontWeight": "$font-weight-normal"
-                },
-                {
-                  "type": "frame",
-                  "id": "cT0I6",
-                  "name": "Demo",
-                  "gap": "$spacing-0.5",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "lOKls",
-                      "name": "Box",
-                      "width": 40,
-                      "height": 40,
-                      "fill": "$color-primary",
-                      "cornerRadius": "$radius-sm"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "Eigr1",
-                      "name": "Box",
-                      "width": 40,
-                      "height": 40,
-                      "fill": "$color-primary",
-                      "cornerRadius": "$radius-sm"
-                    },
-                    {
-                      "type": "frame",
-                      "id": "JtP9H",
-                      "name": "Box",
-                      "width": 40,
-                      "height": 40,
-                      "fill": "$color-primary",
-                      "cornerRadius": "$radius-sm"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "frame",
-          "id": "Hq2Yw",
-          "name": "Font Weights",
-          "width": "fill_container",
-          "layout": "vertical",
-          "gap": "$spacing-3",
-          "children": [
-            {
-              "type": "text",
-              "id": "JtpJV",
-              "name": "Section Title",
-              "fill": "#000000",
-              "content": "Font Weights",
-              "fontFamily": "$font-family-sans",
-              "fontSize": "$font-size-lg",
-              "fontWeight": "$font-weight-semibold"
-            },
-            {
-              "type": "frame",
-              "id": "pmDm9",
-              "name": "Samples",
-              "width": "fill_container",
-              "gap": "$spacing-4",
-              "children": [
-                {
-                  "type": "frame",
-                  "id": "JDOBo",
-                  "name": "Normal (400)",
-                  "fill": "$color-background-alt",
-                  "cornerRadius": "$radius-base",
-                  "layout": "vertical",
-                  "gap": "$spacing-2",
-                  "padding": "$spacing-3",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "vG5Lh",
-                      "name": "Label",
-                      "fill": "#000000",
-                      "content": "Normal (400)",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "dNidd",
-                      "name": "Sample",
-                      "fill": "#000000",
-                      "content": "The quick brown fox",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-normal"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "qpSrc",
-                  "name": "Medium (500)",
-                  "fill": "$color-background-alt",
-                  "cornerRadius": "$radius-base",
-                  "layout": "vertical",
-                  "gap": "$spacing-2",
-                  "padding": "$spacing-3",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "Z8aE8",
-                      "name": "Label",
-                      "fill": "#000000",
-                      "content": "Medium (500)",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "Zn2vt",
-                      "name": "Sample",
-                      "fill": "#000000",
-                      "content": "The quick brown fox",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-medium"
-                    }
-                  ]
-                },
-                {
-                  "type": "frame",
-                  "id": "vTBBk",
-                  "name": "Semibold (600)",
-                  "fill": "$color-background-alt",
-                  "cornerRadius": "$radius-base",
-                  "layout": "vertical",
-                  "gap": "$spacing-2",
-                  "padding": "$spacing-3",
-                  "children": [
-                    {
-                      "type": "text",
-                      "id": "cOH0n",
-                      "name": "Label",
-                      "fill": "#000000",
-                      "content": "Semibold (600)",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-sm",
-                      "fontWeight": "$font-weight-normal"
-                    },
-                    {
-                      "type": "text",
-                      "id": "S6j8q",
-                      "name": "Sample",
-                      "fill": "#000000",
-                      "content": "The quick brown fox",
-                      "fontFamily": "$font-family-sans",
-                      "fontSize": "$font-size-base",
-                      "fontWeight": "$font-weight-semibold"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
     }
   ],
   "variables": {
     "color-white": {
       "type": "color",
       "value": "#FFFFFF"
+    },
+    "color-black": {
+      "type": "color",
+      "value": "#000000"
     },
     "color-primary": {
       "type": "color",
@@ -2310,38 +2027,64 @@
       "type": "color",
       "value": "#f8f9fb17"
     },
-    "color-gray-900": {
-      "type": "color",
-      "value": "#111827"
-    },
     "color-shadow": {
       "type": "color",
       "value": "#00000019"
     },
-    "spacing-0.5": {
+    "color-backdrop": {
+      "type": "color",
+      "value": "#00000099"
+    },
+
+    "spacing-0": {
       "type": "number",
-      "value": 2
+      "value": 0
     },
     "spacing-1": {
       "type": "number",
-      "value": 4
+      "value": 1
     },
     "spacing-2": {
       "type": "number",
-      "value": 8
-    },
-    "spacing-3": {
-      "type": "number",
-      "value": 12
+      "value": 2
     },
     "spacing-4": {
       "type": "number",
-      "value": 16
+      "value": 4
     },
     "spacing-6": {
       "type": "number",
+      "value": 6
+    },
+    "spacing-8": {
+      "type": "number",
+      "value": 8
+    },
+    "spacing-10": {
+      "type": "number",
+      "value": 10
+    },
+    "spacing-12": {
+      "type": "number",
+      "value": 12
+    },
+    "spacing-16": {
+      "type": "number",
+      "value": 16
+    },
+    "spacing-18": {
+      "type": "number",
+      "value": 18
+    },
+    "spacing-20": {
+      "type": "number",
+      "value": 20
+    },
+    "spacing-24": {
+      "type": "number",
       "value": 24
     },
+
     "radius-sm": {
       "type": "number",
       "value": 4
@@ -2354,14 +2097,36 @@
       "type": "number",
       "value": 8
     },
+    "radius-lg": {
+      "type": "number",
+      "value": 10
+    },
+    "radius-xl": {
+      "type": "number",
+      "value": 12
+    },
+    "radius-xxl": {
+      "type": "number",
+      "value": 14
+    },
     "radius-full": {
       "type": "number",
       "value": 9999
     },
-    "font-family-sans": {
+
+    "font-primary": {
       "type": "string",
       "value": "Inter"
     },
+    "font-secondary": {
+      "type": "string",
+      "value": "Plus Jakarta Sans"
+    },
+    "font-tertiary": {
+      "type": "string",
+      "value": "Roboto Slab"
+    },
+
     "font-size-xs": {
       "type": "number",
       "value": 10
@@ -2389,18 +2154,6 @@
     "font-size-xxl": {
       "type": "number",
       "value": 24
-    },
-    "font-weight-normal": {
-      "type": "string",
-      "value": "normal"
-    },
-    "font-weight-medium": {
-      "type": "string",
-      "value": "500"
-    },
-    "font-weight-semibold": {
-      "type": "string",
-      "value": "600"
     }
   },
   "fileToken": "25e17838-536c-4ce2-a8a1-7d23ef744335"
