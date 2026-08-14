@@ -2120,7 +2120,7 @@
     },
     "font-secondary": {
       "type": "string",
-      "value": "Plus Jakarta Sans"
+      "value": "JetBrains Mono"
     },
     "font-tertiary": {
       "type": "string",
@@ -2135,11 +2135,11 @@
       "type": "number",
       "value": 12
     },
-    "font-size-base": {
+    "font-size-md": {
       "type": "number",
       "value": 14
     },
-    "font-size-md": {
+    "font-size-base": {
       "type": "number",
       "value": 16
     },
