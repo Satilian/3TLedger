@@ -74752,1708 +74752,6 @@
     },
     {
       "type": "frame",
-      "id": "WChoi",
-      "x": 2251.19,
-      "y": -2202,
-      "name": "accounts",
-      "context": "body",
-      "clip": true,
-      "width": 1440,
-      "height": 721,
-      "fill": "#ffffff",
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "frame",
-          "id": "cBNGU",
-          "name": "div",
-          "context": "QC - div",
-          "clip": true,
-          "width": "fill_container",
-          "height": "fill_container",
-          "fill": "#f8f9fb",
-          "children": [
-            {
-              "id": "UhFBx",
-              "type": "ref",
-              "ref": "LJ6ij",
-              "x": 0,
-              "y": 0,
-              "descendants": {
-                "mr2N8": {
-                  "fill": []
-                },
-                "Wxjii/jjpNl": {
-                  "fill": "$color-text-tertiary"
-                },
-                "JXJTh": {
-                  "fill": "$color-text-tertiary"
-                },
-                "ChJDs": {
-                  "enabled": false
-                },
-                "y5wy1": {
-                  "fill": "$color-primary-border"
-                },
-                "feEc0/TC744": {
-                  "fill": "$color-primary-light"
-                },
-                "zXmug": {
-                  "fill": "$color-primary-light"
-                },
-                "O9Dj2": {
-                  "enabled": true
-                }
-              }
-            },
-            {
-              "type": "frame",
-              "id": "qs73L",
-              "name": "div",
-              "context": "div",
-              "clip": true,
-              "width": "fill_container",
-              "layout": "vertical",
-              "children": [
-                {
-                  "id": "o8zKT",
-                  "type": "ref",
-                  "ref": "Jdgj2",
-                  "name": "header",
-                  "descendants": {
-                    "hKNyq": {
-                      "content": "Accounts"
-                    }
-                  }
-                },
-                {
-                  "type": "frame",
-                  "id": "ISgor",
-                  "name": "div",
-                  "context": "PC - div",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": 1191,
-                  "fill": "#f8f9fb",
-                  "layout": "vertical",
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "Q8VEWN",
-                      "name": "div",
-                      "context": "div",
-                      "width": 896,
-                      "layout": "vertical",
-                      "gap": 21,
-                      "padding": 21,
-                      "children": [
-                        {
-                          "id": "efjvK",
-                          "type": "ref",
-                          "ref": "zFG6j",
-                          "x": 21,
-                          "y": 21,
-                          "descendants": {
-                            "iy81x": {
-                              "children": [
-                                {
-                                  "id": "YjPd6",
-                                  "type": "ref",
-                                  "ref": "AbSy4",
-                                  "x": 0,
-                                  "y": 0,
-                                  "descendants": {
-                                    "tZR2x": {
-                                      "enabled": true,
-                                      "children": [
-                                        {
-                                          "id": "e71TJq",
-                                          "type": "ref",
-                                          "ref": "zLB8n",
-                                          "x": 0,
-                                          "y": 0,
-                                          "width": 16,
-                                          "height": 16,
-                                          "padding": "$spacing-4",
-                                          "descendants": {
-                                            "xKbhj": {
-                                              "stroke": "$color-white"
-                                            }
-                                          }
-                                        }
-                                      ]
-                                    },
-                                    "HSwj7": {
-                                      "content": "Add Account"
-                                    },
-                                    "e8aL7": {
-                                      "enabled": false
-                                    }
-                                  }
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        {
-                          "type": "frame",
-                          "id": "ukJfF",
-                          "name": "div",
-                          "context": "div",
-                          "width": "fill_container",
-                          "gap": 14,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "MbRdU",
-                              "name": "div",
-                              "context": "div",
-                              "width": "fill_container",
-                              "height": 79,
-                              "fill": "#ffffff",
-                              "cornerRadius": 12.75,
-                              "stroke": "#0000001a",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "effect": [
-                                {
-                                  "type": "shadow",
-                                  "shadowType": "outer",
-                                  "color": "#0000001a",
-                                  "offset": {
-                                    "x": 0,
-                                    "y": 1
-                                  },
-                                  "blur": 3
-                                },
-                                {
-                                  "type": "shadow",
-                                  "shadowType": "outer",
-                                  "color": "#0000001a",
-                                  "offset": {
-                                    "x": 0,
-                                    "y": 1
-                                  },
-                                  "blur": 1
-                                }
-                              ],
-                              "layout": "vertical",
-                              "gap": 3.5,
-                              "padding": 18.5,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "Mjh4f",
-                                  "name": "Net Worth",
-                                  "context": "p",
-                                  "fill": "#9ca3af",
-                                  "content": "Net Worth",
-                                  "lineHeight": 1.33,
-                                  "fontFamily": "Inter",
-                                  "fontSize": 10.5,
-                                  "fontWeight": "500"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "n5b72",
-                                  "name": "$145,580.00",
-                                  "context": "p",
-                                  "fill": "#6366f1",
-                                  "content": "$145,580.00",
-                                  "lineHeight": 1.4,
-                                  "fontFamily": "JetBrains Mono",
-                                  "fontSize": 17.5,
-                                  "fontWeight": "500"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "zEAh5",
-                              "name": "div",
-                              "context": "div",
-                              "width": "fill_container",
-                              "height": 79,
-                              "fill": "#ffffff",
-                              "cornerRadius": 12.75,
-                              "stroke": "#0000001a",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "effect": [
-                                {
-                                  "type": "shadow",
-                                  "shadowType": "outer",
-                                  "color": "#0000001a",
-                                  "offset": {
-                                    "x": 0,
-                                    "y": 1
-                                  },
-                                  "blur": 3
-                                },
-                                {
-                                  "type": "shadow",
-                                  "shadowType": "outer",
-                                  "color": "#0000001a",
-                                  "offset": {
-                                    "x": 0,
-                                    "y": 1
-                                  },
-                                  "blur": 1
-                                }
-                              ],
-                              "layout": "vertical",
-                              "gap": 3.5,
-                              "padding": 18.5,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "LZxXu",
-                                  "name": "Total Assets",
-                                  "context": "p",
-                                  "fill": "#9ca3af",
-                                  "content": "Total Assets",
-                                  "lineHeight": 1.33,
-                                  "fontFamily": "Inter",
-                                  "fontSize": 10.5,
-                                  "fontWeight": "500"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "fUZuP",
-                                  "name": "$147,920.00",
-                                  "context": "p",
-                                  "fill": "#10b981",
-                                  "content": "$147,920.00",
-                                  "lineHeight": 1.4,
-                                  "fontFamily": "JetBrains Mono",
-                                  "fontSize": 17.5,
-                                  "fontWeight": "500"
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "Jb67B",
-                              "name": "div",
-                              "context": "div",
-                              "width": "fill_container",
-                              "height": 79,
-                              "fill": "#ffffff",
-                              "cornerRadius": 12.75,
-                              "stroke": "#0000001a",
-                              "strokeWidth": 1,
-                              "strokeAlignment": "inner",
-                              "effect": [
-                                {
-                                  "type": "shadow",
-                                  "shadowType": "outer",
-                                  "color": "#0000001a",
-                                  "offset": {
-                                    "x": 0,
-                                    "y": 1
-                                  },
-                                  "blur": 3
-                                },
-                                {
-                                  "type": "shadow",
-                                  "shadowType": "outer",
-                                  "color": "#0000001a",
-                                  "offset": {
-                                    "x": 0,
-                                    "y": 1
-                                  },
-                                  "blur": 1
-                                }
-                              ],
-                              "layout": "vertical",
-                              "gap": 3.5,
-                              "padding": 18.5,
-                              "children": [
-                                {
-                                  "type": "text",
-                                  "id": "m4kvTZ",
-                                  "name": "Total Liabilities",
-                                  "context": "p",
-                                  "fill": "#9ca3af",
-                                  "content": "Total Liabilities",
-                                  "lineHeight": 1.33,
-                                  "fontFamily": "Inter",
-                                  "fontSize": 10.5,
-                                  "fontWeight": "500"
-                                },
-                                {
-                                  "type": "text",
-                                  "id": "EFTfQ",
-                                  "name": "$2,340.00",
-                                  "context": "p",
-                                  "fill": "#ef4444",
-                                  "content": "$2,340.00",
-                                  "lineHeight": 1.4,
-                                  "fontFamily": "JetBrains Mono",
-                                  "fontSize": 17.5,
-                                  "fontWeight": "500"
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "Q7DYy6",
-                          "name": "div",
-                          "context": "div",
-                          "width": "fill_container",
-                          "layout": "vertical",
-                          "gap": 14,
-                          "children": [
-                            {
-                              "type": "frame",
-                              "id": "xubf9",
-                              "width": "fill_container",
-                              "height": 207.75,
-                              "gap": 14,
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "dm2yA",
-                                  "name": "div",
-                                  "context": "div",
-                                  "width": "fill_container",
-                                  "height": 207.75,
-                                  "fill": "#ffffff",
-                                  "cornerRadius": 12.75,
-                                  "stroke": "#0000001a",
-                                  "strokeWidth": 1,
-                                  "strokeAlignment": "inner",
-                                  "effect": [
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 3
-                                    },
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 1
-                                    }
-                                  ],
-                                  "layout": "vertical",
-                                  "padding": 18.5,
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "ftnfV",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "mAiHH",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": 35,
-                                          "height": 35,
-                                          "fill": "#eef2ff",
-                                          "cornerRadius": 8.75,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "I0nQP",
-                                              "name": "svg",
-                                              "context": "Wallet - svg",
-                                              "clip": true,
-                                              "width": 18,
-                                              "height": 18,
-                                              "layout": "none",
-                                              "children": [
-                                                {
-                                                  "type": "path",
-                                                  "id": "ZYeoH",
-                                                  "x": 2.25,
-                                                  "y": 2.25,
-                                                  "geometry": "M12 3l0-2.25c0-0.41421-0.33579-0.75-0.75-0.75l-9.75 0c-0.82843 0-1.5 0.67157-1.5 1.5 0 0.82843 0.67157 1.5 1.5 1.5l11.25 0c0.41421 0 0.75 0.33579 0.75 0.75l0 3-2.25 0c-0.82843 0-1.5 0.67157-1.5 1.5 0 0.82843 0.67157 1.5 1.5 1.5l2.25 0c0.41421 0 0.75-0.33579 0.75-0.75l0-1.5c0-0.41421-0.33579-0.75-0.75-0.75",
-                                                  "width": 14.25,
-                                                  "height": 9.75,
-                                                  "stroke": "#6366F1",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                },
-                                                {
-                                                  "type": "path",
-                                                  "id": "OCo6i",
-                                                  "x": 2.25,
-                                                  "y": 3.75,
-                                                  "geometry": "M0 0l0 10.5c0 0.82843 0.67157 1.5 1.5 1.5l11.25 0c0.41421 0 0.75-0.33579 0.75-0.75l0-3",
-                                                  "width": 13.5,
-                                                  "height": 12,
-                                                  "stroke": "#6366F1",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "FHMk1",
-                                          "name": "Checking",
-                                          "context": "span",
-                                          "fill": "#eef2ff",
-                                          "cornerRadius": 33554400,
-                                          "layout": "vertical",
-                                          "padding": [
-                                            3.5,
-                                            7
-                                          ],
-                                          "justifyContent": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "v4yYvI",
-                                              "fill": "#6366f1",
-                                              "content": "Checking",
-                                              "lineHeight": 1.33,
-                                              "fontFamily": "Inter",
-                                              "fontSize": 10.5,
-                                              "fontWeight": "500"
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "DMc7d",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 14,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "Rqo3L",
-                                      "name": "Main Checking",
-                                      "context": "h3",
-                                      "fill": "#111827",
-                                      "content": "Main Checking",
-                                      "lineHeight": 1.43,
-                                      "fontFamily": "$font-primary",
-                                      "fontSize": "$font-size-sm",
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "bh0ST",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 1.75,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "h9SH07",
-                                      "name": "Chase Bank",
-                                      "context": "p",
-                                      "fill": "#9ca3af",
-                                      "content": "Chase Bank",
-                                      "lineHeight": 1.33,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 10.5,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "GiJOS",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "Ffzwc",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "height": 53.5,
-                                      "stroke": "#11182712",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "layout": "vertical",
-                                      "gap": 3.5,
-                                      "padding": [
-                                        11.5,
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "il1SR",
-                                          "name": "Balance",
-                                          "context": "p",
-                                          "fill": "#9ca3af",
-                                          "content": "Balance",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "wi3ZV",
-                                          "name": "$12,450.00",
-                                          "context": "p",
-                                          "fill": "#111827",
-                                          "content": "$12,450.00",
-                                          "lineHeight": 1.4,
-                                          "fontFamily": "JetBrains Mono",
-                                          "fontSize": 17.5,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "IEmEs",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "tpuSd",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "gap": 3.5,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "ellipse",
-                                          "id": "GMWGY",
-                                          "name": "div",
-                                          "context": "div",
-                                          "fill": "#10b981",
-                                          "width": 7,
-                                          "height": 7
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "c8X6G",
-                                          "name": "Last activity Jul 31",
-                                          "context": "span",
-                                          "fill": "#9ca3af",
-                                          "content": "Last activity Jul 31",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "RdGrV",
-                                  "name": "div",
-                                  "context": "div",
-                                  "width": "fill_container",
-                                  "height": 207.75,
-                                  "fill": "#ffffff",
-                                  "cornerRadius": 12.75,
-                                  "stroke": "#0000001a",
-                                  "strokeWidth": 1,
-                                  "strokeAlignment": "inner",
-                                  "effect": [
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 3
-                                    },
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 1
-                                    }
-                                  ],
-                                  "layout": "vertical",
-                                  "padding": 18.5,
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "O7H8q",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "JYb8d",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": 35,
-                                          "height": 35,
-                                          "fill": "#ecfdf5",
-                                          "cornerRadius": 8.75,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "lnM81",
-                                              "name": "svg",
-                                              "context": "PiggyBank - svg",
-                                              "clip": true,
-                                              "width": 18,
-                                              "height": 18,
-                                              "layout": "none",
-                                              "children": [
-                                                {
-                                                  "type": "path",
-                                                  "id": "l5GA3",
-                                                  "x": 1.5,
-                                                  "y": 3.75,
-                                                  "geometry": "M12.75 0c-1.125 0-2.1 1.05-2.25 1.5-2.625-1.125-8.25-0.225-8.25 3.75 0 1.35 0 2.25 1.5 3.375l0 2.625 3 0 0-1.5 2.25 0 0 1.5 3 0 0-3c0.75-0.375 1.275-0.75 1.5-1.5l1.5 0 0-3-1.5 0c0-0.75-0.375-1.125-0.75-1.5l0-2.25z m-12.75 3l0 0.75c0 0.825 0.675 1.5 1.5 1.5l0.75 0m8.25-0.75l0.0075 0",
-                                                  "width": 15,
-                                                  "height": 11.25,
-                                                  "stroke": "#10B981",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "Z0VJd",
-                                          "name": "Savings",
-                                          "context": "span",
-                                          "fill": "#ecfdf5",
-                                          "cornerRadius": 33554400,
-                                          "layout": "vertical",
-                                          "padding": [
-                                            3.5,
-                                            7
-                                          ],
-                                          "justifyContent": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "IiBZ8",
-                                              "fill": "#10b981",
-                                              "content": "Savings",
-                                              "lineHeight": 1.33,
-                                              "fontFamily": "Inter",
-                                              "fontSize": 10.5,
-                                              "fontWeight": "500"
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "dFaEw",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 14,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "HvOqe",
-                                      "name": "High-Yield Savings",
-                                      "context": "h3",
-                                      "fill": "#111827",
-                                      "content": "High-Yield Savings",
-                                      "lineHeight": 1.43,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 12.25,
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "c2j54D",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 1.75,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "B5svUK",
-                                      "name": "Marcus by Goldman",
-                                      "context": "p",
-                                      "fill": "#9ca3af",
-                                      "content": "Marcus by Goldman",
-                                      "lineHeight": 1.33,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 10.5,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "h6JSJ3",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "Fzu5h",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "height": 53.5,
-                                      "stroke": "#11182712",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "layout": "vertical",
-                                      "gap": 3.5,
-                                      "padding": [
-                                        11.5,
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "o03xKO",
-                                          "name": "Balance",
-                                          "context": "p",
-                                          "fill": "#9ca3af",
-                                          "content": "Balance",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "QXYTg",
-                                          "name": "$45,200.00",
-                                          "context": "p",
-                                          "fill": "#111827",
-                                          "content": "$45,200.00",
-                                          "lineHeight": 1.4,
-                                          "fontFamily": "JetBrains Mono",
-                                          "fontSize": 17.5,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "A1aUoM",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "pZJVQ",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "gap": 3.5,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "ellipse",
-                                          "id": "P37I8f",
-                                          "name": "div",
-                                          "context": "div",
-                                          "fill": "#10b981",
-                                          "width": 7,
-                                          "height": 7
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "NUsA3",
-                                          "name": "Last activity Jul 10",
-                                          "context": "span",
-                                          "fill": "#9ca3af",
-                                          "content": "Last activity Jul 10",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "lE7Nj",
-                                  "name": "div",
-                                  "context": "div",
-                                  "width": "fill_container",
-                                  "height": 207.75,
-                                  "fill": "#ffffff",
-                                  "cornerRadius": 12.75,
-                                  "stroke": "#0000001a",
-                                  "strokeWidth": 1,
-                                  "strokeAlignment": "inner",
-                                  "effect": [
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 3
-                                    },
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 1
-                                    }
-                                  ],
-                                  "layout": "vertical",
-                                  "padding": 18.5,
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "Lw26Q",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "L1eOk",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": 35,
-                                          "height": 35,
-                                          "fill": "#fef2f2",
-                                          "cornerRadius": 8.75,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "X352ir",
-                                              "name": "svg",
-                                              "context": "CreditCard - svg",
-                                              "clip": true,
-                                              "width": 18,
-                                              "height": 18,
-                                              "layout": "none",
-                                              "children": [
-                                                {
-                                                  "type": "rectangle",
-                                                  "cornerRadius": 1.5,
-                                                  "id": "Ehn10",
-                                                  "x": 1.5,
-                                                  "y": 3.75,
-                                                  "width": 15,
-                                                  "height": 10.5,
-                                                  "stroke": "#EF4444",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                },
-                                                {
-                                                  "type": "path",
-                                                  "id": "cCOAX",
-                                                  "x": 1.5,
-                                                  "y": 7.5,
-                                                  "geometry": "M0 0l15 0",
-                                                  "width": 15,
-                                                  "height": 0,
-                                                  "stroke": "#EF4444",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "ibeoH",
-                                          "name": "Credit",
-                                          "context": "span",
-                                          "fill": "#fef2f2",
-                                          "cornerRadius": 33554400,
-                                          "layout": "vertical",
-                                          "padding": [
-                                            3.5,
-                                            7
-                                          ],
-                                          "justifyContent": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "DrgMg",
-                                              "fill": "#ef4444",
-                                              "content": "Credit",
-                                              "lineHeight": 1.33,
-                                              "fontFamily": "Inter",
-                                              "fontSize": 10.5,
-                                              "fontWeight": "500"
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "f1EPx",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 14,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "MN7Z7",
-                                      "name": "Visa Rewards",
-                                      "context": "h3",
-                                      "fill": "#111827",
-                                      "content": "Visa Rewards",
-                                      "lineHeight": 1.43,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 12.25,
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "AEP4S",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 1.75,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "eniH1",
-                                      "name": "Chase Bank",
-                                      "context": "p",
-                                      "fill": "#9ca3af",
-                                      "content": "Chase Bank",
-                                      "lineHeight": 1.33,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 10.5,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "eDEzO",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "AmaFF",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "height": 53.5,
-                                      "stroke": "#11182712",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "layout": "vertical",
-                                      "gap": 3.5,
-                                      "padding": [
-                                        11.5,
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "e7lrT",
-                                          "name": "Balance",
-                                          "context": "p",
-                                          "fill": "#9ca3af",
-                                          "content": "Balance",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "K0H2O",
-                                          "name": "-$2,340.00",
-                                          "context": "p",
-                                          "fill": "#ef4444",
-                                          "content": "-$2,340.00",
-                                          "lineHeight": 1.4,
-                                          "fontFamily": "JetBrains Mono",
-                                          "fontSize": 17.5,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "I0Lrup",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "vqrYP",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "gap": 3.5,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "ellipse",
-                                          "id": "WLeHH",
-                                          "name": "div",
-                                          "context": "div",
-                                          "fill": "#10b981",
-                                          "width": 7,
-                                          "height": 7
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "eWNPX",
-                                          "name": "Last activity Jul 28",
-                                          "context": "span",
-                                          "fill": "#9ca3af",
-                                          "content": "Last activity Jul 28",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "type": "frame",
-                              "id": "XD6Q5",
-                              "width": "fill_container",
-                              "height": 207.75,
-                              "gap": 14,
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "j1Whr",
-                                  "name": "div",
-                                  "context": "div",
-                                  "width": "fill_container",
-                                  "height": 207.75,
-                                  "fill": "#ffffff",
-                                  "cornerRadius": 12.75,
-                                  "stroke": "#0000001a",
-                                  "strokeWidth": 1,
-                                  "strokeAlignment": "inner",
-                                  "effect": [
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 3
-                                    },
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 1
-                                    }
-                                  ],
-                                  "layout": "vertical",
-                                  "padding": 18.5,
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "szjnt",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "Tyfq3",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": 35,
-                                          "height": 35,
-                                          "fill": "#f0fdfa",
-                                          "cornerRadius": 8.75,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "Hzkj7",
-                                              "name": "svg",
-                                              "context": "TrendingUp - svg",
-                                              "clip": true,
-                                              "width": 18,
-                                              "height": 18,
-                                              "layout": "none",
-                                              "children": [
-                                                {
-                                                  "type": "path",
-                                                  "id": "WEP2r",
-                                                  "x": 1.5,
-                                                  "y": 5.25,
-                                                  "geometry": "M15 0l-6.375 6.375-3.75-3.75-4.875 4.875",
-                                                  "width": 15,
-                                                  "height": 7.5,
-                                                  "stroke": "#14B8A6",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                },
-                                                {
-                                                  "type": "path",
-                                                  "id": "KNkoO",
-                                                  "x": 12,
-                                                  "y": 5.25,
-                                                  "geometry": "M0 0l4.5 0 0 4.5",
-                                                  "width": 4.5,
-                                                  "height": 4.5,
-                                                  "stroke": "#14B8A6",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "SN2Di",
-                                          "name": "Investment",
-                                          "context": "span",
-                                          "fill": "#f0fdfa",
-                                          "cornerRadius": 33554400,
-                                          "layout": "vertical",
-                                          "padding": [
-                                            3.5,
-                                            7
-                                          ],
-                                          "justifyContent": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "rXlpv",
-                                              "fill": "#14b8a6",
-                                              "content": "Investment",
-                                              "lineHeight": 1.33,
-                                              "fontFamily": "Inter",
-                                              "fontSize": 10.5,
-                                              "fontWeight": "500"
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "nAyFE",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 14,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "rfIjb",
-                                      "name": "Brokerage",
-                                      "context": "h3",
-                                      "fill": "#111827",
-                                      "content": "Brokerage",
-                                      "lineHeight": 1.43,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 12.25,
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "wZ0Pd",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 1.75,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "zkdzG",
-                                      "name": "Fidelity",
-                                      "context": "p",
-                                      "fill": "#9ca3af",
-                                      "content": "Fidelity",
-                                      "lineHeight": 1.33,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 10.5,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "Rzfda",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "YNlWu",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "height": 53.5,
-                                      "stroke": "#11182712",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "layout": "vertical",
-                                      "gap": 3.5,
-                                      "padding": [
-                                        11.5,
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "g6fTbX",
-                                          "name": "Balance",
-                                          "context": "p",
-                                          "fill": "#9ca3af",
-                                          "content": "Balance",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "wOR9J",
-                                          "name": "$89,750.00",
-                                          "context": "p",
-                                          "fill": "#111827",
-                                          "content": "$89,750.00",
-                                          "lineHeight": 1.4,
-                                          "fontFamily": "JetBrains Mono",
-                                          "fontSize": 17.5,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "c7F09",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "IcwSL",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "gap": 3.5,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "ellipse",
-                                          "id": "elbKk",
-                                          "name": "div",
-                                          "context": "div",
-                                          "fill": "#10b981",
-                                          "width": 7,
-                                          "height": 7
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "y5nxWF",
-                                          "name": "Last activity Jul 8",
-                                          "context": "span",
-                                          "fill": "#9ca3af",
-                                          "content": "Last activity Jul 8",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "R8XBQ6",
-                                  "name": "div",
-                                  "context": "div",
-                                  "width": "fill_container",
-                                  "height": 207.75,
-                                  "fill": "#ffffff",
-                                  "cornerRadius": 12.75,
-                                  "stroke": "#0000001a",
-                                  "strokeWidth": 1,
-                                  "strokeAlignment": "inner",
-                                  "effect": [
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 3
-                                    },
-                                    {
-                                      "type": "shadow",
-                                      "shadowType": "outer",
-                                      "color": "#0000001a",
-                                      "offset": {
-                                        "x": 0,
-                                        "y": 1
-                                      },
-                                      "blur": 1
-                                    }
-                                  ],
-                                  "layout": "vertical",
-                                  "padding": 18.5,
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "dVgKM",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "ZM574",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": 35,
-                                          "height": 35,
-                                          "fill": "#f5f3ff",
-                                          "cornerRadius": 8.75,
-                                          "justifyContent": "center",
-                                          "alignItems": "center",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "WkIHL",
-                                              "name": "svg",
-                                              "context": "Banknote - svg",
-                                              "clip": true,
-                                              "width": 18,
-                                              "height": 18,
-                                              "layout": "none",
-                                              "children": [
-                                                {
-                                                  "type": "rectangle",
-                                                  "cornerRadius": 1.5,
-                                                  "id": "K18Luf",
-                                                  "x": 1.5,
-                                                  "y": 4.5,
-                                                  "width": 15,
-                                                  "height": 9,
-                                                  "stroke": "#818CF8",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                },
-                                                {
-                                                  "type": "ellipse",
-                                                  "id": "R8m7F",
-                                                  "x": 7.5,
-                                                  "y": 7.5,
-                                                  "width": 3,
-                                                  "height": 3,
-                                                  "stroke": "#818CF8",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                },
-                                                {
-                                                  "type": "path",
-                                                  "id": "w2pTD5",
-                                                  "x": 4.5,
-                                                  "y": 9,
-                                                  "geometry": "M0 0l0.0075 0m8.9925 0l0.0075 0",
-                                                  "width": 9.007499694824219,
-                                                  "height": 0,
-                                                  "stroke": "#818CF8",
-                                                  "strokeWidth": 1.5,
-                                                  "strokeLinejoin": "round",
-                                                  "strokeLinecap": "round"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "sxx7S",
-                                          "name": "Cash",
-                                          "context": "span",
-                                          "fill": "#f5f3ff",
-                                          "cornerRadius": 33554400,
-                                          "layout": "vertical",
-                                          "padding": [
-                                            3.5,
-                                            7
-                                          ],
-                                          "justifyContent": "center",
-                                          "children": [
-                                            {
-                                              "type": "text",
-                                              "id": "ScEM4",
-                                              "fill": "#818cf8",
-                                              "content": "Cash",
-                                              "lineHeight": 1.33,
-                                              "fontFamily": "Inter",
-                                              "fontSize": 10.5,
-                                              "fontWeight": "500"
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "esB5g",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 14,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "P2118Y",
-                                      "name": "Cash Wallet",
-                                      "context": "h3",
-                                      "fill": "#111827",
-                                      "content": "Cash Wallet",
-                                      "lineHeight": 1.43,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 12.25,
-                                      "fontWeight": "600"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "u3DJfq",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 1.75,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "text",
-                                      "id": "ei8JT",
-                                      "name": "Personal",
-                                      "context": "p",
-                                      "fill": "#9ca3af",
-                                      "content": "Personal",
-                                      "lineHeight": 1.33,
-                                      "fontFamily": "Inter",
-                                      "fontSize": 10.5,
-                                      "fontWeight": "normal"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "EROWG",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "l4LK6",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "height": 53.5,
-                                      "stroke": "#11182712",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "layout": "vertical",
-                                      "gap": 3.5,
-                                      "padding": [
-                                        11.5,
-                                        0,
-                                        0,
-                                        0
-                                      ],
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "WwUi2",
-                                          "name": "Balance",
-                                          "context": "p",
-                                          "fill": "#9ca3af",
-                                          "content": "Balance",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "DaIyQ",
-                                          "name": "$520.00",
-                                          "context": "p",
-                                          "fill": "#111827",
-                                          "content": "$520.00",
-                                          "lineHeight": 1.4,
-                                          "fontFamily": "JetBrains Mono",
-                                          "fontSize": 17.5,
-                                          "fontWeight": "500"
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "ittbL",
-                                      "name": "spacer",
-                                      "width": "fill_container",
-                                      "height": 10.5,
-                                      "layout": "none"
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "uVIgC",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "gap": 3.5,
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "ellipse",
-                                          "id": "g9IPHo",
-                                          "name": "div",
-                                          "context": "div",
-                                          "fill": "#10b981",
-                                          "width": 7,
-                                          "height": 7
-                                        },
-                                        {
-                                          "type": "text",
-                                          "id": "lD0g7",
-                                          "name": "Last activity Jul 27",
-                                          "context": "span",
-                                          "fill": "#9ca3af",
-                                          "content": "Last activity Jul 27",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "normal"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                },
-                                {
-                                  "type": "frame",
-                                  "id": "i0ujF6",
-                                  "width": 275.34,
-                                  "height": 207.75
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
       "id": "XSJWx",
       "x": 705,
       "y": -3724,
@@ -84441,6 +82739,177 @@
           ]
         }
       ]
+    },
+    {
+      "id": "ndUD3",
+      "type": "ref",
+      "reusable": true,
+      "ref": "CU2dS",
+      "name": "account-card",
+      "x": 705,
+      "y": -2380,
+      "width": 280,
+      "height": "fit_content",
+      "descendants": {
+        "EYPF1": {
+          "width": "fit_content",
+          "height": "fit_content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jv82f",
+              "name": "Account icon background",
+              "width": 35,
+              "height": 35,
+              "fill": "$color-primary-bg",
+              "cornerRadius": "$radius-md",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon",
+                  "id": "CARFV",
+                  "name": "Account icon",
+                  "width": 18,
+                  "height": 18,
+                  "icon": "wallet",
+                  "library": "lucide",
+                  "fill": "$color-primary"
+                }
+              ]
+            }
+          ]
+        },
+        "hoPtf": {
+          "width": "fit_content",
+          "height": "fit_content",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mNbo3",
+              "name": "Account type background",
+              "fill": "$color-primary-bg",
+              "cornerRadius": "$radius-full",
+              "padding": [
+                "$spacing-4",
+                "$spacing-8"
+              ],
+              "children": [
+                {
+                  "id": "HWjwz",
+                  "type": "ref",
+                  "ref": "jVQuK",
+                  "name": "Account type",
+                  "content": "Checking",
+                  "fill": "$color-primary"
+                }
+              ]
+            }
+          ]
+        },
+        "CR1Ds": {
+          "layout": "vertical",
+          "height": "fit_content",
+          "gap": "$spacing-12",
+          "padding": [
+            0,
+            "$spacing-16",
+            "$spacing-16",
+            "$spacing-16"
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "DRdsI",
+              "name": "Account identity",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$spacing-2",
+              "children": [
+                {
+                  "id": "YBZ3f",
+                  "type": "ref",
+                  "ref": "Z6gGa",
+                  "name": "Account name",
+                  "content": "Main Checking",
+                  "fill": "$color-text",
+                  "fontWeight": "600"
+                },
+                {
+                  "id": "vBY1b",
+                  "type": "ref",
+                  "ref": "Zs7kT",
+                  "name": "Account institution",
+                  "content": "Chase Bank",
+                  "fill": "$color-text-tertiary"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "iPZSu",
+              "name": "Account balance section",
+              "width": "fill_container",
+              "stroke": "$color-border-light",
+              "strokeWidth": {
+                "top": 1
+              },
+              "layout": "vertical",
+              "gap": "$spacing-4",
+              "padding": [
+                "$spacing-12",
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "id": "eaoyU",
+                  "type": "ref",
+                  "ref": "Zs7kT",
+                  "name": "Balance label",
+                  "content": "Balance",
+                  "fill": "$color-text-tertiary"
+                },
+                {
+                  "id": "hqCSS",
+                  "type": "ref",
+                  "ref": "YpnwD",
+                  "name": "Account balance",
+                  "content": "$12,450.00",
+                  "fill": "$color-text"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LSZc7",
+              "name": "Account activity",
+              "width": "fill_container",
+              "gap": "$spacing-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "ellipse",
+                  "id": "Ef5ny",
+                  "name": "Activity indicator",
+                  "fill": "$color-secondary",
+                  "width": 6,
+                  "height": 6
+                },
+                {
+                  "id": "LfjAg",
+                  "type": "ref",
+                  "ref": "Zs7kT",
+                  "name": "Account last activity",
+                  "content": "Last activity Jul 31",
+                  "fill": "$color-text-tertiary"
+                }
+              ]
+            }
+          ]
+        }
+      }
     }
   ],
   "variables": {
@@ -84659,6 +83128,22 @@
     "font-size-xxl": {
       "type": "number",
       "value": 24
+    },
+    "color-primary-bg": {
+      "type": "color",
+      "value": "#EEF2FF"
+    },
+    "color-investment": {
+      "type": "color",
+      "value": "#14B8A6"
+    },
+    "color-investment-bg": {
+      "type": "color",
+      "value": "#F0FDFA"
+    },
+    "color-cash-bg": {
+      "type": "color",
+      "value": "#F5F3FF"
     }
   },
   "fileToken": "d51717c6-d17f-4136-b9c8-1330a4a714c2"
