@@ -3700,8 +3700,1579 @@
       "id": "jHLKa",
       "type": "ref",
       "ref": "Z:WNasi",
-      "x": 526,
-      "y": 404
+      "x": 1847,
+      "y": -389,
+      "name": "transactions-393",
+      "width": 393,
+      "height": 1763,
+      "fill": "$Z:color-bg-alt",
+      "descendants": {
+        "Z:m1YI0/Z:mQ77o": {
+          "enabled": true,
+          "width": 44,
+          "height": 44,
+          "padding": "$Z:spacing-8"
+        },
+        "Z:m1YI0/Z:hKNyq": {
+          "content": "Transactions"
+        },
+        "Z:m1YI0/Z:ST6Jp": {
+          "enabled": false
+        },
+        "Z:m1YI0/Z:bfLsE": {
+          "width": 44,
+          "height": 44,
+          "padding": "$Z:spacing-8",
+          "justifyContent": "center"
+        },
+        "Z:m1YI0/Z:tgpiv": {
+          "enabled": false
+        },
+        "Z:m1YI0/Z:bddk1": {
+          "enabled": false
+        },
+        "Z:I0deDm": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:s1mC7M": {
+          "width": "fill_container",
+          "height": "fit_content",
+          "padding": "$Z:spacing-16",
+          "gap": "$Z:spacing-20"
+        },
+        "Z:dBfag": {
+          "width": "fill_container"
+        },
+        "Z:dBfag/Z:RcOFm": {
+          "content": "Transactions"
+        },
+        "Z:dBfag/Z:tEiyK": {
+          "content": "38 records"
+        },
+        "Z:dBfag/Z:iy81x": {
+          "type": "frame",
+          "id": "bXEEm",
+          "name": "Transaction actions",
+          "children": [
+            {
+              "id": "uf4yj",
+              "type": "ref",
+              "ref": "Z:AbSy4",
+              "name": "Add Transaction",
+              "height": 44,
+              "descendants": {
+                "Z:tZR2x": {
+                  "enabled": true,
+                  "width": 16,
+                  "height": 16,
+                  "children": [
+                    {
+                      "id": "mhfJD",
+                      "type": "ref",
+                      "ref": "Z:zLB8n",
+                      "name": "Add transaction icon",
+                      "width": 16,
+                      "height": 16,
+                      "descendants": {
+                        "Z:xKbhj": {
+                          "stroke": "$Z:color-white"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Z:HSwj7": {
+                  "content": "Add Transaction"
+                },
+                "Z:e8aL7": {
+                  "enabled": false,
+                  "width": 0,
+                  "height": 0
+                }
+              }
+            }
+          ]
+        },
+        "Z:j6N8d1": {
+          "type": "frame",
+          "id": "Qc2nB",
+          "name": "Transactions sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-16",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Ot9b8",
+              "name": "Search and filters",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-8",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "NKcUj",
+                  "type": "ref",
+                  "ref": "Z:FnXms",
+                  "name": "Search transactions",
+                  "width": "fill_container",
+                  "height": 44
+                },
+                {
+                  "id": "i5dEA",
+                  "type": "ref",
+                  "ref": "Z:C81aha",
+                  "name": "Transaction filters",
+                  "width": "fill_container",
+                  "descendants": {
+                    "Z:xYkzo": {
+                      "height": 44
+                    },
+                    "Z:uKmx0": {
+                      "height": 44
+                    },
+                    "Z:P1mb2U": {
+                      "height": 44
+                    },
+                    "Z:tEJP8": {
+                      "height": 44
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "MHaJr",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Transactions table",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:O4i3fR": {
+                  "enabled": false,
+                  "width": "fill_container(0)",
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "XB3jJ",
+                  "name": "Transaction list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "eOQH1",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 1 — Monthly Salary",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Mt71y",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "QblT0",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "Q4uaV",
+                                  "type": "ref",
+                                  "ref": "Z:cPlVX",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "W7SaI",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "P2on1",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Monthly Salary",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "S9hm5J",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "kcFCi",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "+$5,500.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-secondary"
+                                },
+                                {
+                                  "id": "Cyu6l",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "euYkR",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 2 — Rent Payment",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "JrnLn",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "OQZAT",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "H4YciD",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "b2IwDW",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "k6ywqw",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Rent Payment",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dzxHw",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "lMAmB",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$1,800.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "DCNdo",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "roKmr",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 3 — Whole Foods Market",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "ImlvR",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Ap2fP",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "vkMLy",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "KgjIG",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "a7mWm1",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Whole Foods Market",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NTDda",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "yqJkh",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$127.50",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "z1ik2",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "ht83C",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 4 — Netflix Subscription",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Rv89p",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "BUWbC",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "giICk",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "m0LXbc",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "ZDhwu",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Netflix Subscription",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FmomM",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "zm9fC",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$15.99",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "hqOPu",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "N8rCe",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 5 — Blue Bottle Coffee",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "m7fUUa",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "VKyLW",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "h0um1",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "DEQ6O",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "wFpKy",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Blue Bottle Coffee",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "hOF16",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "RZCfj",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$4.75",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "N1XPx",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "dZxNa",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 6 — Transfer to Savings",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "d5ZUig",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KXplj",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "SMSnF",
+                                  "type": "ref",
+                                  "ref": "Z:fPGgi",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "WDiqE",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "FZU8I",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Transfer to Savings",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    },
+                                    {
+                                      "id": "KWMhY",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transfer accounts",
+                                      "content": "Main Checking → High-Yield Savings",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text-secondary"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YukJ2",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "PrqNV",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$1,000.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-secondary"
+                                },
+                                {
+                                  "id": "n5q8B",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "f9gBD3",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 7 — Freelance — Web Design",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Vrj4y",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EzQOs",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "tDGT3",
+                                  "type": "ref",
+                                  "ref": "Z:cPlVX",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "YZUUg",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "a91Gq",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Freelance — Web Design",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EA5I2",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "y75jX",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "+$1,200.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-secondary"
+                                },
+                                {
+                                  "id": "G0cFp",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "L2Yu3v",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 8 — Pacific Gas & Electric",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "G5vQcg",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "WgElA",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "DApeq",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "g6IOwa",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "FTVBt",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Pacific Gas & Electric",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "C9YkO",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "bLdue",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$89.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "f51hKR",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "DsDjU",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 9 — Equinox Gym",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Ptqxh",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "D2peh",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "sHrnV",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Ymy8d",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "gtYQ0",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Equinox Gym",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FBPmv",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "bDDrk",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$49.99",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "XwUuZ",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "EZLy5",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 10 — Nobu Restaurant",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Btmrx",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "zVD1x",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "Qn7D9",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "BWyp7",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "LmHJ6",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Nobu Restaurant",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wjSmT",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "TMe5s",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$67.30",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "yEOQ2",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "Y1XxQ",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 11 — Amazon Purchase",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "yxQqy",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "E6yGl",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "xehPJ",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "hwZvV",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "W3xon",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Amazon Purchase",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XoTC3",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "jo3A9",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$45.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "KeL7Y",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "R8tgjt",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 12 — Shell Gas Station",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "ndzDF",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "mjilm",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "dmWx3",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "NR2RI",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "zkhJy",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Shell Gas Station",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RHRGn",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "rolIl",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$52.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "IqY33",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "FSAHc",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 13 — Dr. Chen — Annual Checkup",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "JqoWI",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "c6E5W",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "GISbH",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "gt7On",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "CJ1QO",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Dr. Chen — Annual Checkup",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "P2bdBK",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "BphLN",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$200.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "ugnra",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "ALvqz",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 14 — Xfinity Internet",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "n2G7ev",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "DGYgz",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "F4MCTr",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "HldX8",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "x1g6r",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Xfinity Internet",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "i4GcC",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "F801TH",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$79.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "ecBsx",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "N4pK0j",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transaction 15 — Nordstrom",
+                      "width": "fill_container",
+                      "height": 88,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "uZTYf",
+                          "name": "Transaction cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fiJsI",
+                              "name": "Description cell",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "id": "DGX0s",
+                                  "type": "ref",
+                                  "ref": "Z:fo8v9",
+                                  "name": "Transaction direction",
+                                  "width": 28,
+                                  "height": 28
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "mVZMR",
+                                  "name": "Description text",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "ZXeEV",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transaction description",
+                                      "content": "Nordstrom",
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width",
+                                      "fill": "$Z:color-text"
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "kKG04",
+                              "name": "Amount cell",
+                              "width": 104,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "XAcag",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Transaction amount",
+                                  "content": "$156.00",
+                                  "textGrowth": "auto",
+                                  "fill": "$Z:color-error"
+                                },
+                                {
+                                  "id": "nmxhN",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Transaction status",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "completed"
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
     },
     {
       "id": "oftme",
