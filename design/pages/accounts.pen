@@ -319,7 +319,8 @@
                           "content": "High-Yield Savings"
                         },
                         "Z:vBY1b": {
-                          "content": "Marcus by Goldman"
+                          "content": "Marcus by Goldman",
+                          "rotation": 0
                         },
                         "Z:hqCSS": {
                           "content": "$45,200.00",
@@ -1266,7 +1267,8 @@
                           "content": "High-Yield Savings"
                         },
                         "Z:vBY1b": {
-                          "content": "Marcus by Goldman"
+                          "content": "Marcus by Goldman",
+                          "rotation": 0
                         },
                         "Z:hqCSS": {
                           "content": "$45,200.00",

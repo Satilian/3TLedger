@@ -11133,6 +11133,204 @@
               ]
             }
           ]
+        },
+        {
+          "id": "ndUD3",
+          "type": "ref",
+          "reusable": true,
+          "ref": "CU2dS",
+          "name": "account-card",
+          "x": 1224,
+          "y": 655,
+          "width": 280,
+          "height": "fit_content",
+          "descendants": {
+            "EYPF1": {
+              "width": "fit_content",
+              "height": "fit_content",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "jv82f",
+                  "name": "Account icon background",
+                  "width": 35,
+                  "height": 35,
+                  "fill": "$color-primary-bg",
+                  "cornerRadius": "$radius-md",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon",
+                      "id": "CARFV",
+                      "name": "Account icon",
+                      "width": 18,
+                      "height": 18,
+                      "icon": "wallet",
+                      "library": "lucide",
+                      "fill": "$color-primary"
+                    }
+                  ]
+                }
+              ]
+            },
+            "hoPtf": {
+              "width": "fit_content",
+              "height": "fit_content",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mNbo3",
+                  "name": "Account type background",
+                  "fill": "$color-primary-bg",
+                  "cornerRadius": "$radius-full",
+                  "padding": [
+                    "$spacing-4",
+                    "$spacing-8"
+                  ],
+                  "children": [
+                    {
+                      "id": "HWjwz",
+                      "type": "ref",
+                      "ref": "jVQuK",
+                      "name": "Account type",
+                      "content": "Checking",
+                      "fill": "$color-primary"
+                    }
+                  ]
+                }
+              ]
+            },
+            "CR1Ds": {
+              "layout": "vertical",
+              "height": "fit_content",
+              "gap": "$spacing-12",
+              "padding": [
+                0,
+                "$spacing-16",
+                "$spacing-16",
+                "$spacing-16"
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DRdsI",
+                  "name": "Account identity",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$spacing-2",
+                  "children": [
+                    {
+                      "id": "YBZ3f",
+                      "type": "ref",
+                      "ref": "Z6gGa",
+                      "name": "Account name",
+                      "content": "Main Checking",
+                      "fill": "$color-text",
+                      "fontWeight": "600"
+                    },
+                    {
+                      "id": "vBY1b",
+                      "type": "ref",
+                      "ref": "Zs7kT",
+                      "name": "Account institution",
+                      "content": "Chase Bank",
+                      "fill": "$color-text-tertiary"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iPZSu",
+                  "name": "Account balance section",
+                  "width": "fill_container",
+                  "stroke": "$color-border-light",
+                  "strokeWidth": {
+                    "top": 1
+                  },
+                  "layout": "vertical",
+                  "gap": "$spacing-4",
+                  "padding": [
+                    "$spacing-12",
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "id": "eaoyU",
+                      "type": "ref",
+                      "ref": "Zs7kT",
+                      "name": "Balance label",
+                      "content": "Balance",
+                      "fill": "$color-text-tertiary"
+                    },
+                    {
+                      "id": "hqCSS",
+                      "type": "ref",
+                      "ref": "YpnwD",
+                      "name": "Account balance",
+                      "content": "$12,450.00",
+                      "fill": "$color-text"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LSZc7",
+                  "name": "Account activity",
+                  "width": "fill_container",
+                  "gap": "$spacing-4",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "ellipse",
+                      "id": "Ef5ny",
+                      "name": "Activity indicator",
+                      "fill": "$color-secondary",
+                      "width": 6,
+                      "height": 6
+                    },
+                    {
+                      "id": "LfjAg",
+                      "type": "ref",
+                      "ref": "Zs7kT",
+                      "name": "Account last activity",
+                      "content": "Last activity Jul 31",
+                      "fill": "$color-text-tertiary"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "nQRXO",
+          "x": 1234,
+          "y": 913,
+          "name": "progress-bar",
+          "reusable": true,
+          "clip": true,
+          "width": 300,
+          "height": 8,
+          "fill": "$color-border-light",
+          "cornerRadius": "$radius-full",
+          "layout": "none",
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": "$radius-full",
+              "id": "diWQy",
+              "x": 0,
+              "y": 0,
+              "name": "Progress fill",
+              "fill": "$color-secondary",
+              "width": 150,
+              "height": 8
+            }
+          ]
         }
       ]
     },
@@ -11425,204 +11623,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "ndUD3",
-      "type": "ref",
-      "reusable": true,
-      "ref": "CU2dS",
-      "name": "account-card",
-      "x": 705,
-      "y": -2380,
-      "width": 280,
-      "height": "fit_content",
-      "descendants": {
-        "EYPF1": {
-          "width": "fit_content",
-          "height": "fit_content",
-          "children": [
-            {
-              "type": "frame",
-              "id": "jv82f",
-              "name": "Account icon background",
-              "width": 35,
-              "height": 35,
-              "fill": "$color-primary-bg",
-              "cornerRadius": "$radius-md",
-              "justifyContent": "center",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "icon",
-                  "id": "CARFV",
-                  "name": "Account icon",
-                  "width": 18,
-                  "height": 18,
-                  "icon": "wallet",
-                  "library": "lucide",
-                  "fill": "$color-primary"
-                }
-              ]
-            }
-          ]
-        },
-        "hoPtf": {
-          "width": "fit_content",
-          "height": "fit_content",
-          "children": [
-            {
-              "type": "frame",
-              "id": "mNbo3",
-              "name": "Account type background",
-              "fill": "$color-primary-bg",
-              "cornerRadius": "$radius-full",
-              "padding": [
-                "$spacing-4",
-                "$spacing-8"
-              ],
-              "children": [
-                {
-                  "id": "HWjwz",
-                  "type": "ref",
-                  "ref": "jVQuK",
-                  "name": "Account type",
-                  "content": "Checking",
-                  "fill": "$color-primary"
-                }
-              ]
-            }
-          ]
-        },
-        "CR1Ds": {
-          "layout": "vertical",
-          "height": "fit_content",
-          "gap": "$spacing-12",
-          "padding": [
-            0,
-            "$spacing-16",
-            "$spacing-16",
-            "$spacing-16"
-          ],
-          "children": [
-            {
-              "type": "frame",
-              "id": "DRdsI",
-              "name": "Account identity",
-              "width": "fill_container",
-              "layout": "vertical",
-              "gap": "$spacing-2",
-              "children": [
-                {
-                  "id": "YBZ3f",
-                  "type": "ref",
-                  "ref": "Z6gGa",
-                  "name": "Account name",
-                  "content": "Main Checking",
-                  "fill": "$color-text",
-                  "fontWeight": "600"
-                },
-                {
-                  "id": "vBY1b",
-                  "type": "ref",
-                  "ref": "Zs7kT",
-                  "name": "Account institution",
-                  "content": "Chase Bank",
-                  "fill": "$color-text-tertiary"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "iPZSu",
-              "name": "Account balance section",
-              "width": "fill_container",
-              "stroke": "$color-border-light",
-              "strokeWidth": {
-                "top": 1
-              },
-              "layout": "vertical",
-              "gap": "$spacing-4",
-              "padding": [
-                "$spacing-12",
-                0,
-                0,
-                0
-              ],
-              "children": [
-                {
-                  "id": "eaoyU",
-                  "type": "ref",
-                  "ref": "Zs7kT",
-                  "name": "Balance label",
-                  "content": "Balance",
-                  "fill": "$color-text-tertiary"
-                },
-                {
-                  "id": "hqCSS",
-                  "type": "ref",
-                  "ref": "YpnwD",
-                  "name": "Account balance",
-                  "content": "$12,450.00",
-                  "fill": "$color-text"
-                }
-              ]
-            },
-            {
-              "type": "frame",
-              "id": "LSZc7",
-              "name": "Account activity",
-              "width": "fill_container",
-              "gap": "$spacing-4",
-              "alignItems": "center",
-              "children": [
-                {
-                  "type": "ellipse",
-                  "id": "Ef5ny",
-                  "name": "Activity indicator",
-                  "fill": "$color-secondary",
-                  "width": 6,
-                  "height": 6
-                },
-                {
-                  "id": "LfjAg",
-                  "type": "ref",
-                  "ref": "Zs7kT",
-                  "name": "Account last activity",
-                  "content": "Last activity Jul 31",
-                  "fill": "$color-text-tertiary"
-                }
-              ]
-            }
-          ]
-        }
-      }
-    },
-    {
-      "type": "frame",
-      "id": "nQRXO",
-      "x": 705,
-      "y": -2093,
-      "name": "progress-bar",
-      "reusable": true,
-      "clip": true,
-      "width": 300,
-      "height": 8,
-      "fill": "$color-border-light",
-      "cornerRadius": "$radius-full",
-      "layout": "none",
-      "children": [
-        {
-          "type": "rectangle",
-          "cornerRadius": "$radius-full",
-          "id": "diWQy",
-          "x": 0,
-          "y": 0,
-          "name": "Progress fill",
-          "fill": "$color-secondary",
-          "width": 150,
-          "height": 8
         }
       ]
     }
