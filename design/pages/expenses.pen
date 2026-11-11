@@ -1,0 +1,2501 @@
+{
+  "version": "2.22",
+  "children": [
+    {
+      "id": "re83s",
+      "type": "ref",
+      "ref": "Z:qKVUk",
+      "x": -521.3291015625,
+      "y": 404.01611328125
+    },
+    {
+      "id": "jHLKa",
+      "type": "ref",
+      "ref": "Z:WNasi",
+      "x": 526,
+      "y": 404
+    },
+    {
+      "id": "oftme",
+      "type": "ref",
+      "ref": "Z:BiRJb",
+      "x": -521,
+      "y": -389,
+      "name": "expenses-1440",
+      "width": 1440,
+      "height": 1264,
+      "descendants": {
+        "Z:T8mSd": {
+          "height": "fill_container",
+          "layout": "none"
+        },
+        "Z:T8mSd/Z:bq1gz": {
+          "x": 0,
+          "y": 1208.5,
+          "width": 210
+        },
+        "Z:T8mSd/Z:HmKfy": {
+          "x": 0,
+          "y": 44,
+          "width": 210
+        },
+        "Z:T8mSd/Z:mr2N8": {
+          "fill": "$Z:color-text"
+        },
+        "Z:T8mSd/Z:Wxjii/Z:jjpNl": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:T8mSd/Z:JXJTh": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:T8mSd/Z:ChJDs": {
+          "enabled": false
+        },
+        "Z:T8mSd/Z:nHLMZ": {
+          "fill": "$Z:color-primary-border"
+        },
+        "Z:T8mSd/Z:PuAU4/Z:AOi8C": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:T8mSd/Z:mWcmU": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:T8mSd/Z:sb0Js": {
+          "x": 0,
+          "y": 0,
+          "width": 210
+        },
+        "Z:eLKAo/Z:hKNyq": {
+          "content": "Expenses"
+        },
+        "Z:eLKAo/Z:tgpiv": {
+          "height": "fit_content"
+        },
+        "Z:qZPhv": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:nSCQE": {
+          "width": 896,
+          "height": "fit_content"
+        },
+        "Z:MQl1t/Z:RcOFm": {
+          "content": "Expenses"
+        },
+        "Z:MQl1t/Z:tEiyK": {
+          "content": "July 2026 · All categories"
+        },
+        "Z:MQl1t/Z:iy81x": {
+          "enabled": false,
+          "width": 0,
+          "height": 0
+        },
+        "Z:VwSNT": {
+          "type": "frame",
+          "id": "W7dQ9",
+          "name": "Expense sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-20",
+          "children": [
+            {
+              "type": "frame",
+              "id": "G0Qwr",
+              "name": "Expense metrics",
+              "width": "fill_container",
+              "height": 144,
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "id": "D8I5GA",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "This Month metric",
+                  "width": "fill_container",
+                  "height": 144,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": 32,
+                      "height": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "gzpOU",
+                          "name": "Expense metric icon",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$Z:color-error-bg",
+                          "cornerRadius": "$Z:radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "J0lry",
+                              "type": "ref",
+                              "ref": "Z:iOgVH",
+                              "name": "Expense symbol",
+                              "width": 24,
+                              "height": 24,
+                              "descendants": {
+                                "Z:AOi8C": {
+                                  "fill": "$Z:color-error"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "children": [
+                        {
+                          "id": "maC5w",
+                          "type": "ref",
+                          "ref": "Z:w9Sty",
+                          "name": "Expense change",
+                          "fill": "$Z:color-error-bg",
+                          "descendants": {
+                            "Z:jBWyX": {
+                              "content": "56.2 % vs Jun",
+                              "fill": "$Z:color-error",
+                              "rotation": 0,
+                              "lineHeight": 1.4
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "zp8ij",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "i9tGR",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "$3,070.00",
+                          "fill": "$Z:color-error",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "OFSuP",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "This Month",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "p0Vnr",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "July 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "t054h",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Housing metric",
+                  "width": "fill_container",
+                  "height": 144,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": 6,
+                      "height": 6,
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "SqTTi",
+                          "name": "Housing indicator",
+                          "fill": "$Z:color-primary",
+                          "width": 6,
+                          "height": 6
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "children": [
+                        {
+                          "id": "acYuR",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Largest category label",
+                          "content": "Largest",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "VZMbj",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "UfSlx",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "$1,800.00",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "TXSzV",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "Housing",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "B8GRJ0",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "59% of expenses",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "aTImz",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Active Categories metric",
+                  "width": "fill_container",
+                  "height": 144,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "children": [
+                        {
+                          "id": "h6rAu9",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Category label",
+                          "content": "Categories",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "LGRhK",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "PFmJT",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "8",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "tBN0o",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "Active Categories",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "YPrOC",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "With spending this month",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "khBMg",
+              "name": "Expense charts",
+              "width": "fill_container",
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "id": "e6LEO",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "By Category",
+                  "width": 320,
+                  "height": 444,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "type": "frame",
+                      "id": "i3jVHK",
+                      "name": "Chart title",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-2",
+                      "children": [
+                        {
+                          "id": "lKT37",
+                          "type": "ref",
+                          "ref": "Z:mJPWX",
+                          "name": "Chart heading",
+                          "content": "By Category",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "mN8TH",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Chart period",
+                          "content": "July 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "A0IRX",
+                      "name": "Category chart content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "qky80",
+                          "type": "ref",
+                          "ref": "Z:QcJxJ",
+                          "name": "Expense category chart",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "descendants": {
+                            "Z:z8tm5S": {
+                              "type": "frame",
+                              "id": "Z1a4F",
+                              "name": "Category diagram container",
+                              "width": "fill_container",
+                              "height": 160,
+                              "justifyContent": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "fWlOr",
+                                  "name": "Category diagram",
+                                  "width": 160,
+                                  "height": 160,
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "path",
+                                      "id": "KG6o9",
+                                      "x": 2,
+                                      "y": 2,
+                                      "name": "Income series 1",
+                                      "geometry": "M160.0025 80.00138c-0.00033-32.22028-19.32977-61.29578-49.03933-73.7653-29.70956-12.46952-64.00011-5.8991-86.99603 16.66934-22.99592 22.56844-30.20856 56.72967-18.29864 86.66796l23.22999-9.241c-8.18883-20.58266-3.23055-44.06905 12.57921-59.58531 15.80976-15.51625 39.38495-20.03359 59.81055-11.46053 20.42561 8.57306 33.71456 28.56303 33.71425 50.71484l25 0z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        160.00249481201172,
+                                        109.57338237762451
+                                      ],
+                                      "fill": "$Z:color-primary",
+                                      "width": 156,
+                                      "height": 106.83305253946114,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "mOHRV",
+                                      "x": 8.577733091415363,
+                                      "y": 101.54986920091174,
+                                      "name": "Income series 2",
+                                      "geometry": "M0 10.046c4.20466 9.58147 10.24811 18.24506 17.78799 25.5l17.334-18.015c-5.18391-4.98762-9.33904-10.94375-12.22999-17.531l-22.892 10.046z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        35.12199401855469,
+                                        35.545997619628906
+                                      ],
+                                      "fill": "$Z:color-secondary",
+                                      "width": 34.24341022514612,
+                                      "height": 34.65702480715648,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "CuWb6",
+                                      "x": 27.91558120751119,
+                                      "y": 119.91675303050883,
+                                      "name": "Income series 3",
+                                      "geometry": "M0 18.60899c2.01891 1.81139 4.12863 3.51894 6.321 5.116l14.72-20.20799c-1.5077-1.09787-2.95857-2.27173-4.347-3.517l-16.694 18.60899z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        21.041000366210938,
+                                        23.724990844726562
+                                      ],
+                                      "fill": "$Z:color-investment",
+                                      "width": 20.514655480749976,
+                                      "height": 23.131650574387027,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "mXqDo",
+                                      "x": 36.30727012265538,
+                                      "y": 124.42120630535211,
+                                      "name": "Income series 4",
+                                      "geometry": "M0 20.709c1.94435 1.31473 3.94563 2.54326 5.998 3.68201l12.13-21.86c-1.41113-0.78276-2.78712-1.62724-4.124-2.53101l-14.004 20.709z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        18.12799835205078,
+                                        24.391006469726562
+                                      ],
+                                      "fill": "$Z:color-primary-extra",
+                                      "width": 17.67452280192584,
+                                      "height": 23.781009759198106,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "JIJYv",
+                                      "x": 44.55857140289074,
+                                      "y": 127.76933070740762,
+                                      "name": "Income series 5",
+                                      "geometry": "M0 22.27c13.27867 6.77345 28.18571 9.70221 43.04 8.456l-2.09-24.913c-10.21228 0.85692-20.46086-1.15642-29.59-5.813l-11.36 22.27z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        43.040000915527344,
+                                        31.006103515625
+                                      ],
+                                      "fill": "$Z:color-error",
+                                      "width": 41.963346576007346,
+                                      "height": 30.230669292592378,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "yMT5j",
+                                      "x": 86.34641297926692,
+                                      "y": 126.7563137166599,
+                                      "name": "Income series 6",
+                                      "geometry": "M2.959 31.483c10.44232-1.24449 20.5368-4.53558 29.70601-9.685l-12.241-21.798c-6.30412 3.54056-13.24449 5.80338-20.42401 6.659l2.959 24.824z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        32.665008544921875,
+                                        31.483001708984375
+                                      ],
+                                      "fill": "$Z:color-secondary-extra",
+                                      "width": 31.847886740733898,
+                                      "height": 30.69564069934837,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "o3RFQu",
+                                      "x": 107.87506098056122,
+                                      "y": 114.36710342298358,
+                                      "name": "Income series 7",
+                                      "geometry": "M12.99499 33.095c7.50153-4.56426 14.20044-10.33238 19.82801-17.073l-19.191-16.022c-3.869 4.63431-8.47459 8.60001-13.632 11.73799l12.99499 21.35701z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        32.822998046875,
+                                        33.095001220703125
+                                      ],
+                                      "fill": "$Z:color-tertiary",
+                                      "width": 32.001924103299054,
+                                      "height": 32.26732558113406,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    },
+                                    {
+                                      "type": "path",
+                                      "id": "Y4jw0",
+                                      "x": 122.34090101839861,
+                                      "y": 81.87162883665637,
+                                      "name": "Income series 8",
+                                      "geometry": "M19.73801 47.176c10.32573-13.28494 16.19987-29.48737 16.787-46.303l-24.985-0.873c-0.4032 11.56087-4.4413 22.70029-11.54001 31.834l19.73801 15.342z",
+                                      "viewBox": [
+                                        0,
+                                        0,
+                                        36.52500915527344,
+                                        47.176002502441406
+                                      ],
+                                      "fill": "$Z:color-tertiary-light",
+                                      "width": 35.611328654076104,
+                                      "height": 45.99617393004982,
+                                      "stroke": "$Z:color-border-light",
+                                      "strokeWidth": 1
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            "Z:At3jK": {
+                              "type": "frame",
+                              "id": "L7A18x",
+                              "name": "Category legend",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "children": [
+                                {
+                                  "id": "NJNOE",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 1",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "Mw6yF",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "v6D6ZI",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-primary",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "kHdbf",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Housing",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "VqAJP",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "kPctX",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$1,800.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "s2Y70L",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "YoKXj",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "59%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "QoICC",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 2",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "ZFWGt",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "izqeh",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-secondary",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "T1JYi",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Food & Dining",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "zAzkL",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "XfXfj",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$200.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "JxUtE",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "uX6mF",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "7%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "lPpHy",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 3",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "mFQ3a",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "TmkI9",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-investment",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "rNXP6",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Transportation",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "GpmtQ",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "KoMyw",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$52.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "a7SuI3",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "g0zH1U",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "2%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "Y8QCsc",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 4",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "gioJq",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "Fmkul",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-primary-extra",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "A371Cn",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Entertainment",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "JAsp1",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "gS3IN",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$45.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "VvvKm",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "xuYyI",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "1%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "tUV9o",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 5",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "Fh3KO",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "jtfj4",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-error",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "qtDek",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Health & Fitness",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "PXPNt",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "H1y3Fo",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$284.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "M9uzJ",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "svk0T",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "9%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "d4Thi",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 6",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "x1hMt",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "U5OHb",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-secondary-extra",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "p3PMd5",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Shopping",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "T3SNv",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "ioZKa",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$201.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "u9AmFw",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "O6CRI",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "7%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "CoSSe",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 7",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "HDIKx",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "hzEnw",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-tertiary",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "E0KWxJ",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Utilities",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "x55lr",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "BnkjW",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$168.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "dUwkE",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "dxLWJ",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "5%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "id": "L2SfU",
+                                  "type": "ref",
+                                  "ref": "Z:CBmjN",
+                                  "name": "Category legend 8",
+                                  "width": "fill_container",
+                                  "height": 24,
+                                  "padding": 0,
+                                  "strokeWidth": 0,
+                                  "descendants": {
+                                    "Z:k6yx9g": {
+                                      "type": "frame",
+                                      "id": "YUzzx",
+                                      "name": "Category legend cells",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "type": "ellipse",
+                                          "id": "eg2MR",
+                                          "name": "Category swatch",
+                                          "fill": "$Z:color-tertiary-light",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "F0Op3",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Category name",
+                                          "content": "Insurance",
+                                          "fill": "$Z:color-text-secondary",
+                                          "rotation": 0,
+                                          "width": "fill_container",
+                                          "textGrowth": "fixed-width"
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "DPfnG",
+                                          "name": "Category amount cell",
+                                          "width": 70,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "i3Owh",
+                                              "type": "ref",
+                                              "ref": "Z:Oppgm",
+                                              "name": "Category amount",
+                                              "content": "$320.00",
+                                              "fill": "$Z:color-text",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "frame",
+                                          "id": "G0m1a",
+                                          "name": "Category share cell",
+                                          "width": 28,
+                                          "justifyContent": "end",
+                                          "children": [
+                                            {
+                                              "id": "b3Hcw",
+                                              "type": "ref",
+                                              "ref": "Z:Zs7kT",
+                                              "name": "Category share",
+                                              "content": "10%",
+                                              "fill": "$Z:color-text-tertiary",
+                                              "rotation": 0
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "OFhBd",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Monthly Expenses Trend",
+                  "width": "fill_container",
+                  "height": 444,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "type": "frame",
+                      "id": "JQgAp",
+                      "name": "Chart title",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-2",
+                      "children": [
+                        {
+                          "id": "nNskI",
+                          "type": "ref",
+                          "ref": "Z:mJPWX",
+                          "name": "Chart heading",
+                          "content": "Monthly Expenses Trend",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "Q6Nlz",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Chart period",
+                          "content": "Feb – Jul 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "F3osA6",
+                      "name": "Expense trend content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "uusb8",
+                          "type": "ref",
+                          "ref": "Z:wHdLk",
+                          "name": "Monthly expenses chart",
+                          "width": "fill_container",
+                          "height": 260,
+                          "descendants": {
+                            "Z:O9bEL": {
+                              "type": "frame",
+                              "id": "s1uuRP",
+                              "name": "Monthly expenses plot",
+                              "width": 480,
+                              "height": 260,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "YV7lP",
+                                  "x": 33.338250331401696,
+                                  "y": 245.37086172637228,
+                                  "name": "Grid line 1",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 444.66174966859836,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "GbuUK",
+                                  "x": 33.338250331401696,
+                                  "y": 185.28187118159832,
+                                  "name": "Grid line 2",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 444.66174966859836,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "QwDgs",
+                                  "x": 33.338250331401696,
+                                  "y": 125.19288063682434,
+                                  "name": "Grid line 3",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 444.66174966859836,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "PfStI",
+                                  "x": 33.338250331401696,
+                                  "y": 65.10389009205038,
+                                  "name": "Grid line 4",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 444.66174966859836,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "s3WKo",
+                                  "x": 33.338250331401696,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 5",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 444.66174966859836,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "IT0rX",
+                                  "x": 70.39339613711823,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 6",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "Ucu3D",
+                                  "x": 144.50368774855127,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 7",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "x7GrEd",
+                                  "x": 218.61397935998434,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 8",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "xdEQL",
+                                  "x": 292.7242709714174,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 9",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "B2NmX4",
+                                  "x": 366.8345625828505,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 10",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "KbvCK",
+                                  "x": 440.9448541942835,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 11",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "YCdKl",
+                                  "x": 33.338250331401696,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 12",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "iNArg",
+                                  "x": 478.00000000000006,
+                                  "y": 5.014899547276424,
+                                  "name": "Grid line 13",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 240.35596217909585,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "id": "Y3fag",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 14",
+                                  "content": "Feb",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 59.30166610911245,
+                                  "y": 242.32461116223288,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "J3oUwQ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 15",
+                                  "content": "Mar",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 132.8071234488841,
+                                  "y": 242.32461116223288,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "H7LWPh",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 16",
+                                  "content": "Apr",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 207.95028589346202,
+                                  "y": 242.32461116223288,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "qtAjA",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 17",
+                                  "content": "May",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 279.9421066969734,
+                                  "y": 242.32461116223288,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "gCWws",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 18",
+                                  "content": "Jun",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 355.6994085558536,
+                                  "y": 242.32461116223288,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "qzsoZ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 19",
+                                  "content": "Jul",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 432.02432411583146,
+                                  "y": 242.32461116223288,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "O2Rlw",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 20",
+                                  "content": "$0k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 232.95072887643556,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "gbyQ9",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 21",
+                                  "content": "$2k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 172.8617383316616,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "t1cOsD",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 22",
+                                  "content": "$3k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 112.77274778688765,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "S8XpW",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 23",
+                                  "content": "$5k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 52.683757242113685,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "d0g89V",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 24",
+                                  "content": "$6k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 2,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "G3rivO",
+                                  "x": 40.74927949254501,
+                                  "y": 117.98220017686846,
+                                  "name": "Income series 25",
+                                  "geometry": "M0 4c0-2.20914 1.79086-4 4-4l48 0c2.20914 0 4 1.79086 4 4l0 117.9-56 0 0-117.9z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    56,
+                                    121.9000015258789
+                                  ],
+                                  "fill": "$Z:color-error",
+                                  "width": 59.28823328914645,
+                                  "height": 127.38866154950381
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "Nefcz",
+                                  "x": 114.85957110397806,
+                                  "y": 81.12727275336589,
+                                  "name": "Income series 26",
+                                  "geometry": "M0 4c0-2.20914 1.79086-4 4-4l48 0c2.20914 0 4 1.79086 4 4l0 153.16699-56 0 0-153.16699z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    56,
+                                    157.16699981689453
+                                  ],
+                                  "fill": "$Z:color-error",
+                                  "width": 59.28823328914645,
+                                  "height": 164.24358897300638
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "FVkMs",
+                                  "x": 188.96986271541113,
+                                  "y": 99.15396991679808,
+                                  "name": "Income series 27",
+                                  "geometry": "M0 4c0-2.20914 1.79086-4 4-4l48 0c2.20914 0 4 1.79086 4 4l0 135.91699-56 0 0-135.91699z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    56,
+                                    139.91699981689453
+                                  ],
+                                  "fill": "$Z:color-error",
+                                  "width": 59.28823328914645,
+                                  "height": 146.21689180957418
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "V2KwP",
+                                  "x": 263.0801543268442,
+                                  "y": 53.08609198309559,
+                                  "name": "Income series 28",
+                                  "geometry": "M0 4c0-2.20914 1.79086-4 4-4l48 0c2.20914 0 4 1.79086 4 4l0 180-56 0 0-180z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    56,
+                                    184
+                                  ],
+                                  "fill": "$Z:color-error",
+                                  "width": 59.28823328914645,
+                                  "height": 192.28476974327668
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "Z9RyH9",
+                                  "x": 337.1904459382772,
+                                  "y": 89.13948630995996,
+                                  "name": "Income series 29",
+                                  "geometry": "M0 4c0-2.20914 1.79086-4 4-4l48 0c2.20914 0 4 1.79086 4 4l0 145.5-56 0 0-145.5z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    56,
+                                    149.5
+                                  ],
+                                  "fill": "$Z:color-error",
+                                  "width": 59.28823328914645,
+                                  "height": 156.2313754164123
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "c38Jez",
+                                  "x": 411.3007375497103,
+                                  "y": 122.38907748994211,
+                                  "name": "Income series 30",
+                                  "geometry": "M0 4c0-2.20914 1.79086-4 4-4l48 0c2.20914 0 4 1.79086 4 4l0 113.683-56 0 0-113.683z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    56,
+                                    117.68299865722656
+                                  ],
+                                  "fill": "$Z:color-error",
+                                  "width": 59.28823328914645,
+                                  "height": 122.98178423643014
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "QNTEJ",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Expense Transactions",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:EYPF1": {
+                  "type": "frame",
+                  "id": "q4rn3I",
+                  "name": "Expense table title",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "K8fVy",
+                      "type": "ref",
+                      "ref": "Z:mJPWX",
+                      "name": "Expense table heading",
+                      "content": "Expense Transactions",
+                      "fill": "$Z:color-text",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:hoPtf": {
+                  "type": "frame",
+                  "id": "r9qQAM",
+                  "name": "Expense record count",
+                  "children": [
+                    {
+                      "id": "AYYJ1",
+                      "type": "ref",
+                      "ref": "Z:Zs7kT",
+                      "name": "Record count",
+                      "content": "20 records",
+                      "fill": "$Z:color-text-tertiary",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "N1Ypao",
+                  "name": "Expense list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "K1iFIO",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 1",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "BFXfq",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "ETsRY",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "aMoMv",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "LSOQk",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Rent Payment",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "Dzvlw",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Housing · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CGN7t",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "GHA8j",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$1,800.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "V26ml",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 30, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "D3Js4",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 2",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "U47Zh",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "qE9jA",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "qGXj6",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "aeKXm",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Whole Foods Market",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "zQhkQ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Food & Dining · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "TjoY4",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "EZBKM",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$127.50",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "OUsVZ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 29, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "J1tAzh",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 3",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "pSdDF",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "g918Wm",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yoiRZ",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "W0Tcc",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Netflix Subscription",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "x4v54",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Entertainment · Visa Rewards",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Q9gSH",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "w4UGbG",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$15.99",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "QRvfp",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 28, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "wjpeU",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 4",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "QfC4r",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "wrJ4D",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SXeZb",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "QA2b5",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Blue Bottle Coffee",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "DsVqj",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Food & Dining · Cash Wallet",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KkocK",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "x7woF",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$4.75",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "gDkZ6",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 27, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "HV2IU",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 5",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "o5iBBo",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "Z9gmM",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "RI34d",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "CNXcY",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Pacific Gas & Electric",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "lGYBW",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Utilities · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "XNjjh",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "TeFY5",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$89.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "iFKd7",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 24, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "DIy70",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 6",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "npK6J",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "KMwPa",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "nkXRR",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "JDfkw",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Equinox Gym",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "q2Wgbj",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Health & Fitness · Visa Rewards",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "DxIUI",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "ASgT6",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$49.99",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "ktUhB",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 23, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "F2fXd",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Expense record 7",
+                      "width": "fill_container",
+                      "height": 56,
+                      "padding": [
+                        0,
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "EbwkP",
+                          "name": "Expense cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "i2X2wI",
+                              "type": "ref",
+                              "ref": "Z:fo8v9",
+                              "name": "Expense direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tHwjB",
+                              "name": "Expense description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "D8E0c",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Expense description text",
+                                  "content": "Nobu Restaurant",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "juMhp",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense account text",
+                                  "content": "Food & Dining · Visa Rewards",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "d6RVeD",
+                              "name": "Expense amount and date",
+                              "width": 108,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "MVshZ",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Expense amount",
+                                  "content": "$67.30",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "yiRHA",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Expense date",
+                                  "content": "Jul 22, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "imports": {
+    "Z": "../ui-kit.lib.pen"
+  },
+  "fileToken": "51cf3721-193b-4f8d-bb66-5946e234c876"
+}
