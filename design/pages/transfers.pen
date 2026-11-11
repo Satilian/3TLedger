@@ -5,8 +5,999 @@
       "id": "re83s",
       "type": "ref",
       "ref": "Z:qKVUk",
-      "x": -521.3291015625,
-      "y": 404.01611328125
+      "x": 999,
+      "y": -389,
+      "name": "transfers-768",
+      "width": 768,
+      "height": 824,
+      "descendants": {
+        "Z:UQf2Y": {
+          "height": "fill_container",
+          "layout": "none"
+        },
+        "Z:UQf2Y/Z:bq1gz": {
+          "x": 0,
+          "y": 768.5,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:HmKfy": {
+          "x": 0,
+          "y": 44,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:mr2N8": {
+          "fill": "$Z:color-text"
+        },
+        "Z:UQf2Y/Z:Wxjii/Z:jjpNl": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:JXJTh": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:ChJDs": {
+          "enabled": false
+        },
+        "Z:UQf2Y/Z:SVmBV": {
+          "fill": "$Z:color-primary-border"
+        },
+        "Z:UQf2Y/Z:OoGDU/Z:Q06Bj": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:pkrr1": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:INQWJ": {
+          "enabled": true
+        },
+        "Z:UQf2Y/Z:sb0Js": {
+          "x": 0,
+          "y": 0,
+          "width": 210
+        },
+        "Z:k8Jtpt/Z:hKNyq": {
+          "content": "Transfers"
+        },
+        "Z:k8Jtpt/Z:tgpiv": {
+          "height": "fit_content"
+        },
+        "Z:OD5ZV": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:Qi6kh": {
+          "width": "fill_container",
+          "height": "fit_content"
+        },
+        "Z:erba6/Z:RcOFm": {
+          "content": "Transfers"
+        },
+        "Z:erba6/Z:tEiyK": {
+          "content": "Internal movements between accounts"
+        },
+        "Z:erba6/Z:iy81x": {
+          "enabled": false,
+          "width": 0,
+          "height": 0
+        },
+        "Z:F8eOwV": {
+          "type": "frame",
+          "id": "Gth24",
+          "name": "Transfers sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-20",
+          "children": [
+            {
+              "type": "frame",
+              "id": "mGitI",
+              "name": "Transfer metrics",
+              "width": "fill_container",
+              "height": 144,
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "id": "R1HOpY",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Total Transferred metric",
+                  "width": "fill_container",
+                  "height": 144,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": 32,
+                      "height": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "c4e8SC",
+                          "name": "Transfer metric icon",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$Z:color-investment-bg",
+                          "cornerRadius": "$Z:radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "TffWt",
+                              "type": "ref",
+                              "ref": "Z:Q7gdI",
+                              "name": "Transfer symbol",
+                              "width": 24,
+                              "height": 24,
+                              "descendants": {
+                                "Z:Q06Bj": {
+                                  "fill": "$Z:color-investment"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "EIO9X",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "mqX3I",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "$2,800.00",
+                          "fill": "$Z:color-investment",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "KgaYj",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "Total Transferred",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "MJEZ0",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "All time",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "Qd6zg",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Total Transfers metric",
+                  "width": "fill_container",
+                  "height": 144,
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "children": [
+                        {
+                          "id": "P2aI1",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Transfers label",
+                          "content": "Transfers",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "AbIRt",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "C6Vy8",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "3",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "n4bIL",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "Total Transfers",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "TZuyZ",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "Recorded in ledger",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "CU0o9",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Transfer History",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:EYPF1": {
+                  "type": "frame",
+                  "id": "ilxCv",
+                  "name": "History heading",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "K5vpK",
+                      "type": "ref",
+                      "ref": "Z:mJPWX",
+                      "name": "History title",
+                      "content": "Transfer History",
+                      "fill": "$Z:color-text",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:hoPtf": {
+                  "enabled": false,
+                  "width": 0,
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "fdYE3",
+                  "name": "Transfer list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "g2hUv",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transfer record 1",
+                      "width": "fill_container",
+                      "height": 96,
+                      "padding": [
+                        "$Z:spacing-12",
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "t7Iaj",
+                          "name": "Transfer record content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-8",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Sczi3",
+                              "name": "Transfer details",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-12",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Bsvcv",
+                                  "name": "Transfer icon background",
+                                  "width": 35,
+                                  "height": 35,
+                                  "fill": "$Z:color-investment-bg",
+                                  "cornerRadius": "$Z:radius-md",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "id": "PFcan",
+                                      "type": "ref",
+                                      "ref": "Z:Q7gdI",
+                                      "name": "Transfer symbol",
+                                      "width": 24,
+                                      "height": 24,
+                                      "descendants": {
+                                        "Z:Q06Bj": {
+                                          "fill": "$Z:color-investment"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "pR63Q",
+                                  "name": "Transfer identity",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-4",
+                                  "children": [
+                                    {
+                                      "id": "zIyce",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transfer description",
+                                      "content": "Transfer to Savings",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0,
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "EDyOS",
+                                      "name": "Transfer route",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "w4yUS",
+                                          "type": "ref",
+                                          "ref": "Z:w9Sty",
+                                          "name": "Transfer account badge",
+                                          "fill": "$Z:color-investment-bg",
+                                          "descendants": {
+                                            "Z:jBWyX": {
+                                              "content": "Main Checking",
+                                              "fill": "$Z:color-investment",
+                                              "rotation": 0,
+                                              "lineHeight": 1.4
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "nn6vs",
+                                          "name": "Transfer route arrow",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "arrow-right",
+                                          "library": "lucide",
+                                          "fill": "$Z:color-text-tertiary"
+                                        },
+                                        {
+                                          "id": "o6BCaC",
+                                          "type": "ref",
+                                          "ref": "Z:w9Sty",
+                                          "name": "Transfer account badge",
+                                          "fill": "$Z:color-investment-bg",
+                                          "descendants": {
+                                            "Z:jBWyX": {
+                                              "content": "High-Yield Savings",
+                                              "fill": "$Z:color-investment",
+                                              "rotation": 0,
+                                              "lineHeight": 1.4
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PZFg7",
+                                  "name": "Transfer value and date",
+                                  "width": 96,
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "Qcksw",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transfer amount",
+                                      "content": "$1,000.00",
+                                      "fill": "$Z:color-investment",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "eZHRS",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transfer date",
+                                      "content": "Jul 26, 2026",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y8zZw",
+                              "name": "Transfer verification",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "padding": [
+                                0,
+                                0,
+                                0,
+                                47
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "iiE0d",
+                                  "name": "Verification left line",
+                                  "opacity": 0.2,
+                                  "fill": "$Z:color-investment",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "id": "VOSMf",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Transfer status",
+                                  "content": "Verified",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "WZSgL",
+                                  "name": "Verification right line",
+                                  "opacity": 0.2,
+                                  "fill": "$Z:color-investment",
+                                  "width": "fill_container",
+                                  "height": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "eZKQX",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transfer record 2",
+                      "width": "fill_container",
+                      "height": 96,
+                      "padding": [
+                        "$Z:spacing-12",
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "o5pCWi",
+                          "name": "Transfer record content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-8",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "KmgZS",
+                              "name": "Transfer details",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-12",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "uSC91",
+                                  "name": "Transfer icon background",
+                                  "width": 35,
+                                  "height": 35,
+                                  "fill": "$Z:color-investment-bg",
+                                  "cornerRadius": "$Z:radius-md",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "id": "Gvb3P",
+                                      "type": "ref",
+                                      "ref": "Z:Q7gdI",
+                                      "name": "Transfer symbol",
+                                      "width": 24,
+                                      "height": 24,
+                                      "descendants": {
+                                        "Z:Q06Bj": {
+                                          "fill": "$Z:color-investment"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "zmRPI",
+                                  "name": "Transfer identity",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-4",
+                                  "children": [
+                                    {
+                                      "id": "L8BhrZ",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transfer description",
+                                      "content": "Transfer to Checking",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0,
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "U4hcd",
+                                      "name": "Transfer route",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "GjUAb",
+                                          "type": "ref",
+                                          "ref": "Z:w9Sty",
+                                          "name": "Transfer account badge",
+                                          "fill": "$Z:color-investment-bg",
+                                          "descendants": {
+                                            "Z:jBWyX": {
+                                              "content": "High-Yield Savings",
+                                              "fill": "$Z:color-investment",
+                                              "rotation": 0,
+                                              "lineHeight": 1.4
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "QKUx2",
+                                          "name": "Transfer route arrow",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "arrow-right",
+                                          "library": "lucide",
+                                          "fill": "$Z:color-text-tertiary"
+                                        },
+                                        {
+                                          "id": "wZt1Y",
+                                          "type": "ref",
+                                          "ref": "Z:w9Sty",
+                                          "name": "Transfer account badge",
+                                          "fill": "$Z:color-investment-bg",
+                                          "descendants": {
+                                            "Z:jBWyX": {
+                                              "content": "Main Checking",
+                                              "fill": "$Z:color-investment",
+                                              "rotation": 0,
+                                              "lineHeight": 1.4
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "WBjl4",
+                                  "name": "Transfer value and date",
+                                  "width": 96,
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "zOpCm",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transfer amount",
+                                      "content": "$300.00",
+                                      "fill": "$Z:color-investment",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "S9uGN",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transfer date",
+                                      "content": "Jul 5, 2026",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "B6rT8",
+                              "name": "Transfer verification",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "padding": [
+                                0,
+                                0,
+                                0,
+                                47
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "MNtiT",
+                                  "name": "Verification left line",
+                                  "opacity": 0.2,
+                                  "fill": "$Z:color-investment",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "id": "g2rgl",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Transfer status",
+                                  "content": "Verified",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "epTYL",
+                                  "name": "Verification right line",
+                                  "opacity": 0.2,
+                                  "fill": "$Z:color-investment",
+                                  "width": "fill_container",
+                                  "height": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "Od42e",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Transfer record 3",
+                      "width": "fill_container",
+                      "height": 96,
+                      "padding": [
+                        "$Z:spacing-12",
+                        "$Z:spacing-16"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Ny72F",
+                          "name": "Transfer record content",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-8",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "lVmUS",
+                              "name": "Transfer details",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-12",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "WYvsS",
+                                  "name": "Transfer icon background",
+                                  "width": 35,
+                                  "height": 35,
+                                  "fill": "$Z:color-investment-bg",
+                                  "cornerRadius": "$Z:radius-md",
+                                  "justifyContent": "center",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "id": "S4k7GJ",
+                                      "type": "ref",
+                                      "ref": "Z:Q7gdI",
+                                      "name": "Transfer symbol",
+                                      "width": 24,
+                                      "height": 24,
+                                      "descendants": {
+                                        "Z:Q06Bj": {
+                                          "fill": "$Z:color-investment"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "L1rLiC",
+                                  "name": "Transfer identity",
+                                  "width": "fill_container",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-4",
+                                  "children": [
+                                    {
+                                      "id": "Q5OAP",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Transfer description",
+                                      "content": "Transfer to Savings",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0,
+                                      "width": "fill_container",
+                                      "textGrowth": "fixed-width"
+                                    },
+                                    {
+                                      "type": "frame",
+                                      "id": "Juc70",
+                                      "name": "Transfer route",
+                                      "width": "fill_container",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "pXijC",
+                                          "type": "ref",
+                                          "ref": "Z:w9Sty",
+                                          "name": "Transfer account badge",
+                                          "fill": "$Z:color-investment-bg",
+                                          "descendants": {
+                                            "Z:jBWyX": {
+                                              "content": "Main Checking",
+                                              "fill": "$Z:color-investment",
+                                              "rotation": 0,
+                                              "lineHeight": 1.4
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "icon",
+                                          "id": "Ty3Ve",
+                                          "name": "Transfer route arrow",
+                                          "width": 12,
+                                          "height": 12,
+                                          "icon": "arrow-right",
+                                          "library": "lucide",
+                                          "fill": "$Z:color-text-tertiary"
+                                        },
+                                        {
+                                          "id": "w2AyP7",
+                                          "type": "ref",
+                                          "ref": "Z:w9Sty",
+                                          "name": "Transfer account badge",
+                                          "fill": "$Z:color-investment-bg",
+                                          "descendants": {
+                                            "Z:jBWyX": {
+                                              "content": "High-Yield Savings",
+                                              "fill": "$Z:color-investment",
+                                              "rotation": 0,
+                                              "lineHeight": 1.4
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "jJkDV",
+                                  "name": "Transfer value and date",
+                                  "width": 96,
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "PYTCu",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transfer amount",
+                                      "content": "$1,500.00",
+                                      "fill": "$Z:color-investment",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "keI6o",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transfer date",
+                                      "content": "Jun 25, 2026",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "KJjep",
+                              "name": "Transfer verification",
+                              "width": "fill_container",
+                              "gap": "$Z:spacing-8",
+                              "padding": [
+                                0,
+                                0,
+                                0,
+                                47
+                              ],
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "rectangle",
+                                  "id": "t4ANhe",
+                                  "name": "Verification left line",
+                                  "opacity": 0.2,
+                                  "fill": "$Z:color-investment",
+                                  "width": "fill_container",
+                                  "height": 1
+                                },
+                                {
+                                  "id": "uMwch",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Transfer status",
+                                  "content": "Verified",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "type": "rectangle",
+                                  "id": "RVfCh",
+                                  "name": "Verification right line",
+                                  "opacity": 0.2,
+                                  "fill": "$Z:color-investment",
+                                  "width": "fill_container",
+                                  "height": 1
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "id": "Asqw9",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Transfer transparency note",
+              "width": "fill_container",
+              "height": "fit_content",
+              "fill": "$Z:color-investment-bg",
+              "stroke": "$Z:color-border-light",
+              "descendants": {
+                "Z:O4i3fR": {
+                  "enabled": false,
+                  "width": "fill_container(0)",
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "x4Ame",
+                  "name": "Transparency note content",
+                  "width": "fill_container",
+                  "gap": "$Z:spacing-12",
+                  "padding": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "wjf8g",
+                      "name": "Note icon background",
+                      "width": 28,
+                      "height": 28,
+                      "fill": "$Z:color-investment-bg",
+                      "cornerRadius": "$Z:radius-md",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "ZmhwE",
+                          "type": "ref",
+                          "ref": "Z:Q7gdI",
+                          "name": "Transfer symbol",
+                          "width": 20,
+                          "height": 20,
+                          "descendants": {
+                            "Z:Q06Bj": {
+                              "fill": "$Z:color-investment"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "NwPmD",
+                      "name": "Transparency note text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "children": [
+                        {
+                          "id": "b2UXm",
+                          "type": "ref",
+                          "ref": "Z:Z6gGa",
+                          "name": "Transparency title",
+                          "content": "Transfers are transparent by design",
+                          "fill": "$Z:color-investment",
+                          "rotation": 0,
+                          "width": "fill_container",
+                          "textGrowth": "fixed-width"
+                        },
+                        {
+                          "id": "VDjOR",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Transparency explanation",
+                          "content": "Every transfer is recorded with both the source and destination account, creating a clear audit trail. Money doesn't disappear — it moves. 3T Ledger makes sure you always know where.",
+                          "fill": "$Z:color-text-secondary",
+                          "rotation": 0,
+                          "width": "fill_container",
+                          "textGrowth": "fixed-width",
+                          "lineHeight": 1.6
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
     },
     {
       "id": "jHLKa",
