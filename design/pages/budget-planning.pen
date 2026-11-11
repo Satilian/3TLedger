@@ -5,8 +5,1675 @@
       "id": "re83s",
       "type": "ref",
       "ref": "Z:qKVUk",
-      "x": -521.3291015625,
-      "y": 404.01611328125
+      "x": 1039,
+      "y": -389,
+      "name": "budget-planning-768",
+      "width": 768,
+      "height": 1560,
+      "descendants": {
+        "Z:UQf2Y": {
+          "height": "fill_container",
+          "layout": "none"
+        },
+        "Z:UQf2Y/Z:bq1gz": {
+          "x": 0,
+          "y": 1504.5,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:HmKfy": {
+          "x": 0,
+          "y": 44,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:mr2N8": {
+          "fill": "$Z:color-text"
+        },
+        "Z:UQf2Y/Z:Wxjii/Z:jjpNl": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:JXJTh": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:ChJDs": {
+          "enabled": false
+        },
+        "Z:UQf2Y/Z:x4xfLT": {
+          "fill": "$Z:color-text"
+        },
+        "Z:UQf2Y/Z:bZ24m/Z:PTy0Q": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:eTdYi": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:D85tKG": {
+          "enabled": false
+        },
+        "Z:UQf2Y/Z:uFSQt": {
+          "fill": "$Z:color-primary-border"
+        },
+        "Z:UQf2Y/Z:CpT8S/Z:R7Tjo": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:c7iN4": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:KxoVE": {
+          "enabled": true
+        },
+        "Z:UQf2Y/Z:sb0Js": {
+          "x": 0,
+          "y": 0,
+          "width": 210
+        },
+        "Z:k8Jtpt/Z:hKNyq": {
+          "content": "Budget Planning"
+        },
+        "Z:k8Jtpt/Z:tgpiv": {
+          "height": "fit_content"
+        },
+        "Z:OD5ZV": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:Qi6kh": {
+          "width": "fill_container",
+          "height": "fit_content"
+        },
+        "Z:erba6/Z:RcOFm": {
+          "content": "Budget Planning"
+        },
+        "Z:erba6/Z:tEiyK": {
+          "content": "July 2026 · Monthly budget vs. actual"
+        },
+        "Z:erba6/Z:iy81x": {
+          "enabled": false,
+          "width": 0,
+          "height": 0
+        },
+        "Z:F8eOwV": {
+          "type": "frame",
+          "id": "dS20c",
+          "name": "Budget sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "iR5Rc",
+              "name": "Statistics metrics",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-12",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "hgGyQ",
+                  "name": "Statistics metric row 1",
+                  "width": "fill_container",
+                  "height": 84,
+                  "gap": "$Z:spacing-12",
+                  "children": [
+                    {
+                      "id": "nTSxB",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 1",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "uJ0Sf",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "h6wc2y",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Total Budget",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "d3Kzj",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "$3,900.00",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "fJvZz",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 2",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "puNww",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "b94s8",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Total Spent",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "nnfwL",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "$3,070.00",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Q2bQTf",
+                  "name": "Statistics metric row 2",
+                  "width": "fill_container",
+                  "height": 84,
+                  "gap": "$Z:spacing-12",
+                  "children": [
+                    {
+                      "id": "Hkz6f",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 3",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "xnT5Y",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "Af92z",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "xpnLb",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "$830.00",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "pDfqw",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 4",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "o2kx3",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "j4KT5L",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Utilization",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "NeXn6",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "79%",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "qH4Bt",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Overall Budget",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:O4i3fR": {
+                  "enabled": false,
+                  "width": "fill_container(0)",
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "hZTjc",
+                  "name": "Overall Budget body",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "G2mgo",
+                      "name": "Overall budget header",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "dIP2C",
+                          "name": "Overall budget title",
+                          "layout": "vertical",
+                          "gap": 4,
+                          "children": [
+                            {
+                              "id": "Weafv",
+                              "type": "ref",
+                              "ref": "Z:mJPWX",
+                              "name": "Overall title",
+                              "content": "Overall Budget",
+                              "fill": "$Z:color-text",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "X3ieOx",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Overall used",
+                              "content": "$3,070.00 of $3,900.00 used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ZiRKf",
+                          "type": "ref",
+                          "ref": "Z:w9Sty",
+                          "name": "Overall budget status",
+                          "descendants": {
+                            "Z:jBWyX": {
+                              "content": "79% used",
+                              "rotation": 0,
+                              "lineHeight": 1.4
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "id": "LPNjY",
+                      "type": "ref",
+                      "ref": "Z:nQRXO",
+                      "name": "Overall progress",
+                      "width": "fill_container",
+                      "height": 12,
+                      "descendants": {
+                        "Z:diWQy": {
+                          "width": 377.62,
+                          "height": 12,
+                          "fill": "$Z:color-warning"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iTXE8",
+                      "name": "Overall budget range",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "id": "e6etIu",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Overall minimum",
+                          "content": "$0",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "F1kvr",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Overall maximum",
+                          "content": "$3,900.00",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "s7CaUz",
+              "name": "Category budgets",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "id": "S3B0Ko",
+                  "type": "ref",
+                  "ref": "Z:Z6gGa",
+                  "name": "Category budgets heading",
+                  "content": "Category Budgets",
+                  "fill": "$Z:color-text",
+                  "rotation": 0
+                },
+                {
+                  "id": "Qslj9",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 1",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "QoufP",
+                      "name": "Budget category 1 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ncP5r",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "fxfmY",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "NXqMK",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "cJv54",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-primary",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "P56Zu",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Housing",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "uZlOH",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Budget warning",
+                                  "fill": "$Z:color-warning-bg",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "Near limit",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4,
+                                      "fill": "$Z:color-warning"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "toL1R",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "EhgbL",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$1,800.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "QBtmR",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $2,000.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "bfCZZ",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 430.2,
+                              "height": 8,
+                              "fill": "$Z:color-warning"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KlLr9",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "NbVbD",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$200.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "J1KwOW",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "90% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "SDI5m",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 2",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "X0Uqcz",
+                      "name": "Budget category 2 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "l1eTc",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Hj0jg",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "Vk4Qj",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "NdH4w",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-secondary",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "mG7bc",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Food & Dining",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "tvgjv",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "ML0tr",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$200.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "pjFjJ",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $400.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "T8NIR3",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 239,
+                              "height": 8,
+                              "fill": "$Z:color-secondary"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pvHbK",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "db8oz",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$200.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "qMFq2",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "50% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "SIctw",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 3",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "KZ0TL",
+                      "name": "Budget category 3 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "XdcIt",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "b8nOg",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "NEBSB",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "xJI2P",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-investment",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "xxv96",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Transportation",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "pc3Ht",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "Z4aRW",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$52.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "u6ms6",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $200.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "MQYCq",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 124.28,
+                              "height": 8,
+                              "fill": "$Z:color-investment"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YvuTs",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "SLG2s",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$148.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "bLBm9",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "26% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "mCOXg",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 4",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "Rafqe",
+                      "name": "Budget category 4 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "K24KL",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "CxcW7",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "XDAeD",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "p0Hgv",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-primary-light",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "z29sZ",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Entertainment",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h4Gsv6",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "vRCIj",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$45.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "HLQ5U",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $150.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "jOZcN",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 143.4,
+                              "height": 8,
+                              "fill": "$Z:color-primary-light"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HP9WM",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "YEATf",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$105.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "GPTtw",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "30% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "HlrBn",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 5",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "PjQlS",
+                      "name": "Budget category 5 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FuePG",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "egjsn",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "N0eTH",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "hxxm9",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-error",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "wubPm",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Health & Fitness",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "D8zPKb",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Budget warning",
+                                  "fill": "$Z:color-warning-bg",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "Near limit",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4,
+                                      "fill": "$Z:color-warning"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "rGD1R",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "wfg4A",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$284.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "E99Ct",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $300.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "x03FN",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 454.09999999999997,
+                              "height": 8,
+                              "fill": "$Z:color-warning"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LpHxn",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "n9aOkz",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$16.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "q40FCz",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "95% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "a3OE2E",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 6",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "FsODh",
+                      "name": "Budget category 6 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "BnjGK",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "EoRgr",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gkASf",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "buhpt",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-secondary-extra",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "gAW6u",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Shopping",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Xx9rM",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "hXBWz",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$201.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "lZPTW",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $300.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "j6Z4x",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 320.26,
+                              "height": 8,
+                              "fill": "$Z:color-secondary-extra"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UoJ1o",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "c54DI3",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$99.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "S3EQV",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "67% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "nsKg9",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Budget category 7",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false,
+                      "width": "fill_container(0)",
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "KTktj",
+                      "name": "Budget category 7 body",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "qFaeZ",
+                          "name": "Budget category header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "justifyContent": "space_between",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "ZWMfE",
+                              "name": "Budget category identity",
+                              "width": "fill_container",
+                              "gap": 8,
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "p9PL2",
+                                  "name": "Budget category name",
+                                  "gap": 8,
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "ellipse",
+                                      "id": "EeccR",
+                                      "name": "Category marker",
+                                      "fill": "$Z:color-warning",
+                                      "width": 8,
+                                      "height": 8
+                                    },
+                                    {
+                                      "id": "T2KeNm",
+                                      "type": "ref",
+                                      "ref": "Z:Z6gGa",
+                                      "name": "Budget category title",
+                                      "content": "Utilities",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "Ps6Ap",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Budget warning",
+                                  "fill": "$Z:color-warning-bg",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "Near limit",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4,
+                                      "fill": "$Z:color-warning"
+                                    }
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "d4Ifk",
+                              "name": "Budget amounts",
+                              "layout": "vertical",
+                              "gap": 4,
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "yEoCa",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Spent amount",
+                                  "content": "$168.00",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "pGUOM",
+                                  "type": "ref",
+                                  "ref": "Z:d0G9YV",
+                                  "name": "Editable budget amount",
+                                  "height": 28,
+                                  "padding": [
+                                    0,
+                                    4
+                                  ],
+                                  "descendants": {
+                                    "Z:RHyp5": {
+                                      "enabled": false
+                                    },
+                                    "Z:znDBJ": {
+                                      "content": "/ $200.00",
+                                      "rotation": 0,
+                                      "fontSize": 10,
+                                      "fill": "$Z:color-text-tertiary"
+                                    },
+                                    "Z:eBsov": {
+                                      "enabled": false
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "R6bw5I",
+                          "type": "ref",
+                          "ref": "Z:nQRXO",
+                          "name": "Category progress",
+                          "width": "fill_container",
+                          "height": 8,
+                          "descendants": {
+                            "Z:diWQy": {
+                              "width": 401.52,
+                              "height": 8,
+                              "fill": "$Z:color-warning"
+                            }
+                          }
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nFu3S",
+                          "name": "Budget category footer",
+                          "width": "fill_container",
+                          "justifyContent": "space_between",
+                          "children": [
+                            {
+                              "id": "vohJv",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Remaining amount",
+                              "content": "$32.00 remaining",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "xAHnh",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Budget utilization",
+                              "content": "84% used",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "iZ90U",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Budget guidance",
+              "width": "fill_container",
+              "height": "fit_content",
+              "fill": "$Z:color-primary-bg",
+              "stroke": "$Z:color-primary-border",
+              "descendants": {
+                "Z:O4i3fR": {
+                  "enabled": false,
+                  "width": "fill_container(0)",
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "s99trN",
+                  "name": "Budget guidance body",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "id": "G0R41U",
+                      "type": "ref",
+                      "ref": "Z:o3gFuV",
+                      "name": "Budget guidance icon",
+                      "width": 28,
+                      "height": 28,
+                      "descendants": {
+                        "Z:R7Tjo": {
+                          "fill": "$Z:color-primary"
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RdQmj",
+                      "name": "Budget guidance text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "id": "I9Etu",
+                          "type": "ref",
+                          "ref": "Z:Z6gGa",
+                          "name": "Budget guidance title",
+                          "content": "8 of 8 categories on track",
+                          "fill": "$Z:color-primary",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "fW4Ok",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Budget guidance description",
+                          "content": "Click any budget amount to edit it inline. Budgets are re-evaluated each month. Consistency in tracking leads to better financial decisions over time.",
+                          "fill": "$Z:color-text-secondary",
+                          "rotation": 0,
+                          "width": "fill_container",
+                          "textGrowth": "fixed-width",
+                          "lineHeight": 1.6
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
     },
     {
       "id": "jHLKa",
