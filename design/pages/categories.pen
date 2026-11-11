@@ -5,8 +5,1550 @@
       "id": "re83s",
       "type": "ref",
       "ref": "Z:qKVUk",
-      "x": -521.3291015625,
-      "y": 404.01611328125
+      "x": 2519,
+      "y": -389,
+      "name": "categories-768",
+      "width": 768,
+      "height": 1088,
+      "descendants": {
+        "Z:UQf2Y": {
+          "height": "fill_container",
+          "layout": "none"
+        },
+        "Z:UQf2Y/Z:bq1gz": {
+          "x": 0,
+          "y": 1032.5,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:HmKfy": {
+          "x": 0,
+          "y": 44,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:mr2N8": {
+          "fill": "$Z:color-text"
+        },
+        "Z:UQf2Y/Z:Wxjii/Z:jjpNl": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:JXJTh": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:ChJDs": {
+          "enabled": false
+        },
+        "Z:UQf2Y/Z:he2ty": {
+          "fill": "$Z:color-primary-border"
+        },
+        "Z:UQf2Y/Z:EMgpJ/Z:J2izFU": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:VysAc": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:KkEsF": {
+          "enabled": true
+        },
+        "Z:UQf2Y/Z:sb0Js": {
+          "x": 0,
+          "y": 0,
+          "width": 210
+        },
+        "Z:k8Jtpt/Z:hKNyq": {
+          "content": "Categories"
+        },
+        "Z:k8Jtpt/Z:tgpiv": {
+          "height": "fit_content"
+        },
+        "Z:OD5ZV": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:Qi6kh": {
+          "width": "fill_container",
+          "height": "fit_content"
+        },
+        "Z:erba6/Z:RcOFm": {
+          "content": "Categories"
+        },
+        "Z:erba6/Z:tEiyK": {
+          "content": "11 categories defined"
+        },
+        "Z:erba6/Z:iy81x": {
+          "type": "frame",
+          "id": "EKTxf",
+          "name": "Category actions",
+          "children": [
+            {
+              "id": "rvwTp",
+              "type": "ref",
+              "ref": "Z:AbSy4",
+              "name": "Add Category",
+              "height": 44,
+              "descendants": {
+                "Z:tZR2x": {
+                  "enabled": true,
+                  "width": 16,
+                  "height": 16,
+                  "children": [
+                    {
+                      "id": "Y0r7L",
+                      "type": "ref",
+                      "ref": "Z:zLB8n",
+                      "name": "Add category icon",
+                      "width": 16,
+                      "height": 16,
+                      "descendants": {
+                        "Z:xKbhj": {
+                          "stroke": "$Z:color-white"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Z:HSwj7": {
+                  "content": "Add Category",
+                  "rotation": 0
+                },
+                "Z:e8aL7": {
+                  "enabled": false,
+                  "width": 0,
+                  "height": 0
+                }
+              }
+            }
+          ]
+        },
+        "Z:F8eOwV": {
+          "type": "frame",
+          "id": "MFWht",
+          "name": "Categories sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-20",
+          "children": [
+            {
+              "type": "frame",
+              "id": "kM4jH",
+              "name": "Category group selector",
+              "fill": "$Z:color-white",
+              "cornerRadius": "$Z:radius-md",
+              "stroke": "$Z:color-border",
+              "strokeWidth": 1,
+              "gap": "$Z:spacing-2",
+              "padding": "$Z:spacing-4",
+              "alignItems": "center",
+              "children": [
+                {
+                  "id": "TQYWQ",
+                  "type": "ref",
+                  "ref": "Z:AbSy4",
+                  "name": "Expense Categories tab",
+                  "height": 36,
+                  "padding": [
+                    "$Z:spacing-8",
+                    "$Z:spacing-12"
+                  ],
+                  "descendants": {
+                    "Z:tZR2x": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:HSwj7": {
+                      "content": "Expense Categories",
+                      "rotation": 0
+                    },
+                    "Z:e8aL7": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    }
+                  }
+                },
+                {
+                  "id": "qsAts",
+                  "type": "ref",
+                  "ref": "Z:d0G9YV",
+                  "name": "Income Categories tab",
+                  "height": 36,
+                  "padding": [
+                    "$Z:spacing-8",
+                    "$Z:spacing-12"
+                  ],
+                  "descendants": {
+                    "Z:RHyp5": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:znDBJ": {
+                      "content": "Income Categories",
+                      "rotation": 0
+                    },
+                    "Z:eBsov": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Mslqm",
+              "name": "Category grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BF32F",
+                  "name": "Category row 1",
+                  "width": "fill_container",
+                  "height": 157,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "E1Owh",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 1",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "SHY0V",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-primary-bg",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "OLHZo",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "house",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-primary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "kALud",
+                              "name": "Category color",
+                              "fill": "$Z:color-primary",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "Huwfs",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "T6LSyD",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Housing",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "r8deZH",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "w5NpmM",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "vMLA9",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "tfvBD",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "2",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "sV8Hm",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "aY8oe",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "YoHFH",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$3,600.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "HCXZr",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 2",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vds67",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-secondary-bg",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "KSOT3",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "utensils-crossed",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-secondary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "N8YL4V",
+                              "name": "Category color",
+                              "fill": "$Z:color-secondary",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "v6Rov",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "EYsur",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Food & Dining",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "QjD0t",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "E0E7tD",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "F0gs5",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "JKL3b",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "5",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "XG06c",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "w7ICQ",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "nN5dY",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$478.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U7u0iw",
+                  "name": "Category row 2",
+                  "width": "fill_container",
+                  "height": 157,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "OZxwy",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 3",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kp7Yp",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-investment-bg",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "AL85L",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "car",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-investment"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "lfpMW",
+                              "name": "Category color",
+                              "fill": "$Z:color-investment",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "mAeRu",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "CEcZO",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Transportation",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "y5lqoL",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "qQbcj",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "yx7AR",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "d8mgLm",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "2",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iDv0Y",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "R97O4",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "owpTI",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$119.50",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "b0QKT",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 4",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "QWlzS",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-primary-bg",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "t7pa1d",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "tv",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-primary-extra"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "GGE2R",
+                              "name": "Category color",
+                              "fill": "$Z:color-primary-extra",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "oXsMS",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "PycSO",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Entertainment",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VWX2X",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "vSzfj",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "HlqzQ",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "eYmo9",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "3",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "b7pB8l",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "VvTp3",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "z7qwd5",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$844.96",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GE0DK",
+                  "name": "Category row 3",
+                  "width": "fill_container",
+                  "height": 157,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "I2kG9l",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 5",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "vGFDN",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-error-bg",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "qrq5E",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "heart",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-error"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "ePXBg",
+                              "name": "Category color",
+                              "fill": "$Z:color-error",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "exMAJ",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "vheUw",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Health & Fitness",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GJjit",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "iWBfc",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "NIDW6",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "Y25YXs",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "3",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "fB9eS",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "M2lF6",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "S3vV7N",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$284.49",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "TzGu9",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 6",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "rmPNB",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-secondary-bg",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "u0hw1g",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "shopping-bag",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-secondary-extra"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "L18q1R",
+                              "name": "Category color",
+                              "fill": "$Z:color-secondary-extra",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "YPevj",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "YUr6Y",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Shopping",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "YyQ5y",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "EFl6b",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "U1q33r",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "g9fxj",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "2",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PVT9p",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "gNMe0",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "VgXqG",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$201.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R61oQ",
+                  "name": "Category row 4",
+                  "width": "fill_container",
+                  "height": 157,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "WG549",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 7",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "YKiro",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-bg-alt",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "H4yO8S",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "zap",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-tertiary"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "g2ncc",
+                              "name": "Category color",
+                              "fill": "$Z:color-tertiary",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "JLosw",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "ywdZO",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Utilities",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "sgkWJ",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "J3xsm",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "ickFA",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "WE8el",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "2",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "PoN36",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "HoR9F",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "pwSMl",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$168.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "cdyZU",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Category record 8",
+                      "width": "fill_container",
+                      "height": 157,
+                      "descendants": {
+                        "Z:EYPF1": {
+                          "width": 35,
+                          "height": 35,
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "qOhzN",
+                              "name": "Category icon background",
+                              "width": 35,
+                              "height": 35,
+                              "fill": "$Z:color-bg-alt",
+                              "cornerRadius": "$Z:radius-md",
+                              "justifyContent": "center",
+                              "alignItems": "center",
+                              "children": [
+                                {
+                                  "type": "icon",
+                                  "id": "FFCp4",
+                                  "name": "Category symbol",
+                                  "width": 18,
+                                  "height": 18,
+                                  "icon": "shield",
+                                  "library": "lucide",
+                                  "fill": "$Z:color-tertiary-light"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        "Z:hoPtf": {
+                          "width": 7,
+                          "height": 7,
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "NDIY5",
+                              "name": "Category color",
+                              "fill": "$Z:color-tertiary-light",
+                              "width": 7,
+                              "height": 7
+                            }
+                          ]
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "y4TjD",
+                          "name": "Category details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-12",
+                          "padding": [
+                            0,
+                            "$Z:spacing-16",
+                            "$Z:spacing-16",
+                            "$Z:spacing-16"
+                          ],
+                          "children": [
+                            {
+                              "id": "xOpDh",
+                              "type": "ref",
+                              "ref": "Z:Z6gGa",
+                              "name": "Category name",
+                              "content": "Insurance",
+                              "fill": "$Z:color-text",
+                              "rotation": 0,
+                              "fontWeight": "600"
+                            },
+                            {
+                              "type": "frame",
+                              "id": "VWgzZ",
+                              "name": "Category statistics",
+                              "width": "fill_container",
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": {
+                                "top": 1
+                              },
+                              "padding": [
+                                "$Z:spacing-12",
+                                0,
+                                0,
+                                0
+                              ],
+                              "justifyContent": "space_between",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "gGAdW",
+                                  "name": "Transaction count",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "children": [
+                                    {
+                                      "id": "TFcyS",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Transactions label",
+                                      "content": "Transactions",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "OgmVJ",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Transaction count value",
+                                      "content": "1",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "Izmc4",
+                                  "name": "Category total",
+                                  "layout": "vertical",
+                                  "gap": "$Z:spacing-2",
+                                  "alignItems": "end",
+                                  "children": [
+                                    {
+                                      "id": "fADcd",
+                                      "type": "ref",
+                                      "ref": "Z:Zs7kT",
+                                      "name": "Total label",
+                                      "content": "Total",
+                                      "fill": "$Z:color-text-tertiary",
+                                      "rotation": 0
+                                    },
+                                    {
+                                      "id": "T5diC9",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Category total value",
+                                      "content": "$320.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "M2d4qS",
+                  "name": "Category row 5",
+                  "width": "fill_container",
+                  "height": 140,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "Q8ymD",
+                      "type": "ref",
+                      "ref": "Z:d0G9YV",
+                      "name": "Add expense category tile",
+                      "width": "fill_container",
+                      "height": 140,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "gap": "$Z:spacing-8",
+                      "padding": "$Z:spacing-16",
+                      "cornerRadius": "$Z:radius-xl",
+                      "stroke": "$Z:color-border",
+                      "strokeWidth": 2,
+                      "descendants": {
+                        "Z:RHyp5": {
+                          "enabled": true,
+                          "width": 35,
+                          "height": 35,
+                          "fill": "$Z:color-border-light",
+                          "cornerRadius": "$Z:radius-md",
+                          "children": [
+                            {
+                              "id": "TMg2M",
+                              "type": "ref",
+                              "ref": "Z:zLB8n",
+                              "name": "Add category tile icon",
+                              "width": 18,
+                              "height": 18,
+                              "descendants": {
+                                "Z:xKbhj": {
+                                  "stroke": "$Z:color-text-tertiary"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "Z:E8bHh": {
+                          "type": "frame",
+                          "id": "J9DfTu",
+                          "name": "Add category tile label",
+                          "children": [
+                            {
+                              "id": "eHHWW",
+                              "type": "ref",
+                              "ref": "Z:NdT35",
+                              "name": "Add category label",
+                              "content": "Add expense category",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            }
+                          ]
+                        },
+                        "Z:eBsov": {
+                          "enabled": false,
+                          "width": 0,
+                          "height": 0
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "KdyxF",
+                      "name": "Category grid spacer",
+                      "width": "fill_container",
+                      "height": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "jHLKa",
