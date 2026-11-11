@@ -2599,8 +2599,2022 @@
       "id": "jHLKa",
       "type": "ref",
       "ref": "Z:WNasi",
-      "x": 526,
-      "y": 404
+      "x": 1847,
+      "y": -389,
+      "name": "income-393",
+      "width": 393,
+      "height": 2080,
+      "fill": "$Z:color-bg-alt",
+      "descendants": {
+        "Z:m1YI0/Z:mQ77o": {
+          "enabled": true,
+          "width": 44,
+          "height": 44,
+          "padding": "$Z:spacing-8"
+        },
+        "Z:m1YI0/Z:hKNyq": {
+          "content": "Income"
+        },
+        "Z:m1YI0/Z:ST6Jp": {
+          "enabled": false
+        },
+        "Z:m1YI0/Z:bfLsE": {
+          "width": 44,
+          "height": 44,
+          "padding": "$Z:spacing-8",
+          "justifyContent": "center"
+        },
+        "Z:m1YI0/Z:tgpiv": {
+          "enabled": false
+        },
+        "Z:m1YI0/Z:bddk1": {
+          "enabled": false
+        },
+        "Z:I0deDm": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:s1mC7M": {
+          "width": "fill_container",
+          "height": "fit_content",
+          "padding": "$Z:spacing-16",
+          "gap": "$Z:spacing-20"
+        },
+        "Z:dBfag": {
+          "width": "fill_container"
+        },
+        "Z:dBfag/Z:RcOFm": {
+          "content": "Income"
+        },
+        "Z:dBfag/Z:tEiyK": {
+          "content": "July 2026 · All sources"
+        },
+        "Z:dBfag/Z:iy81x": {
+          "enabled": false,
+          "width": 0,
+          "height": 0
+        },
+        "Z:j6N8d1": {
+          "type": "frame",
+          "id": "qDhHG",
+          "name": "Income sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-20",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ELJ3P",
+              "name": "Income metrics",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "id": "xHwxX",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "This Month metric",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": 32,
+                      "height": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ltnAt",
+                          "name": "Income metric icon",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$Z:color-secondary-bg",
+                          "cornerRadius": "$Z:radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "EfjUo",
+                              "type": "ref",
+                              "ref": "Z:OtjaL",
+                              "name": "Income symbol",
+                              "width": 24,
+                              "height": 24,
+                              "descendants": {
+                                "Z:m5SvTZ": {
+                                  "fill": "$Z:color-secondary"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "width": "fit_content",
+                      "height": "fit_content",
+                      "children": [
+                        {
+                          "id": "b0wSP",
+                          "type": "ref",
+                          "ref": "Z:w9Sty",
+                          "name": "Income growth",
+                          "descendants": {
+                            "Z:jBWyX": {
+                              "content": "+3.9%"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "O9NbGx",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "Vj1jx",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "$6,960.42",
+                          "fill": "$Z:color-secondary",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "R9AbiO",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "This Month",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "fF8Dl",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "July 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "FMuJ3",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Year to Date metric",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": 32,
+                      "height": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "N7Yh3",
+                          "name": "Income metric icon",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$Z:color-secondary-bg",
+                          "cornerRadius": "$Z:radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "evFcS",
+                              "type": "ref",
+                              "ref": "Z:OtjaL",
+                              "name": "Income symbol",
+                              "width": 24,
+                              "height": 24,
+                              "descendants": {
+                                "Z:m5SvTZ": {
+                                  "fill": "$Z:color-secondary"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "surmV",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "TK1BY",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "$42,172.42",
+                          "fill": "$Z:color-secondary",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "d63mT",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "Year to Date",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "Yoj9u",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "Jan – Jul 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "MkdtY",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Monthly Average metric",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "width": 32,
+                      "height": 32,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "OJIEs",
+                          "name": "Income metric icon",
+                          "width": 32,
+                          "height": 32,
+                          "fill": "$Z:color-secondary-bg",
+                          "cornerRadius": "$Z:radius-md",
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "OaIcV",
+                              "type": "ref",
+                              "ref": "Z:OtjaL",
+                              "name": "Income symbol",
+                              "width": 24,
+                              "height": 24,
+                              "descendants": {
+                                "Z:m5SvTZ": {
+                                  "fill": "$Z:color-secondary"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "Fx1sF",
+                      "name": "Metric details",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-4",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "FPkOA",
+                          "type": "ref",
+                          "ref": "Z:cVVG1",
+                          "name": "Metric value",
+                          "content": "$7,028.67",
+                          "fill": "$Z:color-secondary",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "LgPDm",
+                          "type": "ref",
+                          "ref": "Z:NdT35",
+                          "name": "Metric label",
+                          "content": "Monthly Average",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "l0IwXa",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Metric period",
+                          "content": "Last 6 months",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "N0ixIL",
+              "name": "Income charts",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "id": "zsSRk",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Monthly Income Trend",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "type": "frame",
+                      "id": "tYJe9",
+                      "name": "Chart title",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-2",
+                      "children": [
+                        {
+                          "id": "I7ImBn",
+                          "type": "ref",
+                          "ref": "Z:mJPWX",
+                          "name": "Chart heading",
+                          "content": "Monthly Income Trend",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "oGYnq",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Chart period",
+                          "content": "Feb – Jul 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "pWWRw",
+                      "name": "Chart content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "T5fDA",
+                          "type": "ref",
+                          "ref": "Z:MiapV",
+                          "name": "Monthly Income Trend chart",
+                          "width": "fill_container",
+                          "height": 220,
+                          "descendants": {
+                            "Z:K5miO": {
+                              "type": "frame",
+                              "id": "Xm6Fv",
+                              "name": "Monthly Income Trend plot",
+                              "width": 329,
+                              "height": 220,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "csyEz",
+                                  "x": 25.161273901901712,
+                                  "y": 203.88765744050355,
+                                  "name": "Grid line 1",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 300.8429116720478,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "rIQbe",
+                                  "x": 25.161273901901712,
+                                  "y": 154.25798770292812,
+                                  "name": "Grid line 2",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 300.8429116720478,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "kwzH7",
+                                  "x": 25.161273901901712,
+                                  "y": 104.62831796535265,
+                                  "name": "Grid line 3",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 300.8429116720478,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "xErye",
+                                  "x": 25.161273901901712,
+                                  "y": 54.99864822777721,
+                                  "name": "Grid line 4",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 300.8429116720478,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "K8ceic",
+                                  "x": 25.161273901901712,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 5",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 300.8429116720478,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "EDwq0",
+                                  "x": 25.161273901901712,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 6",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 198.51867895030176,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "g8z2oX",
+                                  "x": 85.32986007773263,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 7",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 198.51867895030176,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "BAv7z",
+                                  "x": 145.49843665001015,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 8",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 198.51867895030176,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "MrWNW",
+                                  "x": 205.66701322228766,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 9",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 198.51867895030176,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "UfE1I",
+                                  "x": 265.8355993981186,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 10",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 198.51867895030176,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "DEzWa",
+                                  "x": 326.00418557394954,
+                                  "y": 5.368978490201769,
+                                  "name": "Grid line 11",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 198.51867895030176,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "id": "O4s1u",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 12",
+                                  "content": "Feb",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 18.567550958775794,
+                                  "y": 200.4836459749734,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "x6ZGoN",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 13",
+                                  "content": "Mar",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 78.37657625350147,
+                                  "y": 200.4836459749734,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "Q2MGl",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 14",
+                                  "content": "Apr",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 139.15917137875581,
+                                  "y": 200.4836459749734,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "fKaeP",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 15",
+                                  "content": "May",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 198.0683821331444,
+                                  "y": 200.4836459749734,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "DK8ih",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 16",
+                                  "content": "Jun",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 259.216065944847,
+                                  "y": 200.4836459749734,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "CrD8Q",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 17",
+                                  "content": "Jul",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 310,
+                                  "y": 200.4836459749734,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "MyFjx",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 18",
+                                  "content": "$0k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 6.5315615228727175,
+                                  "y": 190.0088665352858,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "xjGQ6",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 19",
+                                  "content": "$3k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 6.5315615228727175,
+                                  "y": 140.37919679771036,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "WNPYJ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 20",
+                                  "content": "$5k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 6.5315615228727175,
+                                  "y": 90.74952706013491,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "BoMUD",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 21",
+                                  "content": "$8k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 6.5315615228727175,
+                                  "y": 41.11985732255947,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "UpAFK",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 22",
+                                  "content": "$10k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 2,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "wkLik",
+                                  "x": 25.161273901901712,
+                                  "y": 38.87893049917353,
+                                  "name": "Income series 23",
+                                  "geometry": "M0 30.804c31.867-0.708 63.733-1.417 95.60001-3.4 31.867-1.983 63.733-8.5 95.6-8.5 31.86701 0 63.733 11.9 95.60001 11.9 31.867 0 63.733-30.804 95.6-30.804 31.86701 0 63.73298 11.492 95.59998 22.984l0 118.32-478 0 0-110.5z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    478,
+                                    141.3040008544922
+                                  ],
+                                  "fill": {
+                                    "type": "gradient",
+                                    "gradientType": "linear",
+                                    "enabled": true,
+                                    "opacity": 0.6,
+                                    "rotation": -180,
+                                    "size": {
+                                      "height": 1
+                                    },
+                                    "colors": [
+                                      {
+                                        "color": "#10b98133",
+                                        "position": 0.05
+                                      },
+                                      {
+                                        "color": "#10b98100",
+                                        "position": 0.95
+                                      }
+                                    ],
+                                    "center": {
+                                      "x": 0
+                                    }
+                                  },
+                                  "width": 300.8429116720478,
+                                  "height": 165.00872694133002
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "g5pp3z",
+                                  "x": 25.161273901901712,
+                                  "y": 38.87893049917353,
+                                  "name": "Grid line 24",
+                                  "geometry": "M0 30.804c31.867-0.708 63.733-1.417 95.60001-3.4 31.867-1.983 63.733-8.5 95.6-8.5 31.86701 0 63.733 11.9 95.60001 11.9 31.867 0 63.733-30.804 95.6-30.804 31.86701 0 63.73298 11.492 95.59998 22.984",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    478,
+                                    30.804000854492188
+                                  ],
+                                  "width": 300.8429116720478,
+                                  "height": 35.97158562363386,
+                                  "stroke": "$Z:color-secondary",
+                                  "strokeWidth": 2
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "r0VRdN",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "By Source",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "type": "frame",
+                      "id": "p0SHZc",
+                      "name": "Chart title",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-2",
+                      "children": [
+                        {
+                          "id": "aPweL",
+                          "type": "ref",
+                          "ref": "Z:mJPWX",
+                          "name": "Chart heading",
+                          "content": "By Source",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "fKBG5",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Chart period",
+                          "content": "July 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "W4xk1",
+                      "name": "Chart content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "yLYd1",
+                          "type": "ref",
+                          "ref": "Z:PciJ3",
+                          "name": "By Source chart",
+                          "width": "fill_container",
+                          "height": 220,
+                          "descendants": {
+                            "Z:c6Cna": {
+                              "type": "frame",
+                              "id": "o0QhV",
+                              "name": "By Source plot",
+                              "width": 329,
+                              "height": 220,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "bGjUL",
+                                  "x": 86.30210581057545,
+                                  "y": 2,
+                                  "name": "Grid line 1",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 201.2165042568666,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "D3rgH",
+                                  "x": 145.2602732483602,
+                                  "y": 2,
+                                  "name": "Grid line 2",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 201.2165042568666,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "xoW9j",
+                                  "x": 204.2184406861449,
+                                  "y": 2,
+                                  "name": "Grid line 3",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 201.2165042568666,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "hOLPk",
+                                  "x": 322.1347755617144,
+                                  "y": 2,
+                                  "name": "Grid line 4",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 201.2165042568666,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "id": "VaPEd",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 5",
+                                  "content": "$0.0k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 64.44139421391738,
+                                  "y": 200.24560256557058,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "BvouS",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 6",
+                                  "content": "$1.5k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 123.39956165170211,
+                                  "y": 200.24560256557058,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "tkbbZ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 7",
+                                  "content": "$3.0k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 182.35772908948684,
+                                  "y": 200.24560256557058,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "k9T1B",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 8",
+                                  "content": "$4.5k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 241.31589652727158,
+                                  "y": 200.24560256557058,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "jO8tW",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 9",
+                                  "content": "$6.0k",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 283.2782129113057,
+                                  "y": 200.24560256557058,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "e7uIg",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 10",
+                                  "content": "Salary",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 28.627437804371702,
+                                  "y": 22.19621889491126,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "ri4tC",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 11",
+                                  "content": "Freelance",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 89.26878152269867,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "iD2b7",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 12",
+                                  "content": "Returns",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 17.8134375532085,
+                                  "y": 156.34134415048607,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "DuF7j",
+                                  "x": 86.30210581057545,
+                                  "y": 8.707611133998945,
+                                  "name": "Income series 13",
+                                  "geometry": "M0 0l159.16701 0c2.20913 0 4 1.79086 4 4l0 37c0 2.20914-1.79087 4-4 4l-159.16701 0 0-45z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    163.16700744628906,
+                                    45
+                                  ],
+                                  "fill": "$Z:color-secondary",
+                                  "width": 216.1803987716984,
+                                  "height": 53.26319230328822
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "Js3fY",
+                                  "x": 86.30210581057545,
+                                  "y": 75.7789905687477,
+                                  "name": "Income series 14",
+                                  "geometry": "M0 0l31.6 0c2.20914 0 4 1.79086 4 4l0 37c0 2.20914-1.79086 4-4 4l-31.6 0 0-45z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    35.599998474121094,
+                                    45
+                                  ],
+                                  "fill": "$Z:color-secondary",
+                                  "width": 47.1665319285868,
+                                  "height": 53.26319230328822
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "mCfIE",
+                                  "x": 86.30210581057545,
+                                  "y": 142.85155297980663,
+                                  "name": "Income series 15",
+                                  "geometry": "M0 0l3.863 0c2.13348 0 3.863 1.72952 3.863 3.863l0 37.27399c0 2.13348-1.72952 3.86301-3.863 3.86301l-3.863 0 0-45z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    7.7259979248046875,
+                                    45
+                                  ],
+                                  "fill": "$Z:color-secondary",
+                                  "width": 10.236195039878925,
+                                  "height": 53.26319230328822
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "H3n88I",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Income Transactions",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:EYPF1": {
+                  "type": "frame",
+                  "id": "z1kK8",
+                  "name": "Income table title",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "LPP6C",
+                      "type": "ref",
+                      "ref": "Z:mJPWX",
+                      "name": "Income table heading",
+                      "content": "Income Transactions",
+                      "fill": "$Z:color-text",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:hoPtf": {
+                  "type": "frame",
+                  "id": "MZuVU",
+                  "name": "Income record count",
+                  "children": [
+                    {
+                      "id": "tpl7B",
+                      "type": "ref",
+                      "ref": "Z:Zs7kT",
+                      "name": "Record count",
+                      "content": "15 records",
+                      "fill": "$Z:color-text-tertiary",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "ziY2w",
+                  "name": "Income list",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "BVD4S",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 1",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "tak5R",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "qXRpK",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NLdIv",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "BcYKO",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Monthly Salary",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "Uos07",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Salary · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h2CciL",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "k2bG7H",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$5,500.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "xf4qf",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jul 31, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "sytGd",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 2",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "FUj6c",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "AfCWL",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "V33Rbn",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "d9oAFY",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Freelance — Web Design",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "ZIXop",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Freelance · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "V0PkFu",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "vtV8T",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$1,200.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "H38HEZ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jul 25, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "n9G2n",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 3",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "DIXtH",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "qc0Qf",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "D7ZVBd",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "swQqR",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "High-Yield Interest",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "ZcPQG",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Investment Returns · High-Yield Savings",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "NOPB1",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "r69Ax",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$175.42",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "b2SMz",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jul 10, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "dp8o8",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 4",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "Mw1vU",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "hu1yk",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "f4qQGV",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "y0g20",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Fidelity Dividends",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "a14z9N",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Investment Returns · Brokerage",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "n00vJN",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "L8DexI",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$85.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "hQMsy",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jul 8, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "b3CkfH",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 5",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "DuDUg",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "P8CNuZ",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "EMLVs",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "T9TSkv",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Monthly Salary",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "YznLQ",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Salary · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "c91Xq",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "E8t1QY",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$5,500.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "tVODg",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jun 30, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "W3yz5Q",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 6",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "eT9X9",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "XAXSa",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "SJj4b",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "PKOn4",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Freelance — Brand Strategy",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "WG2rr",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Freelance · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GNGdA",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "xwmMM",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$2,500.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "mAS9R",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jun 28, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "M3c3Ip",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 7",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "BVVzz",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "gNoi3",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wCWy3",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "tMp1E",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Fidelity Quarterly Dividend",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "HrzL3",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Investment Returns · Brokerage",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "d8EG3",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "JkgTV",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$312.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "rR6nT",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "Jun 15, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "UoOJJ",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 8",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "TL6xr",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "vQIqJ",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "HDFOX",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "LUIu5",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Monthly Salary",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "DPjFt",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Salary · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "raFLA",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "c3AdSt",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$5,500.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "DdBos",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "May 31, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "M962D",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Income record 9",
+                      "width": "fill_container",
+                      "height": 80,
+                      "padding": [
+                        0,
+                        "$Z:spacing-12"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "O5RY7",
+                          "name": "Income cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "tYYtJ",
+                              "type": "ref",
+                              "ref": "Z:cPlVX",
+                              "name": "Income direction",
+                              "width": 28,
+                              "height": 28
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ba7mL",
+                              "name": "Income description",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "children": [
+                                {
+                                  "id": "Xt5Yn",
+                                  "type": "ref",
+                                  "ref": "Z:Z6gGa",
+                                  "name": "Income description text",
+                                  "content": "Freelance — App Development",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                },
+                                {
+                                  "id": "I6KOt",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income account text",
+                                  "content": "Freelance · Main Checking",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "width": "fill_container",
+                                  "textGrowth": "fixed-width"
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GClZq",
+                              "name": "Income amount and date",
+                              "width": 96,
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-2",
+                              "alignItems": "end",
+                              "children": [
+                                {
+                                  "id": "pH5J5",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Income amount",
+                                  "content": "+$1,000.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                },
+                                {
+                                  "id": "ycJZ4",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Income date",
+                                  "content": "May 15, 2026",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
     },
     {
       "id": "oftme",
