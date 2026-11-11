@@ -1,5 +1,5 @@
 {
-  "version": "2.17",
+  "version": "2.22",
   "children": [
     {
       "type": "frame",
@@ -76557,7 +76557,7 @@
                                   "type": "ref",
                                   "ref": "YpnwD",
                                   "x": 0,
-                                  "y": 14.000000000000014,
+                                  "y": 14.000000000000012,
                                   "content": "$145,580.00"
                                 }
                               ]
@@ -77440,8 +77440,8 @@
                                       "height": 138,
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.0004144260588582411,
-                                      "y": 7.763175085924612
+                                      "x": 0.00033061618353075406,
+                                      "y": 7.495820841894044
                                     },
                                     "W6zisd": {
                                       "width": 280,
@@ -77452,16 +77452,16 @@
                                       "y": 0
                                     },
                                     "u7wetI": {
-                                      "width": "fill_container(0.0036595340056119834)",
-                                      "height": 53.56786497402821,
+                                      "width": "fill_container(0.002919462086360517)",
+                                      "height": 51.72305329762673,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
                                       "y": 0
                                     },
                                     "A5EF3": {
-                                      "width": "fill_container(0.0036595340056119834)",
-                                      "height": 11.864023786194169,
+                                      "width": "fill_container(0.002919462086360517)",
+                                      "height": 11.455441334373706,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
@@ -77473,30 +77473,30 @@
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
-                                      "y": 10.404124651262647
+                                      "y": 10.045819338017631
                                     },
                                     "rFnHl": {
-                                      "width": "fill_container(0.0036595340056119834)",
-                                      "height": 43.14198733181514,
+                                      "width": "fill_container(0.002919462086360517)",
+                                      "height": 41.65623011503069,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
                                       "y": 0
                                     },
                                     "uwQdf": {
-                                      "width": "fill_container(0.0036488932880192507)",
-                                      "height": 9.184264376393857,
+                                      "width": "fill_container(0.0029109732537561436)",
+                                      "height": 8.867969557308864,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
-                                      "y": 0.723734886675927
+                                      "y": 0.6988103433847918
                                     },
                                     "WTyhz": {
                                       "width": 280,
                                       "height": 159,
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.0004144260588582411,
+                                      "x": 0.00033061618353075406,
                                       "y": 0
                                     },
                                     "k2gCke": {
@@ -77508,44 +77508,44 @@
                                       "y": 0
                                     },
                                     "l9w9n": {
-                                      "width": "fill_container(0.0036595340056119366)",
-                                      "height": 2.4205910574921564e-7,
+                                      "width": "fill_container(0.00291946208636048)",
+                                      "height": 2.3372288654611765e-7,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
                                       "y": 0
                                     },
                                     "rtsru": {
-                                      "width": "fill_container(0.0036595340056119366)",
-                                      "height": 2.420590581847441e-7,
+                                      "width": "fill_container(0.00291946208636048)",
+                                      "height": 2.337228414253146e-7,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
-                                      "y": 15.364004123596425
+                                      "y": 14.834886634646038
                                     },
                                     "nGAp9": {
-                                      "width": "fill_container(0.0036595340056119366)",
-                                      "height": 2.4205919456712967e-7,
+                                      "width": "fill_container(0.00291946208636048)",
+                                      "height": 2.3372297177909226e-7,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
-                                      "y": 30.72800824719221
+                                      "y": 29.669773269291458
                                     },
                                     "h1fwb": {
-                                      "width": "fill_container(0.0036595340056119366)",
-                                      "height": 2.420591024647394e-7,
+                                      "width": "fill_container(0.00291946208636048)",
+                                      "height": 2.3372288258966543e-7,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
-                                      "y": 46.092012370788765
+                                      "y": 44.50465990393762
                                     },
                                     "UIGB1": {
-                                      "width": "fill_container(0.0036595340056119366)",
-                                      "height": 2.420590599559439e-7,
+                                      "width": "fill_container(0.00291946208636048)",
+                                      "height": 2.337228414253146e-7,
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
-                                      "y": 61.45601649438456
+                                      "y": 59.33954653858305
                                     },
                                     "wZaHN": {
                                       "width": 279.9999999999998,
@@ -77556,51 +77556,51 @@
                                       "y": 0
                                     },
                                     "RCzMU": {
-                                      "width": "fit_content(7.83523422185596e-7)",
-                                      "height": "fill_container(61.417930685985894)",
+                                      "width": "fit_content(0.000001)",
+                                      "height": "fill_container(59.30277235878995)",
                                       "flipX": false,
                                       "flipY": false,
                                       "x": 0,
                                       "y": 0
                                     },
                                     "OEJmW": {
-                                      "width": "fit_content(7.83523422185615e-7)",
-                                      "height": "fill_container(61.45601649438458)",
+                                      "width": "fit_content(0.000001)",
+                                      "height": "fill_container(59.339546538583065)",
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.0007319067984701479,
+                                      "x": 0.0005838924151562221,
                                       "y": 0
                                     },
                                     "fAowq": {
-                                      "width": "fit_content(7.835234221855301e-7)",
-                                      "height": "fill_container(61.45601649438458)",
+                                      "width": "fit_content(0.000001)",
+                                      "height": "fill_container(59.339546538583065)",
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.0014638135969403435,
+                                      "x": 0.0011677848303124822,
                                       "y": 0
                                     },
                                     "J3cEp": {
-                                      "width": "fit_content(7.835234221857e-7)",
-                                      "height": "fill_container(61.45601649438458)",
+                                      "width": "fit_content(0.000001)",
+                                      "height": "fill_container(59.339546538583065)",
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.0021957203954104565,
+                                      "x": 0.0017516772454686765,
                                       "y": 0
                                     },
                                     "DILwB": {
-                                      "width": "fit_content(7.835234221857e-7)",
-                                      "height": "fill_container(61.45601649438458)",
+                                      "width": "fit_content(0.000001)",
+                                      "height": "fill_container(59.339546538583065)",
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.002927627193880665,
+                                      "x": 0.002335569660624947,
                                       "y": 0
                                     },
                                     "hh2DB": {
-                                      "width": "fit_content(7.835234221857e-7)",
-                                      "height": "fill_container(61.45601649438458)",
+                                      "width": "fit_content(0.000001)",
+                                      "height": "fill_container(59.339546538583065)",
                                       "flipX": false,
                                       "flipY": false,
-                                      "x": 0.0036595339923508135,
+                                      "x": 0.0029194620757811694,
                                       "y": 0
                                     }
                                   }
@@ -77739,7 +77739,7 @@
                                                           "type": "ref",
                                                           "ref": "Z6gGa",
                                                           "x": 0,
-                                                          "y": -1.7763568394002505e-15,
+                                                          "y": 0,
                                                           "content": "Monthly Salary"
                                                         },
                                                         {
@@ -78058,7 +78058,7 @@
                                                           "type": "ref",
                                                           "ref": "Z6gGa",
                                                           "x": 0,
-                                                          "y": -1.7763568394002505e-15,
+                                                          "y": 0,
                                                           "content": "Freelance — Web Design"
                                                         },
                                                         {
@@ -79052,7 +79052,7 @@
                                                           "type": "ref",
                                                           "ref": "Z6gGa",
                                                           "x": 0,
-                                                          "y": 1.7763568394002505e-15,
+                                                          "y": 0,
                                                           "content": "High-Yield Savings"
                                                         },
                                                         {
@@ -79584,7 +79584,7 @@
                                       "type": "ref",
                                       "ref": "YpnwD",
                                       "x": 0,
-                                      "y": 14.000000000000014,
+                                      "y": 14.000000000000012,
                                       "content": "$145,580.00"
                                     }
                                   ]
@@ -80568,7 +80568,7 @@
                                                               "type": "ref",
                                                               "ref": "Z6gGa",
                                                               "x": 0,
-                                                              "y": -1.7763568394002505e-15,
+                                                              "y": 0,
                                                               "content": "Monthly Salary"
                                                             },
                                                             {
@@ -80887,7 +80887,7 @@
                                                               "type": "ref",
                                                               "ref": "Z6gGa",
                                                               "x": 0,
-                                                              "y": -1.7763568394002505e-15,
+                                                              "y": 0,
                                                               "content": "Freelance — Web Design"
                                                             },
                                                             {
@@ -81359,7 +81359,7 @@
                                                               "type": "ref",
                                                               "ref": "Z6gGa",
                                                               "x": 0,
-                                                              "y": 1.7763568394002505e-15,
+                                                              "y": 0,
                                                               "content": "High-Yield Savings"
                                                             },
                                                             {
@@ -81746,2237 +81746,6 @@
                                           "type": "ref",
                                           "ref": "HBPsM",
                                           "x": 414,
-                                          "y": 12,
-                                          "content": "$145,580.00",
-                                          "fill": "$color-text"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "type": "frame",
-      "id": "KFGLa",
-      "x": 705,
-      "y": -2202,
-      "name": "dashboard",
-      "context": "body",
-      "clip": true,
-      "width": 1440,
-      "height": 1255,
-      "fill": "#ffffff",
-      "layout": "vertical",
-      "children": [
-        {
-          "type": "frame",
-          "id": "U9CJTJ",
-          "name": "page",
-          "context": "QC - div",
-          "clip": true,
-          "width": "fill_container",
-          "height": "fill_container",
-          "fill": "#f8f9fb",
-          "children": [
-            {
-              "id": "w35ej3",
-              "type": "ref",
-              "ref": "LJ6ij",
-              "x": 0,
-              "y": 0
-            },
-            {
-              "type": "frame",
-              "id": "O3SvIJ",
-              "name": "wrapper",
-              "context": "div",
-              "clip": true,
-              "width": "fill_container",
-              "height": "fill_container",
-              "layout": "vertical",
-              "children": [
-                {
-                  "id": "yIpPN",
-                  "type": "ref",
-                  "ref": "Jdgj2",
-                  "x": 0,
-                  "y": 0,
-                  "descendants": {
-                    "hKNyq": {
-                      "content": "Dashboard"
-                    }
-                  }
-                },
-                {
-                  "type": "frame",
-                  "id": "k3dfZC",
-                  "name": "container",
-                  "context": "AC - div",
-                  "clip": true,
-                  "width": "fill_container",
-                  "height": "fill_container",
-                  "fill": "#f8f9fb",
-                  "layout": "vertical",
-                  "padding": [
-                    0,
-                    55
-                  ],
-                  "alignItems": "center",
-                  "children": [
-                    {
-                      "type": "frame",
-                      "id": "skOju",
-                      "name": "content",
-                      "context": "div",
-                      "layout": "vertical",
-                      "gap": "$spacing-20",
-                      "padding": "$spacing-24",
-                      "children": [
-                        {
-                          "id": "a7SoMW",
-                          "type": "ref",
-                          "ref": "zFG6j",
-                          "x": 24,
-                          "y": 24,
-                          "name": "content-title",
-                          "descendants": {
-                            "RcOFm": {
-                              "content": "Financial Overview"
-                            },
-                            "tEiyK": {
-                              "content": "August 1, 2026 · All accounts"
-                            },
-                            "iy81x": {
-                              "children": [
-                                {
-                                  "type": "frame",
-                                  "id": "sOgvI",
-                                  "name": "info",
-                                  "context": "div",
-                                  "layout": "vertical",
-                                  "alignItems": "end",
-                                  "children": [
-                                    {
-                                      "id": "KZPtq",
-                                      "type": "ref",
-                                      "ref": "Oppgm",
-                                      "x": 65,
-                                      "y": 1.3226185430791415e-14,
-                                      "rotation": 1.4033418597069752e-14,
-                                      "fill": "$color-text-tertiary",
-                                      "content": "Net Worth"
-                                    },
-                                    {
-                                      "id": "uvTGf",
-                                      "type": "ref",
-                                      "ref": "YpnwD",
-                                      "x": 0,
-                                      "y": 14.000000000000014,
-                                      "content": "$145,580.00"
-                                    }
-                                  ]
-                                }
-                              ]
-                            }
-                          }
-                        },
-                        {
-                          "type": "frame",
-                          "id": "yuJ98",
-                          "name": "div",
-                          "context": "div",
-                          "width": "fill_container",
-                          "height": "fit_content(150.75)",
-                          "gap": 14,
-                          "children": [
-                            {
-                              "id": "pubol",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 0,
-                              "y": 0,
-                              "enabled": true,
-                              "descendants": {
-                                "O4i3fR": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "zGYms",
-                                      "x": 2.2737367544323206e-13,
-                                      "y": 0,
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container(258.76)",
-                                      "height": "fill_container(150.75)",
-                                      "layout": "vertical",
-                                      "padding": "$spacing-18",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "VzKrQ",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": "fill_container",
-                                          "justifyContent": "space_between",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "gKwQ3",
-                                              "name": "div",
-                                              "context": "div",
-                                              "width": 35,
-                                              "height": 35,
-                                              "fill": "$color-primary-border",
-                                              "cornerRadius": 8.75,
-                                              "justifyContent": "center",
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "H6j4u7",
-                                                  "name": "svg",
-                                                  "context": "DollarSign - svg",
-                                                  "clip": true,
-                                                  "width": 18,
-                                                  "height": 18,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "oGIEG",
-                                                      "x": 9,
-                                                      "y": 1.5,
-                                                      "geometry": "M0 0l0 15",
-                                                      "width": 0,
-                                                      "height": 15,
-                                                      "stroke": "$color-primary",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    },
-                                                    {
-                                                      "type": "path",
-                                                      "id": "OC9eA",
-                                                      "x": 4.5,
-                                                      "y": 3.75,
-                                                      "geometry": "M8.25 0l-5.625 0c-1.44975 0-2.625 1.17525-2.625 2.625 0 1.44975 1.17525 2.625 2.625 2.625l3.75 0c1.44975 0 2.625 1.17525 2.625 2.625 0 1.44975-1.17525 2.625-2.625 2.625l-6.375 0",
-                                                      "width": 9,
-                                                      "height": 10.5,
-                                                      "stroke": "$color-primary",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "type": "frame",
-                                              "id": "ahCjn",
-                                              "name": "div",
-                                              "context": "div",
-                                              "fill": "$color-secondary-bg",
-                                              "cornerRadius": 33554400,
-                                              "gap": 3.5,
-                                              "padding": [
-                                                3.5,
-                                                7
-                                              ],
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "w0glM",
-                                                  "name": "svg",
-                                                  "context": "ArrowUpRight - svg",
-                                                  "clip": true,
-                                                  "width": 12,
-                                                  "height": 12,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "G1xT4w",
-                                                      "x": 3.5,
-                                                      "y": 3.5,
-                                                      "geometry": "M0 0l5 0 0 5m-5 0l5-5",
-                                                      "width": 5,
-                                                      "height": 5,
-                                                      "stroke": "$color-secondary-extra",
-                                                      "strokeWidth": 1,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "hsGLQ",
-                                                  "type": "ref",
-                                                  "ref": "Zs7kT",
-                                                  "x": 22.5,
-                                                  "y": 3.500000000000008,
-                                                  "rotation": 1.4033418597069752e-14,
-                                                  "fill": "$color-secondary-extra",
-                                                  "content": "+3.2%"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "r2axpn",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 14,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "PeVf7",
-                                          "type": "ref",
-                                          "ref": "cVVG1",
-                                          "x": 18,
-                                          "y": 67,
-                                          "content": "$145,580.00"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "Tj6De",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 3.5,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "Camro",
-                                          "type": "ref",
-                                          "ref": "NdT35",
-                                          "x": 18,
-                                          "y": 96.5,
-                                          "fill": "$color-text-secondary",
-                                          "content": "Net Worth"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "o3Zm1k",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 1.75,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "M0D4Yg",
-                                          "type": "ref",
-                                          "ref": "Zs7kT",
-                                          "x": 18,
-                                          "y": 114.25000000000003,
-                                          "rotation": 1.4033418597069752e-14,
-                                          "fill": "$color-text-tertiary",
-                                          "content": "Across 5 accounts"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            {
-                              "id": "BEtxF",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 273.26,
-                              "y": 0,
-                              "descendants": {
-                                "O4i3fR": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "JtIJ0",
-                                      "x": -2.2737367544323206e-13,
-                                      "y": 0,
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container(258.76)",
-                                      "height": "fill_container(150.75)",
-                                      "layout": "vertical",
-                                      "padding": "$spacing-18",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "oMOAo",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": "fill_container",
-                                          "justifyContent": "space_between",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "zDJ6p",
-                                              "name": "div",
-                                              "context": "div",
-                                              "width": 35,
-                                              "height": 35,
-                                              "fill": "$color-secondary-bg",
-                                              "cornerRadius": 8.75,
-                                              "justifyContent": "center",
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "FtYRF",
-                                                  "name": "svg",
-                                                  "context": "TrendingUp - svg",
-                                                  "clip": true,
-                                                  "width": 18,
-                                                  "height": 18,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "S3qAZ",
-                                                      "x": 1.5,
-                                                      "y": 5.25,
-                                                      "geometry": "M15 0l-6.375 6.375-3.75-3.75-4.875 4.875",
-                                                      "width": 15,
-                                                      "height": 7.5,
-                                                      "stroke": "$color-secondary-extra",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    },
-                                                    {
-                                                      "type": "path",
-                                                      "id": "RW5ia",
-                                                      "x": 12,
-                                                      "y": 5.25,
-                                                      "geometry": "M0 0l4.5 0 0 4.5",
-                                                      "width": 4.5,
-                                                      "height": 4.5,
-                                                      "stroke": "#10B981",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "type": "frame",
-                                              "id": "N69UZ3",
-                                              "name": "div",
-                                              "context": "div",
-                                              "fill": "$color-secondary-bg",
-                                              "cornerRadius": 33554400,
-                                              "gap": 3.5,
-                                              "padding": [
-                                                3.5,
-                                                7
-                                              ],
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "KYtCN",
-                                                  "name": "svg",
-                                                  "context": "ArrowUpRight - svg",
-                                                  "clip": true,
-                                                  "width": 12,
-                                                  "height": 12,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "gitXY",
-                                                      "x": 3.5,
-                                                      "y": 3.5,
-                                                      "geometry": "M0 0l5 0 0 5m-5 0l5-5",
-                                                      "width": 5,
-                                                      "height": 5,
-                                                      "stroke": "$color-secondary-extra",
-                                                      "strokeWidth": 1,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "y1o1G6",
-                                                  "type": "ref",
-                                                  "ref": "Zs7kT",
-                                                  "x": 22.5,
-                                                  "y": 3.500000000000008,
-                                                  "rotation": 1.4033418597069752e-14,
-                                                  "fill": "$color-secondary-extra",
-                                                  "content": "+3.2%"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "A536dY",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 14,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "g01kBw",
-                                          "type": "ref",
-                                          "ref": "cVVG1",
-                                          "x": 18,
-                                          "y": 67,
-                                          "content": "$6,960.42"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "ptjwg",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 3.5,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "V6nCkl",
-                                          "type": "ref",
-                                          "ref": "NdT35",
-                                          "x": 18,
-                                          "y": 96.5,
-                                          "fill": "$color-text-secondary",
-                                          "content": "Monthly Income"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "U5HSPZ",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 1.75,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "A5mhZ",
-                                          "type": "ref",
-                                          "ref": "Zs7kT",
-                                          "x": 18,
-                                          "y": 114.25000000000001,
-                                          "rotation": 1.4033418597069752e-14,
-                                          "fill": "$color-text-tertiary",
-                                          "content": "July 2026"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            {
-                              "id": "yxvz4",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 546.52,
-                              "y": 0,
-                              "descendants": {
-                                "O4i3fR": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "W8ILSk",
-                                      "x": 2.2737367544323206e-13,
-                                      "y": 0,
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container(258.76)",
-                                      "height": "fill_container(150.75)",
-                                      "layout": "vertical",
-                                      "padding": "$spacing-18",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "nqhsL",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": "fill_container",
-                                          "justifyContent": "space_between",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "UE8RE",
-                                              "name": "div",
-                                              "context": "div",
-                                              "width": 35,
-                                              "height": 35,
-                                              "fill": "$color-error-bg",
-                                              "cornerRadius": 8.75,
-                                              "justifyContent": "center",
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "nStaY",
-                                                  "name": "svg",
-                                                  "context": "TrendingDown - svg",
-                                                  "clip": true,
-                                                  "width": 18,
-                                                  "height": 18,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "U2fBh",
-                                                      "x": 1.5,
-                                                      "y": 5.25,
-                                                      "geometry": "M15 7.5l-6.375-6.375-3.75 3.75-4.875-4.875",
-                                                      "width": 15,
-                                                      "height": 7.5,
-                                                      "stroke": "#EF4444",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    },
-                                                    {
-                                                      "type": "path",
-                                                      "id": "VOgAH",
-                                                      "x": 12,
-                                                      "y": 8.25,
-                                                      "geometry": "M0 4.5l4.5 0 0-4.5",
-                                                      "width": 4.5,
-                                                      "height": 4.5,
-                                                      "stroke": "#EF4444",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            },
-                                            {
-                                              "type": "frame",
-                                              "id": "RksCW",
-                                              "name": "div",
-                                              "context": "div",
-                                              "fill": "$color-error-bg",
-                                              "cornerRadius": 33554400,
-                                              "gap": 3.5,
-                                              "padding": [
-                                                3.5,
-                                                7
-                                              ],
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "bLhuc",
-                                                  "name": "svg",
-                                                  "context": "ArrowDownRight - svg",
-                                                  "clip": true,
-                                                  "width": 12,
-                                                  "height": 12,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "tpVxZ",
-                                                      "x": 3.5,
-                                                      "y": 3.5,
-                                                      "geometry": "M0 0l5 5m0-5l0 5-5 0",
-                                                      "width": 5,
-                                                      "height": 5,
-                                                      "stroke": "$color-error",
-                                                      "strokeWidth": 1,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                },
-                                                {
-                                                  "id": "fvgTJ",
-                                                  "type": "ref",
-                                                  "ref": "Zs7kT",
-                                                  "x": 22.5,
-                                                  "y": 3.5000000000000075,
-                                                  "rotation": 1.4033418597069752e-14,
-                                                  "content": "−1.4%",
-                                                  "fill": "$color-error"
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "dpu9C",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 14,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "S5Ecnf",
-                                          "type": "ref",
-                                          "ref": "cVVG1",
-                                          "x": 18,
-                                          "y": 67,
-                                          "content": "$3,070.00"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "K5Ofp",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 3.5,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "Biaq5",
-                                          "type": "ref",
-                                          "ref": "NdT35",
-                                          "x": 18,
-                                          "y": 96.5,
-                                          "fill": "$color-text-secondary",
-                                          "content": "Monthly Expenses"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "D7wadd",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 1.75,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "mKEbM",
-                                          "type": "ref",
-                                          "ref": "Zs7kT",
-                                          "x": 18,
-                                          "y": 114.25000000000001,
-                                          "rotation": 1.4033418597069752e-14,
-                                          "fill": "$color-text-tertiary",
-                                          "content": "July 2026"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            {
-                              "id": "JmOmZ",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 819.78,
-                              "y": 0,
-                              "descendants": {
-                                "O4i3fR": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "xS1Vq",
-                                      "x": 2.2737367544323206e-13,
-                                      "y": 0,
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container(258.76)",
-                                      "height": "fill_container(150.75)",
-                                      "layout": "vertical",
-                                      "padding": "$font-size-lg",
-                                      "children": [
-                                        {
-                                          "type": "frame",
-                                          "id": "RyGEv",
-                                          "name": "div",
-                                          "context": "div",
-                                          "width": "fill_container",
-                                          "justifyContent": "space_between",
-                                          "children": [
-                                            {
-                                              "type": "frame",
-                                              "id": "uP1dM",
-                                              "name": "div",
-                                              "context": "div",
-                                              "width": 35,
-                                              "height": 35,
-                                              "fill": "$color-secondary-bg",
-                                              "cornerRadius": 8.75,
-                                              "justifyContent": "center",
-                                              "alignItems": "center",
-                                              "children": [
-                                                {
-                                                  "type": "frame",
-                                                  "id": "a532qg",
-                                                  "name": "svg",
-                                                  "context": "PiggyBank - svg",
-                                                  "clip": true,
-                                                  "width": 18,
-                                                  "height": 18,
-                                                  "layout": "none",
-                                                  "children": [
-                                                    {
-                                                      "type": "path",
-                                                      "id": "NQg5w",
-                                                      "x": 1.5,
-                                                      "y": 3.75,
-                                                      "geometry": "M12.75 0c-1.125 0-2.1 1.05-2.25 1.5-2.625-1.125-8.25-0.225-8.25 3.75 0 1.35 0 2.25 1.5 3.375l0 2.625 3 0 0-1.5 2.25 0 0 1.5 3 0 0-3c0.75-0.375 1.275-0.75 1.5-1.5l1.5 0 0-3-1.5 0c0-0.75-0.375-1.125-0.75-1.5l0-2.25z m-12.75 3l0 0.75c0 0.825 0.675 1.5 1.5 1.5l0.75 0m8.25-0.75l0.0075 0",
-                                                      "width": 15,
-                                                      "height": 11.25,
-                                                      "stroke": "$color-secondary-extra",
-                                                      "strokeWidth": 1.5,
-                                                      "strokeLinejoin": "round",
-                                                      "strokeLinecap": "round"
-                                                    }
-                                                  ]
-                                                }
-                                              ]
-                                            }
-                                          ]
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "yNYV3",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 14,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "C5BSwe",
-                                          "type": "ref",
-                                          "ref": "cVVG1",
-                                          "x": 18,
-                                          "y": 67,
-                                          "content": "$3,890.42"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "HuBAO",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 3.5,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "mY0nz",
-                                          "type": "ref",
-                                          "ref": "NdT35",
-                                          "x": 18,
-                                          "y": 96.5,
-                                          "fill": "$color-text-secondary",
-                                          "content": "Net Savings"
-                                        },
-                                        {
-                                          "type": "frame",
-                                          "id": "ndSAT",
-                                          "name": "spacer",
-                                          "width": "fill_container",
-                                          "height": 1.75,
-                                          "layout": "none"
-                                        },
-                                        {
-                                          "id": "sSkBc",
-                                          "type": "ref",
-                                          "ref": "Zs7kT",
-                                          "x": 18,
-                                          "y": 114.25000000000001,
-                                          "rotation": 1.4033418597069752e-14,
-                                          "fill": "$color-text-tertiary",
-                                          "content": "This month"
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "IBrEt",
-                          "name": "div",
-                          "context": "div",
-                          "width": "fill_container",
-                          "height": "fit_content(331.5)",
-                          "gap": 14,
-                          "padding": [
-                            0,
-                            0.04,
-                            0,
-                            0
-                          ],
-                          "children": [
-                            {
-                              "id": "CEsFO",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 0,
-                              "y": 0,
-                              "height": "fill_container",
-                              "width": 640.99,
-                              "enabled": true,
-                              "descendants": {
-                                "CR1Ds": {
-                                  "height": "fit_content(260.75)",
-                                  "width": "fill_container",
-                                  "justifyContent": "center",
-                                  "layout": "vertical",
-                                  "alignItems": "center",
-                                  "padding": [
-                                    0,
-                                    "$spacing-16",
-                                    "$spacing-16",
-                                    "$spacing-16"
-                                  ],
-                                  "children": [
-                                    {
-                                      "id": "mQ1Kx",
-                                      "type": "ref",
-                                      "ref": "jFGOS",
-                                      "x": 16,
-                                      "y": 0,
-                                      "width": "fill_container",
-                                      "height": "fill_container",
-                                      "descendants": {
-                                        "A3RGyz": {
-                                          "width": "fill_container",
-                                          "height": "fill_container"
-                                        }
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            {
-                              "id": "gMU70",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 654.99,
-                              "y": 0,
-                              "width": 423,
-                              "height": "fill_container",
-                              "flipX": false,
-                              "flipY": false,
-                              "descendants": {
-                                "hoPtf": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "width": 423,
-                                  "height": 262,
-                                  "flipX": false,
-                                  "flipY": false,
-                                  "x": 0,
-                                  "y": 70,
-                                  "children": [
-                                    {
-                                      "id": "cKOq0",
-                                      "type": "ref",
-                                      "ref": "QcJxJ",
-                                      "x": 18.600000000000136,
-                                      "y": 11.625,
-                                      "enabled": true
-                                    }
-                                  ]
-                                }
-                              }
-                            }
-                          ]
-                        },
-                        {
-                          "type": "frame",
-                          "id": "jkaIU",
-                          "name": "div",
-                          "context": "div",
-                          "gap": 14,
-                          "padding": [
-                            0,
-                            0.04,
-                            0,
-                            0
-                          ],
-                          "children": [
-                            {
-                              "id": "x6Sb2",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 0,
-                              "y": 0,
-                              "width": 640,
-                              "enabled": true,
-                              "height": "fit_content",
-                              "descendants": {
-                                "EYPF1": {
-                                  "justifyContent": "start",
-                                  "alignItems": "start"
-                                },
-                                "hoPtf": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "layout": "vertical",
-                                  "padding": 0,
-                                  "height": "fit_content",
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "hpnME",
-                                      "name": "t-body",
-                                      "width": "fill_container",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "id": "B44F9o",
-                                          "type": "ref",
-                                          "ref": "wZy6w",
-                                          "x": 0,
-                                          "y": 0,
-                                          "height": "fit_content",
-                                          "width": "fill_container",
-                                          "descendants": {
-                                            "V8Aad": {
-                                              "width": "fill_container",
-                                              "height": "fit_content",
-                                              "children": [
-                                                {
-                                                  "id": "M5haU",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 0,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "id": "zBG9O",
-                                                          "type": "ref",
-                                                          "ref": "cPlVX",
-                                                          "x": 0,
-                                                          "y": 2.000000000000014
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "SMfc1",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "ul2Oo",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": -1.7763568394002505e-15,
-                                                              "content": "Monthly Salary"
-                                                            },
-                                                            {
-                                                              "id": "IJm7m",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.00000000000003,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Salary · Main Checking",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "DYXc9",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 50,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "id": "xus2k",
-                                                          "type": "ref",
-                                                          "ref": "fo8v9",
-                                                          "x": 0,
-                                                          "y": 2.000000000000014
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "CkUwW",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "k5Zda",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Rent Payment"
-                                                            },
-                                                            {
-                                                              "id": "MjBkO",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.00000000000003,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Housing · Main Checking",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "yapUb",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 100,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "id": "MLm2O",
-                                                          "type": "ref",
-                                                          "ref": "fo8v9",
-                                                          "x": 0,
-                                                          "y": 2.0000000000000178
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "HT7OV",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "PrOvU",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Whole Foods Market"
-                                                            },
-                                                            {
-                                                              "id": "NKPLa",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000036,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Food & Dining · Main Checking",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "iRlDm",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 150,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "gap": "$spacing-8",
-                                                      "children": [
-                                                        {
-                                                          "id": "jnugu",
-                                                          "type": "ref",
-                                                          "ref": "fo8v9",
-                                                          "x": 0,
-                                                          "y": 2.0000000000000178
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "e4sCb",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "JmAh5",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Netflix Subscription"
-                                                            },
-                                                            {
-                                                              "id": "U29EKH",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000036,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Entertainment · Visa Rewards",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "X4vqlx",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 200,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "gap": "$spacing-8",
-                                                      "children": [
-                                                        {
-                                                          "id": "S1XO5",
-                                                          "type": "ref",
-                                                          "ref": "fo8v9",
-                                                          "x": 0,
-                                                          "y": 2.000000000000014
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "DrNLE",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "leiP1",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Blue Bottle Coffee"
-                                                            },
-                                                            {
-                                                              "id": "Ks3sp",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000032,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Food & Dining · Cash Wallet",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "OFILc",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 250,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "end",
-                                                      "alignItems": "center",
-                                                      "gap": "$spacing-8",
-                                                      "children": [
-                                                        {
-                                                          "id": "Ku6li",
-                                                          "type": "ref",
-                                                          "ref": "fPGgi",
-                                                          "x": 0,
-                                                          "y": 2.0000000000000213
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "fygkF",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "GoKHt",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Transfer to Savings"
-                                                            },
-                                                            {
-                                                              "id": "aWs55",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000043,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Main Checking → High-Yield Savings",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "BLEPF",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 300,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "gap": "$spacing-8",
-                                                      "children": [
-                                                        {
-                                                          "id": "f5QoQF",
-                                                          "type": "ref",
-                                                          "ref": "cPlVX",
-                                                          "x": 0,
-                                                          "y": 2.000000000000014
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "KjGH6",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "ncIzx",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": -1.7763568394002505e-15,
-                                                              "content": "Freelance — Web Design"
-                                                            },
-                                                            {
-                                                              "id": "pivFw",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.00000000000003,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Freelance · Main Checking",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                }
-                                              ]
-                                            }
-                                          }
-                                        },
-                                        {
-                                          "id": "HxqsY",
-                                          "type": "ref",
-                                          "ref": "wZy6w",
-                                          "x": 320.00000000000006,
-                                          "y": 0,
-                                          "descendants": {
-                                            "V8Aad": {
-                                              "children": [
-                                                {
-                                                  "id": "K1ljEn",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 0,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "O4SlFQ",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$5,500.00",
-                                                          "fill": "$color-secondary"
-                                                        },
-                                                        {
-                                                          "id": "m41QN9",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 7,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 31, 2026",
-                                                          "fill": "$color-text-tertiary"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "nqQTI",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 50,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "ulWSr",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$1,800.00",
-                                                          "fill": "$color-error"
-                                                        },
-                                                        {
-                                                          "id": "wfgaj",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 5,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 30, 2026",
-                                                          "fill": "$color-text-tertiary",
-                                                          "flipX": false,
-                                                          "flipY": false,
-                                                          "width": 60,
-                                                          "height": 14
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "aDA4E",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 100,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "gap": "$spacing-2",
-                                                      "layout": "vertical",
-                                                      "children": [
-                                                        {
-                                                          "id": "KmTK8",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 9,
-                                                          "y": 0,
-                                                          "content": "$127.50",
-                                                          "fill": "$color-error"
-                                                        },
-                                                        {
-                                                          "id": "oarHD",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 0,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 29, 2026",
-                                                          "fill": "$color-text-tertiary",
-                                                          "flipX": false,
-                                                          "flipY": false,
-                                                          "width": 60,
-                                                          "height": 14
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "acKEl",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 150,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "sbBqT",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 16,
-                                                          "y": 0,
-                                                          "content": "$15.99",
-                                                          "fill": "$color-error"
-                                                        },
-                                                        {
-                                                          "id": "Wz0HZ",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 0,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 28, 2026",
-                                                          "fill": "$color-text-tertiary",
-                                                          "flipX": false,
-                                                          "flipY": false,
-                                                          "width": 60,
-                                                          "height": 14
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "qHmzk",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 200,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "Q89dZh",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 21,
-                                                          "y": 0,
-                                                          "content": "$4.75",
-                                                          "fill": "$color-error"
-                                                        },
-                                                        {
-                                                          "id": "NNkJg",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 0,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 27, 2026",
-                                                          "fill": "$color-text-tertiary",
-                                                          "flipX": false,
-                                                          "flipY": false,
-                                                          "width": 60,
-                                                          "height": 14
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "VITkV",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 250,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "kHFK2",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$1,000.00",
-                                                          "fill": "$color-secondary"
-                                                        },
-                                                        {
-                                                          "id": "Wib8X",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 5,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 26, 2026",
-                                                          "fill": "$color-text-tertiary"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "V04ZL",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 300,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "tJoer",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "+$1,200.00",
-                                                          "fill": "$color-secondary"
-                                                        },
-                                                        {
-                                                          "id": "VsREF",
-                                                          "type": "ref",
-                                                          "ref": "Zs7kT",
-                                                          "x": 13,
-                                                          "y": 18.000000000000014,
-                                                          "rotation": 1.4033418597069752e-14,
-                                                          "content": "Jul 25, 2026",
-                                                          "fill": "$color-text-tertiary"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                }
-                                              ]
-                                            }
-                                          }
-                                        }
-                                      ]
-                                    }
-                                  ]
-                                }
-                              }
-                            },
-                            {
-                              "id": "UCxZI",
-                              "type": "ref",
-                              "ref": "CU2dS",
-                              "x": 654,
-                              "y": 0,
-                              "width": "fit_content",
-                              "height": "fill_container",
-                              "descendants": {
-                                "O4i3fR": {
-                                  "width": "fill_container"
-                                },
-                                "hoPtf": {
-                                  "enabled": false
-                                },
-                                "CR1Ds": {
-                                  "x": 0,
-                                  "y": 70,
-                                  "width": 425,
-                                  "height": "fit_content",
-                                  "flipX": false,
-                                  "flipY": false,
-                                  "layout": "vertical",
-                                  "children": [
-                                    {
-                                      "type": "frame",
-                                      "id": "OcafF",
-                                      "name": "t-body",
-                                      "width": "fill_container",
-                                      "stroke": "$color-border-light",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "justifyContent": "space_between",
-                                      "children": [
-                                        {
-                                          "id": "IT6Pz",
-                                          "type": "ref",
-                                          "ref": "wZy6w",
-                                          "x": 0,
-                                          "y": 0,
-                                          "height": "fit_content",
-                                          "width": 278,
-                                          "flipX": false,
-                                          "flipY": false,
-                                          "descendants": {
-                                            "V8Aad": {
-                                              "width": "fill_container",
-                                              "height": "fit_content",
-                                              "children": [
-                                                {
-                                                  "id": "Uby9x",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 0,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "type": "rectangle",
-                                                          "cornerRadius": 33554400,
-                                                          "id": "hQM2D",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "fill": "$color-primary",
-                                                          "width": 7,
-                                                          "height": 28
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "WE5YB",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "eV3eO",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Main Checking"
-                                                            },
-                                                            {
-                                                              "id": "TXt1E",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000014,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Chase Bank",
-                                                              "fill": "$color-text-tertiary",
-                                                              "enabled": true
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "N1cXOU",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 50,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "type": "rectangle",
-                                                          "cornerRadius": 33554400,
-                                                          "id": "uKJZN",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "fill": "$color-secondary",
-                                                          "width": 7,
-                                                          "height": 28
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "jZC5H",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "ouTsS",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 1.7763568394002505e-15,
-                                                              "content": "High-Yield Savings"
-                                                            },
-                                                            {
-                                                              "id": "h62gKc",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000025,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Marcus by Goldman",
-                                                              "fill": "$color-text-tertiary"
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "sdowq",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 100,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "type": "rectangle",
-                                                          "cornerRadius": 33554400,
-                                                          "id": "C40oVn",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "fill": "$color-error",
-                                                          "width": 7,
-                                                          "height": 28
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "f5JbTu",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "JO5iI",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Visa Rewards"
-                                                            },
-                                                            {
-                                                              "id": "QuME8",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000014,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Chase Bank",
-                                                              "fill": "$color-text-tertiary"
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "v9EBy9",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 150,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "type": "rectangle",
-                                                          "cornerRadius": 33554400,
-                                                          "id": "ZOh1j",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "fill": "$color-secondary-extra",
-                                                          "width": 7,
-                                                          "height": 28
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "IRe1q",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "qEVhC",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Brokerage"
-                                                            },
-                                                            {
-                                                              "id": "KbtCf",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.000000000000007,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Fidelity",
-                                                              "fill": "$color-text-tertiary"
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "d08aag",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 200,
-                                                  "height": 50,
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "gap": "$spacing-8",
-                                                      "justifyContent": "start",
-                                                      "alignItems": "center",
-                                                      "children": [
-                                                        {
-                                                          "type": "rectangle",
-                                                          "cornerRadius": 33554400,
-                                                          "id": "JESCW",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "fill": "$color-primary-extra",
-                                                          "width": 7,
-                                                          "height": 28
-                                                        },
-                                                        {
-                                                          "type": "frame",
-                                                          "id": "gRy76",
-                                                          "name": "div",
-                                                          "context": "div",
-                                                          "layout": "vertical",
-                                                          "gap": "$spacing-2",
-                                                          "justifyContent": "center",
-                                                          "children": [
-                                                            {
-                                                              "id": "PwYRw",
-                                                              "type": "ref",
-                                                              "ref": "Z6gGa",
-                                                              "x": 0,
-                                                              "y": 0,
-                                                              "content": "Cash Wallet"
-                                                            },
-                                                            {
-                                                              "id": "C0vLZD",
-                                                              "type": "ref",
-                                                              "ref": "Zs7kT",
-                                                              "x": 0,
-                                                              "y": 18.00000000000001,
-                                                              "rotation": 1.4033418597069752e-14,
-                                                              "content": "Personal",
-                                                              "fill": "$color-text-tertiary"
-                                                            }
-                                                          ]
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                }
-                                              ]
-                                            }
-                                          }
-                                        },
-                                        {
-                                          "id": "QlJOC",
-                                          "type": "ref",
-                                          "ref": "wZy6w",
-                                          "x": 278,
-                                          "y": 0,
-                                          "descendants": {
-                                            "V8Aad": {
-                                              "children": [
-                                                {
-                                                  "id": "xs8yh",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 0,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "wGkyy",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$12,450.00",
-                                                          "fill": "$color-text"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "IeIgy",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 50,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "n8ZC7W",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$45,200.00",
-                                                          "fill": "$color-text"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "KHtWp",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 100,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "UvTaV",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "-$2,340.00",
-                                                          "fill": "$color-error"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "hXQqs",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 150,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "MxFH3",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$89,750.00",
-                                                          "fill": "$color-text"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                },
-                                                {
-                                                  "id": "NbJtH",
-                                                  "type": "ref",
-                                                  "ref": "CBmjN",
-                                                  "x": 0,
-                                                  "y": 200,
-                                                  "justifyContent": "end",
-                                                  "alignItems": "center",
-                                                  "descendants": {
-                                                    "k6yx9g": {
-                                                      "justifyContent": "center",
-                                                      "alignItems": "end",
-                                                      "height": "fit_content",
-                                                      "layout": "vertical",
-                                                      "gap": "$spacing-2",
-                                                      "children": [
-                                                        {
-                                                          "id": "p3m3wk",
-                                                          "type": "ref",
-                                                          "ref": "HBPsM",
-                                                          "x": 0,
-                                                          "y": 0,
-                                                          "content": "$520.00",
-                                                          "fill": "$color-text"
-                                                        }
-                                                      ]
-                                                    }
-                                                  }
-                                                }
-                                              ]
-                                            }
-                                          }
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "type": "frame",
-                                      "id": "H9KEf0",
-                                      "name": "div",
-                                      "context": "div",
-                                      "width": "fill_container",
-                                      "fill": "#f8f9fb",
-                                      "stroke": "#11182717",
-                                      "strokeWidth": {
-                                        "top": 1
-                                      },
-                                      "strokeAlignment": "inner",
-                                      "padding": [
-                                        "$spacing-12",
-                                        "$spacing-16"
-                                      ],
-                                      "justifyContent": "space_between",
-                                      "alignItems": "center",
-                                      "children": [
-                                        {
-                                          "type": "text",
-                                          "id": "RK1PH",
-                                          "name": "Net Worth",
-                                          "context": "span",
-                                          "fill": "#6b7280",
-                                          "content": "Net Worth",
-                                          "lineHeight": 1.33,
-                                          "fontFamily": "Inter",
-                                          "fontSize": 10.5,
-                                          "fontWeight": "500"
-                                        },
-                                        {
-                                          "id": "GgVky",
-                                          "type": "ref",
-                                          "ref": "HBPsM",
-                                          "x": 329,
                                           "y": 12,
                                           "content": "$145,580.00",
                                           "fill": "$color-text"
@@ -86737,7 +84506,7 @@
                           "type": "path",
                           "id": "Qf1fm",
                           "x": 49.9999999999999,
-                          "y": 28.491050596761784,
+                          "y": 28.678626693685228,
                           "geometry": "M0 30.804c31.867-0.708 63.733-1.417 95.60001-3.4 31.867-1.983 63.733-8.5 95.6-8.5 31.86701 0 63.733 11.9 95.60001 11.9 31.867 0 63.733-30.804 95.6-30.804 31.86701 0 63.73298 11.492 95.59998 22.984l0 118.32-478 0 0-110.5z",
                           "fill": {
                             "type": "gradient",
@@ -86763,16 +84532,16 @@
                             }
                           },
                           "width": 477.9999999999993,
-                          "height": 140.29479919678744
+                          "height": 141.21845593463277
                         },
                         {
                           "type": "path",
                           "id": "YOuL8",
                           "x": 49.9999999999999,
-                          "y": 28.491050596761784,
+                          "y": 28.678626693685228,
                           "geometry": "M0 30.804c31.867-0.708 63.733-1.417 95.60001-3.4 31.867-1.983 63.733-8.5 95.6-8.5 31.86701 0 63.733 11.9 95.60001 11.9 31.867 0 63.733-30.804 95.6-30.804 31.86701 0 63.73298 11.492 95.59998 22.984",
                           "width": 477.9999999999993,
-                          "height": 30.583996830980617,
+                          "height": 30.785352226226255,
                           "stroke": "#10B981",
                           "strokeWidth": 2
                         }
@@ -86790,11 +84559,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 20.000000000000032,
-                          "y": 156.87155451400452,
+                          "y": 157.9043473839661,
                           "content": "$0k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000004)",
-                          "height": "fit_content(17.242718446601938)",
+                          "height": "fit_content(16.10533895689744)",
                           "textGrowth": "auto"
                         },
                         {
@@ -86802,11 +84571,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 12.999999999999979,
-                          "y": -2.9785738198861567,
+                          "y": -2.9981838110879586,
                           "content": "$10k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(28.000000000000004)",
-                          "height": "fit_content(17.242718446601938)",
+                          "height": "fit_content(16.10533895689744)",
                           "textGrowth": "auto"
                         },
                         {
@@ -86814,11 +84583,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 21,
-                          "y": 30.778596138823662,
+                          "y": 30.98123271457562,
                           "content": "$8k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000007)",
-                          "height": "fit_content(17.242718446601938)",
+                          "height": "fit_content(16.105338956897437)",
                           "textGrowth": "auto"
                         },
                         {
@@ -86826,11 +84595,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 20.000000000000032,
-                          "y": 72.4786296172299,
+                          "y": 72.95580606980708,
                           "content": "$5k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000004)",
-                          "height": "fit_content(17.242718446601938)",
+                          "height": "fit_content(16.10533895689744)",
                           "textGrowth": "auto"
                         },
                         {
@@ -86838,11 +84607,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 20.000000000000032,
-                          "y": 115.17152103559839,
+                          "y": 115.92977402873474,
                           "content": "$3k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000004)",
-                          "height": "fit_content(17.242718446601938)",
+                          "height": "fit_content(16.105338956897455)",
                           "textGrowth": "auto"
                         }
                       ]
@@ -86851,7 +84620,7 @@
                       "type": "group",
                       "id": "lUAef",
                       "x": -1.9539925233402755e-13,
-                      "y": 3.971431759848997,
+                      "y": 3.9975784147847264,
                       "name": "x-axis",
                       "children": [
                         {
@@ -86859,12 +84628,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 515.9999999999994,
-                          "y": 165.80727597366288,
+                          "y": 166.89889881722988,
                           "content": "Jul",
                           "flipX": false,
                           "flipY": false,
                           "width": 22.0000000000008,
-                          "height": 17.242718446601938,
+                          "height": 16.10533895689744,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -86873,13 +84642,13 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 420.999999999998,
-                          "y": 165.80727597366288,
+                          "y": 166.89889881722988,
                           "name": "JetBrains Mono-Regular-12/auto",
                           "content": "Jun",
                           "flipX": false,
                           "flipY": false,
                           "width": 21.99999999999682,
-                          "height": 17.242718446601938,
+                          "height": 16.10533895689744,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -86888,12 +84657,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 325.99999999999864,
-                          "y": 165.80727597366288,
+                          "y": 166.89889881722988,
                           "content": "May",
                           "flipX": false,
                           "flipY": false,
                           "width": 21.99999999999932,
-                          "height": 17.242718446601938,
+                          "height": 16.10533895689744,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -86902,12 +84671,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 230.9999999999999,
-                          "y": 165.80727597366288,
+                          "y": 166.89889881722988,
                           "content": "Apr",
                           "flipX": false,
                           "flipY": false,
                           "width": 22.00000000000009,
-                          "height": 17.242718446601938,
+                          "height": 16.10533895689744,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -86916,12 +84685,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 134.9999999999996,
-                          "y": 165.80727597366288,
+                          "y": 166.89889881722988,
                           "content": "Mar",
                           "flipX": false,
                           "flipY": false,
                           "width": 21.99999999999969,
-                          "height": 17.242718446601938,
+                          "height": 16.10533895689744,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -86930,12 +84699,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 38.999999999999744,
-                          "y": 165.80727597366288,
+                          "y": 166.89889881722988,
                           "content": "Feb",
                           "flipX": false,
                           "flipY": false,
                           "width": 22.000000000000096,
-                          "height": 17.242718446601938,
+                          "height": 16.10533895689744,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         }
@@ -86959,10 +84728,10 @@
                               "type": "path",
                               "id": "Waj7R",
                               "x": 49.99999999999989,
-                              "y": 168.78584979354986,
+                              "y": 169.89708262831866,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.876594107221161e-7,
+                              "height": 9.941618431452114e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -86970,10 +84739,10 @@
                               "type": "path",
                               "id": "fELoV",
                               "x": 49.99999999999989,
-                              "y": 126.58938734516214,
+                              "y": 127.42281197123873,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.8765954855361e-7,
+                              "height": 9.941619861893564e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -86981,10 +84750,10 @@
                               "type": "path",
                               "id": "F0m6W",
                               "x": 49.99999999999989,
-                              "y": 84.39292489677493,
+                              "y": 84.94854131415933,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.876597170143246e-7,
+                              "height": 9.941621578423306e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -86992,10 +84761,10 @@
                               "type": "path",
                               "id": "pyzpL",
                               "x": 49.99999999999989,
-                              "y": 42.196462448387464,
+                              "y": 42.474270657079664,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.876597706154612e-7,
+                              "height": 9.941622079077813e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -87006,7 +84775,7 @@
                               "y": 0,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.876597308523086e-7,
+                              "height": 9.94162171215908e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             }
@@ -87026,7 +84795,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.9620490345842e-7,
-                              "height": 168.78584979354986,
+                              "height": 169.89708262831866,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -87037,7 +84806,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.962056140011557e-7,
-                              "height": 168.78584979354986,
+                              "height": 169.89708262831866,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -87048,7 +84817,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.96206551917567e-7,
-                              "height": 168.78584979354986,
+                              "height": 169.89708262831866,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -87059,7 +84828,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.96207290882012e-7,
-                              "height": 168.78584979354986,
+                              "height": 169.89708262831866,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -87070,7 +84839,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.962046192413256e-7,
-                              "height": 168.78584979354986,
+                              "height": 169.89708262831866,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -87081,7 +84850,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.962047897715822e-7,
-                              "height": 168.78584979354986,
+                              "height": 169.89708262831866,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             }
@@ -87387,7 +85156,7 @@
                               "type": "ref",
                               "ref": "Zs7kT",
                               "x": 12.25,
-                              "y": 8.171731971443935e-15,
+                              "y": 7.28355355174381e-15,
                               "rotation": 1.4033418597069752e-14,
                               "content": "Food & Dining",
                               "fill": "$color-text-secondary"
@@ -87489,7 +85258,7 @@
                               "type": "ref",
                               "ref": "Zs7kT",
                               "x": 12.25,
-                              "y": 8.171731971443935e-15,
+                              "y": 7.28355355174381e-15,
                               "rotation": 1.4033418597069752e-14,
                               "content": "Entertainment",
                               "fill": "$color-text-secondary"
@@ -87931,31 +85700,31 @@
                         {
                           "type": "path",
                           "id": "n9h0Cb",
-                          "x": 56.23836163732747,
+                          "x": 56.184705997179435,
                           "y": 6.176944841443754,
                           "geometry": "M0 0l366.33301 0c2.20913 0 4 1.79086 4 4l0 37c0 2.20914-1.79087 4-4 4l-366.33301 0 0-45z",
                           "fill": "$color-text",
-                          "width": 347.11536032662525,
+                          "width": 346.7841860832565,
                           "height": 49.049325365478865
                         },
                         {
                           "type": "path",
                           "id": "eeDcz",
-                          "x": 56.23836163732747,
+                          "x": 56.184705997179435,
                           "y": 67.94203571083519,
                           "geometry": "M0 0l76.8 0c2.20914 0 4 1.79086 4 4l0 37c0 2.20914-1.79086 4-4 4l-76.8 0 0-45z",
                           "fill": "$color-text",
-                          "width": 75.73432986535826,
+                          "width": 75.66207360056318,
                           "height": 49.0493253654779
                         },
                         {
                           "type": "path",
                           "id": "BJa9z",
-                          "x": 56.23836163732747,
+                          "x": 56.184705997179435,
                           "y": 129.70821596648884,
                           "geometry": "M0 0l13.535 0c2.20914 0 4 1.79086 4 4l0 37c0 2.20914-1.79086 4-4 4l-13.535 0 0-45z",
                           "fill": "$color-text",
-                          "width": 16.435664621022415,
+                          "width": 16.41998375691427,
                           "height": 49.04932536547945
                         }
                       ]
@@ -87971,7 +85740,7 @@
                           "id": "PB5Ce",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 11.31471011292442,
+                          "x": 11.303915025789529,
                           "y": 22.999999999999535,
                           "content": "Salary",
                           "fill": "$color-text-tertiary"
@@ -87980,7 +85749,7 @@
                           "id": "LgzrF",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": -9.75642929839375,
+                          "x": -9.747120928727146,
                           "y": 84.9999999999995,
                           "content": "Freelance",
                           "fill": "$color-text-tertiary"
@@ -87989,7 +85758,7 @@
                           "id": "a6mTRX",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 4.29099697581837,
+                          "x": 4.2869030409506435,
                           "y": 146.99999999999974,
                           "content": "Returns",
                           "fill": "$color-text-tertiary"
@@ -87999,7 +85768,7 @@
                     {
                       "type": "group",
                       "id": "Ap7BF",
-                      "x": 0.053805671714570735,
+                      "x": 0.053754337044154,
                       "y": 1.9439026157064347,
                       "name": "x-axis",
                       "children": [
@@ -88007,7 +85776,7 @@
                           "id": "g45Yg",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 417.63287880234685,
+                          "x": 417.23442552585357,
                           "y": 182.05609738429357,
                           "content": "$6.0k",
                           "fill": "$color-text-tertiary"
@@ -88016,7 +85785,7 @@
                           "id": "GT4Hu",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 322.21929252833655,
+                          "x": 321.91187101203866,
                           "y": 182.05609738429357,
                           "name": "JetBrains Mono-Regular-12/auto",
                           "content": "$4.5k",
@@ -88026,7 +85795,7 @@
                           "id": "h2PXe8",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 227.79964333899724,
+                          "x": 227.58230529192411,
                           "y": 182.05609738429357,
                           "content": "$3.0k",
                           "fill": "$color-text-tertiary"
@@ -88035,7 +85804,7 @@
                           "id": "FwU03",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 133.37997125327166,
+                          "x": 133.2527166972682,
                           "y": 182.05609738429357,
                           "content": "$1.5k",
                           "fill": "$color-text-tertiary"
@@ -88044,7 +85813,7 @@
                           "id": "R8Khv1",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 38.960299165232,
+                          "x": 38.923128100300374,
                           "y": 182.05609738429357,
                           "content": "$0.0k",
                           "fill": "$color-text-tertiary"
@@ -88054,17 +85823,17 @@
                     {
                       "type": "group",
                       "id": "bNHBe",
-                      "x": 2.7746693831431912e-12,
+                      "x": 2.7604585284279892e-12,
                       "y": 0,
                       "name": "grid",
                       "children": [
                         {
                           "type": "path",
                           "id": "kRLSC",
-                          "x": 56.23836163732156,
+                          "x": 56.18470599717353,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.588643600479462e-7,
+                          "width": 9.57949533185635e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -88072,10 +85841,10 @@
                         {
                           "type": "path",
                           "id": "p31qT",
-                          "x": 150.9062703934754,
+                          "x": 150.76229442574487,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.588639598889984e-7,
+                          "width": 9.57949121464037e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -88083,10 +85852,10 @@
                         {
                           "type": "path",
                           "id": "xlCR4",
-                          "x": 245.57417914963818,
+                          "x": 245.3398828543251,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.58864156458306e-7,
+                          "width": 9.579493202261878e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -88094,10 +85863,10 @@
                         {
                           "type": "path",
                           "id": "u5EIIK",
-                          "x": 340.24208790579047,
+                          "x": 339.9174712828949,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.58864353027614e-7,
+                          "width": 9.579495189883386e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -88105,10 +85874,10 @@
                         {
                           "type": "path",
                           "id": "tIGqF",
-                          "x": 434.90999666195376,
+                          "x": 434.4950597114757,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.588652516301636e-7,
+                          "width": 9.57950427615314e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -88655,7 +86424,7 @@
                         {
                           "type": "text",
                           "id": "SLrfh",
-                          "x": 4.5702830197857525,
+                          "x": 4.565567757060469,
                           "y": 35.87880169985965,
                           "fill": "$color-text-tertiary",
                           "content": "$8k",
@@ -88666,7 +86435,7 @@
                         {
                           "type": "text",
                           "id": "Jseuh",
-                          "x": 4.534484669339017,
+                          "x": 4.529806340568755,
                           "y": 81.65548497488271,
                           "fill": "$color-text-tertiary",
                           "content": "$5k",
@@ -88677,7 +86446,7 @@
                         {
                           "type": "text",
                           "id": "WI0Xy",
-                          "x": 4.5702830197857525,
+                          "x": 4.565567757060469,
                           "y": 125.57580594950878,
                           "fill": "$color-text-tertiary",
                           "content": "$3k",
@@ -88688,7 +86457,7 @@
                         {
                           "type": "text",
                           "id": "xpa4x",
-                          "x": 4.520812099282293,
+                          "x": 4.516147876806907,
                           "y": 170.11559369767247,
                           "fill": "$color-text-tertiary",
                           "content": "$0k",
@@ -88701,7 +86470,7 @@
                     {
                       "type": "group",
                       "id": "a1ZyxF",
-                      "x": 20.021851750869864,
+                      "x": 20.001194760735267,
                       "y": 180,
                       "name": "x-axis",
                       "children": [
@@ -88719,7 +86488,7 @@
                         {
                           "type": "text",
                           "id": "Xbwnn",
-                          "x": 73.03756476300775,
+                          "x": 72.96221028163723,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Mar",
@@ -88730,7 +86499,7 @@
                         {
                           "type": "text",
                           "id": "dmB0G",
-                          "x": 144.86576348574616,
+                          "x": 144.71630225286913,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Apr",
@@ -88741,7 +86510,7 @@
                         {
                           "type": "text",
                           "id": "VaLV6",
-                          "x": 216.0892791883503,
+                          "x": 215.86633506889882,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "May",
@@ -88752,7 +86521,7 @@
                         {
                           "type": "text",
                           "id": "tLg8C",
-                          "x": 289.73152697149237,
+                          "x": 289.4326045057383,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Jun",
@@ -88763,7 +86532,7 @@
                         {
                           "type": "text",
                           "id": "Vb2gc",
-                          "x": 360.35035965396236,
+                          "x": 359.97857816656585,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Jul",
@@ -88776,7 +86545,7 @@
                     {
                       "type": "group",
                       "id": "XWQDB",
-                      "x": 30.161052216046844,
+                      "x": 30.12993438709534,
                       "y": 22.351004182889938,
                       "name": "chart",
                       "children": [
@@ -88817,7 +86586,7 @@
                                   "x": 0
                                 }
                               },
-                              "width": "fill_container(362.0595937308267)",
+                              "width": "fill_container(361.6860487885858)",
                               "height": 157.5551379570622
                             },
                             {
@@ -88828,7 +86597,7 @@
                               "y": 0,
                               "name": "line",
                               "geometry": "M0 30.804c36.933-0.708 73.867-1.417 110.8-3.4 36.933-1.983 73.86699-8.5 110.80001-8.5 36.93301 0 73.867 11.9 110.80001 11.9 36.93302 0 73.86701-30.804 110.79999-30.804 36.93299 0 73.86701 11.492 110.79999 22.984",
-                              "width": "fill_container(362.0595937308267)",
+                              "width": "fill_container(361.6860487885858)",
                               "height": 34.894762097872835,
                               "stroke": "$color-secondary-extra",
                               "strokeWidth": 2
@@ -88872,7 +86641,7 @@
                                   "x": 0
                                 }
                               },
-                              "width": "fill_container(362.0595937308267)",
+                              "width": "fill_container(361.6860487885858)",
                               "height": 126.89004399226485
                             },
                             {
@@ -88882,7 +86651,7 @@
                               "y": 2.128667065037007,
                               "name": "line",
                               "geometry": "M0 30.804c36.933-0.708 73.867-1.417 110.8-3.4 36.933-1.983 73.86699-8.5 110.80001-8.5 36.93301 0 73.867 11.9 110.80001 11.9 36.93302 0 73.86701-30.804 110.79999-30.804 36.93299 0 73.86701 11.492 110.79999 22.984",
-                              "width": "fill_container(362.0595937308267)",
+                              "width": "fill_container(361.6860487885858)",
                               "height": 27.492842864990717,
                               "stroke": "$color-error",
                               "strokeWidth": 2
@@ -88894,7 +86663,7 @@
                     {
                       "type": "group",
                       "id": "WTyhz",
-                      "x": 30.161052216046844,
+                      "x": 30.12993438709534,
                       "y": 0,
                       "name": "grid",
                       "children": [
@@ -88911,7 +86680,7 @@
                               "x": 0,
                               "y": 0,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.73254527174123)",
+                              "width": "fill_container(361.35933775267563)",
                               "height": 7.084700048519776e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -88922,7 +86691,7 @@
                               "x": 0,
                               "y": 44.96809174891132,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.73254527174123)",
+                              "width": "fill_container(361.35933775267563)",
                               "height": 7.084698573484538e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -88933,7 +86702,7 @@
                               "x": 0,
                               "y": 89.93618349782082,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.73254527174123)",
+                              "width": "fill_container(361.35933775267563)",
                               "height": 7.08470219177748e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -88944,7 +86713,7 @@
                               "x": 0,
                               "y": 134.9042752467326,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.73254527174123)",
+                              "width": "fill_container(361.35933775267563)",
                               "height": 7.084701078456576e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -88955,7 +86724,7 @@
                               "x": 0,
                               "y": 179.8723669956421,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.73254527174123)",
+                              "width": "fill_container(361.35933775267563)",
                               "height": 7.084700336242638e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -88975,7 +86744,7 @@
                               "x": 0,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fit_content(9.811301651251113e-7)",
+                              "width": "fit_content(0.000001)",
                               "height": "fill_container(179.76089565570854)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -88983,10 +86752,10 @@
                             {
                               "type": "path",
                               "id": "OEJmW",
-                              "x": 72.34650879218296,
+                              "x": 72.27186728864032,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013108221051537245)",
+                              "width": "fill_container(0.0000013094696954147433)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -88994,10 +86763,10 @@
                             {
                               "type": "path",
                               "id": "fAowq",
-                              "x": 144.6930175843717,
+                              "x": 144.5437345772864,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013108217426435704)",
+                              "width": "fill_container(0.0000013094693405099169)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -89005,10 +86774,10 @@
                             {
                               "type": "path",
                               "id": "J3cEp",
-                              "x": 217.0395263765511,
+                              "x": 216.81560186592316,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013108257023698687)",
+                              "width": "fill_container(0.0000013094732870515874)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -89016,10 +86785,10 @@
                             {
                               "type": "path",
                               "id": "DILwB",
-                              "x": 289.3860351687407,
+                              "x": 289.08746915457016,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013108218262997599)",
+                              "width": "fill_container(0.000001309469397294689)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -89027,10 +86796,10 @@
                             {
                               "type": "path",
                               "id": "hh2DB",
-                              "x": 361.732543960924,
+                              "x": 361.35933644321074,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013108213243626233)",
+                              "width": "fill_container(0.000001309468943016511)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
