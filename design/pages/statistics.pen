@@ -5,8 +5,2910 @@
       "id": "re83s",
       "type": "ref",
       "ref": "Z:qKVUk",
-      "x": -521.3291015625,
-      "y": 404.01611328125
+      "x": 1039,
+      "y": -389,
+      "name": "statistics-768",
+      "width": 768,
+      "height": 1680,
+      "descendants": {
+        "Z:UQf2Y": {
+          "height": "fill_container",
+          "layout": "none"
+        },
+        "Z:UQf2Y/Z:bq1gz": {
+          "x": 0,
+          "y": 1624.5,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:HmKfy": {
+          "x": 0,
+          "y": 44,
+          "width": 210
+        },
+        "Z:UQf2Y/Z:mr2N8": {
+          "fill": "$Z:color-text"
+        },
+        "Z:UQf2Y/Z:Wxjii/Z:jjpNl": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:JXJTh": {
+          "fill": "$Z:color-text-tertiary"
+        },
+        "Z:UQf2Y/Z:ChJDs": {
+          "enabled": false
+        },
+        "Z:UQf2Y/Z:x4xfLT": {
+          "fill": "$Z:color-primary-border"
+        },
+        "Z:UQf2Y/Z:bZ24m/Z:PTy0Q": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:eTdYi": {
+          "fill": "$Z:color-primary-light"
+        },
+        "Z:UQf2Y/Z:D85tKG": {
+          "enabled": true
+        },
+        "Z:UQf2Y/Z:sb0Js": {
+          "x": 0,
+          "y": 0,
+          "width": 210
+        },
+        "Z:k8Jtpt/Z:hKNyq": {
+          "content": "Statistics"
+        },
+        "Z:k8Jtpt/Z:tgpiv": {
+          "height": "fit_content"
+        },
+        "Z:OD5ZV": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:Qi6kh": {
+          "width": "fill_container",
+          "height": "fit_content"
+        },
+        "Z:erba6/Z:RcOFm": {
+          "content": "Statistics"
+        },
+        "Z:erba6/Z:tEiyK": {
+          "content": "Financial analytics & insights"
+        },
+        "Z:erba6/Z:iy81x": {
+          "type": "frame",
+          "id": "Cirau",
+          "name": "Statistics period controls",
+          "children": [
+            {
+              "id": "LBuDe",
+              "type": "ref",
+              "ref": "Z:Nlkgv",
+              "name": "Statistics period selector"
+            }
+          ]
+        },
+        "Z:F8eOwV": {
+          "type": "frame",
+          "id": "Ur1uM",
+          "name": "Statistics sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-20",
+          "children": [
+            {
+              "type": "frame",
+              "id": "YufTr",
+              "name": "Statistics metrics",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-12",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Cghme",
+                  "name": "Statistics metric row 1",
+                  "width": "fill_container",
+                  "height": 84,
+                  "gap": "$Z:spacing-12",
+                  "children": [
+                    {
+                      "id": "LR478",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 1",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "GtyN1",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "ViB6x",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Total Income",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "o2KlMy",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "$42,172.00",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "RT2oK",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 2",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "v7j0Nf",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "Xc4Qu",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Total Expenses",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "GqQuw",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "$22,700.00",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aSz4C",
+                  "name": "Statistics metric row 2",
+                  "width": "fill_container",
+                  "height": 84,
+                  "gap": "$Z:spacing-12",
+                  "children": [
+                    {
+                      "id": "rILL9",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 3",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "j9meB",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "p1gYjM",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Net Savings",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "ZgIZW",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "$19,472.00",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "yRw7C",
+                      "type": "ref",
+                      "ref": "Z:CU2dS",
+                      "name": "Statistics metric 4",
+                      "width": "fill_container",
+                      "height": 84,
+                      "descendants": {
+                        "Z:O4i3fR": {
+                          "enabled": false,
+                          "width": "fill_container(0)",
+                          "height": 0
+                        },
+                        "Z:CR1Ds": {
+                          "type": "frame",
+                          "id": "smDXU",
+                          "name": "Metric details",
+                          "width": "fill_container",
+                          "layout": "vertical",
+                          "gap": "$Z:spacing-4",
+                          "padding": "$Z:spacing-16",
+                          "children": [
+                            {
+                              "id": "b4qohC",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Metric label",
+                              "content": "Savings Rate",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0
+                            },
+                            {
+                              "id": "NrHBT",
+                              "type": "ref",
+                              "ref": "Z:YpnwD",
+                              "name": "Metric value",
+                              "content": "46%",
+                              "fill": "#000000",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "Y4tYl",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Income vs Expenses",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:EYPF1": {
+                  "type": "frame",
+                  "id": "vFgsJ",
+                  "name": "Chart heading",
+                  "layout": "vertical",
+                  "gap": "$Z:spacing-2",
+                  "children": [
+                    {
+                      "id": "VxeVH",
+                      "type": "ref",
+                      "ref": "Z:mJPWX",
+                      "name": "Statistics heading",
+                      "content": "Income vs Expenses",
+                      "fill": "$Z:color-text",
+                      "rotation": 0
+                    },
+                    {
+                      "id": "OW1AV",
+                      "type": "ref",
+                      "ref": "Z:Zs7kT",
+                      "name": "Statistics subtitle",
+                      "content": "Monthly comparison",
+                      "fill": "$Z:color-text-tertiary",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:hoPtf": {
+                  "enabled": false,
+                  "width": 0,
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "V6M9nP",
+                  "name": "Comparison chart content",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$Z:spacing-8",
+                  "padding": [
+                    0,
+                    "$Z:spacing-16",
+                    "$Z:spacing-16",
+                    "$Z:spacing-16"
+                  ],
+                  "children": [
+                    {
+                      "id": "IK0rT",
+                      "type": "ref",
+                      "ref": "Z:xagba",
+                      "name": "Income expense comparison chart",
+                      "width": "fill_container",
+                      "height": 240,
+                      "descendants": {
+                        "Z:hLl6M": {
+                          "type": "frame",
+                          "id": "b5i3i",
+                          "name": "Comparison plot",
+                          "width": 478,
+                          "height": 240,
+                          "layout": "none",
+                          "children": [
+                            {
+                              "type": "path",
+                              "id": "fxfHi",
+                              "x": 23.70105113625362,
+                              "y": 223.29638602172815,
+                              "name": "Grid line 1",
+                              "geometry": "M0 0.5h100",
+                              "viewBox": [
+                                0,
+                                0,
+                                100,
+                                1
+                              ],
+                              "width": 452.29894886374643,
+                              "height": 1,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "v9Hju8",
+                              "x": 23.70105113625362,
+                              "y": 168.8498220558477,
+                              "name": "Grid line 2",
+                              "geometry": "M0 0.5h100",
+                              "viewBox": [
+                                0,
+                                0,
+                                100,
+                                1
+                              ],
+                              "width": 452.29894886374643,
+                              "height": 1,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "IZvzm",
+                              "x": 23.70105113625362,
+                              "y": 114.40325808996725,
+                              "name": "Grid line 3",
+                              "geometry": "M0 0.5h100",
+                              "viewBox": [
+                                0,
+                                0,
+                                100,
+                                1
+                              ],
+                              "width": 452.29894886374643,
+                              "height": 1,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "UGGt9",
+                              "x": 23.70105113625362,
+                              "y": 59.956694124086816,
+                              "name": "Grid line 4",
+                              "geometry": "M0 0.5h100",
+                              "viewBox": [
+                                0,
+                                0,
+                                100,
+                                1
+                              ],
+                              "width": 452.29894886374643,
+                              "height": 1,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "xsZtL",
+                              "x": 23.70105113625362,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 5",
+                              "geometry": "M0 0.5h100",
+                              "viewBox": [
+                                0,
+                                0,
+                                100,
+                                1
+                              ],
+                              "width": 452.29894886374643,
+                              "height": 1,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "vvcMl",
+                              "x": 61.39282666650873,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 6",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "k3dv2i",
+                              "x": 136.77578835219023,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 7",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "a2Ryt",
+                              "x": 212.1587545369162,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 8",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "k7gsHc",
+                              "x": 287.5422965993375,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 9",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "Q2GDW",
+                              "x": 362.9252627840634,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 10",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "lzYtJ",
+                              "x": 438.3082289687894,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 11",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "J8HyH",
+                              "x": 23.70105113625362,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 12",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "type": "path",
+                              "id": "VoHO7",
+                              "x": 476.00000000000006,
+                              "y": 5.510130158206381,
+                              "name": "Grid line 13",
+                              "geometry": "M0.5 0v100",
+                              "viewBox": [
+                                0,
+                                0,
+                                1,
+                                100
+                              ],
+                              "width": 1,
+                              "height": 217.78625586352177,
+                              "stroke": "$Z:color-border-light",
+                              "strokeWidth": 1
+                            },
+                            {
+                              "id": "H4k22W",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 14",
+                              "content": "Feb",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 55.21481085994168,
+                              "y": 219.74975509523563,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "w7GK4j",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 15",
+                              "content": "Mar",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 130.26088398593018,
+                              "y": 219.74975509523563,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "SIWdA",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 16",
+                              "content": "Apr",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 206.21914738118028,
+                              "y": 219.74975509523563,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "nG1V0",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 17",
+                              "content": "May",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 280.42272526009606,
+                              "y": 219.74975509523563,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "GDK9p",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 18",
+                              "content": "Jun",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 356.7230600063192,
+                              "y": 219.74975509523563,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "RkYpL",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 19",
+                              "content": "Jul",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 433.33955160722957,
+                              "y": 219.74975509523563,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "UNqom",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 20",
+                              "content": "$0k",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 6.2458652642100905,
+                              "y": 208.83610892066312,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "hENIp",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 21",
+                              "content": "$3k",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 6.2458652642100905,
+                              "y": 154.38954495478268,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "D9CiIY",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 22",
+                              "content": "$5k",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 6.2458652642100905,
+                              "y": 99.94298098890225,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "yZKdG",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 23",
+                              "content": "$8k",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 6.2458652642100905,
+                              "y": 45.496417023021806,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "id": "KwBex",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Axis label 24",
+                              "content": "$10k",
+                              "fill": "$Z:color-text-tertiary",
+                              "rotation": 0,
+                              "x": 2,
+                              "y": 2,
+                              "textGrowth": "auto"
+                            },
+                            {
+                              "type": "path",
+                              "id": "cYmaS",
+                              "x": 62.80397590698999,
+                              "y": 81.7779052860766,
+                              "name": "Income series 25",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65686 1.34315-3 3-3l17 0c1.65685 0 3 1.34314 3 3l0 113.35-23 0 0-113.35z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                116.3499984741211
+                              ],
+                              "fill": "$Z:color-secondary",
+                              "width": 13.563071478313127,
+                              "height": 141.56106445477823
+                            },
+                            {
+                              "type": "path",
+                              "id": "x2PfWW",
+                              "x": 138.18693759267148,
+                              "y": 77.42217794099307,
+                              "name": "Income series 26",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.65686 0 3 1.34315 3 3l0 116.93-23 0 0-116.93z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                119.93000030517578
+                              ],
+                              "fill": "$Z:color-secondary",
+                              "width": 13.563071478313127,
+                              "height": 145.91679179986176
+                            },
+                            {
+                              "type": "path",
+                              "id": "gbVmb",
+                              "x": 213.5704886531817,
+                              "y": 66.53286421956152,
+                              "name": "Income series 27",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.65686 0 3 1.34315 3 3l0 125.88-23 0 0-125.88z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                128.88000106811523
+                              ],
+                              "fill": "$Z:color-secondary",
+                              "width": 13.563071478313127,
+                              "height": 156.80610552129332
+                            },
+                            {
+                              "type": "path",
+                              "id": "Y0QoN",
+                              "x": 288.9534548379077,
+                              "y": 81.7779052860766,
+                              "name": "Income series 28",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65686 1.34314-3 3-3l17 0c1.65686 0 3 1.34314 3 3l0 113.35-23 0 0-113.35z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                116.3499984741211
+                              ],
+                              "fill": "$Z:color-secondary",
+                              "width": 13.563071478313127,
+                              "height": 141.56106445477823
+                            },
+                            {
+                              "type": "path",
+                              "id": "vmWww",
+                              "x": 364.3364030264557,
+                              "y": 42.314790716147904,
+                              "name": "Income series 29",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.65686 0 3 1.34315 3 3l0 145.785-23 0 0-145.785z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                148.7849998474121
+                              ],
+                              "fill": "$Z:color-secondary",
+                              "width": 13.563071478313127,
+                              "height": 181.02417902470694
+                            },
+                            {
+                              "type": "path",
+                              "id": "v2Ei7a",
+                              "x": 439.7199810812329,
+                              "y": 71.7597361054063,
+                              "name": "Income series 30",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.6568 0 3 1.34315 3 3l0 121.584-23 0 0-121.584z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                124.58399963378906
+                              ],
+                              "fill": "$Z:color-secondary",
+                              "width": 13.563071478313127,
+                              "height": 151.57923363544853
+                            },
+                            {
+                              "type": "path",
+                              "id": "Rt3QO",
+                              "x": 46.31599767963204,
+                              "y": 81.7353215669499,
+                              "name": "Income series 31",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65686 1.34315-3 3-3l17 0c1.65685 0 3 1.34314 3 3l0 113.35-23 0 0-113.35z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                116.3499984741211
+                              ],
+                              "fill": "$Z:color-error",
+                              "width": 13.563071478313127,
+                              "height": 141.56106445477823
+                            },
+                            {
+                              "type": "path",
+                              "id": "r07LT",
+                              "x": 121.69895936531354,
+                              "y": 77.37959422186637,
+                              "name": "Income series 32",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.65686 0 3 1.34315 3 3l0 116.93-23 0 0-116.93z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                119.93000030517578
+                              ],
+                              "fill": "$Z:color-error",
+                              "width": 13.563071478313127,
+                              "height": 145.91679179986176
+                            },
+                            {
+                              "type": "path",
+                              "id": "cbdy3",
+                              "x": 197.08251042582376,
+                              "y": 66.49028050043484,
+                              "name": "Income series 33",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.65686 0 3 1.34315 3 3l0 125.88-23 0 0-125.88z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                128.88000106811523
+                              ],
+                              "fill": "$Z:color-error",
+                              "width": 13.563071478313127,
+                              "height": 156.80610552129332
+                            },
+                            {
+                              "type": "path",
+                              "id": "UYgo8",
+                              "x": 272.46547661054973,
+                              "y": 81.7353215669499,
+                              "name": "Income series 34",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65686 1.34314-3 3-3l17 0c1.65686 0 3 1.34314 3 3l0 113.35-23 0 0-113.35z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                116.3499984741211
+                              ],
+                              "fill": "$Z:color-error",
+                              "width": 13.563071478313127,
+                              "height": 141.56106445477823
+                            },
+                            {
+                              "type": "path",
+                              "id": "R2kdJl",
+                              "x": 347.84842479909776,
+                              "y": 42.27220699702121,
+                              "name": "Income series 35",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.65686 0 3 1.34315 3 3l0 145.785-23 0 0-145.785z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                148.7849998474121
+                              ],
+                              "fill": "$Z:color-error",
+                              "width": 13.563071478313127,
+                              "height": 181.02417902470694
+                            },
+                            {
+                              "type": "path",
+                              "id": "NR54W",
+                              "x": 423.232002853875,
+                              "y": 71.71715238627961,
+                              "name": "Income series 36",
+                              "opacity": 0.85,
+                              "geometry": "M0 3c0-1.65685 1.34314-3 3-3l17 0c1.6568 0 3 1.34315 3 3l0 121.584-23 0 0-121.584z",
+                              "viewBox": [
+                                0,
+                                0,
+                                23,
+                                124.58399963378906
+                              ],
+                              "fill": "$Z:color-error",
+                              "width": 13.563071478313127,
+                              "height": 151.57923363544853
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "type": "frame",
+                      "id": "szkkQ",
+                      "name": "Comparison legend",
+                      "width": "fill_container",
+                      "height": 20,
+                      "gap": "$Z:spacing-12",
+                      "justifyContent": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "w4wAaZ",
+                          "name": "Income legend",
+                          "gap": "$Z:spacing-4",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "s4uf6",
+                              "name": "Income swatch",
+                              "fill": "$Z:color-secondary",
+                              "width": 10,
+                              "height": 3
+                            },
+                            {
+                              "id": "I8VPBx",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Income label",
+                              "content": "Income",
+                              "fill": "$Z:color-secondary",
+                              "rotation": 0
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Y4ex1X",
+                          "name": "Expenses legend",
+                          "gap": "$Z:spacing-4",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "rectangle",
+                              "id": "NeVlG",
+                              "name": "Expenses swatch",
+                              "fill": "$Z:color-error",
+                              "width": 10,
+                              "height": 3
+                            },
+                            {
+                              "id": "vtKym",
+                              "type": "ref",
+                              "ref": "Z:Zs7kT",
+                              "name": "Expenses label",
+                              "content": "Expenses",
+                              "fill": "$Z:color-error",
+                              "rotation": 0
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "yOeNB",
+              "name": "Savings and categories",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "id": "qQklf",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Savings Rate chart card",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "type": "frame",
+                      "id": "UbrmG",
+                      "name": "Chart heading",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-2",
+                      "children": [
+                        {
+                          "id": "v4EQS3",
+                          "type": "ref",
+                          "ref": "Z:mJPWX",
+                          "name": "Statistics heading",
+                          "content": "Savings Rate",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "iAchG",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Statistics subtitle",
+                          "content": "% of income saved each month",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "Dvo7R",
+                      "name": "Savings chart content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "UDG7w",
+                          "type": "ref",
+                          "ref": "Z:MiapV",
+                          "name": "Savings rate chart",
+                          "width": "fill_container",
+                          "height": 180,
+                          "descendants": {
+                            "Z:K5miO": {
+                              "type": "frame",
+                              "id": "rxits",
+                              "name": "Savings rate plot",
+                              "width": 478,
+                              "height": 180,
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "VbGS0",
+                                  "x": 39.49637269446339,
+                                  "y": 165.1069891316544,
+                                  "name": "Grid line 1",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 434.4993328701732,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "iAmAx",
+                                  "x": 39.49637269446339,
+                                  "y": 125.09971502632044,
+                                  "name": "Grid line 2",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 434.4993328701732,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "qS2E5",
+                                  "x": 39.49637269446339,
+                                  "y": 85.09244092098652,
+                                  "name": "Grid line 3",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 434.4993328701732,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "a3QLR",
+                                  "x": 39.49637269446339,
+                                  "y": 45.08516681565259,
+                                  "name": "Grid line 4",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 434.4993328701732,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "qFLIl",
+                                  "x": 39.49637269446339,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 5",
+                                  "geometry": "M0 0.5h100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    100,
+                                    1
+                                  ],
+                                  "width": 434.4993328701732,
+                                  "height": 1,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "D9HQbI",
+                                  "x": 39.49637269446339,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 6",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 160.0290964213357,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "ZI3Mk",
+                                  "x": 126.39623733557275,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 7",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 160.0290964213357,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "jjHZh",
+                                  "x": 213.2961019766821,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 8",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 160.0290964213357,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "RiP2X",
+                                  "x": 300.1959762824178,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 9",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 160.0290964213357,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "vEnl3",
+                                  "x": 387.09583125890083,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 10",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 160.0290964213357,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "umZsW",
+                                  "x": 473.9957055646365,
+                                  "y": 5.077892710318666,
+                                  "name": "Grid line 11",
+                                  "geometry": "M0.5 0v100",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    1,
+                                    100
+                                  ],
+                                  "width": 1,
+                                  "height": 160.0290964213357,
+                                  "stroke": "$Z:color-border-light",
+                                  "strokeWidth": 1
+                                },
+                                {
+                                  "id": "xKbPW",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 12",
+                                  "content": "Feb",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 26.225062440752968,
+                                  "y": 161.99709035786643,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "mUV6H",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 13",
+                                  "content": "Mar",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 112.40124179457688,
+                                  "y": 161.99709035786643,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "KGLKb",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 14",
+                                  "content": "Apr",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 200.53694346774057,
+                                  "y": 161.99709035786643,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "XnEMD",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 15",
+                                  "content": "May",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 284.90204916278077,
+                                  "y": 161.99709035786643,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "ZnyXe",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 16",
+                                  "content": "Jun",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 373.77257170569686,
+                                  "y": 161.99709035786643,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "H3QAC",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 17",
+                                  "content": "Jul",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 454.4650476420031,
+                                  "y": 161.99709035786643,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "E7YQb",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 18",
+                                  "content": "0%",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 11.120759155723572,
+                                  "y": 152.42735063605556,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "Gaufn",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 19",
+                                  "content": "20%",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 112.42007653072163,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "hNhmw",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 20",
+                                  "content": "40%",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 72.41280242538771,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "zjozx",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 21",
+                                  "content": "60%",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 32.405528320053776,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "id": "e01sT9",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Axis label 22",
+                                  "content": "80%",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0,
+                                  "x": 2,
+                                  "y": 2,
+                                  "textGrowth": "auto"
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "DDtFZ",
+                                  "x": 39.49637269446339,
+                                  "y": 53.08662163671937,
+                                  "name": "Income series 23",
+                                  "geometry": "M0 9.375c22.867 11.25 45.733 22.5 68.6 22.5 22.867 0 45.73301-18.75 68.6-18.75 22.86699 0 45.733 43.125 68.59999 43.125 22.867 0 45.733-46.875 68.6-50.625 22.86701-3.75 45.73301-4.687 68.60001-5.625l0 105-343 0 0-95.625z",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    343,
+                                    105
+                                  ],
+                                  "fill": {
+                                    "type": "gradient",
+                                    "gradientType": "linear",
+                                    "enabled": true,
+                                    "opacity": 0.6,
+                                    "rotation": -180,
+                                    "size": {
+                                      "height": 1
+                                    },
+                                    "colors": [
+                                      {
+                                        "color": "$Z:color-primary-chart-start",
+                                        "position": 0.05
+                                      },
+                                      {
+                                        "color": "$Z:color-primary-chart-end",
+                                        "position": 0.95
+                                      }
+                                    ],
+                                    "center": {
+                                      "x": 0
+                                    }
+                                  },
+                                  "width": 434.4993328701732,
+                                  "height": 112.02036749493499
+                                },
+                                {
+                                  "type": "path",
+                                  "id": "AWBSt",
+                                  "x": 39.49637269446339,
+                                  "y": 53.08662163671937,
+                                  "name": "Grid line 24",
+                                  "geometry": "M0 9.375c22.867 11.25 45.733 22.5 68.6 22.5 22.867 0 45.73301-18.75 68.6-18.75 22.86699 0 45.733 43.125 68.59999 43.125 22.867 0 45.733-46.875 68.6-50.625 22.86701-3.75 45.73301-4.687 68.60001-5.625",
+                                  "viewBox": [
+                                    0,
+                                    0,
+                                    343,
+                                    56.25
+                                  ],
+                                  "width": 434.4993328701732,
+                                  "height": 60.01091115800089,
+                                  "stroke": "$Z:color-primary",
+                                  "strokeWidth": 2
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "j6xDf",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Top Expense Categories",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:EYPF1": {
+                      "type": "frame",
+                      "id": "E6b4x",
+                      "name": "Chart heading",
+                      "layout": "vertical",
+                      "gap": "$Z:spacing-2",
+                      "children": [
+                        {
+                          "id": "rhbwm",
+                          "type": "ref",
+                          "ref": "Z:mJPWX",
+                          "name": "Statistics heading",
+                          "content": "Top Expense Categories",
+                          "fill": "$Z:color-text",
+                          "rotation": 0
+                        },
+                        {
+                          "id": "eyCqh",
+                          "type": "ref",
+                          "ref": "Z:Zs7kT",
+                          "name": "Statistics subtitle",
+                          "content": "July 2026",
+                          "fill": "$Z:color-text-tertiary",
+                          "rotation": 0
+                        }
+                      ]
+                    },
+                    "Z:hoPtf": {
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    "Z:CR1Ds": {
+                      "type": "frame",
+                      "id": "qKQey",
+                      "name": "Expense category ranking",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "padding": [
+                        0,
+                        "$Z:spacing-16",
+                        "$Z:spacing-16",
+                        "$Z:spacing-16"
+                      ],
+                      "children": [
+                        {
+                          "id": "V4qGtY",
+                          "type": "ref",
+                          "ref": "Z:CBmjN",
+                          "name": "Rank record 1",
+                          "width": "fill_container",
+                          "height": 36,
+                          "padding": 0,
+                          "strokeWidth": 0,
+                          "descendants": {
+                            "Z:k6yx9g": {
+                              "type": "frame",
+                              "id": "L2nGl",
+                              "name": "Ranking row",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "hTFpT",
+                                  "name": "Ranking details",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "TNvkT",
+                                      "name": "Ranking name",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "ysZrQ",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Rank position",
+                                          "content": "#1",
+                                          "fill": "$Z:color-text-tertiary",
+                                          "rotation": 0
+                                        },
+                                        {
+                                          "type": "ellipse",
+                                          "id": "A9GexB",
+                                          "name": "Ranking category color",
+                                          "fill": "$Z:color-primary",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "CXBUH",
+                                          "type": "ref",
+                                          "ref": "Z:NdT35",
+                                          "name": "Ranking category",
+                                          "content": "Housing",
+                                          "fill": "$Z:color-text",
+                                          "rotation": 0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "yuuiL",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Ranking amount",
+                                      "content": "$1,800.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "b8Mnt8",
+                                  "name": "Ranking track",
+                                  "width": "fill_container",
+                                  "height": 6,
+                                  "fill": "$Z:color-border-light",
+                                  "cornerRadius": "$Z:radius-full",
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": "$Z:radius-full",
+                                      "id": "u5Bq5r",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "Ranking bar",
+                                      "fill": "$Z:color-primary",
+                                      "width": 282.02,
+                                      "height": 6
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "id": "EXulu",
+                          "type": "ref",
+                          "ref": "Z:CBmjN",
+                          "name": "Rank record 2",
+                          "width": "fill_container",
+                          "height": 36,
+                          "padding": 0,
+                          "strokeWidth": 0,
+                          "descendants": {
+                            "Z:k6yx9g": {
+                              "type": "frame",
+                              "id": "oQbf8",
+                              "name": "Ranking row",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "f1Y5A1",
+                                  "name": "Ranking details",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "KExT1",
+                                      "name": "Ranking name",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "VCoo7",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Rank position",
+                                          "content": "#2",
+                                          "fill": "$Z:color-text-tertiary",
+                                          "rotation": 0
+                                        },
+                                        {
+                                          "type": "ellipse",
+                                          "id": "H9bEf",
+                                          "name": "Ranking category color",
+                                          "fill": "$Z:color-tertiary-light",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "Zfriy",
+                                          "type": "ref",
+                                          "ref": "Z:NdT35",
+                                          "name": "Ranking category",
+                                          "content": "Insurance",
+                                          "fill": "$Z:color-text",
+                                          "rotation": 0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "N1yog",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Ranking amount",
+                                      "content": "$320.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "FkJky",
+                                  "name": "Ranking track",
+                                  "width": "fill_container",
+                                  "height": 6,
+                                  "fill": "$Z:color-border-light",
+                                  "cornerRadius": "$Z:radius-full",
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": "$Z:radius-full",
+                                      "id": "Rrk5U",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "Ranking bar",
+                                      "fill": "$Z:color-tertiary-light",
+                                      "width": 47.8,
+                                      "height": 6
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "id": "nsY91",
+                          "type": "ref",
+                          "ref": "Z:CBmjN",
+                          "name": "Rank record 3",
+                          "width": "fill_container",
+                          "height": 36,
+                          "padding": 0,
+                          "strokeWidth": 0,
+                          "descendants": {
+                            "Z:k6yx9g": {
+                              "type": "frame",
+                              "id": "FyZfl",
+                              "name": "Ranking row",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "bgHcu",
+                                  "name": "Ranking details",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Ldtmy",
+                                      "name": "Ranking name",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "dBWgZ",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Rank position",
+                                          "content": "#3",
+                                          "fill": "$Z:color-text-tertiary",
+                                          "rotation": 0
+                                        },
+                                        {
+                                          "type": "ellipse",
+                                          "id": "cycQf",
+                                          "name": "Ranking category color",
+                                          "fill": "$Z:color-error",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "zL975",
+                                          "type": "ref",
+                                          "ref": "Z:NdT35",
+                                          "name": "Ranking category",
+                                          "content": "Health & Fitness",
+                                          "fill": "$Z:color-text",
+                                          "rotation": 0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "t7aN9q",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Ranking amount",
+                                      "content": "$284.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "D1Ixcc",
+                                  "name": "Ranking track",
+                                  "width": "fill_container",
+                                  "height": 6,
+                                  "fill": "$Z:color-border-light",
+                                  "cornerRadius": "$Z:radius-full",
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": "$Z:radius-full",
+                                      "id": "FUGDP",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "Ranking bar",
+                                      "fill": "$Z:color-error",
+                                      "width": 43.019999999999996,
+                                      "height": 6
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "id": "nurTC",
+                          "type": "ref",
+                          "ref": "Z:CBmjN",
+                          "name": "Rank record 4",
+                          "width": "fill_container",
+                          "height": 36,
+                          "padding": 0,
+                          "strokeWidth": 0,
+                          "descendants": {
+                            "Z:k6yx9g": {
+                              "type": "frame",
+                              "id": "tMOs9",
+                              "name": "Ranking row",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "hwjh8",
+                                  "name": "Ranking details",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "Pmr48",
+                                      "name": "Ranking name",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "lXg4Y",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Rank position",
+                                          "content": "#4",
+                                          "fill": "$Z:color-text-tertiary",
+                                          "rotation": 0
+                                        },
+                                        {
+                                          "type": "ellipse",
+                                          "id": "FIAVW",
+                                          "name": "Ranking category color",
+                                          "fill": "$Z:color-secondary-extra",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "DB2yp",
+                                          "type": "ref",
+                                          "ref": "Z:NdT35",
+                                          "name": "Ranking category",
+                                          "content": "Shopping",
+                                          "fill": "$Z:color-text",
+                                          "rotation": 0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "ZPhGx",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Ranking amount",
+                                      "content": "$201.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "iSO6W",
+                                  "name": "Ranking track",
+                                  "width": "fill_container",
+                                  "height": 6,
+                                  "fill": "$Z:color-border-light",
+                                  "cornerRadius": "$Z:radius-full",
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": "$Z:radius-full",
+                                      "id": "fGdzG",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "Ranking bar",
+                                      "fill": "$Z:color-secondary-extra",
+                                      "width": 33.447519582245434,
+                                      "height": 6
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "id": "M3Dlu",
+                          "type": "ref",
+                          "ref": "Z:CBmjN",
+                          "name": "Rank record 5",
+                          "width": "fill_container",
+                          "height": 36,
+                          "padding": 0,
+                          "strokeWidth": 0,
+                          "descendants": {
+                            "Z:k6yx9g": {
+                              "type": "frame",
+                              "id": "z1trG",
+                              "name": "Ranking row",
+                              "width": "fill_container",
+                              "layout": "vertical",
+                              "gap": "$Z:spacing-4",
+                              "children": [
+                                {
+                                  "type": "frame",
+                                  "id": "psyyk",
+                                  "name": "Ranking details",
+                                  "width": "fill_container",
+                                  "justifyContent": "space_between",
+                                  "alignItems": "center",
+                                  "children": [
+                                    {
+                                      "type": "frame",
+                                      "id": "QOMOs",
+                                      "name": "Ranking name",
+                                      "gap": "$Z:spacing-8",
+                                      "alignItems": "center",
+                                      "children": [
+                                        {
+                                          "id": "U4kPD",
+                                          "type": "ref",
+                                          "ref": "Z:Zs7kT",
+                                          "name": "Rank position",
+                                          "content": "#5",
+                                          "fill": "$Z:color-text-tertiary",
+                                          "rotation": 0
+                                        },
+                                        {
+                                          "type": "ellipse",
+                                          "id": "o2axvz",
+                                          "name": "Ranking category color",
+                                          "fill": "$Z:color-secondary",
+                                          "width": 6,
+                                          "height": 6
+                                        },
+                                        {
+                                          "id": "ETbIT",
+                                          "type": "ref",
+                                          "ref": "Z:NdT35",
+                                          "name": "Ranking category",
+                                          "content": "Food & Dining",
+                                          "fill": "$Z:color-text",
+                                          "rotation": 0
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "RFEX1",
+                                      "type": "ref",
+                                      "ref": "Z:HBPsM",
+                                      "name": "Ranking amount",
+                                      "content": "$200.00",
+                                      "fill": "$Z:color-text",
+                                      "rotation": 0
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "frame",
+                                  "id": "hFaKA",
+                                  "name": "Ranking track",
+                                  "width": "fill_container",
+                                  "height": 6,
+                                  "fill": "$Z:color-border-light",
+                                  "cornerRadius": "$Z:radius-full",
+                                  "layout": "none",
+                                  "children": [
+                                    {
+                                      "type": "rectangle",
+                                      "cornerRadius": "$Z:radius-full",
+                                      "id": "WCemH",
+                                      "x": 0,
+                                      "y": 0,
+                                      "name": "Ranking bar",
+                                      "fill": "$Z:color-secondary",
+                                      "width": 33.447519582245434,
+                                      "height": 6
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "lJRJ2",
+              "type": "ref",
+              "ref": "Z:CU2dS",
+              "name": "Monthly Summary Table",
+              "width": "fill_container",
+              "height": "fit_content",
+              "descendants": {
+                "Z:EYPF1": {
+                  "type": "frame",
+                  "id": "Rb826",
+                  "name": "Chart heading",
+                  "layout": "vertical",
+                  "gap": "$Z:spacing-2",
+                  "children": [
+                    {
+                      "id": "Fyos4",
+                      "type": "ref",
+                      "ref": "Z:mJPWX",
+                      "name": "Statistics heading",
+                      "content": "Monthly Summary Table",
+                      "fill": "$Z:color-text",
+                      "rotation": 0
+                    }
+                  ]
+                },
+                "Z:hoPtf": {
+                  "enabled": false,
+                  "width": 0,
+                  "height": 0
+                },
+                "Z:CR1Ds": {
+                  "type": "frame",
+                  "id": "aNFgu",
+                  "name": "Monthly summary rows",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "children": [
+                    {
+                      "id": "fEzik",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary columns",
+                      "width": "fill_container",
+                      "height": 36,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "dc8nS",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "E5Jux",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "h36pt",
+                                  "type": "ref",
+                                  "ref": "Z:jVQuK",
+                                  "name": "Summary column",
+                                  "content": "Month",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "GHIkM",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "TqnyU",
+                                  "type": "ref",
+                                  "ref": "Z:jVQuK",
+                                  "name": "Summary column",
+                                  "content": "Income",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "BgcdF",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "eV5jK",
+                                  "type": "ref",
+                                  "ref": "Z:jVQuK",
+                                  "name": "Summary column",
+                                  "content": "Expenses",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MPl5g",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "q4yEAe",
+                                  "type": "ref",
+                                  "ref": "Z:jVQuK",
+                                  "name": "Summary column",
+                                  "content": "Savings",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "u2zAIt",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "YMWAF",
+                                  "type": "ref",
+                                  "ref": "Z:jVQuK",
+                                  "name": "Summary column",
+                                  "content": "Rate",
+                                  "fill": "$Z:color-text-tertiary",
+                                  "rotation": 0
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "NIu8q",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary record 1",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "W31WH",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "bTEUV",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "RSO3J",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Summary value",
+                                  "content": "Feb 2026",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "oTGGV",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "mMyMJ",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "+$6,500.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h9axgU",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "KNufP",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,180.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "PgTac",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "p1H8r",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,320.00",
+                                  "fill": "$Z:color-primary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "bXxNT",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "UnnCy",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Summary rate",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "51%",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "feXVV",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary record 2",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "fqSAQ",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "utpOc",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "JgzXb",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Summary value",
+                                  "content": "Mar 2026",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "Vvfqm",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "mdgSr",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "+$6,700.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "wUi7b",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "PC52h",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$4,100.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "j3Xvf",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "lOqgK",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$2,600.00",
+                                  "fill": "$Z:color-primary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "vwOWh",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "i7YyCs",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Summary rate",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "39%",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "L0LB5O",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary record 3",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "dFvVk",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "C1AkZH",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "ZIBt7",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Summary value",
+                                  "content": "Apr 2026",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CbLyV",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "OZDa8",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "+$7,200.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "jEq9i",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "TLuRx",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,650.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "in7ZR",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "B6KDeS",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,550.00",
+                                  "fill": "$Z:color-primary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "zC8Ul",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "X4xmJx",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Summary rate",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "49%",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "xt385",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary record 4",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "OJDO7",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "J3qkF",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "gK4S9",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Summary value",
+                                  "content": "May 2026",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "LEDqJ",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "bmEiC",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "+$6,500.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O627W1",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "d8MPU3",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$4,800.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "dDFEs",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "gayc8",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$1,700.00",
+                                  "fill": "$Z:color-primary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "FvSg4",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "EU6iN",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Summary rate",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "26%",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "jVyUw",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary record 5",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "M5Pxd",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "eziRz",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "sQ1Vm",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Summary value",
+                                  "content": "Jun 2026",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "z171lW",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "gzjvc",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "+$8,312.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "ICigW",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "VcX4a",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,900.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "yH2Ez",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "po538",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$4,412.00",
+                                  "fill": "$Z:color-primary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "oAUHB",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "zEjWP",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Summary rate",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "53%",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "id": "GhAbE",
+                      "type": "ref",
+                      "ref": "Z:CBmjN",
+                      "name": "Summary record 6",
+                      "width": "fill_container",
+                      "height": 44,
+                      "padding": [
+                        0,
+                        "$Z:spacing-8"
+                      ],
+                      "descendants": {
+                        "Z:k6yx9g": {
+                          "type": "frame",
+                          "id": "gm1MT",
+                          "name": "Summary cells",
+                          "width": "fill_container",
+                          "gap": "$Z:spacing-8",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "kyZYI",
+                              "name": "Summary cell 1",
+                              "width": 78,
+                              "children": [
+                                {
+                                  "id": "Zyiqw",
+                                  "type": "ref",
+                                  "ref": "Z:Zs7kT",
+                                  "name": "Summary value",
+                                  "content": "Jul 2026",
+                                  "fill": "$Z:color-text",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "CQ3Gv",
+                              "name": "Summary cell 2",
+                              "width": 108,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "vji7v",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "+$6,960.00",
+                                  "fill": "$Z:color-secondary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "O1kxp",
+                              "name": "Summary cell 3",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "uuTFT",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,070.00",
+                                  "fill": "$Z:color-error",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "MiRjN",
+                              "name": "Summary cell 4",
+                              "width": 100,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "OFIbw",
+                                  "type": "ref",
+                                  "ref": "Z:HBPsM",
+                                  "name": "Summary value",
+                                  "content": "$3,890.00",
+                                  "fill": "$Z:color-primary",
+                                  "rotation": 0
+                                }
+                              ]
+                            },
+                            {
+                              "type": "frame",
+                              "id": "h9HgI",
+                              "name": "Summary cell 5",
+                              "width": 76,
+                              "justifyContent": "end",
+                              "children": [
+                                {
+                                  "id": "elBBB",
+                                  "type": "ref",
+                                  "ref": "Z:w9Sty",
+                                  "name": "Summary rate",
+                                  "descendants": {
+                                    "Z:jBWyX": {
+                                      "content": "56%",
+                                      "rotation": 0,
+                                      "lineHeight": 1.4
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
     },
     {
       "id": "jHLKa",
@@ -79,11 +2981,11 @@
             },
             "colors": [
               {
-                "color": "#000000",
+                "color": "#a2ff69",
                 "position": 0
               },
               {
-                "color": "#000000",
+                "color": "$Z:color-secondary-extra",
                 "position": 1
               }
             ]
@@ -1478,11 +4380,11 @@
                                     },
                                     "colors": [
                                       {
-                                        "color": "#000000",
+                                        "color": "$Z:color-primary-chart-start",
                                         "position": 0.05
                                       },
                                       {
-                                        "color": "#000000",
+                                        "color": "$Z:color-primary-chart-end",
                                         "position": 0.95
                                       }
                                     ],
