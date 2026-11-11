@@ -480,8 +480,473 @@
       "id": "jHLKa",
       "type": "ref",
       "ref": "Z:WNasi",
-      "x": 526,
-      "y": 404
+      "x": 1847,
+      "y": -389,
+      "name": "accounts-393",
+      "width": 393,
+      "height": 1480,
+      "fill": "$Z:color-bg-alt",
+      "descendants": {
+        "Z:m1YI0/Z:mQ77o": {
+          "enabled": true,
+          "width": 44,
+          "height": 44,
+          "padding": "$Z:spacing-8"
+        },
+        "Z:m1YI0/Z:hKNyq": {
+          "content": "Accounts"
+        },
+        "Z:m1YI0/Z:ST6Jp": {
+          "enabled": false
+        },
+        "Z:m1YI0/Z:bfLsE": {
+          "width": 44,
+          "height": 44,
+          "padding": "$Z:spacing-8",
+          "justifyContent": "center"
+        },
+        "Z:m1YI0/Z:tgpiv": {
+          "enabled": false
+        },
+        "Z:m1YI0/Z:bddk1": {
+          "enabled": false
+        },
+        "Z:I0deDm": {
+          "fill": "$Z:color-bg-alt"
+        },
+        "Z:s1mC7M": {
+          "width": "fill_container",
+          "height": "fit_content",
+          "padding": "$Z:spacing-16",
+          "gap": "$Z:spacing-20"
+        },
+        "Z:dBfag": {
+          "width": "fill_container"
+        },
+        "Z:dBfag/Z:RcOFm": {
+          "content": "Accounts"
+        },
+        "Z:dBfag/Z:tEiyK": {
+          "content": "5 accounts · August 2026"
+        },
+        "Z:dBfag/Z:iy81x": {
+          "type": "frame",
+          "id": "o51JrA",
+          "name": "Account actions",
+          "children": [
+            {
+              "id": "nH4GK",
+              "type": "ref",
+              "ref": "Z:AbSy4",
+              "name": "Add Account",
+              "height": 44,
+              "descendants": {
+                "Z:tZR2x": {
+                  "enabled": true,
+                  "width": 16,
+                  "height": 16,
+                  "children": [
+                    {
+                      "id": "BXzTg",
+                      "type": "ref",
+                      "ref": "Z:zLB8n",
+                      "name": "Add account icon",
+                      "width": 16,
+                      "height": 16,
+                      "descendants": {
+                        "Z:xKbhj": {
+                          "stroke": "$Z:color-white"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Z:HSwj7": {
+                  "content": "Add Account"
+                }
+              }
+            }
+          ]
+        },
+        "Z:j6N8d1": {
+          "type": "frame",
+          "id": "T6maaV",
+          "name": "Accounts sections",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": "$Z:spacing-20",
+          "children": [
+            {
+              "type": "frame",
+              "id": "h2sBj",
+              "name": "Account summary",
+              "width": "fill_container",
+              "gap": "$Z:spacing-8",
+              "children": [
+                {
+                  "id": "RDcXW",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Net Worth",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false
+                    },
+                    "Z:CR1Ds": {
+                      "layout": "vertical",
+                      "height": "fit_content",
+                      "gap": "$Z:spacing-4",
+                      "padding": "$Z:spacing-8",
+                      "children": [
+                        {
+                          "id": "xRuxZ",
+                          "type": "ref",
+                          "ref": "Z:jVQuK",
+                          "name": "Net Worth label",
+                          "content": "Net Worth",
+                          "fill": "$Z:color-text-tertiary"
+                        },
+                        {
+                          "id": "R9WQx",
+                          "type": "ref",
+                          "ref": "Z:YpnwD",
+                          "name": "Net Worth amount",
+                          "content": "$145,580.00",
+                          "fill": "$Z:color-primary",
+                          "fontSize": "$Z:font-size-md"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "Y8yABK",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Total Assets",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false
+                    },
+                    "Z:CR1Ds": {
+                      "layout": "vertical",
+                      "height": "fit_content",
+                      "gap": "$Z:spacing-4",
+                      "padding": "$Z:spacing-8",
+                      "children": [
+                        {
+                          "id": "TnYeV",
+                          "type": "ref",
+                          "ref": "Z:jVQuK",
+                          "name": "Total Assets label",
+                          "content": "Total Assets",
+                          "fill": "$Z:color-text-tertiary"
+                        },
+                        {
+                          "id": "LwjmE",
+                          "type": "ref",
+                          "ref": "Z:YpnwD",
+                          "name": "Total Assets amount",
+                          "content": "$147,920.00",
+                          "fill": "$Z:color-secondary",
+                          "fontSize": "$Z:font-size-md"
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "m2xmt",
+                  "type": "ref",
+                  "ref": "Z:CU2dS",
+                  "name": "Total Liabilities",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "Z:O4i3fR": {
+                      "enabled": false
+                    },
+                    "Z:CR1Ds": {
+                      "layout": "vertical",
+                      "height": "fit_content",
+                      "gap": "$Z:spacing-4",
+                      "padding": "$Z:spacing-8",
+                      "children": [
+                        {
+                          "id": "U07e7n",
+                          "type": "ref",
+                          "ref": "Z:jVQuK",
+                          "name": "Total Liabilities label",
+                          "content": "Total Liabilities",
+                          "fill": "$Z:color-text-tertiary"
+                        },
+                        {
+                          "id": "eqkJ2",
+                          "type": "ref",
+                          "ref": "Z:YpnwD",
+                          "name": "Total Liabilities amount",
+                          "content": "$2,340.00",
+                          "fill": "$Z:color-error",
+                          "fontSize": "$Z:font-size-md"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "LS6LW",
+              "name": "Accounts grid",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$Z:spacing-16",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "e7eeqi",
+                  "name": "Account row 1",
+                  "width": "fill_container",
+                  "height": 208,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "foIAJ",
+                      "type": "ref",
+                      "ref": "Z:ndUD3",
+                      "name": "Main Checking account",
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "descendants": {
+                        "Z:jv82f": {
+                          "fill": "$Z:color-primary-bg"
+                        },
+                        "Z:CARFV": {
+                          "icon": "wallet",
+                          "fill": "$Z:color-primary"
+                        },
+                        "Z:mNbo3": {
+                          "fill": "$Z:color-primary-bg"
+                        },
+                        "Z:HWjwz": {
+                          "content": "Checking",
+                          "fill": "$Z:color-primary"
+                        },
+                        "Z:YBZ3f": {
+                          "content": "Main Checking"
+                        },
+                        "Z:vBY1b": {
+                          "content": "Chase Bank"
+                        },
+                        "Z:hqCSS": {
+                          "content": "$12,450.00",
+                          "fill": "$Z:color-text"
+                        },
+                        "Z:LfjAg": {
+                          "content": "Last activity Jul 31"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C4uFX",
+                  "name": "Account row 2",
+                  "width": "fill_container",
+                  "height": 208,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "exkPr",
+                      "type": "ref",
+                      "ref": "Z:ndUD3",
+                      "name": "High-Yield Savings account",
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "descendants": {
+                        "Z:jv82f": {
+                          "fill": "$Z:color-secondary-bg"
+                        },
+                        "Z:CARFV": {
+                          "icon": "piggy-bank",
+                          "fill": "$Z:color-secondary"
+                        },
+                        "Z:mNbo3": {
+                          "fill": "$Z:color-secondary-bg"
+                        },
+                        "Z:HWjwz": {
+                          "content": "Savings",
+                          "fill": "$Z:color-secondary"
+                        },
+                        "Z:YBZ3f": {
+                          "content": "High-Yield Savings"
+                        },
+                        "Z:vBY1b": {
+                          "content": "Marcus by Goldman"
+                        },
+                        "Z:hqCSS": {
+                          "content": "$45,200.00",
+                          "fill": "$Z:color-text"
+                        },
+                        "Z:LfjAg": {
+                          "content": "Last activity Jul 10"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "A3T1T0",
+                  "name": "Account row 3",
+                  "width": "fill_container",
+                  "height": 208,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "jXrZc",
+                      "type": "ref",
+                      "ref": "Z:ndUD3",
+                      "name": "Visa Rewards account",
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "descendants": {
+                        "Z:jv82f": {
+                          "fill": "$Z:color-error-bg"
+                        },
+                        "Z:CARFV": {
+                          "icon": "credit-card",
+                          "fill": "$Z:color-error"
+                        },
+                        "Z:mNbo3": {
+                          "fill": "$Z:color-error-bg"
+                        },
+                        "Z:HWjwz": {
+                          "content": "Credit",
+                          "fill": "$Z:color-error"
+                        },
+                        "Z:YBZ3f": {
+                          "content": "Visa Rewards"
+                        },
+                        "Z:vBY1b": {
+                          "content": "Chase Bank"
+                        },
+                        "Z:hqCSS": {
+                          "content": "-$2,340.00",
+                          "fill": "$Z:color-error"
+                        },
+                        "Z:LfjAg": {
+                          "content": "Last activity Jul 28"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "hLPxx",
+                  "name": "Account row 4",
+                  "width": "fill_container",
+                  "height": 208,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "jIRXN",
+                      "type": "ref",
+                      "ref": "Z:ndUD3",
+                      "name": "Brokerage account",
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "descendants": {
+                        "Z:jv82f": {
+                          "fill": "$Z:color-investment-bg"
+                        },
+                        "Z:CARFV": {
+                          "icon": "trending-up",
+                          "fill": "$Z:color-investment"
+                        },
+                        "Z:mNbo3": {
+                          "fill": "$Z:color-investment-bg"
+                        },
+                        "Z:HWjwz": {
+                          "content": "Investment",
+                          "fill": "$Z:color-investment"
+                        },
+                        "Z:YBZ3f": {
+                          "content": "Brokerage"
+                        },
+                        "Z:vBY1b": {
+                          "content": "Fidelity"
+                        },
+                        "Z:hqCSS": {
+                          "content": "$89,750.00",
+                          "fill": "$Z:color-text"
+                        },
+                        "Z:LfjAg": {
+                          "content": "Last activity Jul 8"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "nD9h3",
+                  "name": "Account row 5",
+                  "width": "fill_container",
+                  "height": 208,
+                  "gap": "$Z:spacing-16",
+                  "children": [
+                    {
+                      "id": "WJ7Ic",
+                      "type": "ref",
+                      "ref": "Z:ndUD3",
+                      "name": "Cash Wallet account",
+                      "width": "fill_container",
+                      "height": "fit_content",
+                      "descendants": {
+                        "Z:jv82f": {
+                          "fill": "$Z:color-cash-bg"
+                        },
+                        "Z:CARFV": {
+                          "icon": "banknote",
+                          "fill": "$Z:color-primary-extra"
+                        },
+                        "Z:mNbo3": {
+                          "fill": "$Z:color-cash-bg"
+                        },
+                        "Z:HWjwz": {
+                          "content": "Cash",
+                          "fill": "$Z:color-primary-extra"
+                        },
+                        "Z:YBZ3f": {
+                          "content": "Cash Wallet"
+                        },
+                        "Z:vBY1b": {
+                          "content": "Personal"
+                        },
+                        "Z:hqCSS": {
+                          "content": "$520.00",
+                          "fill": "$Z:color-text"
+                        },
+                        "Z:LfjAg": {
+                          "content": "Last activity Jul 27"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
     },
     {
       "id": "oftme",
