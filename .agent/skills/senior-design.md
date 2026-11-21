@@ -80,17 +80,21 @@ You are working with the expertise and judgment of a senior UI/UX designer with 
 When creating designs in .pen files:
 
 1. **Always start with get_app_state** to load the schema
-2. **Use get_guidelines** to load relevant style guides:
-   - Call with no params first to see available guides
-   - Load task-specific guides (e.g., 'form', 'dashboard', 'navigation')
-   - Apply visual style archetypes when appropriate
+2. **Use read_skill** to load current pen.dev instructions:
+   - Read `pen-schema.md`, `execute.md`, and `guide/components.md` before editing
+   - Read relevant design guides when needed
+   - Preserve the existing UI-kit style during migration
 3. **Structure your design systematically**:
    - Start with artboards/frames for different screens or breakpoints
    - Build a design system (colors, typography, spacing tokens) first
    - Create reusable components before building unique screens
 4. **Use execute tool** to create and modify design nodes
 5. **Take screenshots sparingly** - only after completing major sections
-6. **Export appropriately** - use export_html for web implementations
+6. **Save explicitly** with the MCP `save` tool; re-read the saved design before reporting completion
+
+For the page migration, follow [design rules](../rules/design-migration.md) and [the migration plan](../../design/MIGRATION_PLAN.md). The agreed size order is 1440 → 768 → 393, overriding the general mobile-first recommendation above.
+
+Access `.pen` contents only through MCP; do not read or rewrite their serialized contents using filesystem tools. Discover the current tools before using them. Library imports already used by Dashboard are the reference for cross-file reuse; verify imported references after saving rather than detaching instances or guessing support from a generic guide.
 
 ## Design Process
 
