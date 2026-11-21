@@ -12,7 +12,8 @@ export const clientWidthMiddleware = (req: BaseRequest, _: Response, next: NextF
 
   // 2. Cookie (может быть устаревшим, но лучше, чем ничего)
   if (!widthStr) {
-    widthStr = req.cookies?.clientWidth;
+    const cookie: unknown = req.cookies?.clientWidth;
+    if (typeof cookie === 'string') widthStr = cookie;
   }
 
   // 3. Fallback через User-Agent

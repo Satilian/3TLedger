@@ -1,38 +1,31 @@
 import { runLoaders } from '@satilian/router';
 import { dehydrate } from '@tanstack/react-query';
-import express from 'express';
-import fs from 'fs';
-import { resolve } from 'path';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import { PassThrough } from 'node:stream';
 import { renderToPipeableStream } from 'react-dom/server';
 import { routesConfig } from 'src/pages/routes';
-import { PassThrough } from 'stream';
-import { BaseRequest } from 'src/types';
-import { getQueryClient, isBot } from 'src/utils';
+import type { BaseRequest } from 'src/types';
+import { getQueryClient } from 'src/utils/get-query-client';
 import App from '../../pages';
 
-const splitPattern = '<div id="root">';
-const html = fs.readFileSync(resolve('dist/index.html'), 'utf8');
-const [head, tail] = html.split(splitPattern);
+const marker = '<div id="root">';
+const template = readFileSync(resolve('dist/index.html'), 'utf8');
+const [head, tail] = template.split(marker);
+if (tail === undefined) throw new Error('SSR template is missing the root element');
 
-export const renderStream = async (
-  req: BaseRequest,
-  res: express.Response,
-  options?: { writeToResponse?: boolean },
-) => {
+export const renderStream = async (req: BaseRequest): Promise<string> => {
   const queryClient = getQueryClient();
   const matches = req.matches ?? null;
   const loaderData = { current: {} };
-
   await runLoaders(matches, req.path, req.query, loaderData, routesConfig.loader, { queryClient, req });
 
-  return new Promise<string>((resolve) => {
-    const write = (chunk: unknown) => {
-      if (options?.writeToResponse) res.write(chunk);
-    };
-
-    write(head + splitPattern);
-
-    const bot = isBot(req.get('user-agent'));
+  return new Promise<string>((resolveHtml, reject) => {
+    const output = new PassThrough();
+    const chunks: Buffer[] = [];
+    output.on('data', (chunk: Buffer) => chunks.push(chunk));
+    output.once('error', reject);
+    output.once('end', () => resolveHtml(head + marker + Buffer.concat(chunks).toString('utf8') + tail));
 
     const stream = renderToPipeableStream(
       <App
@@ -47,34 +40,18 @@ export const renderStream = async (
           window.__initialState = ${JSON.stringify(loaderData.current)};
           window.__dehydratedClient = ${JSON.stringify(dehydrate(queryClient))};
         `,
-        [bot ? 'onAllReady' : 'onShellReady']() {
-          getBody(stream.pipe(new PassThrough()), write).then((body) => {
-            write(tail);
-            resolve(head + splitPattern + body + tail);
-          });
+        onAllReady() {
+          if (!output.destroyed) stream.pipe(output);
         },
-        onShellError: (error) => {
-          console.error('❌ [renderStream] \r\n', error);
-          resolve(head + splitPattern + error + tail);
-        },
-        onError: (error) => {
-          console.error('❌ [renderStream] \r\n', error);
-          resolve(head + splitPattern + error + tail);
+        onError(error) {
+          output.destroy(error instanceof Error ? error : new Error('SSR render failed'));
         },
       },
     );
-  });
-};
-
-const getBody = (bodyStream: PassThrough, write: (chunk: unknown) => void) => {
-  const chunks: Buffer[] = [];
-
-  return new Promise<string>((resolve) => {
-    bodyStream.on('data', (chunk) => {
-      chunks.push(Buffer.from(chunk));
-      write(chunk);
+    const timeout = setTimeout(() => stream.abort(new Error('SSR render timed out')), 10_000);
+    output.once('close', () => {
+      clearTimeout(timeout);
+      if (!output.readableEnded) stream.abort();
     });
-
-    bodyStream.on('end', () => resolve(Buffer.concat(chunks).toString('utf-8')));
   });
 };

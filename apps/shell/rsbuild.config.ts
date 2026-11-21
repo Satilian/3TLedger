@@ -45,12 +45,12 @@ export default defineConfig(({ env }: ConfigParams) => {
             ignoreWarnings: [/Critical dependency: the request of a dependency is an expression/],
           },
         },
-        /* resolve: {
+        resolve: {
           alias: {
             bufferutil: false,
             'utf-8-validate': false,
           },
-        }, */
+        },
         source: {
           entry: { server: './src/server/index.ts' },
         },
@@ -79,7 +79,7 @@ export default defineConfig(({ env }: ConfigParams) => {
 
   if (env === 'development') {
     config.html = config.html || {};
-    config.html.tags = [{ tag: 'script', attrs: { src: 'static/js/hot-reload.js' } }];
+    config.html.tags = [{ tag: 'script', attrs: { src: '/__shell_dev/js/hot-reload.js' } }];
 
     config.environments = config.environments || {};
     config.environments['hot'] = {

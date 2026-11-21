@@ -1,86 +1,71 @@
 import Redis from 'ioredis';
+import type { SsrCachePolicy } from './ssr/cache-policy';
 
-export const redis = new Redis({ host: process.env.REDIS_HOST, port: Number(process.env.REDIS_PORT) });
+let redis: Redis | undefined;
+const pending = new Map<string, Promise<string>>();
 
-export const cached = async <R, P = unknown>(
-  key: string,
-  expiration: number,
-  fn: (...args: P[]) => Promise<R>,
-  ...args: P[]
-): Promise<R | null> => {
+function getRedis(): Redis {
+  if (!redis) {
+    redis = new Redis({
+      host: process.env.REDIS_HOST,
+      port: Number(process.env.REDIS_PORT || 6379),
+      enableOfflineQueue: false,
+      commandTimeout: 500,
+      maxRetriesPerRequest: 0,
+    });
+    redis.on('error', (error) => console.error('SSR Redis connection error:', error.message));
+  }
+  return redis;
+}
+
+async function readCache(key: string): Promise<{ html: string; createdAt: number } | undefined> {
   try {
-    const ttl = await redis.ttl(key);
-
-    if (ttl > 0) {
-      const cachedValue = await redis.get(key);
-      if (cachedValue) {
-        console.log(`🟨 Cache hit with TTL for key: ${key}, TTL: ${ttl} seconds`);
-        return JSON.parse(cachedValue);
-      }
+    const value = await getRedis().get(key);
+    if (!value) return;
+    const entry: unknown = JSON.parse(value);
+    if (
+      typeof entry === 'object' &&
+      entry !== null &&
+      'html' in entry &&
+      typeof entry.html === 'string' &&
+      'createdAt' in entry &&
+      typeof entry.createdAt === 'number' &&
+      Number.isFinite(entry.createdAt)
+    ) {
+      return { html: entry.html, createdAt: entry.createdAt };
     }
   } catch (error) {
-    console.error(`❌ Error checking cache for key: ${key}`, error);
+    console.error('SSR cache read failed:', error);
   }
+}
 
-  try {
-    const result = await fn(...args);
+function refresh(render: () => Promise<string>, { key, max }: SsrCachePolicy): Promise<string> {
+  const existing = pending.get(key);
+  if (existing) return existing;
 
-    redis.set(key, JSON.stringify(result), 'EX', expiration).catch((error) => {
-      console.error(`❌ Error caching key: ${key}`, error);
-    });
+  const result = render()
+    .then(async (html) => {
+      try {
+        await getRedis().set(key, JSON.stringify({ html, createdAt: Date.now() }), 'EX', max);
+      } catch (error) {
+        console.error('SSR cache write failed:', error);
+      }
+      return html;
+    })
+    .finally(() => pending.delete(key));
 
-    console.log(`🟩 Cached key: ${key} with expiration: ${expiration} seconds`);
+  pending.set(key, result);
+  return result;
+}
 
-    return result;
-  } catch (error) {
-    console.error(`❌ Error executing function for key: ${key}`, error);
+export async function staleWhileRevalidate(render: () => Promise<string>, policy: SsrCachePolicy): Promise<string> {
+  const entry = await readCache(policy.key);
+  const age = entry ? (Date.now() - entry.createdAt) / 1000 : Infinity;
+  if (entry && age >= 0 && age < policy.max) {
+    if (age >= policy.min) {
+      void refresh(render, policy).catch((error) => console.error('SSR revalidation failed:', error));
+    }
+    return entry.html;
   }
-
-  return null;
-};
-
-const revalidateCache = async (cacheKey: string, metaKey: string, promise: Promise<string>) => {
-  const result = await promise;
-
-  if (!result) throw new Error(`noResult`);
-
-  await redis.set(cacheKey, result);
-  await redis.set(metaKey, Math.floor(Date.now() / 1000));
-};
-
-export const staleWhileRevalidate = async (
-  fn: (options?: { writeToResponse?: boolean }) => Promise<string>,
-  { url, min, max }: { url: string; min: number; max: number },
-): Promise<string> => {
-  const cacheKey = `ssr:${url}`;
-  const metaKey = `ssr-meta:${url}`;
-
-  const { cached, cachedAt } = await Promise.all([redis.get(cacheKey), redis.get(metaKey)])
-    .then(([cached, cachedMeta]) => ({ cached, cachedAt: Number(cachedMeta) || 0 }))
-    .catch((error) => {
-      console.error(`❌ [${error.message}] Error checking cache for url: ${url}`);
-      return { cached: null, cachedAt: 0 };
-    });
-
-  const age = Math.floor(Date.now() / 1000) - cachedAt;
-  const isFresh = age < min;
-  const isStale = age >= min && age < max;
-
-  if (isStale)
-    setImmediate(() => {
-      revalidateCache(cacheKey, metaKey, fn())
-        .then(() => console.log(`🔃 Cache revalidated for url: ${url}`))
-        .catch((error) => console.error(`❌ [Revalidating cache] url: ${url} \n\r ${error}`));
-    });
-
-  if (cached && (isFresh || isStale)) {
-    console.log(`➡️ Cache returned for url: ${url}`);
-    return cached;
-  }
-
-  await revalidateCache(cacheKey, metaKey, fn({ writeToResponse: true }))
-    .then(() => console.log(`💾 Cache generated for url: ${url}`))
-    .catch((error) => console.error(`❌ [Generating cache] url: ${url} \n\r ${error}`));
-
-  return '';
-};
+  return refresh(render, policy);
+}
