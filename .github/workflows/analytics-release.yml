@@ -1,4 +1,4 @@
-name: Release Analytics Image
+name: Analytics Release
 
 on:
   workflow_dispatch:

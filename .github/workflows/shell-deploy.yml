@@ -1,14 +1,14 @@
-name: Deploy Shell to K3s
+name: Shell Deploy
 
 on:
   workflow_run:
-    workflows: ['Release Shell Image']
+    workflows: ["Shell Release"]
     types:
       - completed
   workflow_dispatch:
     inputs:
       image_tag:
-        description: 'Shell image tag (sha-<full SHA> or release tag)'
+        description: "Shell image tag (sha-<full SHA> or release tag)"
         required: true
         type: string
 

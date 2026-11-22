@@ -1,14 +1,14 @@
-name: Deploy Analytics to K3s
+name: Analytics Deploy
 
 on:
   workflow_run:
-    workflows: ['Release Analytics Image']
+    workflows: ["Analytics Release"]
     types:
       - completed
   workflow_dispatch:
     inputs:
       image_tag:
-        description: 'Analytics image tag (sha-<full SHA> or release tag)'
+        description: "Analytics image tag (sha-<full SHA> or release tag)"
         required: true
         type: string
 

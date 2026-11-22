@@ -1,4 +1,4 @@
-name: Release Shell Image
+name: Shell Release
 
 on:
   workflow_dispatch:
