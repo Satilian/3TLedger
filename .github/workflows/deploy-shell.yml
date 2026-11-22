@@ -20,7 +20,7 @@ permissions:
   contents: read
 
 env:
-  RELEASE_NAME: 3tledger-shell
+  RELEASE_NAME: shell-3tledger
   NAMESPACE: 3tledger
   CHART_PATH: ./apps/shell/helm
   IMAGE_PULL_SECRET: ghcr-pull-secret
