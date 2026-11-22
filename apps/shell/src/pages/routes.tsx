@@ -1,4 +1,5 @@
 import { RoutesConfigObject } from '@satilian/router';
+import Statistics from 'analytics/Statistics';
 import { getQueryClient } from 'src/utils';
 import AboutPage from './about';
 import HomePage from './home';
@@ -19,6 +20,11 @@ export const routesConfig: RoutesConfigObject = {
           id: 'home',
           index: true,
           element: <HomePage />,
+        },
+        {
+          id: 'statistics',
+          path: 'statistics',
+          element: <Statistics />,
         },
         {
           id: 'about',

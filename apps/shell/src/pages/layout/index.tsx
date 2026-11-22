@@ -26,7 +26,7 @@ const navigation = [
   { label: 'Expenses', icon: TrendingDown },
   { label: 'Transfers', icon: ArrowLeftRight },
   { label: 'Categories', icon: Tag },
-  { label: 'Statistics', icon: BarChart3 },
+  { label: 'Statistics', icon: BarChart3, to: '/statistics' },
   { label: 'Budget Planning', icon: Target },
 ] as const;
 
@@ -93,7 +93,9 @@ export default memo(function MainLayout() {
   const { pathname } = useRouter();
   const [collapsed, setCollapsed] = useState(false);
   const drawer = useRef<HTMLDialogElement>(null);
-  const title = pathname === '/about' ? 'About' : 'Dashboard';
+  const title = pathname === '/about'
+    ? 'About'
+    : navigation.find((item) => 'to' in item && item.to === pathname)?.label ?? 'Dashboard';
 
   return (
     <div className={styles.shell}>
