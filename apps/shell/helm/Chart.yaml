@@ -1,0 +1,5 @@
+apiVersion: v2
+name: 3tledger-shell
+description: 3TLedger shell
+version: 0.1.0
+appVersion: "0.1.0"

@@ -1,6 +1,6 @@
 {
   "name": "@satilian/3tledger-shell",
-  "version": "0.1.6",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "pnpm build && dotenvx run -- pnpm serve",
