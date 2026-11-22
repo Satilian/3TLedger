@@ -1,0 +1,277 @@
+.shell {
+  --shell-sidebar: #111827;
+  --shell-primary: #6366f1;
+  --shell-border: #11182712;
+  --shell-heading-font: 'Roboto Slab', Georgia, serif;
+
+  display: flex;
+  min-height: 100svh;
+  color: #111827;
+  background: #f8f9fb;
+  font:
+    14px/1.4 Inter,
+    system-ui,
+    sans-serif;
+}
+
+.sidebar,
+.drawerContent {
+  display: flex;
+  flex-direction: column;
+  color: #9ca3af;
+  background: var(--shell-sidebar);
+}
+
+.sidebar {
+  flex: 0 0 210px;
+  position: sticky;
+  top: 0;
+  height: 100svh;
+  overflow: auto;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  padding: 0 8px;
+  border-bottom: 1px solid #ffffff0d;
+}
+
+.brandLink,
+.sidebarFooter,
+.account {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brandLink strong,
+.brandLink small {
+  display: block;
+}
+
+.brandLink strong {
+  color: #fff;
+  font: 600 16px/1.2 var(--shell-heading-font);
+}
+
+.brandLink small {
+  font-size: 10px;
+}
+
+.logo,
+.avatar {
+  display: grid;
+  flex-shrink: 0;
+  place-items: center;
+  color: #fff;
+}
+
+.logo {
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #a3e635, #34d399);
+  font: 600 14px var(--shell-heading-font);
+}
+
+.avatar {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--shell-primary);
+}
+
+.iconButton,
+.menuButton {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border-radius: 8px;
+}
+
+.iconButton {
+  flex-shrink: 0;
+  width: 28px;
+  height: 32px;
+  color: inherit;
+  background: transparent;
+}
+
+.navigation {
+  display: grid;
+  gap: 2px;
+  padding: 12px 8px;
+}
+
+.navigation > * {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  min-height: 40px;
+  padding: 0 16px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.navigation svg {
+  flex-shrink: 0;
+}
+
+.navigation a[aria-current='page'] {
+  color: #a5b4fc;
+  background: #6366f133;
+}
+
+.navigation a[aria-current='page']::after {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+  content: '';
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  padding: 12px 16px;
+  border-top: 1px solid #ffffff0d;
+  color: #fff;
+  font-size: 12px;
+}
+
+.sidebar[data-collapsed='true'] {
+  flex-basis: 64px;
+}
+
+.sidebar[data-collapsed='true'] .brand {
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 6px;
+}
+
+.sidebar[data-collapsed='true'] .brand .iconButton {
+  transform: rotate(180deg);
+}
+
+.sidebar[data-collapsed='true'] .label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+.sidebar[data-collapsed='true'] a[aria-current='page']::after {
+  display: none;
+}
+
+.workspace {
+  flex: 1;
+  min-width: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  height: 64px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--shell-border);
+  background: #fff;
+}
+
+.header h1 {
+  margin: 0;
+  font: 600 18px/1.25 var(--shell-heading-font);
+}
+
+.account {
+  gap: 7px;
+  padding: 5px 7px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.account:hover {
+  background: #f8f9fb;
+}
+
+.content {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 24px;
+}
+
+.drawer,
+.menuButton {
+  display: none;
+}
+
+.shell :focus-visible {
+  outline: 2px solid #818cf8;
+  outline-offset: 2px;
+}
+
+@media (max-width: 767px) {
+  .shell {
+    background: #fff;
+  }
+
+  .sidebar,
+  .accountLabel {
+    display: none;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) 44px;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .account {
+    justify-content: center;
+    min-height: 34px;
+    padding: 5px;
+  }
+
+  .menuButton {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    margin-inline: auto;
+    color: #fff;
+    background: var(--shell-sidebar);
+    box-shadow: 0 4px 8px #00000019;
+  }
+
+  .content {
+    padding: 0 16px 16px;
+  }
+
+  .drawer[open] {
+    display: block;
+    inset: 0 auto 0 0;
+    width: min(210px, 100%);
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: var(--shell-sidebar);
+  }
+
+  .drawer::backdrop {
+    background: #00000099;
+  }
+
+  .drawerContent {
+    min-height: 100%;
+  }
+}
