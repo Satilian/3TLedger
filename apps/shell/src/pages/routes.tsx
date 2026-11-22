@@ -1,5 +1,11 @@
 import { RoutesConfigObject } from '@satilian/router';
 import Statistics from 'analytics/Statistics';
+import Accounts from 'ledger/Accounts';
+import Transactions from 'ledger/Transactions';
+import Income from 'ledger/Income';
+import Expenses from 'ledger/Expenses';
+import Transfers from 'ledger/Transfers';
+import Categories from 'ledger/Categories';
 import { getQueryClient } from 'src/utils';
 import AboutPage from './about';
 import HomePage from './home';
@@ -20,6 +26,36 @@ export const routesConfig: RoutesConfigObject = {
           id: 'home',
           index: true,
           element: <HomePage />,
+        },
+        {
+          id: 'accounts',
+          path: 'accounts',
+          element: <Accounts />,
+        },
+        {
+          id: 'transactions',
+          path: 'transactions',
+          element: <Transactions />,
+        },
+        {
+          id: 'income',
+          path: 'income',
+          element: <Income />,
+        },
+        {
+          id: 'expenses',
+          path: 'expenses',
+          element: <Expenses />,
+        },
+        {
+          id: 'transfers',
+          path: 'transfers',
+          element: <Transfers />,
+        },
+        {
+          id: 'categories',
+          path: 'categories',
+          element: <Categories />,
         },
         {
           id: 'statistics',

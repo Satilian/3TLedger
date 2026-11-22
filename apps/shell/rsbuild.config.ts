@@ -51,6 +51,7 @@ export default defineConfig(({ env }: ConfigParams) => {
       pluginMF({
         remotes: {
           ...mfTypes.remotes,
+          ledger: process.env.LEDGER_MF_URL ?? mfTypes.remotes.ledger,
           analytics: process.env.ANALYTICS_MF_URL ?? mfTypes.remotes.analytics,
         },
         types: { mode: 'off' },

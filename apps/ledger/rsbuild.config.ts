@@ -38,7 +38,14 @@ export default defineConfig(({ env }: ConfigParams) => {
       pluginReact(),
       pluginMF({
         ...mfTypes,
-        expose: {},
+        expose: {
+          Accounts: "./src/Placeholders.tsx",
+          Transactions: "./src/Placeholders.tsx",
+          Income: "./src/Placeholders.tsx",
+          Expenses: "./src/Placeholders.tsx",
+          Transfers: "./src/Placeholders.tsx",
+          Categories: "./src/Placeholders.tsx",
+        },
         externals: [{ name: "react", requiredVersion: "^19.2.8", singleton: true }, "react-dom"],
         shared: [{ name: "react", requiredVersion: "^19.2.8", singleton: true }, "react-dom"],
       }),

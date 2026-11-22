@@ -20,12 +20,12 @@ import styles from './layout.module.css';
 
 const navigation = [
   { label: 'Dashboard', icon: LayoutDashboard, to: '/' },
-  { label: 'Accounts', icon: Wallet },
-  { label: 'Transactions', icon: ArrowDownUp },
-  { label: 'Income', icon: TrendingUp },
-  { label: 'Expenses', icon: TrendingDown },
-  { label: 'Transfers', icon: ArrowLeftRight },
-  { label: 'Categories', icon: Tag },
+  { label: 'Accounts', icon: Wallet, to: '/accounts' },
+  { label: 'Transactions', icon: ArrowDownUp, to: '/transactions' },
+  { label: 'Income', icon: TrendingUp, to: '/income' },
+  { label: 'Expenses', icon: TrendingDown, to: '/expenses' },
+  { label: 'Transfers', icon: ArrowLeftRight, to: '/transfers' },
+  { label: 'Categories', icon: Tag, to: '/categories' },
   { label: 'Statistics', icon: BarChart3, to: '/statistics' },
   { label: 'Budget Planning', icon: Target },
 ] as const;

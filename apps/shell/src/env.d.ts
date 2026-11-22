@@ -9,3 +9,33 @@ declare module 'analytics/Statistics' {
   const Statistics: import('react').ComponentType;
   export default Statistics;
 }
+
+declare module 'ledger/Accounts' {
+  const Accounts: import('react').ComponentType;
+  export default Accounts;
+}
+
+declare module 'ledger/Transactions' {
+  const Transactions: import('react').ComponentType;
+  export default Transactions;
+}
+
+declare module 'ledger/Income' {
+  const Income: import('react').ComponentType;
+  export default Income;
+}
+
+declare module 'ledger/Expenses' {
+  const Expenses: import('react').ComponentType;
+  export default Expenses;
+}
+
+declare module 'ledger/Transfers' {
+  const Transfers: import('react').ComponentType;
+  export default Transfers;
+}
+
+declare module 'ledger/Categories' {
+  const Categories: import('react').ComponentType;
+  export default Categories;
+}
