@@ -2,6 +2,7 @@ import cookieParser from 'cookie-parser';
 import express from 'express';
 import expressStaticGzip from 'express-static-gzip';
 import { createServer } from 'node:http';
+import { resolve } from 'node:path';
 import ssr from './ssr';
 import { initWebSocket } from './websocket';
 
@@ -19,6 +20,19 @@ if (isDev) {
 }
 
 app.use('/static', expressStaticGzip(process.env.PUBLIC_STATIC || 'dist/static', { orderPreference: ['gz'] }));
+const pwaDirectory = resolve('dist/pwa');
+const serviceWorkerPath = resolve(pwaDirectory, 'sw.js');
+app.use(
+  '/pwa',
+  express.static(pwaDirectory, {
+    setHeaders(res, filePath) {
+      if (filePath === serviceWorkerPath) res.setHeader('Service-Worker-Allowed', '/');
+    },
+  }),
+  (_req, res) => {
+    res.sendStatus(404);
+  },
+);
 app.use(cookieParser());
 app.use(ssr);
 

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#172554" />
+    <title>Нет подключения — 3T Ledger</title>
+    <style>
+      body {
+        display: grid;
+        min-height: 100svh;
+        margin: 0;
+        place-items: center;
+        font: 1rem/1.5 system-ui, sans-serif;
+        color: #172554;
+      }
+      main {
+        padding: 1.5rem;
+        text-align: center;
+      }
+      button {
+        padding: 0.625rem 1rem;
+        border: 0;
+        border-radius: 0.5rem;
+        background: #172554;
+        color: white;
+        font: inherit;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Нет подключения</h1>
+      <p>Подключитесь к интернету, чтобы открыть 3T Ledger.</p>
+      <button type="button" onclick="location.reload()">Повторить</button>
+    </main>
+  </body>
+</html>

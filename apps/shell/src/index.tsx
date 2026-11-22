@@ -12,3 +12,9 @@ function bootstrap() {
 }
 
 bootstrap();
+
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  void navigator.serviceWorker.register('/pwa/sw.js', { scope: '/' }).catch((error: unknown) => {
+    console.error('Could not register the service worker:', error);
+  });
+}
