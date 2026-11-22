@@ -1,7 +1,8 @@
+import Dashboard from 'analytics/Dashboard';
 import { LoaderCtx } from 'src/types';
 
 export function HomePage() {
-  return <div>Home Page Content</div>;
+  return <Dashboard />;
 }
 
 export default HomePage;

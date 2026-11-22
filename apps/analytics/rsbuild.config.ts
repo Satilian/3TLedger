@@ -38,7 +38,7 @@ export default defineConfig(({ env }: ConfigParams) => {
       pluginReact(),
       pluginMF({
         ...mfTypes,
-        expose: {},
+        expose: { Dashboard: "./src/Dashboard.tsx" },
         externals: [{ name: "react", requiredVersion: "^19.2.8", singleton: true }, "react-dom"],
         shared: [{ name: "react", requiredVersion: "^19.2.8", singleton: true }, "react-dom"],
       }),

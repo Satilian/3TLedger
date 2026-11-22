@@ -3,9 +3,6 @@ import { pluginReact } from '@rsbuild/plugin-react';
 import CompressionPlugin from 'compression-webpack-plugin';
 import { pluginMF } from '@satilian/plugin-mf';
 import mfTypes from './mf-types.config.json';
-// import { readdirSync } from 'fs';
-
-// const nodeModules = readdirSync('node_modules').filter((x) => x !== '.bin');
 
 export default defineConfig(({ env }: ConfigParams) => {
   const config: RsbuildConfig = {
@@ -31,16 +28,6 @@ export default defineConfig(({ env }: ConfigParams) => {
       },
       node: {
         tools: {
-          /* bundlerChain(chain) {
-            const externalsObj = nodeModules.reduce(
-              (acc, mod) => {
-                acc[mod] = 'commonjs ' + mod;
-                return acc;
-              },
-              {} as Record<string, string>,
-            );
-            chain.externals(externalsObj);
-          }, */
           rspack: {
             ignoreWarnings: [/Critical dependency: the request of a dependency is an expression/],
           },
@@ -62,7 +49,11 @@ export default defineConfig(({ env }: ConfigParams) => {
     plugins: [
       pluginReact(),
       pluginMF({
-        ...mfTypes,
+        remotes: {
+          ...mfTypes.remotes,
+          analytics: process.env.ANALYTICS_MF_URL ?? mfTypes.remotes.analytics,
+        },
+        types: { mode: 'off' },
         network: { requireServerIntegrity: true },
         loading: {
           manifestTimeoutMs: 2_000,
