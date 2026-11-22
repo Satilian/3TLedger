@@ -1,0 +1,22 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/satilian/3tledger-analytics
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 80
+
+ingress:
+  enabled: false
+  className: traefik
+  host: ""
+  certResolver: myresolver
+
+config:
+  NODE_ENV: production
+  PORT: 3002
+
+imagePullSecrets: []

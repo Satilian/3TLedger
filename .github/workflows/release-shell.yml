@@ -48,6 +48,8 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           context: ./apps/shell
+          build-args: |
+            ${{ vars.APP_HOST && format('ANALYTICS_MF_URL=https://{0}/mf/analytics', vars.APP_HOST) || '' }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

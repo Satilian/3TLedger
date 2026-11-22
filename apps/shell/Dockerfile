@@ -5,6 +5,7 @@ RUN npm install --global pnpm@11
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile
 COPY . .
+ARG ANALYTICS_MF_URL
 RUN pnpm build --mode production --no-env && pnpm prune --prod
 
 FROM node:26-bookworm-slim

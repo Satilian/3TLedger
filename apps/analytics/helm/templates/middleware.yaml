@@ -1,0 +1,10 @@
+{{- if .Values.ingress.enabled }}
+apiVersion: traefik.io/v1alpha1
+kind: Middleware
+metadata:
+  name: {{ .Release.Name }}-mf-path
+spec:
+  replacePathRegex:
+    regex: '^/mf/analytics(/.*)?$'
+    replacement: '/mf${1}'
+{{- end }}
