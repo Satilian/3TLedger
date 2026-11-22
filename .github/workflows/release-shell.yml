@@ -19,8 +19,20 @@ jobs:
   docker-build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    environment: production
 
     steps:
+      - name: Resolve Analytics URL
+        id: analytics
+        env:
+          APP_HOST: ${{ vars.APP_HOST }}
+        run: |
+          if [[ ! "$APP_HOST" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+            echo "::error::Set APP_HOST to the production DNS hostname."
+            exit 1
+          fi
+          echo "url=https://$APP_HOST/mf/analytics" >> "$GITHUB_OUTPUT"
+
       - name: Checkout
         uses: actions/checkout@v6
 
@@ -49,7 +61,7 @@ jobs:
         with:
           context: ./apps/shell
           build-args: |
-            ${{ vars.APP_HOST && format('ANALYTICS_MF_URL=https://{0}/mf/analytics', vars.APP_HOST) || '' }}
+            ANALYTICS_MF_URL=${{ steps.analytics.outputs.url }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
