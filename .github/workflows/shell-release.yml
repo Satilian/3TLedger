@@ -22,8 +22,8 @@ jobs:
     environment: production
 
     steps:
-      - name: Resolve Analytics URL
-        id: analytics
+      - name: Resolve microfrontend URLs
+        id: remotes
         env:
           APP_HOST: ${{ vars.APP_HOST }}
         run: |
@@ -31,7 +31,8 @@ jobs:
             echo "::error::Set APP_HOST to the production DNS hostname."
             exit 1
           fi
-          echo "url=https://$APP_HOST/mf/analytics" >> "$GITHUB_OUTPUT"
+          echo "analytics_url=https://$APP_HOST/mf/analytics" >> "$GITHUB_OUTPUT"
+          echo "ledger_url=https://$APP_HOST/mf/ledger" >> "$GITHUB_OUTPUT"
 
       - name: Checkout
         uses: actions/checkout@v6
@@ -61,7 +62,8 @@ jobs:
         with:
           context: ./apps/shell
           build-args: |
-            ANALYTICS_MF_URL=${{ steps.analytics.outputs.url }}
+            ANALYTICS_MF_URL=${{ steps.remotes.outputs.analytics_url }}
+            LEDGER_MF_URL=${{ steps.remotes.outputs.ledger_url }}
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

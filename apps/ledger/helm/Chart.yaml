@@ -1,0 +1,5 @@
+apiVersion: v2
+name: 3tledger-ledger
+description: 3TLedger ledger
+version: 0.1.0
+appVersion: "0.1.0"

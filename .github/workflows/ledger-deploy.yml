@@ -1,0 +1,111 @@
+name: Ledger Deploy
+
+on:
+  workflow_run:
+    workflows: ["Ledger Release"]
+    types:
+      - completed
+  workflow_dispatch:
+    inputs:
+      image_tag:
+        description: "Ledger image tag (sha-<full SHA> or release tag)"
+        required: true
+        type: string
+
+concurrency:
+  group: deploy-ledger-production
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  RELEASE_NAME: ledger-3tledger
+  NAMESPACE: 3tledger
+  CHART_PATH: ./apps/ledger/helm
+  IMAGE_PULL_SECRET: ghcr-pull-secret
+
+jobs:
+  deploy:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.head_repository.full_name == github.repository &&
+       github.event.workflow_run.head_branch == github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: production
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+
+      - name: Resolve image tag
+        id: image
+        env:
+          BUILD_SHA: ${{ github.event.workflow_run.head_sha }}
+          MANUAL_TAG: ${{ inputs.image_tag }}
+        run: |
+          tag="$MANUAL_TAG"
+          if [[ "$GITHUB_EVENT_NAME" == workflow_run ]]; then
+            tag="sha-$BUILD_SHA"
+          fi
+          if [[ ! "$tag" =~ ^[a-zA-Z0-9_][a-zA-Z0-9_.-]{0,127}$ || "$tag" == latest ]]; then
+            echo "::error::Specify a SHA or release image tag."
+            exit 1
+          fi
+          echo "repository=ghcr.io/${GITHUB_REPOSITORY,,}-ledger" >> "$GITHUB_OUTPUT"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v4
+
+      - name: Setup Helm
+        uses: azure/setup-helm@v5
+
+      - name: Kubeconfig
+        env:
+          KUBECONFIG_CONTENT: ${{ secrets.KUBECONFIG }}
+        run: |
+          umask 077
+          mkdir -p ~/.kube
+          printf '%s\n' "$KUBECONFIG_CONTENT" > ~/.kube/config
+
+      - name: Configure GHCR pull secret
+        env:
+          GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
+          GHCR_PAT: ${{ secrets.GHCR_PAT }}
+        run: |
+          kubectl create namespace "$NAMESPACE" --dry-run=client -o yaml | kubectl apply -f -
+          kubectl create secret docker-registry "$IMAGE_PULL_SECRET" \
+            --namespace "$NAMESPACE" \
+            --docker-server=ghcr.io \
+            --docker-username="$GHCR_USERNAME" \
+            --docker-password="$GHCR_PAT" \
+            --dry-run=client -o yaml | kubectl apply -f -
+
+      - name: Deploy
+        env:
+          IMAGE_REPOSITORY: ${{ steps.image.outputs.repository }}
+          IMAGE_TAG: ${{ steps.image.outputs.tag }}
+          APP_HOST: ${{ vars.APP_HOST }}
+        run: |
+          ingress_args=()
+          if [[ -n "$APP_HOST" ]]; then
+            if [[ ! "$APP_HOST" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+              echo "::error::APP_HOST must be a DNS hostname."
+              exit 1
+            fi
+            ingress_args=(--set ingress.enabled=true --set-string "ingress.host=$APP_HOST")
+          fi
+          helm upgrade --install "$RELEASE_NAME" "$CHART_PATH" \
+            --namespace "$NAMESPACE" \
+            --wait \
+            --timeout 300s \
+            --rollback-on-failure \
+            --set-string "imagePullSecrets[0].name=$IMAGE_PULL_SECRET" \
+            --set-string "image.repository=$IMAGE_REPOSITORY" \
+            --set-string "image.tag=$IMAGE_TAG" \
+            "${ingress_args[@]}"
