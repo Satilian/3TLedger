@@ -62,6 +62,10 @@ for ($i = 0; $i -lt $apps.Count; $i++) {
 
     $ports += $port
     $variables['HTTP_ADDR'] = "127.0.0.1:$port"
+    if ($app -in 'ledger-api', 'budgets-api', 'analytics-api', 'notifications-api' -and
+        $variables['KAFKA_BROKER_HOSTS'] -and !$variables.ContainsKey('KAFKA_TEST_EVENTS_ENABLED')) {
+        $variables['KAFKA_TEST_EVENTS_ENABLED'] = 'true'
+    }
     $settings[$app] = $variables
 }
 

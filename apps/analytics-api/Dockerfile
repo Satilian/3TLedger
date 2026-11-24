@@ -1,5 +1,6 @@
 FROM golang:1.23-alpine AS build
-WORKDIR /src
+WORKDIR /src/apps/analytics-api
+COPY --from=kafka-test / /src/packages/kafkatest/
 COPY . ./
 RUN CGO_ENABLED=0 go build -trimpath -o /server .
 

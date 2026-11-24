@@ -1,8 +1,14 @@
 import Dashboard from 'analytics/Dashboard';
 import { LoaderCtx } from 'src/types';
+import { KafkaTestActions } from './kafka-test-actions';
 
 export function HomePage() {
-  return <Dashboard />;
+  return (
+    <>
+      <Dashboard />
+      <KafkaTestActions />
+    </>
+  );
 }
 
 export default HomePage;

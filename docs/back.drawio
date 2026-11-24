@@ -194,4 +194,75 @@
             </root>
         </mxGraphModel>
     </diagram>
+    <diagram id="back-kafka" name="Kafka · Потоки событий">
+        <mxGraphModel dx="1380" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="720" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontColor=#142A45;" value="&lt;b&gt;3TLedger · Потоки событий Kafka&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1100" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="subtitle" parent="1" style="text;html=1;align=left;fontFamily=Arial;fontSize=14;fontColor=#465B75;" value="Планируемая архитектура бэкенда" vertex="1">
+                    <mxGeometry height="26" width="1100" x="40" y="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="kafka" parent="1" style="rounded=1;arcSize=5;html=1;align=left;verticalAlign=top;spacingTop=12;spacingLeft=16;fontFamily=Arial;fontSize=18;fontColor=#142A45;fillColor=#F8FAFD;strokeColor=#DCE4EF;" value="&lt;b&gt;Kafka&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="440" width="410" x="330" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="ledger" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;ledger-api&lt;/b&gt;&lt;br&gt;Запись транзакций" vertex="1">
+                    <mxGeometry height="80" width="220" x="40" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="transactions" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fillColor=#F2EBFF;strokeColor=#AC94D0;fontColor=#392761;" value="&lt;b&gt;ledger.transactions.v1&lt;/b&gt;&lt;br&gt;transaction.created · transaction.reversed" vertex="1">
+                    <mxGeometry height="80" width="330" x="370" y="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="analytics" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;analytics-api&lt;/b&gt;&lt;br&gt;Обновление агрегатов" vertex="1">
+                    <mxGeometry height="80" width="290" x="850" y="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="budgets" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;budgets-api&lt;/b&gt;&lt;br&gt;Пересчёт расходов по бюджетам" vertex="1">
+                    <mxGeometry height="80" width="290" x="850" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="thresholds" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fillColor=#F2EBFF;strokeColor=#AC94D0;fontColor=#392761;" value="&lt;b&gt;budgets.thresholds.v1&lt;/b&gt;&lt;br&gt;budget.threshold_reached" vertex="1">
+                    <mxGeometry height="80" width="330" x="370" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="notifications" parent="1" style="rounded=1;html=1;whiteSpace=wrap;fontFamily=Arial;fontSize=15;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;notifications-api&lt;/b&gt;&lt;br&gt;Уведомления об общих кошельках&lt;br&gt;и порогах расходов" vertex="1">
+                    <mxGeometry height="80" width="290" x="850" y="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="publish-transactions" edge="1" parent="1" source="ledger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#465B75;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="transactions">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="consume-analytics" edge="1" parent="1" source="transactions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#465B75;endArrow=block;exitX=1;exitY=0.2;entryX=0;entryY=0.5;" target="analytics">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="consume-budgets" edge="1" parent="1" source="transactions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#465B75;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="budgets">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="810" y="240"/>
+                            <mxPoint x="810" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="consume-transactions-notifications" edge="1" parent="1" source="transactions" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;strokeWidth=2;strokeColor=#465B75;endArrow=block;exitX=1;exitY=0.8;entryX=0;entryY=0.25;" target="notifications">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="264"/>
+                            <mxPoint x="770" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="publish-thresholds" edge="1" parent="1" source="budgets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=arc;strokeWidth=2;strokeColor=#465B75;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="thresholds">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="995" y="390"/>
+                            <mxPoint x="535" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="consume-thresholds" edge="1" parent="1" source="thresholds" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeWidth=2;strokeColor=#465B75;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="notifications">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="delivery" parent="1" style="text;html=1;whiteSpace=wrap;align=left;fontFamily=Arial;fontSize=14;fontColor=#465B75;" value="Издатели сохраняют события через transactional outbox. У каждого сервиса-подписчика своя группа потребителей. Повторная доставка обрабатывается по ID события." vertex="1">
+                    <mxGeometry height="40" width="1100" x="40" y="590" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>

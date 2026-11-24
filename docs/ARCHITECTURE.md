@@ -70,6 +70,33 @@ Events can be used for:
 - notifications
 - reporting
 
+## Planned Kafka topics
+
+| Topic | Publisher | Subscribers | Events and purpose |
+| --- | --- | --- | --- |
+| `ledger.transactions.v1` | `ledger-api` | `analytics-api`, `budgets-api`, `notifications-api` | `transaction.created`, `transaction.reversed`. Analytics updates aggregates for reports, Budgets recalculates spending against limits, and Notifications handles relevant activity on shared wallets. |
+| `budgets.thresholds.v1` | `budgets-api` | `notifications-api` | `budget.threshold_reached`. Notifications alerts eligible recipients when spending crosses a configured threshold. |
+
+```mermaid
+flowchart LR
+    ledger["ledger-api"] --> transactions
+    budgets["budgets-api"] --> thresholds
+
+    subgraph kafka["Kafka"]
+        transactions["ledger.transactions.v1"]
+        thresholds["budgets.thresholds.v1"]
+    end
+
+    transactions --> analytics["analytics-api"]
+    transactions --> budgets
+    transactions --> notifications["notifications-api"]
+    thresholds --> notifications
+```
+
+Each subscribing service uses its own consumer group so that Analytics, Budgets, and Notifications can process the same ledger events independently. Publishers write events to a transactional outbox alongside their business changes. Subscribers handle duplicate deliveries using the event ID.
+
+Analytics and budget calculations are the first consumers planned for personal finance. Notification consumers are introduced in the shared finance phase.
+
 ---
 
 # Permissions

@@ -51,6 +51,7 @@ jobs:
       - uses: docker/build-push-action@v7
         with:
           context: ./apps/${{ inputs.app }}
+          build-contexts: kafka-test=./packages/kafkatest
           push: true
           tags: ${{ steps.image.outputs.repository }}:${{ steps.image.outputs.tag }}
           cache-from: type=gha,scope=${{ inputs.app }}
