@@ -96,14 +96,22 @@ jobs:
           IMAGE_REPOSITORY: ${{ needs.build.outputs.image }}
           IMAGE_TAG: ${{ needs.build.outputs.tag }}
           BACKEND_API_HOST: ${{ vars.BACKEND_API_HOST }}
+          IDENTITY_ENV_SECRET: ${{ vars.IDENTITY_ENV_SECRET }}
         run: |
-          ingress_args=()
+          app_args=()
           if [[ "$APP" == api-gateway && -n "$BACKEND_API_HOST" ]]; then
             if [[ ! "$BACKEND_API_HOST" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
               echo "::error::BACKEND_API_HOST must be a DNS hostname."
               exit 1
             fi
-            ingress_args=(--set ingress.enabled=true --set-string "ingress.host=$BACKEND_API_HOST")
+            app_args=(--set ingress.enabled=true --set-string "ingress.host=$BACKEND_API_HOST")
+          fi
+          if [[ "$APP" == identity-api && -n "$IDENTITY_ENV_SECRET" ]]; then
+            if [[ ! "$IDENTITY_ENV_SECRET" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+              echo "::error::IDENTITY_ENV_SECRET must be a Kubernetes Secret name."
+              exit 1
+            fi
+            app_args=(--set-string "existingSecret=$IDENTITY_ENV_SECRET")
           fi
 
           helm upgrade --install "$APP-3tledger" "./apps/$APP/helm" \
@@ -114,4 +122,4 @@ jobs:
             --set-string "imagePullSecrets[0].name=$IMAGE_PULL_SECRET" \
             --set-string "image.repository=$IMAGE_REPOSITORY" \
             --set-string "image.tag=$IMAGE_TAG" \
-            "${ingress_args[@]}"
+            "${app_args[@]}"

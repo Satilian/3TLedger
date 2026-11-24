@@ -9,6 +9,9 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/satilian/3tledger/apps/identity-api/internal/identity"
+	"github.com/satilian/3tledger/apps/identity-api/internal/platform"
 )
 
 func main() {
@@ -29,11 +32,48 @@ func run(ctx context.Context) error {
 
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health/live", health)
-	mux.HandleFunc("GET /health/ready", health)
+	var ready http.HandlerFunc = health
+	if platform.OIDCConfigured() {
+		config, err := platform.LoadConfig()
+		if err != nil {
+			return err
+		}
+		startup, cancel := context.WithTimeout(ctx, 20*time.Second)
+		defer cancel()
+		db, err := platform.OpenDatabase(startup, config.DatabaseURL)
+		if err != nil {
+			return err
+		}
+		defer db.Close()
+		var schemaReady bool
+		if err := db.QueryRow(startup, `SELECT EXISTS (SELECT 1 FROM goose_db_version WHERE version_id=1 AND is_applied)`).Scan(&schemaReady); err != nil || !schemaReady {
+			return errors.New("identity schema is missing; run cmd/migrate")
+		}
+		client, err := platform.HTTPClient(config.CAFile)
+		if err != nil {
+			return err
+		}
+		defer client.CloseIdleConnections()
+		auth, err := identity.New(startup, db, config, client)
+		if err != nil {
+			return err
+		}
+		auth.Register(mux)
+		ready = func(w http.ResponseWriter, r *http.Request) {
+			probe, cancel := context.WithTimeout(r.Context(), 2*time.Second)
+			defer cancel()
+			if err := db.Ping(probe); err != nil {
+				http.Error(w, "database unavailable", http.StatusServiceUnavailable)
+				return
+			}
+			health(w, r)
+		}
+	}
+	mux.HandleFunc("GET /health/ready", ready)
 
 	server := &http.Server{
 		Addr:              address,
-		Handler:           mux,
+		Handler:           identity.Middleware(mux),
 		ReadHeaderTimeout: 5 * time.Second,
 		ReadTimeout:       15 * time.Second,
 		WriteTimeout:      30 * time.Second,
