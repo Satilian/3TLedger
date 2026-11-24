@@ -1,0 +1,24 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/satilian/3tledger-api-gateway
+  tag: latest
+  pullPolicy: Always
+
+imagePullSecrets: []
+
+service:
+  port: 80
+
+upstreams:
+  IDENTITY_URL: http://identity-api-3tledger
+  LEDGER_URL: http://ledger-api-3tledger
+  BUDGETS_URL: http://budgets-api-3tledger
+  ANALYTICS_URL: http://analytics-api-3tledger
+  NOTIFICATIONS_URL: http://notifications-api-3tledger
+
+ingress:
+  enabled: false
+  className: traefik
+  host: ""
+  certResolver: myresolver

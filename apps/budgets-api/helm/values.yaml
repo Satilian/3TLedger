@@ -1,0 +1,11 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/satilian/3tledger-budgets-api
+  tag: latest
+  pullPolicy: Always
+
+imagePullSecrets: []
+
+service:
+  port: 80

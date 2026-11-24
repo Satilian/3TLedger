@@ -1,0 +1,197 @@
+<mxfile host="65bd71144e">
+    <diagram id="back-architecture" name="Архитектура бэкенда">
+        <mxGraphModel dx="1380" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="910" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=30;" value="&lt;b&gt;3TLedger · Архитектура бэкенда&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1200" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="version" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=14;" value="Реализация Go BFF в ветке arch_,back · 3b9b8a4" vertex="1">
+                    <mxGeometry height="28" width="1200" x="40" y="68" as="geometry"/>
+                </mxCell>
+                <mxCell id="bff" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=5;fillColor=#F8FAFD;strokeColor=#DCE4EF;" value="" vertex="1">
+                    <mxGeometry height="375" width="880" x="40" y="235" as="geometry"/>
+                </mxCell>
+                <mxCell id="bff-title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=20;" value="&lt;b&gt;Go BFF&lt;/b&gt; · backend/cmd/server" vertex="1">
+                    <mxGeometry height="31" width="490" x="64" y="249" as="geometry"/>
+                </mxCell>
+                <mxCell id="clients" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#F3F6FA;strokeColor=#B8C5D5;fontColor=#24364D;" value="&lt;b&gt;Веб-клиент и Flutter&lt;/b&gt;&lt;br&gt;Браузер / WebView для входа" vertex="1">
+                    <mxGeometry height="72" width="308" x="326" y="116" as="geometry"/>
+                </mxCell>
+                <mxCell id="router" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;HTTP · net/http ServeMux&lt;/b&gt;&lt;br&gt;REST /api/v1 · /health/live · /health/ready" vertex="1">
+                    <mxGeometry height="76" width="328" x="316" y="296" as="geometry"/>
+                </mxCell>
+                <mxCell id="identity" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Identity · internal/identity&lt;/b&gt;&lt;br&gt;OIDC Authorization Code + PKCE&lt;br&gt;Web: cookie-сессия, CSRF, выход&lt;br&gt;Mobile: одноразовый код, обмен и ротация сессии" vertex="1">
+                    <mxGeometry height="115" width="350" x="64" y="453" as="geometry"/>
+                </mxCell>
+                <mxCell id="ledger" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Ledger · internal/ledger&lt;/b&gt;&lt;br&gt;Счета и категории · история операций&lt;br&gt;Проводки, сторно, идемпотентность&lt;br&gt;Месячные сводки по валютам · /insights" vertex="1">
+                    <mxGeometry height="115" width="350" x="546" y="453" as="geometry"/>
+                </mxCell>
+                <mxCell id="oidc" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#F3F6FA;strokeColor=#B8C5D5;fontColor=#24364D;" value="&lt;b&gt;Keycloak · OIDC&lt;/b&gt;&lt;br&gt;Discovery, обмен code на токены&lt;br&gt;и получение ключей для проверки ID token" vertex="1">
+                    <mxGeometry height="123" width="290" x="966" y="445" as="geometry"/>
+                </mxCell>
+                <mxCell id="db" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#F5F0FF;strokeColor=#B5A1E0;fontColor=#4B3475;" value="&lt;b&gt;PostgreSQL · общий пул pgx&lt;/b&gt;&lt;br&gt;Identity: пользователи, сессии, login-транзакции, mobile-коды&lt;br&gt;Ledger: счета, категории, операции, проводки, ключи запросов, аудит" vertex="1">
+                    <mxGeometry height="105" width="570" x="195" y="707" as="geometry"/>
+                </mxCell>
+                <mxCell id="migrate" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#ECFDF5;strokeColor=#82C9AA;fontColor=#14513A;" value="&lt;b&gt;cmd/migrate · Goose&lt;/b&gt;&lt;br&gt;Применяет SQL-миграции 1–4 перед запуском API" vertex="1">
+                    <mxGeometry height="90" width="313" x="943" y="714" as="geometry"/>
+                </mxCell>
+                <mxCell id="https" edge="1" parent="1" source="clients" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;" target="router" value="HTTPS · локально через cmd/devproxy">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="login" edge="1" parent="1" source="clients" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;dashed=1;exitX=1;exitY=0.5;entryX=0.5;entryY=0;" target="oidc" value="Вход через браузер">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1111" y="152"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="route-auth" edge="1" parent="1" source="router" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" target="identity" value="Auth / Session">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="382" y="400"/>
+                            <mxPoint x="239" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="route-ledger" edge="1" parent="1" source="router" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" target="ledger" value="Ledger API">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="578" y="400"/>
+                            <mxPoint x="721" y="400"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="require-user" edge="1" parent="1" source="ledger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="identity" value="RequireUser">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="oidc-http" edge="1" parent="1" source="identity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.15;exitY=1;entryX=0;entryY=0.86;" target="oidc" value="OIDC · HTTPS">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="117" y="590"/>
+                            <mxPoint x="936" y="590"/>
+                            <mxPoint x="936" y="551"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="identity-db" edge="1" parent="1" source="identity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.18;entryY=0;" target="db" value="Сессии и коды">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ledger-db" edge="1" parent="1" source="ledger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.86;entryY=0;" target="db" value="SQL-транзакции и чтение">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="schema" edge="1" parent="1" source="migrate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="db" value="Миграции">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="health" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=14;" value="Readiness проверяет доступность PostgreSQL. При старте BFF проверяет версию схемы и выполняет OIDC discovery." vertex="1">
+                    <mxGeometry height="31" width="1216" x="40" y="843" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="target-back-architecture" name="Целевая архитектура">
+        <mxGraphModel dx="1380" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="880" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=30;" value="&lt;b&gt;3TLedger · Целевая архитектура бэкенда&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="44" width="1220" x="40" y="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="clients" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#F3F6FA;strokeColor=#B8C5D5;fontColor=#24364D;" value="&lt;b&gt;Web / Mobile&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="50" width="320" x="490" y="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="ingress" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#F3F6FA;strokeColor=#B8C5D5;fontColor=#24364D;" value="&lt;b&gt;Kubernetes Ingress&lt;/b&gt;&lt;br&gt;Внешний HTTPS и маршрутизация по пути" vertex="1">
+                    <mxGeometry height="66" width="320" x="490" y="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="gateway" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;API Gateway&lt;/b&gt;&lt;br&gt;Единый публичный API и маршрутизация в сервисы" vertex="1">
+                    <mxGeometry height="70" width="380" x="460" y="317" as="geometry"/>
+                </mxCell>
+                <mxCell id="boundary" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=5;fillColor=#F8FAFD;strokeColor=#DCE4EF;" value="" vertex="1">
+                    <mxGeometry height="254" width="1220" x="40" y="464" as="geometry"/>
+                </mxCell>
+                <mxCell id="service-title" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=19;" value="&lt;b&gt;Внутренние микросервисы&lt;/b&gt;" vertex="1">
+                    <mxGeometry height="28" width="430" x="60" y="476" as="geometry"/>
+                </mxCell>
+                <mxCell id="identity" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Identity&lt;/b&gt;&lt;br&gt;Веб- и мобильный вход&lt;br&gt;Сессии и выход" vertex="1">
+                    <mxGeometry height="96" width="220" x="60" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="ledger" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Ledger&lt;/b&gt;&lt;br&gt;Счета, категории, операции&lt;br&gt;Проводки, сторно и аудит" vertex="1">
+                    <mxGeometry height="96" width="220" x="300" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="budgets" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Budgets&lt;/b&gt;&lt;br&gt;Бюджеты по периодам&lt;br&gt;и категориям · план и факт" vertex="1">
+                    <mxGeometry height="96" width="220" x="540" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="analytics" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Analytics / Reports&lt;/b&gt;&lt;br&gt;Месячные сводки,&lt;br&gt;агрегаты и отчёты" vertex="1">
+                    <mxGeometry height="96" width="220" x="780" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="notifications" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#EFF6FF;strokeColor=#93B5E3;fontColor=#173B68;" value="&lt;b&gt;Notifications&lt;/b&gt;&lt;br&gt;Уведомления о событиях&lt;br&gt;и лимитах" vertex="1">
+                    <mxGeometry height="96" width="220" x="1020" y="547" as="geometry"/>
+                </mxCell>
+                <mxCell id="keycloak" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;rounded=1;arcSize=12;fontSize=15;spacing=8;fillColor=#F3F6FA;strokeColor=#B8C5D5;fontColor=#24364D;" value="&lt;b&gt;Keycloak&lt;/b&gt;&lt;br&gt;Провайдер OIDC" vertex="1">
+                    <mxGeometry height="70" width="220" x="60" y="769" as="geometry"/>
+                </mxCell>
+                <mxCell id="ledger-note" parent="1" style="html=1;whiteSpace=wrap;fontFamily=Arial;text;strokeColor=none;fillColor=none;align=left;fontColor=#142A45;fontSize=15;" value="Ledger записывает операцию и её проводки в одной транзакции." vertex="1">
+                    <mxGeometry height="70" width="760" x="300" y="769" as="geometry"/>
+                </mxCell>
+                <mxCell id="https" edge="1" parent="1" source="clients" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;" target="ingress" value="HTTPS">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="api" edge="1" parent="1" source="ingress" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;" target="gateway" value="/api/v1/*">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="route-identity" edge="1" parent="1" source="gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.16;exitY=1;entryX=0.5;entryY=0;" target="identity" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="521" y="424"/>
+                            <mxPoint x="170" y="424"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="route-ledger" edge="1" parent="1" source="gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.32;exitY=1;entryX=0.5;entryY=0;" target="ledger" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="582" y="439"/>
+                            <mxPoint x="410" y="439"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="route-budgets" edge="1" parent="1" source="gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="budgets" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="650" y="453"/>
+                            <mxPoint x="650" y="453"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="route-analytics" edge="1" parent="1" source="gateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;exitX=0.68;exitY=1;entryX=0.5;entryY=0;" target="analytics" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="718" y="439"/>
+                            <mxPoint x="890" y="439"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="oidc" edge="1" parent="1" source="identity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;" target="keycloak" value="OIDC">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ledger-events" edge="1" parent="1" source="ledger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;dashed=1;exitX=0.5;exitY=1;entryX=0.5;entryY=1;" target="notifications" value="События операций">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="667"/>
+                            <mxPoint x="1130" y="667"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="budget-events" edge="1" parent="1" source="budgets" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=1.5;strokeColor=#526981;fontColor=#24364D;fontSize=13;labelBackgroundColor=#FFFFFF;dashed=1;exitX=0.75;exitY=1;entryX=0.75;entryY=1;" target="notifications" value="События лимитов">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="705" y="695"/>
+                            <mxPoint x="1185" y="695"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

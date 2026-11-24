@@ -1,0 +1,15 @@
+name: api-gateway Release and Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  release:
+    uses: ./.github/workflows/backend-release.yml
+    with:
+      app: api-gateway
+    secrets: inherit
