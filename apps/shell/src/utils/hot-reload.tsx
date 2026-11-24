@@ -4,7 +4,8 @@ let interval: NodeJS.Timeout | null = null;
 let timeout = 3000; // 3 seconds
 
 const connect = () => {
-  const socket = new WebSocket(`ws://${location.host}`);
+  const protocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+  const socket = new WebSocket(`${protocol}//${location.host}`);
   socket.onmessage = onmessage;
   socket.onopen = onopen;
   socket.onerror = onerror;

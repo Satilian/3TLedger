@@ -14,11 +14,13 @@ const template = readFileSync(resolve('dist/index.html'), 'utf8');
 const [head, tail] = template.split(marker);
 if (tail === undefined) throw new Error('SSR template is missing the root element');
 
-export const renderStream = async (req: BaseRequest): Promise<string> => {
+export const renderStream = async (req: BaseRequest, authenticated: boolean): Promise<string> => {
   const queryClient = getQueryClient();
   const matches = req.matches ?? null;
   const loaderData = { current: {} };
-  await runLoaders(matches, req.path, req.query, loaderData, routesConfig.loader, { queryClient, req });
+  if (authenticated) {
+    await runLoaders(matches, req.path, req.query, loaderData, routesConfig.loader, { queryClient, req });
+  }
 
   return new Promise<string>((resolveHtml, reject) => {
     const output = new PassThrough();
@@ -29,6 +31,7 @@ export const renderStream = async (req: BaseRequest): Promise<string> => {
 
     const stream = renderToPipeableStream(
       <App
+        authenticated={authenticated}
         pathname={req.path}
         matches={matches}
         queryClient={queryClient}
@@ -37,6 +40,7 @@ export const renderStream = async (req: BaseRequest): Promise<string> => {
       />,
       {
         bootstrapScriptContent: `
+          window.__authenticated = ${authenticated};
           window.__initialState = ${JSON.stringify(loaderData.current)};
           window.__dehydratedClient = ${JSON.stringify(dehydrate(queryClient))};
         `,

@@ -1,3 +1,5 @@
+param([ValidateRange(1, 65535)][int]$FrontendPort = 3000)
+
 $ErrorActionPreference = 'Stop'
 
 function Read-DevEnvironment($path) {
@@ -42,7 +44,8 @@ function Start-DevProcess($file, $directory, $arguments, $variables) {
 
 $apps = 'api-gateway', 'identity-api', 'ledger-api', 'budgets-api', 'analytics-api', 'notifications-api'
 $settings = @{}
-$ports = @(3443)
+if ($FrontendPort -eq 3443) { throw 'FrontendPort is reserved for the HTTPS proxy.' }
+$ports = @(3443, $FrontendPort)
 for ($i = 0; $i -lt $apps.Count; $i++) {
     $app = $apps[$i]
     $variables = Read-DevEnvironment (Join-Path $PSScriptRoot "apps/$app/.env")
@@ -97,7 +100,8 @@ if ($LASTEXITCODE) { throw 'HTTPS proxy build failed.' }
 
 $processes = [ordered]@{}
 try {
-    $processes['devproxy'] = Start-DevProcess $proxyPath $PSScriptRoot "-gateway http://$($gateway['HTTP_ADDR'])" @{}
+    $proxyArgs = "-gateway http://$($gateway['HTTP_ADDR']) -frontend http://127.0.0.1:$FrontendPort"
+    $processes['devproxy'] = Start-DevProcess $proxyPath $PSScriptRoot $proxyArgs @{}
     $airConfig = Join-Path $PSScriptRoot '.air.toml'
     foreach ($app in $apps) {
         $dir = Join-Path $PSScriptRoot "apps/$app"

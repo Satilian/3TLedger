@@ -35,27 +35,26 @@ func run() error {
 	cert := flag.String("cert", ".local/localhost.crt", "local TLS certificate")
 	key := flag.String("key", ".local/localhost.key", "local TLS private key")
 	gateway := flag.String("gateway", "http://127.0.0.1:8080", "local Gateway origin")
+	frontend := flag.String("frontend", "http://127.0.0.1:3000", "local Shell origin")
 	flag.Parse()
 	if err := ensureCertificate(*cert, *key); err != nil {
 		return err
 	}
-	target, err := url.Parse(*gateway)
-	if err != nil || target.Scheme != "http" || target.Hostname() != "127.0.0.1" || target.Port() == "" || target.Path != "" || target.User != nil || target.RawQuery != "" || target.Fragment != "" || target.ForceQuery {
-		return errors.New("gateway must be an HTTP origin on 127.0.0.1")
+	gatewayProxy, err := localProxy("gateway", *gateway)
+	if err != nil {
+		return err
 	}
-	proxy := &httputil.ReverseProxy{
-		Rewrite: func(req *httputil.ProxyRequest) {
-			req.SetURL(target)
-			req.SetXForwarded()
-		},
-		ErrorHandler: func(w http.ResponseWriter, _ *http.Request, err error) {
-			slog.Warn("local gateway request failed", "error", err)
-			http.Error(w, "local gateway unavailable", http.StatusBadGateway)
-		},
+	frontendProxy, err := localProxy("shell", *frontend)
+	if err != nil {
+		return err
 	}
+	mux := http.NewServeMux()
+	mux.Handle("/api/", gatewayProxy)
+	mux.Handle("/health/", gatewayProxy)
+	mux.Handle("/", frontendProxy)
 	ctx, stop := signal.NotifyContext(context.Background(), os.Interrupt, syscall.SIGTERM)
 	defer stop()
-	server := &http.Server{Addr: "127.0.0.1:3443", Handler: proxy, ReadHeaderTimeout: 5 * time.Second, IdleTimeout: 60 * time.Second}
+	server := &http.Server{Addr: "127.0.0.1:3443", Handler: mux, ReadHeaderTimeout: 5 * time.Second, IdleTimeout: 60 * time.Second}
 	failed := make(chan error, 1)
 	go func() { failed <- server.ListenAndServeTLS(*cert, *key) }()
 	slog.Info("local HTTPS proxy starting", "origin", "https://localhost:3443")
@@ -70,6 +69,23 @@ func run() error {
 		defer cancel()
 		return server.Shutdown(shutdown)
 	}
+}
+
+func localProxy(name, origin string) (*httputil.ReverseProxy, error) {
+	target, err := url.Parse(origin)
+	if err != nil || target.Scheme != "http" || target.Hostname() != "127.0.0.1" || target.Port() == "" || target.Path != "" || target.User != nil || target.RawQuery != "" || target.Fragment != "" || target.ForceQuery {
+		return nil, fmt.Errorf("%s must be an HTTP origin on 127.0.0.1", name)
+	}
+	return &httputil.ReverseProxy{
+		Rewrite: func(req *httputil.ProxyRequest) {
+			req.SetURL(target)
+			req.SetXForwarded()
+		},
+		ErrorHandler: func(w http.ResponseWriter, _ *http.Request, err error) {
+			slog.Warn("local upstream request failed", "upstream", name, "error", err)
+			http.Error(w, "local upstream unavailable", http.StatusBadGateway)
+		},
+	}, nil
 }
 
 func ensureCertificate(certPath, keyPath string) error {

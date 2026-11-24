@@ -18,6 +18,7 @@ ingress:
 config:
   NODE_ENV: production
   PORT: 3000
+  AUTH_GATEWAY_URL: http://api-gateway-3tledger
   SSR_CACHE_ENABLED: false
 
 imagePullSecrets: []

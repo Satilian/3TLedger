@@ -16,6 +16,9 @@ if (isDev) {
     .then((mod) => mod.install())
     .catch((error) => console.error('Could not enable source maps:', error));
   app.use('/__shell_dev', express.static('dist/client/static'));
+  app.get('/api/v1/auth/start', (_req, res) => {
+    res.set('Cache-Control', 'no-store').redirect(302, 'https://localhost:3443/api/v1/auth/start');
+  });
   initWebSocket(server);
 }
 
