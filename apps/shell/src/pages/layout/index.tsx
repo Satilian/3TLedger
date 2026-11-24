@@ -3,7 +3,6 @@ import {
   ArrowDownUp,
   ArrowLeftRight,
   BarChart3,
-  ChevronDown,
   ChevronLeft,
   LayoutDashboard,
   Menu,
@@ -17,6 +16,7 @@ import {
 } from 'lucide-react';
 import { memo, useRef, useState } from 'react';
 import styles from './layout.module.css';
+import { UserMenu } from './user-menu';
 
 const navigation = [
   { label: 'Dashboard', icon: LayoutDashboard, to: '/' },
@@ -149,13 +149,7 @@ export default memo(function MainLayout() {
             <Menu size={18} aria-hidden="true" />
           </button>
           <h1>{title}</h1>
-          <Link to="/about" className={styles.account} aria-label="About 3T Ledger">
-            <span className={styles.avatar}>
-              <UserRound size={14} aria-hidden="true" />
-            </span>
-            <span className={styles.accountLabel}>3T Ledger</span>
-            <ChevronDown size={14} className={styles.accountLabel} aria-hidden="true" />
-          </Link>
+          <UserMenu />
         </header>
         <main className={styles.content}>
           <RouterSuspense fallback={<div role="status">Loading...</div>}>
