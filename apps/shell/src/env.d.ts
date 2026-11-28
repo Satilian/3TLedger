@@ -44,3 +44,8 @@ declare module 'budgets/BudgetPlanning' {
   const BudgetPlanning: import('react').ComponentType;
   export default BudgetPlanning;
 }
+
+declare module 'profile/Profile' {
+  const Profile: import('react').ComponentType;
+  export default Profile;
+}

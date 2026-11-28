@@ -8,6 +8,7 @@ COPY . .
 ARG ANALYTICS_MF_URL
 ARG BUDGETS_MF_URL
 ARG LEDGER_MF_URL
+ARG PROFILE_MF_URL
 RUN pnpm build --mode production --no-env && pnpm prune --prod
 
 FROM node:26-bookworm-slim

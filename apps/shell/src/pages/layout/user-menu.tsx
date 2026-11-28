@@ -1,3 +1,4 @@
+import { Link } from '@satilian/router';
 import { ChevronDown, LogOut, UserRound } from 'lucide-react';
 import { useState } from 'react';
 import styles from './layout.module.css';
@@ -53,7 +54,18 @@ export function UserMenu() {
         <ChevronDown size={14} className={styles.accountLabel} aria-hidden="true" />
       </summary>
       <div className={styles.userMenuPanel}>
-        <button type="button" className={styles.signOut} disabled={signOutStatus === 'pending'} onClick={signOut}>
+        <Link
+          to="/profile"
+          className={styles.userMenuAction}
+          onClick={(event) => {
+            const menu = event.currentTarget.closest('details');
+            if (menu) menu.open = false;
+          }}
+        >
+          <UserRound size={16} aria-hidden="true" />
+          Profile
+        </Link>
+        <button type="button" className={styles.userMenuAction} disabled={signOutStatus === 'pending'} onClick={signOut}>
           <LogOut size={16} aria-hidden="true" />
           {signOutStatus === 'pending' ? 'Signing out…' : 'Sign out'}
         </button>

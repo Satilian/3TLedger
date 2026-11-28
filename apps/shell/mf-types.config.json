@@ -2,6 +2,7 @@
   "remotes": {
     "ledger": "http://localhost:3001/mf",
     "analytics": "http://localhost:3002/mf",
-    "budgets": "http://localhost:3003/mf"
+    "budgets": "http://localhost:3003/mf",
+    "profile": "http://localhost:3004/mf"
   }
 }

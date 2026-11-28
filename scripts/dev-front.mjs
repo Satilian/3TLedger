@@ -6,7 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 const launcher = fileURLToPath(import.meta.url);
 const appsRoot = fileURLToPath(new URL('../apps/', import.meta.url));
-const ports = { shell: 3000, ledger: 3001, analytics: 3002, budgets: 3003 };
+const ports = { shell: 3000, ledger: 3001, analytics: 3002, budgets: 3003, profile: 3004 };
 
 function appLocation(name) {
   const cwd = join(appsRoot, name);
@@ -39,6 +39,7 @@ function appSettings() {
   shellEnv.LEDGER_MF_URL ||= `http://localhost:${settings.ledger.env.PORT}/mf`;
   shellEnv.ANALYTICS_MF_URL ||= `http://localhost:${settings.analytics.env.PORT}/mf`;
   shellEnv.BUDGETS_MF_URL ||= `http://localhost:${settings.budgets.env.PORT}/mf`;
+  shellEnv.PROFILE_MF_URL ||= `http://localhost:${settings.profile.env.PORT}/mf`;
   return settings;
 }
 
@@ -59,7 +60,7 @@ function launchAll() {
   process.once('SIGTERM', stop);
   process.once('disconnect', stop);
   const url = (app) => `http://localhost:${settings[app].env.PORT}`;
-  console.log(`Shell: ${url('shell')} | Ledger: ${url('ledger')} | Analytics: ${url('analytics')} | Budgets: ${url('budgets')}`);
+  console.log(`Shell: ${url('shell')} | Ledger: ${url('ledger')} | Analytics: ${url('analytics')} | Budgets: ${url('budgets')} | Profile: ${url('profile')}`);
   console.log('Waiting for initial builds. Press Ctrl+C to stop.');
   for (const [name, { cwd, env }] of Object.entries(settings)) {
     const worker = fork(launcher, [name], { cwd, env, stdio: ['ignore', 'inherit', 'inherit', 'ipc'] });

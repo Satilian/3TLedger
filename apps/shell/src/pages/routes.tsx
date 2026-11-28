@@ -7,6 +7,7 @@ import Income from 'ledger/Income';
 import Expenses from 'ledger/Expenses';
 import Transfers from 'ledger/Transfers';
 import Categories from 'ledger/Categories';
+import Profile from 'profile/Profile';
 import { getQueryClient } from 'src/utils';
 import AboutPage from './about';
 import HomePage from './home';
@@ -67,6 +68,11 @@ export const routesConfig: RoutesConfigObject = {
           id: 'budget-planning',
           path: 'budget-planning',
           element: <BudgetPlanning />,
+        },
+        {
+          id: 'profile',
+          path: 'profile',
+          element: <Profile />,
         },
         {
           id: 'about',

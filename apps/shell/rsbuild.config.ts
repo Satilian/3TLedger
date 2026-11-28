@@ -52,6 +52,7 @@ export default defineConfig(({ env }: ConfigParams) => {
         remotes: {
           ...mfTypes.remotes,
           ledger: process.env.LEDGER_MF_URL ?? mfTypes.remotes.ledger,
+          profile: process.env.PROFILE_MF_URL ?? mfTypes.remotes.profile,
           analytics: process.env.ANALYTICS_MF_URL ?? mfTypes.remotes.analytics,
           budgets: process.env.BUDGETS_MF_URL ?? mfTypes.remotes.budgets,
         },
