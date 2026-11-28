@@ -1,4 +1,4 @@
-name: budgets-api Release and Deploy
+name: Budgets-api
 
 on:
   workflow_dispatch:

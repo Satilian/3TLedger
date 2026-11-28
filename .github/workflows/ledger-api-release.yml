@@ -1,4 +1,4 @@
-name: ledger-api Release and Deploy
+name: Ledger-api
 
 on:
   workflow_dispatch:

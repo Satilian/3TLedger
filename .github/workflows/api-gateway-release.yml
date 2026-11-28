@@ -1,4 +1,4 @@
-name: api-gateway Release and Deploy
+name: API-gateway
 
 on:
   workflow_dispatch:

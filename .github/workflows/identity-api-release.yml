@@ -1,4 +1,4 @@
-name: identity-api Release and Deploy
+name: Identity-api
 
 on:
   workflow_dispatch:

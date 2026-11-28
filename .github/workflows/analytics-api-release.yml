@@ -1,4 +1,4 @@
-name: analytics-api Release and Deploy
+name: Analytics-api
 
 on:
   workflow_dispatch:
