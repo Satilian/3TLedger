@@ -9,7 +9,6 @@ import (
 	"fmt"
 	"log/slog"
 	"mime"
-	"net"
 	"net/http"
 	"os"
 	"strings"
@@ -41,13 +40,9 @@ type receipt struct {
 	expiresAt time.Time
 }
 
-func Register(ctx context.Context, mux *http.ServeMux, address string, publisher Publisher, subscription Subscription) (func(), error) {
+func Register(ctx context.Context, mux *http.ServeMux, publisher Publisher, subscription Subscription) (func(), error) {
 	if os.Getenv("KAFKA_TEST_EVENTS_ENABLED") != "true" {
 		return func() {}, nil
-	}
-	host, _, err := net.SplitHostPort(address)
-	if err != nil || !net.ParseIP(host).IsLoopback() {
-		return nil, errors.New("test Kafka events require HTTP_ADDR bound to a loopback IP")
 	}
 	options, err := clientOptions()
 	if err != nil {

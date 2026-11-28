@@ -98,6 +98,7 @@ jobs:
           IMAGE_TAG: ${{ needs.build.outputs.tag }}
           BACKEND_API_HOST: ${{ vars.BACKEND_API_HOST }}
           IDENTITY_ENV_SECRET: ${{ vars.IDENTITY_ENV_SECRET }}
+          KAFKA_ENV_SECRET: ${{ vars.KAFKA_ENV_SECRET }}
         run: |
           app_args=()
           if [[ "$APP" == api-gateway && -n "$BACKEND_API_HOST" ]]; then
@@ -114,6 +115,18 @@ jobs:
             fi
             app_args=(--set-string "existingSecret=$IDENTITY_ENV_SECRET")
           fi
+
+          case "$APP" in
+            ledger-api|budgets-api|analytics-api|notifications-api)
+              if [[ -n "$KAFKA_ENV_SECRET" ]]; then
+                if [[ ! "$KAFKA_ENV_SECRET" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+                  echo "::error::KAFKA_ENV_SECRET must be a Kubernetes Secret name."
+                  exit 1
+                fi
+                app_args+=(--set-string "kafkaEnvSecret=$KAFKA_ENV_SECRET")
+              fi
+              ;;
+          esac
 
           helm upgrade --install "$APP-3tledger" "./apps/$APP/helm" \
             --namespace "$NAMESPACE" \

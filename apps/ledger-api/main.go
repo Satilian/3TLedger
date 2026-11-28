@@ -32,7 +32,7 @@ func run(ctx context.Context) error {
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health/live", health)
 	mux.HandleFunc("GET /health/ready", health)
-	closeKafka, err := kafkatest.Register(ctx, mux, address,
+	closeKafka, err := kafkatest.Register(ctx, mux,
 		kafkatest.Publisher{Path: "/api/v1/operations/test-events", TopicEnv: kafkatest.Transactions, EventType: "transaction.created"},
 		kafkatest.Subscription{},
 	)

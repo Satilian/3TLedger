@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useIsClient } from 'src/hooks/use-is-client';
 import styles from './kafka-test-actions.module.css';
 
 type Status = { state: 'idle' | 'pending' | 'error' } | { state: 'success'; eventId: string };
@@ -156,16 +155,13 @@ function PublishButton({
             </ul>
           </>
         )}
-        {status.state === 'error' && 'Could not publish the test event. Check the local Kafka API.'}
+        {status.state === 'error' && 'Could not publish the test event. Check the Kafka API.'}
       </div>
     </div>
   );
 }
 
 export function KafkaTestActions() {
-  const isClient = useIsClient();
-  if (!isClient || !['localhost', '127.0.0.1', '[::1]'].includes(window.location.hostname)) return null;
-
   return (
     <section className={styles.actions} aria-label="Kafka test events">
       <PublishButton

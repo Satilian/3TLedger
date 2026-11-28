@@ -21,6 +21,16 @@ spec:
         - name: analytics-api
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
+          {{- with .Values.kafkaEnvSecret }}
+          envFrom:
+            - secretRef:
+                name: {{ . | quote }}
+          env:
+            - name: KAFKA_TEST_EVENTS_ENABLED
+              value: "true"
+            - name: KAFKA_CONSUMER_GROUP_ID
+              value: {{ $.Release.Name | quote }}
+          {{- end }}
           securityContext:
             runAsNonRoot: true
             runAsUser: 65532
