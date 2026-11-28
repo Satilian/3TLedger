@@ -1,0 +1,779 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "I8U4o3",
+      "x": 0,
+      "y": 0,
+      "name": "Privacy · Desktop 1180",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "Ln5Li",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "x": 0,
+          "y": 0,
+          "height": 820,
+          "descendants": {
+            "q:jR31Y": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:A7fzqK/q:sfBim": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:USh2G": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "Fh04J",
+          "x": 210,
+          "y": 0,
+          "name": "Privacy content",
+          "width": 970,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "nGOiI",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "iWUd7",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "ewVUd",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Privacy"
+                    },
+                    "q:tEiyK": {
+                      "content": "Decide how your data is stored, exported, and removed."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "QfeT5",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Your data",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "kt3DK",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "ZfPo4",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Your data"
+                        },
+                        {
+                          "id": "HBU6i",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Export your data",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Export your data"
+                            },
+                            "q:bTkeO": {
+                              "content": "Download transactions, accounts, and categories"
+                            },
+                            "q:C8csR": {
+                              "id": "U3icM",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Request export",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "VCpbs",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Connected services",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Connected services"
+                            },
+                            "q:bTkeO": {
+                              "content": "No connections shared with third parties"
+                            },
+                            "q:C8csR": {
+                              "id": "IleSe",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Review",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "xx8hB",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Danger zone",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "Q02Kl",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "RIt4q",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Danger zone"
+                        },
+                        {
+                          "id": "T04fu",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Delete workspace",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Delete workspace"
+                            },
+                            "q:bTkeO": {
+                              "content": "Permanently remove your data"
+                            },
+                            "q:C8csR": {
+                              "id": "dDSdz",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-error-bg",
+                              "stroke": "$q:color-error",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Delete workspace",
+                                  "fill": "$q:color-error"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "a9ry0",
+      "x": 1244,
+      "y": 0,
+      "name": "Privacy · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "ExES9",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "height": 820,
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "q:jR31Y": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:A7fzqK/q:sfBim": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:USh2G": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "rkXSB",
+          "x": 210,
+          "y": 0,
+          "name": "Privacy content",
+          "width": 558,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "aY4Zo",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "f1wtNP",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "m78RL",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Privacy"
+                    },
+                    "q:tEiyK": {
+                      "content": "Decide how your data is stored, exported, and removed."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "D8rlLL",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Your data",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "l9Fmw",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "cpx7H",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Your data"
+                        },
+                        {
+                          "id": "dA4se",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Export your data",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Export your data"
+                            },
+                            "q:bTkeO": {
+                              "content": "Download transactions, accounts, and categories"
+                            },
+                            "q:C8csR": {
+                              "id": "en6aC",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Request export"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "y3NqTo",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Connected services",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Connected services"
+                            },
+                            "q:bTkeO": {
+                              "content": "No connections shared with third parties"
+                            },
+                            "q:C8csR": {
+                              "id": "vQv6d",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Review"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "L2mh5V",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Danger zone",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "Ki6Ax",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "HD99E",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Danger zone"
+                        },
+                        {
+                          "id": "VEMYT",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Delete workspace",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Delete workspace"
+                            },
+                            "q:bTkeO": {
+                              "content": "Permanently remove your data"
+                            },
+                            "q:C8csR": {
+                              "id": "YXvn2",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-error-bg",
+                              "stroke": "$q:color-error",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-error",
+                                  "content": "Delete workspace"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Q1hLt",
+      "x": 2076,
+      "y": 0,
+      "name": "Privacy · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "LVq8S",
+          "name": "Privacy content",
+          "width": 393,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "pkzfo",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "id": "O45oGG",
+              "type": "ref",
+              "ref": "q:t5rSF",
+              "name": "Account navigation",
+              "descendants": {
+                "q:bvN1z": {
+                  "fill": "$q:color-primary-bg"
+                },
+                "q:SltBe/q:sfBim": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:CcwBw": {
+                  "fill": "$q:color-text"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "FPHcV",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "Q9pSa",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:fieG1": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "q:RcOFm": {
+                      "content": "Privacy"
+                    },
+                    "q:tEiyK": {
+                      "content": "Decide how your data is stored, exported, and removed.",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width"
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "GzQ2E",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Your data",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "tZwHn",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "E1ufK",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Your data"
+                        },
+                        {
+                          "id": "bJEiF",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Export your data",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Export your data"
+                            },
+                            "q:bTkeO": {
+                              "content": "Download transactions, accounts, and categories"
+                            },
+                            "q:C8csR": {
+                              "id": "c89q3",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Request export"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "Pgtel",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Connected services",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Connected services"
+                            },
+                            "q:bTkeO": {
+                              "content": "No connections shared with third parties"
+                            },
+                            "q:C8csR": {
+                              "id": "ZvOPm",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Review"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "a7Tejq",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Danger zone",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "NQ0sc",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "Luka0",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Danger zone"
+                        },
+                        {
+                          "id": "D9EsY",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Delete workspace",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Delete workspace"
+                            },
+                            "q:bTkeO": {
+                              "content": "Permanently remove your data"
+                            },
+                            "q:C8csR": {
+                              "id": "aoVul",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-error-bg",
+                              "stroke": "$q:color-error",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-error",
+                                  "content": "Delete workspace"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

@@ -1,0 +1,391 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bCmQW",
+      "x": 0,
+      "y": 0,
+      "name": "Sign in · Desktop 640",
+      "clip": true,
+      "width": 640,
+      "height": 720,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "ERpy4",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign in card",
+          "width": 400,
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "OvxF2",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "dMKnF",
+                  "type": "ref",
+                  "ref": "q:e5Xi0b",
+                  "name": "Ledger brand",
+                  "descendants": {
+                    "q:KooIJ": {
+                      "fill": "$q:color-text"
+                    },
+                    "q:HNFG5": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "Z46Ju",
+                  "type": "ref",
+                  "ref": "q:KupRp",
+                  "name": "Authentication title",
+                  "content": "Welcome back"
+                },
+                {
+                  "id": "ulpxx",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication subtitle",
+                  "content": "Sign in to continue to your personal workspace.",
+                  "width": "fill_container",
+                  "textGrowth": "fixed-width",
+                  "fill": "$q:color-text-secondary"
+                },
+                {
+                  "id": "gZeT6",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Email address",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Email address"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "content": "alex@3tledger.app",
+                      "fill": "$q:color-text"
+                    }
+                  }
+                },
+                {
+                  "id": "Lhs41",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Password",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Password"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "content": "••••••••••",
+                      "fill": "$q:color-text"
+                    }
+                  }
+                },
+                {
+                  "id": "C05Q5s",
+                  "type": "ref",
+                  "ref": "q:AbSy4",
+                  "name": "Sign in submit",
+                  "height": 42,
+                  "justifyContent": "center",
+                  "width": "fill_container",
+                  "descendants": {
+                    "q:HSwj7": {
+                      "content": "Sign in",
+                      "fill": "$q:color-white"
+                    }
+                  }
+                },
+                {
+                  "id": "W4QWg",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication links",
+                  "content": "Forgot password?  ·  Create an account",
+                  "width": "fill_container",
+                  "textGrowth": "fixed-width",
+                  "textAlign": "center",
+                  "fill": "$q:color-primary"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "i5vmb",
+      "x": 704,
+      "y": 0,
+      "name": "Sign in · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 720,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "e864J",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign in card",
+          "width": 400,
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "NOvvD",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "T26R4c",
+                  "type": "ref",
+                  "ref": "q:e5Xi0b",
+                  "name": "Ledger brand",
+                  "descendants": {
+                    "q:KooIJ": {
+                      "fill": "$q:color-text"
+                    },
+                    "q:HNFG5": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "lHGcl",
+                  "type": "ref",
+                  "ref": "q:KupRp",
+                  "name": "Authentication title",
+                  "content": "Welcome back"
+                },
+                {
+                  "id": "y33k8",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication subtitle",
+                  "width": "fill_container",
+                  "fill": "$q:color-text-secondary",
+                  "content": "Sign in to continue to your personal workspace.",
+                  "textGrowth": "fixed-width"
+                },
+                {
+                  "id": "glCNe",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Email address",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Email address"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text",
+                      "content": "alex@3tledger.app"
+                    }
+                  }
+                },
+                {
+                  "id": "DCfxL",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Password",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Password"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text",
+                      "content": "••••••••••"
+                    }
+                  }
+                },
+                {
+                  "id": "Dzxzl",
+                  "type": "ref",
+                  "ref": "q:AbSy4",
+                  "name": "Sign in submit",
+                  "width": "fill_container",
+                  "height": 42,
+                  "justifyContent": "center",
+                  "descendants": {
+                    "q:HSwj7": {
+                      "fill": "$q:color-white",
+                      "content": "Sign in"
+                    }
+                  }
+                },
+                {
+                  "id": "Q2AOc",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication links",
+                  "width": "fill_container",
+                  "fill": "$q:color-primary",
+                  "content": "Forgot password?  ·  Create an account",
+                  "textAlign": "center",
+                  "textGrowth": "fixed-width"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "DHSb6",
+      "x": 1536,
+      "y": 0,
+      "name": "Sign in · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "padding": "$q:spacing-16",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "jD8u6",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign in card",
+          "width": "fill_container",
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "jI08w",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "tC8QL",
+                  "type": "ref",
+                  "ref": "q:e5Xi0b",
+                  "name": "Ledger brand",
+                  "descendants": {
+                    "q:KooIJ": {
+                      "fill": "$q:color-text"
+                    },
+                    "q:HNFG5": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "kAnI3",
+                  "type": "ref",
+                  "ref": "q:KupRp",
+                  "name": "Authentication title",
+                  "content": "Welcome back"
+                },
+                {
+                  "id": "kU8h8",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication subtitle",
+                  "width": "fill_container",
+                  "fill": "$q:color-text-secondary",
+                  "content": "Sign in to continue to your personal workspace.",
+                  "textGrowth": "fixed-width"
+                },
+                {
+                  "id": "bZCw5",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Email address",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Email address"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text",
+                      "content": "alex@3tledger.app"
+                    }
+                  }
+                },
+                {
+                  "id": "NtTBN",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Password",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Password"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text",
+                      "content": "••••••••••"
+                    }
+                  }
+                },
+                {
+                  "id": "z2ryYm",
+                  "type": "ref",
+                  "ref": "q:AbSy4",
+                  "name": "Sign in submit",
+                  "width": "fill_container",
+                  "height": 42,
+                  "justifyContent": "center",
+                  "descendants": {
+                    "q:HSwj7": {
+                      "fill": "$q:color-white",
+                      "content": "Sign in"
+                    }
+                  }
+                },
+                {
+                  "id": "LjAv7",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication links",
+                  "width": "fill_container",
+                  "fill": "$q:color-primary",
+                  "content": "Forgot password?  ·  Create an account",
+                  "textAlign": "center",
+                  "textGrowth": "fixed-width"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

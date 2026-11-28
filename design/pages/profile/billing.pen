@@ -1,0 +1,869 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "EszLF",
+      "x": 0,
+      "y": 0,
+      "name": "Billing · Desktop 1180",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "NObVP",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "x": 0,
+          "y": 0,
+          "height": 820,
+          "descendants": {
+            "q:GWY0r": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:Rla2d/q:FYw1k": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:Rla2d/q:f1KDz": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:qdzcb": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "H5GLPi",
+          "x": 210,
+          "y": 0,
+          "name": "Billing content",
+          "width": 970,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "G5iEVZ",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "E9Top",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "nkGdP",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Billing"
+                    },
+                    "q:tEiyK": {
+                      "content": "Plan and payment details for your workspace."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "yqUqc",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Current plan",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "HNR5c",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "kcek8",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Current plan"
+                        },
+                        {
+                          "id": "Hzlu9",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Free plan",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Free plan"
+                            },
+                            "q:bTkeO": {
+                              "content": "Personal finance essentials · $0 / month"
+                            },
+                            "q:C8csR": {
+                              "id": "XHaPd",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "Upgrade plan",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "RnK5L",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Payment method",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "hWebN",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "ZmgE4",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Payment method"
+                        },
+                        {
+                          "id": "T6Yv8w",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Payment method",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Payment method"
+                            },
+                            "q:bTkeO": {
+                              "content": "No payment method on file"
+                            },
+                            "q:C8csR": {
+                              "id": "POsLO",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Add card",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "u4sWT",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Billing history",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "A5Q4iR",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "I27db",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Billing history"
+                        },
+                        {
+                          "id": "G9f10f",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Invoices",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Invoices"
+                            },
+                            "q:bTkeO": {
+                              "content": "No invoices yet"
+                            },
+                            "q:C8csR": {
+                              "id": "EFg2Z",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "View history",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YZqng",
+      "x": 1244,
+      "y": 0,
+      "name": "Billing · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "Db1hV",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "height": 820,
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "q:GWY0r": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:Rla2d/q:FYw1k": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:Rla2d/q:f1KDz": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:qdzcb": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "G2xn5Q",
+          "x": 210,
+          "y": 0,
+          "name": "Billing content",
+          "width": 558,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "Y5Mbj",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "QJTol",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "wLfcY",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Billing"
+                    },
+                    "q:tEiyK": {
+                      "content": "Plan and payment details for your workspace."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "bM9lt",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Current plan",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "T1I3H",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "jSirg",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Current plan"
+                        },
+                        {
+                          "id": "Sbmm5",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Free plan",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Free plan"
+                            },
+                            "q:bTkeO": {
+                              "content": "Personal finance essentials · $0 / month"
+                            },
+                            "q:C8csR": {
+                              "id": "jPVOk",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "Upgrade plan"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "YdAwp",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Payment method",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "OGx7w",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "HIxF0",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Payment method"
+                        },
+                        {
+                          "id": "IopU6",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Payment method",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Payment method"
+                            },
+                            "q:bTkeO": {
+                              "content": "No payment method on file"
+                            },
+                            "q:C8csR": {
+                              "id": "tb1Kk",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Add card"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "LGciK",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Billing history",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "fRker",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "JE9vv",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Billing history"
+                        },
+                        {
+                          "id": "Uts2L",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Invoices",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Invoices"
+                            },
+                            "q:bTkeO": {
+                              "content": "No invoices yet"
+                            },
+                            "q:C8csR": {
+                              "id": "j7dusI",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "View history"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "B6O0L",
+      "x": 2076,
+      "y": 0,
+      "name": "Billing · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "lDyWx",
+          "name": "Billing content",
+          "width": 393,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "C6Quti",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "id": "bv4C6",
+              "type": "ref",
+              "ref": "q:t5rSF",
+              "name": "Account navigation",
+              "descendants": {
+                "q:M0pOu": {
+                  "fill": "$q:color-primary-bg"
+                },
+                "q:n92GUC/q:FYw1k": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:n92GUC/q:f1KDz": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:R3K4U": {
+                  "fill": "$q:color-text"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "u6FUqY",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "fD7c0",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:fieG1": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "q:RcOFm": {
+                      "content": "Billing"
+                    },
+                    "q:tEiyK": {
+                      "content": "Plan and payment details for your workspace.",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width"
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "f8gMr",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Current plan",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "K0ZU9",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "q6THVz",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Current plan"
+                        },
+                        {
+                          "id": "i7zcfI",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Free plan",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Free plan"
+                            },
+                            "q:bTkeO": {
+                              "content": "Personal finance essentials · $0 / month"
+                            },
+                            "q:C8csR": {
+                              "id": "VfjDj",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "Upgrade plan"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "C4I5n5",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Payment method",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "QNcO6",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "CwOg8",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Payment method"
+                        },
+                        {
+                          "id": "a7ve1",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Payment method",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Payment method"
+                            },
+                            "q:bTkeO": {
+                              "content": "No payment method on file"
+                            },
+                            "q:C8csR": {
+                              "id": "OxJMq",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Add card"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "p3Xb5",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Billing history",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "YuR2T",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "L8TMWv",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Billing history"
+                        },
+                        {
+                          "id": "PhtA6",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Invoices",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Invoices"
+                            },
+                            "q:bTkeO": {
+                              "content": "No invoices yet"
+                            },
+                            "q:C8csR": {
+                              "id": "HX1Ai",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "View history"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

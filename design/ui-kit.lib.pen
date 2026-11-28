@@ -1,11 +1,11 @@
 {
-  "version": "2.22",
+  "version": "2.25",
   "children": [
     {
       "type": "frame",
       "id": "PlLjf",
-      "x": 3989,
-      "y": -3724,
+      "x": 2259,
+      "y": -2319,
       "name": "Token Library",
       "clip": true,
       "width": "fill_container(1109)",
@@ -3444,7 +3444,7 @@
       "x": 705,
       "y": -3724,
       "name": "components",
-      "width": 3187,
+      "width": 6869,
       "height": 1264,
       "fill": "#d9d9d9ff",
       "layout": "none",
@@ -3881,8 +3881,9 @@
                     {
                       "type": "frame",
                       "id": "jfFZw",
-                      "name": "svg",
+                      "name": "Profile icon",
                       "context": "User - svg",
+                      "reusable": true,
                       "clip": true,
                       "width": 15,
                       "height": 15,
@@ -3968,8 +3969,9 @@
                     {
                       "type": "frame",
                       "id": "hcMuv",
-                      "name": "svg",
+                      "name": "Settings icon",
                       "context": "Settings - svg",
+                      "reusable": true,
                       "clip": true,
                       "width": 15,
                       "height": 15,
@@ -4055,8 +4057,9 @@
                     {
                       "type": "frame",
                       "id": "aZBqm",
-                      "name": "svg",
+                      "name": "Notifications icon",
                       "context": "Bell - svg",
+                      "reusable": true,
                       "clip": true,
                       "width": 15,
                       "height": 15,
@@ -4140,8 +4143,9 @@
                         {
                           "type": "frame",
                           "id": "ZKOO5",
-                          "name": "svg",
+                          "name": "Billing icon",
                           "context": "CreditCard - svg",
+                          "reusable": true,
                           "clip": true,
                           "width": 15,
                           "height": 15,
@@ -4248,8 +4252,9 @@
                     {
                       "type": "frame",
                       "id": "dQdT0",
-                      "name": "svg",
+                      "name": "Privacy icon",
                       "context": "Shield - svg",
+                      "reusable": true,
                       "clip": true,
                       "width": 15,
                       "height": 15,
@@ -4334,8 +4339,9 @@
                         {
                           "type": "frame",
                           "id": "LAXnk",
-                          "name": "svg",
+                          "name": "Help & Support icon",
                           "context": "CircleHelp - svg",
+                          "reusable": true,
                           "clip": true,
                           "width": 15,
                           "height": 15,
@@ -4419,8 +4425,9 @@
                     {
                       "type": "frame",
                       "id": "U8zVp",
-                      "name": "svg",
+                      "name": "Sign out icon",
                       "context": "LogOut - svg",
+                      "reusable": true,
                       "clip": true,
                       "width": 15,
                       "height": 15,
@@ -5372,8 +5379,9 @@
                 {
                   "type": "frame",
                   "id": "e5Xi0b",
-                  "name": "div",
+                  "name": "ledger-brand",
                   "context": "div",
+                  "reusable": true,
                   "width": "fill_container",
                   "gap": "$spacing-12",
                   "alignItems": "center",
@@ -6176,7 +6184,7 @@
                           "type": "path",
                           "id": "Qf1fm",
                           "x": 49.9999999999999,
-                          "y": 28.694535390667912,
+                          "y": 28.695988764892274,
                           "geometry": "M0 30.804c31.867-0.708 63.733-1.417 95.60001-3.4 31.867-1.983 63.733-8.5 95.6-8.5 31.86701 0 63.733 11.9 95.60001 11.9 31.867 0 63.733-30.804 95.6-30.804 31.86701 0 63.73298 11.492 95.59998 22.984l0 118.32-478 0 0-110.5z",
                           "fill": {
                             "type": "gradient",
@@ -6202,16 +6210,16 @@
                             }
                           },
                           "width": 477.9999999999993,
-                          "height": 141.29679307566195
+                          "height": 141.30394973856815
                         },
                         {
                           "type": "path",
                           "id": "YOuL8",
                           "x": 49.9999999999999,
-                          "y": 28.694535390667912,
+                          "y": 28.695988764892274,
                           "geometry": "M0 30.804c31.867-0.708 63.733-1.417 95.60001-3.4 31.867-1.983 63.733-8.5 95.6-8.5 31.86701 0 63.733 11.9 95.60001 11.9 31.867 0 63.733-30.804 95.6-30.804 31.86701 0 63.73298 11.492 95.59998 22.984",
                           "width": 477.9999999999993,
-                          "height": 30.802429572547727,
+                          "height": 30.80398971131906,
                           "stroke": "#10B981",
                           "strokeWidth": 2
                         }
@@ -6229,11 +6237,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 20.000000000000032,
-                          "y": 157.99194057458888,
+                          "y": 157.9999428443926,
                           "content": "$0k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000004)",
-                          "height": "fit_content(16.00887556975589)",
+                          "height": "fit_content(16.000062943516383)",
                           "textGrowth": "auto"
                         },
                         {
@@ -6241,11 +6249,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 12.999999999999979,
-                          "y": -2.999846972935227,
+                          "y": -2.999998914766943,
                           "content": "$10k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(28.000000000000004)",
-                          "height": "fit_content(16.00887556975589)",
+                          "height": "fit_content(16.000062943516383)",
                           "textGrowth": "auto"
                         },
                         {
@@ -6253,11 +6261,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 21,
-                          "y": 30.998418720330722,
+                          "y": 30.99998878592512,
                           "content": "$8k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000007)",
-                          "height": "fit_content(16.00887556975589)",
+                          "height": "fit_content(16.000062943516383)",
                           "textGrowth": "auto"
                         },
                         {
@@ -6265,11 +6273,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 20.000000000000032,
-                          "y": 72.99627634142394,
+                          "y": 72.99997359266236,
                           "content": "$5k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000004)",
-                          "height": "fit_content(16.00887556975589)",
+                          "height": "fit_content(16.000062943516383)",
                           "textGrowth": "auto"
                         },
                         {
@@ -6277,11 +6285,11 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 20.000000000000032,
-                          "y": 115.99408295349578,
+                          "y": 115.99995803765546,
                           "content": "$3k",
                           "fill": "$color-text-tertiary",
                           "width": "fit_content(21.000000000000004)",
-                          "height": "fit_content(16.008875569755904)",
+                          "height": "fit_content(16.000062943516397)",
                           "textGrowth": "auto"
                         }
                       ]
@@ -6290,7 +6298,7 @@
                       "type": "group",
                       "id": "lUAef",
                       "x": -1.9539925233402755e-13,
-                      "y": 3.9997959639144085,
+                      "y": 3.9999985530233744,
                       "name": "x-axis",
                       "children": [
                         {
@@ -6298,12 +6306,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 515.9999999999994,
-                          "y": 166.99148149339447,
+                          "y": 166.9999395886933,
                           "content": "Jul",
                           "flipX": false,
                           "flipY": false,
                           "width": 22.0000000000008,
-                          "height": 16.00887556975589,
+                          "height": 16.000062943516383,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -6312,13 +6320,13 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 420.999999999998,
-                          "y": 166.99148149339447,
+                          "y": 166.9999395886933,
                           "name": "JetBrains Mono-Regular-12/auto",
                           "content": "Jun",
                           "flipX": false,
                           "flipY": false,
                           "width": 21.99999999999682,
-                          "height": 16.00887556975589,
+                          "height": 16.000062943516383,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -6327,12 +6335,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 325.99999999999864,
-                          "y": 166.99148149339447,
+                          "y": 166.9999395886933,
                           "content": "May",
                           "flipX": false,
                           "flipY": false,
                           "width": 21.99999999999932,
-                          "height": 16.00887556975589,
+                          "height": 16.000062943516383,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -6341,12 +6349,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 230.9999999999999,
-                          "y": 166.99148149339447,
+                          "y": 166.9999395886933,
                           "content": "Apr",
                           "flipX": false,
                           "flipY": false,
                           "width": 22.00000000000009,
-                          "height": 16.00887556975589,
+                          "height": 16.000062943516383,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -6355,12 +6363,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 134.9999999999996,
-                          "y": 166.99148149339447,
+                          "y": 166.9999395886933,
                           "content": "Mar",
                           "flipX": false,
                           "flipY": false,
                           "width": 21.99999999999969,
-                          "height": 16.00887556975589,
+                          "height": 16.000062943516383,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         },
@@ -6369,12 +6377,12 @@
                           "type": "ref",
                           "ref": "Bj18R",
                           "x": 38.999999999999744,
-                          "y": 166.99148149339447,
+                          "y": 166.9999395886933,
                           "content": "Feb",
                           "flipX": false,
                           "flipY": false,
                           "width": 22.000000000000096,
-                          "height": 16.00887556975589,
+                          "height": 16.000062943516383,
                           "textGrowth": "fixed-width",
                           "fill": "$color-text-tertiary"
                         }
@@ -6398,10 +6406,10 @@
                               "type": "path",
                               "id": "Waj7R",
                               "x": 49.99999999999989,
-                              "y": 169.99132846633051,
+                              "y": 169.9999385034611,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.947133218436983e-7,
+                              "height": 9.947637149974229e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6409,10 +6417,10 @@
                               "type": "path",
                               "id": "fELoV",
                               "x": 49.99999999999989,
-                              "y": 127.49349634974763,
+                              "y": 127.49995387759554,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.947134640310763e-7,
+                              "height": 9.947638428956184e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6420,10 +6428,10 @@
                               "type": "path",
                               "id": "F0m6W",
                               "x": 49.99999999999989,
-                              "y": 84.99566423316526,
+                              "y": 84.99996925173055,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.947136488746678e-7,
+                              "height": 9.947640276374565e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6431,10 +6439,10 @@
                               "type": "path",
                               "id": "pyzpL",
                               "x": 49.99999999999989,
-                              "y": 42.49783211658263,
+                              "y": 42.499984625865274,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.947136915308813e-7,
+                              "height": 9.947640773756437e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6445,7 +6453,7 @@
                               "y": 0,
                               "geometry": "M0 0l478 0",
                               "width": 477.99999999999966,
-                              "height": 9.947136559471138e-7,
+                              "height": 9.947640380553614e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             }
@@ -6465,7 +6473,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.9620490345842e-7,
-                              "height": 169.99132846633051,
+                              "height": 169.9999385034611,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6476,7 +6484,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.962056140011557e-7,
-                              "height": 169.99132846633051,
+                              "height": 169.9999385034611,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6487,7 +6495,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.96206551917567e-7,
-                              "height": 169.99132846633051,
+                              "height": 169.9999385034611,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6498,7 +6506,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.96207290882012e-7,
-                              "height": 169.99132846633051,
+                              "height": 169.9999385034611,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6509,7 +6517,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.962046192413256e-7,
-                              "height": 169.99132846633051,
+                              "height": 169.9999385034611,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             },
@@ -6520,7 +6528,7 @@
                               "y": 0,
                               "geometry": "M0 0l0 170",
                               "width": 9.962047897715822e-7,
-                              "height": 169.99132846633051,
+                              "height": 169.9999385034611,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
                             }
@@ -7363,38 +7371,38 @@
                     {
                       "type": "group",
                       "id": "jpGoe",
-                      "x": -3.26139115713886e-12,
+                      "x": -3.268496584496461e-12,
                       "y": 5.10702591327572e-14,
                       "name": "bars",
                       "children": [
                         {
                           "type": "path",
                           "id": "n9h0Cb",
-                          "x": 56.18043182968501,
+                          "x": 56.1800638539836,
                           "y": 6.176944841443754,
                           "geometry": "M0 0l366.33301 0c2.20913 0 4 1.79086 4 4l0 37c0 2.20914-1.79087 4-4 4l-366.33301 0 0-45z",
                           "fill": "$color-text",
-                          "width": 346.7578049948548,
+                          "width": 346.75553376904963,
                           "height": 49.049325365478865
                         },
                         {
                           "type": "path",
                           "id": "eeDcz",
-                          "x": 56.18043182968501,
+                          "x": 56.1800638539836,
                           "y": 67.94203571083519,
                           "geometry": "M0 0l76.8 0c2.20914 0 4 1.79086 4 4l0 37c0 2.20914-1.79086 4-4 4l-76.8 0 0-45z",
                           "fill": "$color-text",
-                          "width": 75.6563177214533,
+                          "width": 75.65582218082336,
                           "height": 49.0493253654779
                         },
                         {
                           "type": "path",
                           "id": "BJa9z",
-                          "x": 56.18043182968501,
+                          "x": 56.1800638539836,
                           "y": 129.70821596648884,
                           "geometry": "M0 0l13.535 0c2.20914 0 4 1.79086 4 4l0 37c0 2.20914-1.79086 4-4 4l-13.535 0 0-45z",
                           "fill": "$color-text",
-                          "width": 16.418734631203144,
+                          "width": 16.41862709028195,
                           "height": 49.04932536547945
                         }
                       ]
@@ -7410,7 +7418,7 @@
                           "id": "PB5Ce",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 11.303055097356953,
+                          "x": 11.30298106357878,
                           "y": 22.999999999999535,
                           "content": "Salary",
                           "fill": "$color-text-tertiary"
@@ -7419,7 +7427,7 @@
                           "id": "LgzrF",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": -9.746379431077592,
+                          "x": -9.746315593355263,
                           "y": 84.9999999999995,
                           "content": "Freelance",
                           "fill": "$color-text-tertiary"
@@ -7428,7 +7436,7 @@
                           "id": "a6mTRX",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 4.28657692121211,
+                          "x": 4.286548844600772,
                           "y": 146.99999999999974,
                           "content": "Returns",
                           "fill": "$color-text-tertiary"
@@ -7438,7 +7446,7 @@
                     {
                       "type": "group",
                       "id": "Ap7BF",
-                      "x": 0.05375024776333959,
+                      "x": 0.053749895705081485,
                       "y": 1.9439026157064347,
                       "name": "x-axis",
                       "children": [
@@ -7446,7 +7454,7 @@
                           "id": "g45Yg",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 417.2026850408322,
+                          "x": 417.1999524087455,
                           "y": 182.05609738429357,
                           "content": "$6.0k",
                           "fill": "$color-text-tertiary"
@@ -7455,7 +7463,7 @@
                           "id": "GT4Hu",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 321.88738204781384,
+                          "x": 321.8852737205666,
                           "y": 182.05609738429357,
                           "name": "JetBrains Mono-Regular-12/auto",
                           "content": "$4.5k",
@@ -7465,7 +7473,7 @@
                           "id": "h2PXe8",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 227.56499230835826,
+                          "x": 227.56350178247695,
                           "y": 182.05609738429357,
                           "content": "$3.0k",
                           "fill": "$color-text-tertiary"
@@ -7474,7 +7482,7 @@
                           "id": "FwU03",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 133.2425796961014,
+                          "x": 133.24170697173588,
                           "y": 182.05609738429357,
                           "content": "$1.5k",
                           "fill": "$color-text-tertiary"
@@ -7483,7 +7491,7 @@
                           "id": "R8Khv1",
                           "type": "ref",
                           "ref": "Bj18R",
-                          "x": 38.92016708153282,
+                          "x": 38.91991215868308,
                           "y": 182.05609738429357,
                           "content": "$0.0k",
                           "fill": "$color-text-tertiary"
@@ -7493,17 +7501,17 @@
                     {
                       "type": "group",
                       "id": "bNHBe",
-                      "x": 2.7675639557855902e-12,
+                      "x": 2.7817748105007922e-12,
                       "y": 0,
                       "name": "grid",
                       "children": [
                         {
                           "type": "path",
                           "id": "kRLSC",
-                          "x": 56.18043182967911,
+                          "x": 56.180063853977686,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.578766566769076e-7,
+                          "width": 9.578703824069181e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -7511,10 +7519,10 @@
                         {
                           "type": "path",
                           "id": "p31qT",
-                          "x": 150.7508254096348,
+                          "x": 150.74983800816932,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.578762374885852e-7,
+                          "width": 9.578699773977546e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -7522,10 +7530,10 @@
                         {
                           "type": "path",
                           "id": "xlCR4",
-                          "x": 245.32121898959946,
+                          "x": 245.3196121623699,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.578764364254162e-7,
+                          "width": 9.578701763496243e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -7533,10 +7541,10 @@
                         {
                           "type": "path",
                           "id": "u5EIIK",
-                          "x": 339.8916125695536,
+                          "x": 339.88938631656004,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.578766353622472e-7,
+                          "width": 9.578703753014941e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -7544,10 +7552,10 @@
                         {
                           "type": "path",
                           "id": "tIGqF",
-                          "x": 434.4620061495188,
+                          "x": 434.45916047076116,
                           "y": 0,
                           "geometry": "M0 0l0 170",
-                          "width": 9.578775447877606e-7,
+                          "width": 9.578712847957559e-7,
                           "height": 185.29745138069956,
                           "stroke": "$color-border-light",
                           "strokeWidth": 1
@@ -8094,7 +8102,7 @@
                         {
                           "type": "text",
                           "id": "SLrfh",
-                          "x": 4.56530996112042,
+                          "x": 4.565295080009696,
                           "y": 35.87880169985965,
                           "fill": "$color-text-tertiary",
                           "content": "$8k",
@@ -8105,7 +8113,7 @@
                         {
                           "type": "text",
                           "id": "Jseuh",
-                          "x": 4.529550563906148,
+                          "x": 4.529535799356962,
                           "y": 81.65548497488271,
                           "fill": "$color-text-tertiary",
                           "content": "$5k",
@@ -8116,7 +8124,7 @@
                         {
                           "type": "text",
                           "id": "WI0Xy",
-                          "x": 4.56530996112042,
+                          "x": 4.565295080009696,
                           "y": 125.57580594950878,
                           "fill": "$color-text-tertiary",
                           "content": "$3k",
@@ -8127,7 +8135,7 @@
                         {
                           "type": "text",
                           "id": "xpa4x",
-                          "x": 4.515892871372916,
+                          "x": 4.515878151342424,
                           "y": 170.11559369767247,
                           "fill": "$color-text-tertiary",
                           "content": "$0k",
@@ -8140,7 +8148,7 @@
                     {
                       "type": "group",
                       "id": "a1ZyxF",
-                      "x": 20.00006538820597,
+                      "x": 20.000000195877288,
                       "y": 180,
                       "name": "x-axis",
                       "children": [
@@ -8158,7 +8166,7 @@
                         {
                           "type": "text",
                           "id": "Xbwnn",
-                          "x": 72.95809045194933,
+                          "x": 72.9578526373362,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Mar",
@@ -8169,7 +8177,7 @@
                         {
                           "type": "text",
                           "id": "dmB0G",
-                          "x": 144.7081308101998,
+                          "x": 144.70765911874062,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Apr",
@@ -8180,7 +8188,7 @@
                         {
                           "type": "text",
                           "id": "VaLV6",
-                          "x": 215.8541461216013,
+                          "x": 215.85344252217956,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "May",
@@ -8191,7 +8199,7 @@
                         {
                           "type": "text",
                           "id": "tLg8C",
-                          "x": 289.41626162039967,
+                          "x": 289.4153182374813,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Jun",
@@ -8202,7 +8210,7 @@
                         {
                           "type": "text",
                           "id": "Vb2gc",
-                          "x": 359.95825188495223,
+                          "x": 359.95707856295485,
                           "y": 0,
                           "fill": "$color-text-tertiary",
                           "content": "Jul",
@@ -8215,7 +8223,7 @@
                     {
                       "type": "group",
                       "id": "XWQDB",
-                      "x": 30.128233092717014,
+                      "x": 30.12813488655437,
                       "y": 22.351004182889938,
                       "name": "chart",
                       "children": [
@@ -8256,7 +8264,7 @@
                                   "x": 0
                                 }
                               },
-                              "width": "fill_container(361.66562609421095)",
+                              "width": "fill_container(361.6644472068468)",
                               "height": 157.5551379570622
                             },
                             {
@@ -8267,7 +8275,7 @@
                               "y": 0,
                               "name": "line",
                               "geometry": "M0 30.804c36.933-0.708 73.867-1.417 110.8-3.4 36.933-1.983 73.86699-8.5 110.80001-8.5 36.93301 0 73.867 11.9 110.80001 11.9 36.93302 0 73.86701-30.804 110.79999-30.804 36.93299 0 73.86701 11.492 110.79999 22.984",
-                              "width": "fill_container(361.66562609421095)",
+                              "width": "fill_container(361.6644472068468)",
                               "height": 34.894762097872835,
                               "stroke": "$color-secondary-extra",
                               "strokeWidth": 2
@@ -8311,7 +8319,7 @@
                                   "x": 0
                                 }
                               },
-                              "width": "fill_container(361.66562609421095)",
+                              "width": "fill_container(361.6644472068468)",
                               "height": 126.89004399226485
                             },
                             {
@@ -8321,7 +8329,7 @@
                               "y": 2.128667065037007,
                               "name": "line",
                               "geometry": "M0 30.804c36.933-0.708 73.867-1.417 110.8-3.4 36.933-1.983 73.86699-8.5 110.80001-8.5 36.93301 0 73.867 11.9 110.80001 11.9 36.93302 0 73.86701-30.804 110.79999-30.804 36.93299 0 73.86701 11.492 110.79999 22.984",
-                              "width": "fill_container(361.66562609421095)",
+                              "width": "fill_container(361.6644472068468)",
                               "height": 27.492842864990717,
                               "stroke": "$color-error",
                               "strokeWidth": 2
@@ -8333,7 +8341,7 @@
                     {
                       "type": "group",
                       "id": "WTyhz",
-                      "x": 30.128233092717014,
+                      "x": 30.12813488655437,
                       "y": 0,
                       "name": "grid",
                       "children": [
@@ -8350,7 +8358,7 @@
                               "x": 0,
                               "y": 0,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.33893350612215)",
+                              "width": "fill_container(361.33775568364695)",
                               "height": 7.084700048519776e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -8361,7 +8369,7 @@
                               "x": 0,
                               "y": 44.96809174891132,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.33893350612215)",
+                              "width": "fill_container(361.33775568364695)",
                               "height": 7.084698573484538e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -8372,7 +8380,7 @@
                               "x": 0,
                               "y": 89.93618349782082,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.33893350612215)",
+                              "width": "fill_container(361.33775568364695)",
                               "height": 7.08470219177748e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -8383,7 +8391,7 @@
                               "x": 0,
                               "y": 134.9042752467326,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.33893350612215)",
+                              "width": "fill_container(361.33775568364695)",
                               "height": 7.084701078456576e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -8394,7 +8402,7 @@
                               "x": 0,
                               "y": 179.8723669956421,
                               "geometry": "M0 0l554 0",
-                              "width": "fill_container(361.33893350612215)",
+                              "width": "fill_container(361.33775568364695)",
                               "height": 7.084700336242638e-7,
                               "stroke": "#1118270f",
                               "strokeWidth": 1
@@ -8414,7 +8422,7 @@
                               "x": 0,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fit_content(9.999435347466586e-7)",
+                              "width": "fit_content(9.999998308523874e-7)",
                               "height": "fill_container(179.76089565570854)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -8422,10 +8430,10 @@
                             {
                               "type": "path",
                               "id": "OEJmW",
-                              "x": 72.26778643934442,
+                              "x": 72.26755087485024,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.000001309395755804978)",
+                              "width": "fill_container(0.0000013093914846919104)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -8433,10 +8441,10 @@
                             {
                               "type": "path",
                               "id": "fAowq",
-                              "x": 144.53557287869458,
+                              "x": 144.53510174970623,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.000001309395414763723)",
+                              "width": "fill_container(0.0000013093911436314549)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -8444,10 +8452,10 @@
                             {
                               "type": "path",
                               "id": "J3cEp",
-                              "x": 216.80335931803543,
+                              "x": 216.80265262455288,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013093993367381566)",
+                              "width": "fill_container(0.0000013093950658266928)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -8455,10 +8463,10 @@
                             {
                               "type": "path",
                               "id": "DILwB",
-                              "x": 289.07114575738655,
+                              "x": 289.07020349940984,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.0000013093954431838275)",
+                              "width": "fill_container(0.0000013093911720531594)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -8466,10 +8474,10 @@
                             {
                               "type": "path",
                               "id": "hh2DB",
-                              "x": 361.3389321967312,
+                              "x": 361.33775437426027,
                               "y": 0,
                               "geometry": "M0 0l0 170",
-                              "width": "fill_container(0.000001309394988462154)",
+                              "width": "fill_container(0.0000013093907173058856)",
                               "height": "fill_container(179.87236699564215)",
                               "stroke": "$color-border-light",
                               "strokeWidth": 1
@@ -11331,14 +11339,765 @@
               "height": 8
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "V7xjg",
+          "x": 3148,
+          "y": 32,
+          "name": "Account components",
+          "width": 800,
+          "height": 900,
+          "fill": "$color-bg-alt",
+          "cornerRadius": "$radius-xl",
+          "gap": "$spacing-24",
+          "padding": "$spacing-24",
+          "children": [
+            {
+              "type": "frame",
+              "id": "Tvvia",
+              "name": "profile-sidebar",
+              "reusable": true,
+              "width": 210,
+              "height": 820,
+              "fill": "$color-text",
+              "layout": "vertical",
+              "gap": "$spacing-16",
+              "padding": "$spacing-12",
+              "children": [
+                {
+                  "id": "zhKP6",
+                  "type": "ref",
+                  "ref": "e5Xi0b",
+                  "name": "Ledger brand"
+                },
+                {
+                  "type": "frame",
+                  "id": "YXODG",
+                  "name": "Account navigation",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$spacing-2",
+                  "children": [
+                    {
+                      "id": "l7nlaj",
+                      "type": "ref",
+                      "ref": "jVQuK",
+                      "name": "Account section label",
+                      "content": "ACCOUNT",
+                      "fill": "$color-tertiary-light",
+                      "letterSpacing": 0.7
+                    },
+                    {
+                      "type": "frame",
+                      "id": "L2KX9B",
+                      "name": "Profile item",
+                      "context": "button",
+                      "width": "fill_container",
+                      "height": 40,
+                      "cornerRadius": "$radius-md",
+                      "gap": "$spacing-12",
+                      "padding": [
+                        0,
+                        "$spacing-12"
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "QfuZQ",
+                          "type": "ref",
+                          "ref": "jfFZw",
+                          "name": "Profile icon",
+                          "descendants": {
+                            "mbNYQ": {
+                              "stroke": "$color-tertiary-light"
+                            },
+                            "WgUKU": {
+                              "stroke": "$color-tertiary-light"
+                            }
+                          }
+                        },
+                        {
+                          "id": "q1Sjxj",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Profile label",
+                          "content": "Profile",
+                          "fill": "$color-tertiary-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c8nmI",
+                      "name": "Settings item",
+                      "context": "button",
+                      "width": "fill_container",
+                      "height": 40,
+                      "cornerRadius": "$radius-md",
+                      "gap": "$spacing-12",
+                      "padding": [
+                        0,
+                        "$spacing-12"
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "Rg1ld",
+                          "type": "ref",
+                          "ref": "hcMuv",
+                          "name": "Settings icon",
+                          "descendants": {
+                            "S4gqO": {
+                              "stroke": "$color-tertiary-light"
+                            },
+                            "LlfaQ": {
+                              "stroke": "$color-tertiary-light"
+                            }
+                          }
+                        },
+                        {
+                          "id": "p9Fm7",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Settings label",
+                          "content": "Settings",
+                          "fill": "$color-tertiary-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XzJds",
+                      "name": "Notifications item",
+                      "context": "button",
+                      "width": "fill_container",
+                      "height": 40,
+                      "cornerRadius": "$radius-md",
+                      "gap": "$spacing-12",
+                      "padding": [
+                        0,
+                        "$spacing-12"
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "NrUnR",
+                          "type": "ref",
+                          "ref": "aZBqm",
+                          "name": "Notifications icon",
+                          "descendants": {
+                            "jHosq": {
+                              "stroke": "$color-tertiary-light"
+                            }
+                          }
+                        },
+                        {
+                          "id": "g9xNzb",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Notifications label",
+                          "content": "Notifications",
+                          "fill": "$color-tertiary-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GWY0r",
+                      "name": "Billing item",
+                      "context": "button",
+                      "width": "fill_container",
+                      "height": 40,
+                      "cornerRadius": "$radius-md",
+                      "gap": "$spacing-12",
+                      "padding": [
+                        0,
+                        "$spacing-12"
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "Rla2d",
+                          "type": "ref",
+                          "ref": "ZKOO5",
+                          "name": "Billing icon",
+                          "descendants": {
+                            "FYw1k": {
+                              "stroke": "$color-tertiary-light"
+                            },
+                            "f1KDz": {
+                              "stroke": "$color-tertiary-light"
+                            }
+                          }
+                        },
+                        {
+                          "id": "qdzcb",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Billing label",
+                          "content": "Billing",
+                          "fill": "$color-tertiary-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jR31Y",
+                      "name": "Privacy item",
+                      "context": "button",
+                      "width": "fill_container",
+                      "height": 40,
+                      "cornerRadius": "$radius-md",
+                      "gap": "$spacing-12",
+                      "padding": [
+                        0,
+                        "$spacing-12"
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "A7fzqK",
+                          "type": "ref",
+                          "ref": "dQdT0",
+                          "name": "Privacy icon",
+                          "descendants": {
+                            "sfBim": {
+                              "stroke": "$color-tertiary-light"
+                            }
+                          }
+                        },
+                        {
+                          "id": "USh2G",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Privacy label",
+                          "content": "Privacy",
+                          "fill": "$color-tertiary-light"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "evC6A",
+                      "name": "Help & Support item",
+                      "context": "button",
+                      "width": "fill_container",
+                      "height": 40,
+                      "cornerRadius": "$radius-md",
+                      "gap": "$spacing-12",
+                      "padding": [
+                        0,
+                        "$spacing-12"
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "id": "WPrcy",
+                          "type": "ref",
+                          "ref": "LAXnk",
+                          "name": "Help & Support icon",
+                          "descendants": {
+                            "UGUwm": {
+                              "stroke": "$color-tertiary-light"
+                            },
+                            "a2topR": {
+                              "stroke": "$color-tertiary-light"
+                            }
+                          }
+                        },
+                        {
+                          "id": "NEtjN",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Help & Support label",
+                          "content": "Help & Support",
+                          "fill": "$color-tertiary-light"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HikU1",
+                  "name": "Sign out item",
+                  "context": "button",
+                  "width": "fill_container",
+                  "height": 40,
+                  "cornerRadius": "$radius-md",
+                  "gap": "$spacing-12",
+                  "padding": [
+                    0,
+                    "$spacing-12"
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "ebkCM",
+                      "type": "ref",
+                      "ref": "U8zVp",
+                      "name": "Sign out icon",
+                      "descendants": {
+                        "ygzeR": {
+                          "stroke": "$color-error"
+                        },
+                        "PD4bl": {
+                          "stroke": "$color-error"
+                        },
+                        "Pnz7i": {
+                          "stroke": "$color-error"
+                        }
+                      }
+                    },
+                    {
+                      "id": "eIQCh",
+                      "type": "ref",
+                      "ref": "NdT35",
+                      "name": "Sign out label",
+                      "content": "Sign out",
+                      "fill": "$color-error"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "C6nnFz",
+              "name": "Account forms",
+              "width": 480,
+              "layout": "vertical",
+              "gap": "$spacing-24",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "pY85M",
+                  "name": "profile-setting-row",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "gap": "$spacing-16",
+                  "padding": [
+                    "$spacing-8",
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "SmHbu",
+                      "name": "Setting text",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$spacing-2",
+                      "children": [
+                        {
+                          "id": "D47y2",
+                          "type": "ref",
+                          "ref": "Z6gGa",
+                          "name": "Setting label",
+                          "content": "Setting"
+                        },
+                        {
+                          "id": "bTkeO",
+                          "type": "ref",
+                          "ref": "NdT35",
+                          "name": "Setting description",
+                          "content": "Setting description",
+                          "fill": "$color-text-secondary",
+                          "width": "fill_container",
+                          "textGrowth": "fixed-width"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "C8csR",
+                      "name": "Setting action",
+                      "slot": [],
+                      "children": [
+                        {
+                          "id": "DLV9t",
+                          "type": "ref",
+                          "ref": "d0G9YV",
+                          "name": "Edit setting",
+                          "fill": "$color-white",
+                          "stroke": "$color-border",
+                          "strokeWidth": 1,
+                          "strokeAlignment": "inner",
+                          "descendants": {
+                            "znDBJ": {
+                              "content": "Edit",
+                              "fill": "$color-text"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "R4DURX",
+                  "name": "labeled-input-field",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": "$spacing-6",
+                  "children": [
+                    {
+                      "id": "NPRr6",
+                      "type": "ref",
+                      "ref": "Z6gGa",
+                      "name": "Field label",
+                      "content": "Email address"
+                    },
+                    {
+                      "id": "CS4J9",
+                      "type": "ref",
+                      "ref": "FnXms",
+                      "name": "Field input",
+                      "height": 42,
+                      "descendants": {
+                        "B2Fxuf": {
+                          "enabled": false
+                        },
+                        "EY2An": {
+                          "content": "Email address"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "t5rSF",
+                  "name": "profile-mobile-nav",
+                  "reusable": true,
+                  "width": "fill_container",
+                  "fill": "$color-white",
+                  "stroke": "$color-border-light",
+                  "strokeWidth": {
+                    "bottom": 1
+                  },
+                  "strokeAlignment": "inner",
+                  "layout": "vertical",
+                  "gap": "$spacing-4",
+                  "padding": [
+                    "$spacing-8",
+                    "$spacing-12"
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Y3qQG",
+                      "name": "Navigation row",
+                      "width": "fill_container",
+                      "gap": "$spacing-4",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nP5yb",
+                          "name": "Profile item",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "kxiOL",
+                              "type": "ref",
+                              "ref": "jfFZw",
+                              "name": "Profile icon",
+                              "descendants": {
+                                "mbNYQ": {
+                                  "stroke": "$color-text-secondary"
+                                },
+                                "WgUKU": {
+                                  "stroke": "$color-text-secondary"
+                                }
+                              }
+                            },
+                            {
+                              "id": "U9V4z",
+                              "type": "ref",
+                              "ref": "jVQuK",
+                              "name": "Profile label",
+                              "content": "Profile",
+                              "fill": "$color-text-secondary"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NKYj6",
+                          "name": "Settings item",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "FWSPF",
+                              "type": "ref",
+                              "ref": "hcMuv",
+                              "name": "Settings icon",
+                              "descendants": {
+                                "S4gqO": {
+                                  "stroke": "$color-text-secondary"
+                                },
+                                "LlfaQ": {
+                                  "stroke": "$color-text-secondary"
+                                }
+                              }
+                            },
+                            {
+                              "id": "f9T4As",
+                              "type": "ref",
+                              "ref": "jVQuK",
+                              "name": "Settings label",
+                              "content": "Settings",
+                              "fill": "$color-text-secondary"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m0KI2P",
+                          "name": "Notifications item",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "DFYfV",
+                              "type": "ref",
+                              "ref": "aZBqm",
+                              "name": "Notifications icon",
+                              "descendants": {
+                                "jHosq": {
+                                  "stroke": "$color-text-secondary"
+                                }
+                              }
+                            },
+                            {
+                              "id": "WywH8",
+                              "type": "ref",
+                              "ref": "jVQuK",
+                              "name": "Notifications label",
+                              "content": "Notifications",
+                              "fill": "$color-text-secondary"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "XjZAL",
+                      "name": "Navigation row",
+                      "width": "fill_container",
+                      "gap": "$spacing-4",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "M0pOu",
+                          "name": "Billing item",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "n92GUC",
+                              "type": "ref",
+                              "ref": "ZKOO5",
+                              "name": "Billing icon",
+                              "descendants": {
+                                "FYw1k": {
+                                  "stroke": "$color-text-secondary"
+                                },
+                                "f1KDz": {
+                                  "stroke": "$color-text-secondary"
+                                }
+                              }
+                            },
+                            {
+                              "id": "R3K4U",
+                              "type": "ref",
+                              "ref": "jVQuK",
+                              "name": "Billing label",
+                              "content": "Billing",
+                              "fill": "$color-text-secondary"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bvN1z",
+                          "name": "Privacy item",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "SltBe",
+                              "type": "ref",
+                              "ref": "dQdT0",
+                              "name": "Privacy icon",
+                              "descendants": {
+                                "sfBim": {
+                                  "stroke": "$color-text-secondary"
+                                }
+                              }
+                            },
+                            {
+                              "id": "CcwBw",
+                              "type": "ref",
+                              "ref": "jVQuK",
+                              "name": "Privacy label",
+                              "content": "Privacy",
+                              "fill": "$color-text-secondary"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R38Xc",
+                          "name": "Help & Support item",
+                          "width": "fill_container",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "x018O0",
+                              "type": "ref",
+                              "ref": "LAXnk",
+                              "name": "Help & Support icon",
+                              "descendants": {
+                                "UGUwm": {
+                                  "stroke": "$color-text-secondary"
+                                },
+                                "a2topR": {
+                                  "stroke": "$color-text-secondary"
+                                }
+                              }
+                            },
+                            {
+                              "id": "msW7j",
+                              "type": "ref",
+                              "ref": "jVQuK",
+                              "name": "Help & Support label",
+                              "content": "Help & Support",
+                              "fill": "$color-text-secondary"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "r3stA",
+                      "name": "Account action",
+                      "width": "fill_container",
+                      "justifyContent": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "Z3FEo",
+                          "name": "Sign out item",
+                          "height": 44,
+                          "cornerRadius": "$radius-md",
+                          "gap": "$spacing-6",
+                          "padding": [
+                            0,
+                            "$spacing-6"
+                          ],
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "id": "iIJ4P",
+                              "type": "ref",
+                              "ref": "U8zVp",
+                              "name": "Sign out icon",
+                              "descendants": {
+                                "ygzeR": {
+                                  "stroke": "$color-error"
+                                },
+                                "PD4bl": {
+                                  "stroke": "$color-error"
+                                },
+                                "Pnz7i": {
+                                  "stroke": "$color-error"
+                                }
+                              }
+                            },
+                            {
+                              "id": "qj8Y5",
+                              "type": "ref",
+                              "ref": "Z6gGa",
+                              "name": "Sign out label",
+                              "content": "Sign out",
+                              "fill": "$color-error"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "type": "frame",
       "id": "swq49",
-      "x": 5211,
-      "y": -3724,
+      "x": 705,
+      "y": -2319,
       "name": "layouts",
       "width": 1440,
       "height": 1264,

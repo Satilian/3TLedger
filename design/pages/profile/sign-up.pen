@@ -1,0 +1,523 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "n6k086",
+      "x": 0,
+      "y": 0,
+      "name": "Sign up · Desktop 640",
+      "clip": true,
+      "width": 640,
+      "height": 780,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "mInhC",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign up card",
+          "width": 400,
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "G6BWX",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "kIMdH",
+                  "type": "ref",
+                  "ref": "q:e5Xi0b",
+                  "name": "Ledger brand",
+                  "descendants": {
+                    "q:KooIJ": {
+                      "fill": "$q:color-text"
+                    },
+                    "q:HNFG5": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "QSQt3",
+                  "type": "ref",
+                  "ref": "q:KupRp",
+                  "name": "Authentication title",
+                  "content": "Create your workspace"
+                },
+                {
+                  "id": "p3xYu",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication subtitle",
+                  "content": "Start with a clear picture of your money.",
+                  "width": "fill_container",
+                  "textGrowth": "fixed-width",
+                  "fill": "$q:color-text-secondary"
+                },
+                {
+                  "id": "sm8Hr",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Full name",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Full name"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "content": "Alex Kim",
+                      "fill": "$q:color-text-secondary"
+                    }
+                  }
+                },
+                {
+                  "id": "cHP4T",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Email address",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Email address"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "content": "alex@company.com",
+                      "fill": "$q:color-text-secondary"
+                    }
+                  }
+                },
+                {
+                  "id": "wHT8w",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Password",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Password"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "content": "Create a strong password",
+                      "fill": "$q:color-text-secondary"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "qxKiJ",
+                  "name": "Terms agreement",
+                  "width": "fill_container",
+                  "gap": "$q:spacing-8",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "FxzTf",
+                      "name": "Terms checkbox",
+                      "width": 16,
+                      "height": 16,
+                      "cornerRadius": "$q:radius-sm",
+                      "stroke": "$q:color-border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner"
+                    },
+                    {
+                      "id": "y3DiJK",
+                      "type": "ref",
+                      "ref": "q:NdT35",
+                      "name": "Agreement text",
+                      "content": "I agree to the Terms and Privacy Policy",
+                      "fill": "$q:color-text-secondary"
+                    }
+                  ]
+                },
+                {
+                  "id": "wD3UM",
+                  "type": "ref",
+                  "ref": "q:AbSy4",
+                  "name": "Sign up submit",
+                  "height": 42,
+                  "justifyContent": "center",
+                  "width": "fill_container",
+                  "descendants": {
+                    "q:HSwj7": {
+                      "content": "Create account",
+                      "fill": "$q:color-white"
+                    }
+                  }
+                },
+                {
+                  "id": "eAHqC",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication links",
+                  "content": "Already have an account?  Sign in",
+                  "width": "fill_container",
+                  "textGrowth": "fixed-width",
+                  "textAlign": "center",
+                  "fill": "$q:color-primary"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "xN3EG",
+      "x": 704,
+      "y": 0,
+      "name": "Sign up · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 780,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "QNQKY",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign up card",
+          "width": 400,
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "wgeYQ",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "J0zUw",
+                  "type": "ref",
+                  "ref": "q:e5Xi0b",
+                  "name": "Ledger brand",
+                  "descendants": {
+                    "q:KooIJ": {
+                      "fill": "$q:color-text"
+                    },
+                    "q:HNFG5": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "VcZzc",
+                  "type": "ref",
+                  "ref": "q:KupRp",
+                  "name": "Authentication title",
+                  "content": "Create your workspace"
+                },
+                {
+                  "id": "Vk9gt",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication subtitle",
+                  "width": "fill_container",
+                  "fill": "$q:color-text-secondary",
+                  "content": "Start with a clear picture of your money.",
+                  "textGrowth": "fixed-width"
+                },
+                {
+                  "id": "VLjB0",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Full name",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Full name"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text-secondary",
+                      "content": "Alex Kim"
+                    }
+                  }
+                },
+                {
+                  "id": "Ie6pF",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Email address",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Email address"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text-secondary",
+                      "content": "alex@company.com"
+                    }
+                  }
+                },
+                {
+                  "id": "F94OrQ",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Password",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Password"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text-secondary",
+                      "content": "Create a strong password"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "IHUas",
+                  "name": "Terms agreement",
+                  "width": "fill_container",
+                  "gap": "$q:spacing-8",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "bygco",
+                      "name": "Terms checkbox",
+                      "width": 16,
+                      "height": 16,
+                      "cornerRadius": "$q:radius-sm",
+                      "stroke": "$q:color-border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner"
+                    },
+                    {
+                      "id": "wXLP5",
+                      "type": "ref",
+                      "ref": "q:NdT35",
+                      "name": "Agreement text",
+                      "fill": "$q:color-text-secondary",
+                      "content": "I agree to the Terms and Privacy Policy"
+                    }
+                  ]
+                },
+                {
+                  "id": "p5FYQg",
+                  "type": "ref",
+                  "ref": "q:AbSy4",
+                  "name": "Sign up submit",
+                  "width": "fill_container",
+                  "height": 42,
+                  "justifyContent": "center",
+                  "descendants": {
+                    "q:HSwj7": {
+                      "fill": "$q:color-white",
+                      "content": "Create account"
+                    }
+                  }
+                },
+                {
+                  "id": "Agou7",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication links",
+                  "width": "fill_container",
+                  "fill": "$q:color-primary",
+                  "content": "Already have an account?  Sign in",
+                  "textAlign": "center",
+                  "textGrowth": "fixed-width"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "JyA4S",
+      "x": 1536,
+      "y": 0,
+      "name": "Sign up · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "padding": "$q:spacing-16",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "EoXRe",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign up card",
+          "width": "fill_container",
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "Q1gRL",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "KrfME",
+                  "type": "ref",
+                  "ref": "q:e5Xi0b",
+                  "name": "Ledger brand",
+                  "descendants": {
+                    "q:KooIJ": {
+                      "fill": "$q:color-text"
+                    },
+                    "q:HNFG5": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "aX7u5",
+                  "type": "ref",
+                  "ref": "q:KupRp",
+                  "name": "Authentication title",
+                  "content": "Create your workspace"
+                },
+                {
+                  "id": "d2Zff5",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication subtitle",
+                  "width": "fill_container",
+                  "fill": "$q:color-text-secondary",
+                  "content": "Start with a clear picture of your money.",
+                  "textGrowth": "fixed-width"
+                },
+                {
+                  "id": "ZAU7O",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Full name",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Full name"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text-secondary",
+                      "content": "Alex Kim"
+                    }
+                  }
+                },
+                {
+                  "id": "DHGOf",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Email address",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Email address"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text-secondary",
+                      "content": "alex@company.com"
+                    }
+                  }
+                },
+                {
+                  "id": "Bn7yN",
+                  "type": "ref",
+                  "ref": "q:R4DURX",
+                  "name": "Password",
+                  "descendants": {
+                    "q:NPRr6": {
+                      "content": "Password"
+                    },
+                    "q:CS4J9/q:EY2An": {
+                      "fill": "$q:color-text-secondary",
+                      "content": "Create a strong password"
+                    }
+                  }
+                },
+                {
+                  "type": "frame",
+                  "id": "K1MWiF",
+                  "name": "Terms agreement",
+                  "width": "fill_container",
+                  "gap": "$q:spacing-8",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "svAuu",
+                      "name": "Terms checkbox",
+                      "width": 16,
+                      "height": 16,
+                      "cornerRadius": "$q:radius-sm",
+                      "stroke": "$q:color-border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner"
+                    },
+                    {
+                      "id": "YbfTU",
+                      "type": "ref",
+                      "ref": "q:NdT35",
+                      "name": "Agreement text",
+                      "fill": "$q:color-text-secondary",
+                      "content": "I agree to the Terms and Privacy Policy"
+                    }
+                  ]
+                },
+                {
+                  "id": "k2Ril",
+                  "type": "ref",
+                  "ref": "q:AbSy4",
+                  "name": "Sign up submit",
+                  "width": "fill_container",
+                  "height": 42,
+                  "justifyContent": "center",
+                  "descendants": {
+                    "q:HSwj7": {
+                      "fill": "$q:color-white",
+                      "content": "Create account"
+                    }
+                  }
+                },
+                {
+                  "id": "O4q82q",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Authentication links",
+                  "width": "fill_container",
+                  "fill": "$q:color-primary",
+                  "content": "Already have an account?  Sign in",
+                  "textAlign": "center",
+                  "textGrowth": "fixed-width"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

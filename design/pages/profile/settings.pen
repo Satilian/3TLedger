@@ -1,0 +1,968 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "p5wYnU",
+      "x": 0,
+      "y": 0,
+      "name": "Settings · Desktop 1180",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "QX1nW",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "x": 0,
+          "y": 0,
+          "height": 820,
+          "descendants": {
+            "q:c8nmI": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:Rg1ld/q:S4gqO": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:Rg1ld/q:LlfaQ": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:p9Fm7": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "BbTPP",
+          "x": 210,
+          "y": 0,
+          "name": "Settings content",
+          "width": 970,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "lFA5T",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "CnZl8",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "GoWlg",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Settings"
+                    },
+                    "q:tEiyK": {
+                      "content": "Control how 3T Ledger works for you."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "RrZ3w",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Workspace preferences",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "mR0s2",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "Vc1mq",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Workspace preferences"
+                        },
+                        {
+                          "id": "o5jOY",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Default currency",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Default currency"
+                            },
+                            "q:bTkeO": {
+                              "content": "United States Dollar (USD)"
+                            },
+                            "q:C8csR": {
+                              "id": "Aed20",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Change",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "Ee6bl",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Week starts on",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Week starts on"
+                            },
+                            "q:bTkeO": {
+                              "content": "Monday"
+                            },
+                            "q:C8csR": {
+                              "id": "hUo0b",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Change",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "vlops",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Date format",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Date format"
+                            },
+                            "q:bTkeO": {
+                              "content": "20 Mar 2025"
+                            },
+                            "q:C8csR": {
+                              "id": "v1gR1",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Change",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "beD0S",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Data preferences",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "PhdS5",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "c5C9Ty",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Data preferences"
+                        },
+                        {
+                          "id": "AKJQ6",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Auto-categorization",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Auto-categorization"
+                            },
+                            "q:bTkeO": {
+                              "content": "Rules run on new transactions"
+                            },
+                            "q:C8csR": {
+                              "id": "Dms60",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "On",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "Mr0jk",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Compact tables",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Compact tables"
+                            },
+                            "q:bTkeO": {
+                              "content": "Use a denser transaction view"
+                            },
+                            "q:C8csR": {
+                              "id": "U31VW",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Off",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "H5Vw2",
+      "x": 1244,
+      "y": 0,
+      "name": "Settings · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "WGuCi",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "height": 820,
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "q:c8nmI": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:Rg1ld/q:S4gqO": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:Rg1ld/q:LlfaQ": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:p9Fm7": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "q4quxG",
+          "x": 210,
+          "y": 0,
+          "name": "Settings content",
+          "width": 558,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "mQVg3",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ZMdqG",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "ddYNE",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Settings"
+                    },
+                    "q:tEiyK": {
+                      "content": "Control how 3T Ledger works for you."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "yPCva",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Workspace preferences",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "mDwi9",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "ZC0TS",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Workspace preferences"
+                        },
+                        {
+                          "id": "VDZuK",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Default currency",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Default currency"
+                            },
+                            "q:bTkeO": {
+                              "content": "United States Dollar (USD)"
+                            },
+                            "q:C8csR": {
+                              "id": "ofcf5",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "x2APIh",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Week starts on",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Week starts on"
+                            },
+                            "q:bTkeO": {
+                              "content": "Monday"
+                            },
+                            "q:C8csR": {
+                              "id": "LjMlh",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "md8Hx",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Date format",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Date format"
+                            },
+                            "q:bTkeO": {
+                              "content": "20 Mar 2025"
+                            },
+                            "q:C8csR": {
+                              "id": "mXd4L",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "MYxiV",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Data preferences",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "q3mrUi",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "iHObU",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Data preferences"
+                        },
+                        {
+                          "id": "j9AcVN",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Auto-categorization",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Auto-categorization"
+                            },
+                            "q:bTkeO": {
+                              "content": "Rules run on new transactions"
+                            },
+                            "q:C8csR": {
+                              "id": "DBK3i",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "a64sT",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Compact tables",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Compact tables"
+                            },
+                            "q:bTkeO": {
+                              "content": "Use a denser transaction view"
+                            },
+                            "q:C8csR": {
+                              "id": "FFj8k",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Off"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GAEA0",
+      "x": 2076,
+      "y": 0,
+      "name": "Settings · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "yahNj",
+          "name": "Settings content",
+          "width": 393,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "qFXEh",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "id": "CwMVb",
+              "type": "ref",
+              "ref": "q:t5rSF",
+              "name": "Account navigation",
+              "descendants": {
+                "q:NKYj6": {
+                  "fill": "$q:color-primary-bg"
+                },
+                "q:FWSPF/q:S4gqO": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:FWSPF/q:LlfaQ": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:f9T4As": {
+                  "fill": "$q:color-text"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "mTcH5",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "jOIyT",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:fieG1": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "q:RcOFm": {
+                      "content": "Settings"
+                    },
+                    "q:tEiyK": {
+                      "content": "Control how 3T Ledger works for you.",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width"
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "vAKJe",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Workspace preferences",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "jGJ4P",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "F7KuB",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Workspace preferences"
+                        },
+                        {
+                          "id": "wuJ3K",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Default currency",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Default currency"
+                            },
+                            "q:bTkeO": {
+                              "content": "United States Dollar (USD)"
+                            },
+                            "q:C8csR": {
+                              "id": "BbiiL",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "wicVd",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Week starts on",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Week starts on"
+                            },
+                            "q:bTkeO": {
+                              "content": "Monday"
+                            },
+                            "q:C8csR": {
+                              "id": "y97UE0",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "hRmwR",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Date format",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Date format"
+                            },
+                            "q:bTkeO": {
+                              "content": "20 Mar 2025"
+                            },
+                            "q:C8csR": {
+                              "id": "dSjw2",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "IKTiz",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Data preferences",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "Pzv1E",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "I5VM9N",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Data preferences"
+                        },
+                        {
+                          "id": "qCOS5",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Auto-categorization",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Auto-categorization"
+                            },
+                            "q:bTkeO": {
+                              "content": "Rules run on new transactions"
+                            },
+                            "q:C8csR": {
+                              "id": "wwuRu",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "dMKiP",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Compact tables",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Compact tables"
+                            },
+                            "q:bTkeO": {
+                              "content": "Use a denser transaction view"
+                            },
+                            "q:C8csR": {
+                              "id": "lva3d",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Off"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

@@ -1,0 +1,839 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "saLxT",
+      "x": 0,
+      "y": 0,
+      "name": "Notifications · Desktop 1180",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "S31Sxo",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "x": 0,
+          "y": 0,
+          "height": 820,
+          "descendants": {
+            "q:XzJds": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:NrUnR/q:jHosq": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:g9xNzb": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "L5INk",
+          "x": 210,
+          "y": 0,
+          "name": "Notifications content",
+          "width": 970,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "AFgl9",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "aqb6p",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "W6Sk2s",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Notifications"
+                    },
+                    "q:tEiyK": {
+                      "content": "Choose where and when 3T Ledger reaches you."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "M09LBv",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Email notifications",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "lEZeE",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "sEFyE",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Email notifications"
+                        },
+                        {
+                          "id": "oeI0D",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Weekly summary",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Weekly summary"
+                            },
+                            "q:bTkeO": {
+                              "content": "A weekly look at your cash flow"
+                            },
+                            "q:C8csR": {
+                              "id": "M7e9gR",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "On",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "AlOeu",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Budget alerts",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Budget alerts"
+                            },
+                            "q:bTkeO": {
+                              "content": "When you approach a budget limit"
+                            },
+                            "q:C8csR": {
+                              "id": "SGhmo",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "On",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "oeURa",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Account activity",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Account activity"
+                            },
+                            "q:bTkeO": {
+                              "content": "Unusual or uncategorized activity"
+                            },
+                            "q:C8csR": {
+                              "id": "kMMC1",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Off",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "i2c8em",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "In-app notifications",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "JCdvR",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "NZ6ac",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "In-app notifications"
+                        },
+                        {
+                          "id": "lmKKl",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Product updates",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Product updates"
+                            },
+                            "q:bTkeO": {
+                              "content": "New features and improvements"
+                            },
+                            "q:C8csR": {
+                              "id": "tBjLN",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "On",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Xkehe",
+      "x": 1244,
+      "y": 0,
+      "name": "Notifications · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "BA97k",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "height": 820,
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "q:XzJds": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:NrUnR/q:jHosq": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:g9xNzb": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "E2ae7",
+          "x": 210,
+          "y": 0,
+          "name": "Notifications content",
+          "width": 558,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "fXHCU",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "aGgvR",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "r0L1w",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Notifications"
+                    },
+                    "q:tEiyK": {
+                      "content": "Choose where and when 3T Ledger reaches you."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "W1FUH",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Email notifications",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "F4ZtL",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "OKCEY",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Email notifications"
+                        },
+                        {
+                          "id": "jy2Sk",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Weekly summary",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Weekly summary"
+                            },
+                            "q:bTkeO": {
+                              "content": "A weekly look at your cash flow"
+                            },
+                            "q:C8csR": {
+                              "id": "tuHZb",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "RypBm",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Budget alerts",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Budget alerts"
+                            },
+                            "q:bTkeO": {
+                              "content": "When you approach a budget limit"
+                            },
+                            "q:C8csR": {
+                              "id": "Ryv2T",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "j63Sc",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Account activity",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Account activity"
+                            },
+                            "q:bTkeO": {
+                              "content": "Unusual or uncategorized activity"
+                            },
+                            "q:C8csR": {
+                              "id": "GJwhG",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Off"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "Z6p3y3",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "In-app notifications",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "D9z4x",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "KEmeb",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "In-app notifications"
+                        },
+                        {
+                          "id": "L9G0ok",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Product updates",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Product updates"
+                            },
+                            "q:bTkeO": {
+                              "content": "New features and improvements"
+                            },
+                            "q:C8csR": {
+                              "id": "kk7NX",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "goO7J",
+      "x": 2076,
+      "y": 0,
+      "name": "Notifications · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "JiCxS",
+          "name": "Notifications content",
+          "width": 393,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "rjrAi",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "id": "XSY5D",
+              "type": "ref",
+              "ref": "q:t5rSF",
+              "name": "Account navigation",
+              "descendants": {
+                "q:m0KI2P": {
+                  "fill": "$q:color-primary-bg"
+                },
+                "q:DFYfV/q:jHosq": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:WywH8": {
+                  "fill": "$q:color-text"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "jkL8G",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "u93xL",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:fieG1": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "q:RcOFm": {
+                      "content": "Notifications"
+                    },
+                    "q:tEiyK": {
+                      "content": "Choose where and when 3T Ledger reaches you.",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width"
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "TmhK5",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Email notifications",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "fDzXY",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "mukxc",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Email notifications"
+                        },
+                        {
+                          "id": "O151Z",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Weekly summary",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Weekly summary"
+                            },
+                            "q:bTkeO": {
+                              "content": "A weekly look at your cash flow"
+                            },
+                            "q:C8csR": {
+                              "id": "g8xJS",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "KInZS",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Budget alerts",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Budget alerts"
+                            },
+                            "q:bTkeO": {
+                              "content": "When you approach a budget limit"
+                            },
+                            "q:C8csR": {
+                              "id": "HED4p",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "Kn9QG",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Account activity",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Account activity"
+                            },
+                            "q:bTkeO": {
+                              "content": "Unusual or uncategorized activity"
+                            },
+                            "q:C8csR": {
+                              "id": "KfnEl",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Off"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "inzOP",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "In-app notifications",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "h1EvI",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "S3ZXR",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "In-app notifications"
+                        },
+                        {
+                          "id": "h402j",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Product updates",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Product updates"
+                            },
+                            "q:bTkeO": {
+                              "content": "New features and improvements"
+                            },
+                            "q:C8csR": {
+                              "id": "jKhCg",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "On"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

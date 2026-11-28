@@ -1,0 +1,872 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Pv52a",
+      "x": 0,
+      "y": 0,
+      "name": "Help & Support · Desktop 1180",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "iQRuX",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "x": 0,
+          "y": 0,
+          "height": 820,
+          "descendants": {
+            "q:evC6A": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:WPrcy/q:UGUwm": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:WPrcy/q:a2topR": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:NEtjN": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "b4Gqj",
+          "x": 210,
+          "y": 0,
+          "name": "Help & Support content",
+          "width": 970,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "pcaYr",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "VeN44",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "zeZn3",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Help & Support"
+                    },
+                    "q:tEiyK": {
+                      "content": "Find answers or contact the 3T Ledger support team."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "YaOMS",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Get help",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "g0C33",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "L7jB4",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Get help"
+                        },
+                        {
+                          "id": "c6HxI",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Help center",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Help center"
+                            },
+                            "q:bTkeO": {
+                              "content": "Guides for accounts, budgets, and reports"
+                            },
+                            "q:C8csR": {
+                              "id": "gjPLd",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Open help center",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "Acy3o",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Contact support",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Contact support"
+                            },
+                            "q:bTkeO": {
+                              "content": "We usually reply within one business day"
+                            },
+                            "q:C8csR": {
+                              "id": "z6NO98",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "Send message",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "gE0Cs",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Resources",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "CDIZA",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "PL45R",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Resources"
+                        },
+                        {
+                          "id": "O7WkXn",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Keyboard shortcuts",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Keyboard shortcuts"
+                            },
+                            "q:bTkeO": {
+                              "content": "Navigate faster with command shortcuts"
+                            },
+                            "q:C8csR": {
+                              "id": "urIXd",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "View shortcuts",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "MmA6y",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "System status",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "System status"
+                            },
+                            "q:bTkeO": {
+                              "content": "All systems operational"
+                            },
+                            "q:C8csR": {
+                              "id": "F9x6O",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "View status",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cnO9A",
+      "x": 1244,
+      "y": 0,
+      "name": "Help & Support · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "GGKNU",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "height": 820,
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "q:evC6A": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:WPrcy/q:UGUwm": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:WPrcy/q:a2topR": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:NEtjN": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "O1DI1i",
+          "x": 210,
+          "y": 0,
+          "name": "Help & Support content",
+          "width": 558,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "mW8X0",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "tx0dn",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "RrNxp",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Help & Support"
+                    },
+                    "q:tEiyK": {
+                      "content": "Find answers or contact the 3T Ledger support team."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "WqlXP",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Get help",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "YDIB2",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "tnj7K",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Get help"
+                        },
+                        {
+                          "id": "jQeiK",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Help center",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Help center"
+                            },
+                            "q:bTkeO": {
+                              "content": "Guides for accounts, budgets, and reports"
+                            },
+                            "q:C8csR": {
+                              "id": "TheSb",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Open help center"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "rTXbP",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Contact support",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Contact support"
+                            },
+                            "q:bTkeO": {
+                              "content": "We usually reply within one business day"
+                            },
+                            "q:C8csR": {
+                              "id": "FUC0a",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "Send message"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "gxebf",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Resources",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "LyVmI",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "rWvsQ",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Resources"
+                        },
+                        {
+                          "id": "r1nCvN",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Keyboard shortcuts",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Keyboard shortcuts"
+                            },
+                            "q:bTkeO": {
+                              "content": "Navigate faster with command shortcuts"
+                            },
+                            "q:C8csR": {
+                              "id": "tBWMu",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "View shortcuts"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "toBaO",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "System status",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "System status"
+                            },
+                            "q:bTkeO": {
+                              "content": "All systems operational"
+                            },
+                            "q:C8csR": {
+                              "id": "xhMEa",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "View status"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "rMiTt",
+      "x": 2076,
+      "y": 0,
+      "name": "Help & Support · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "zGWUz",
+          "name": "Help & Support content",
+          "width": 393,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "vlBUH",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "id": "siXZK",
+              "type": "ref",
+              "ref": "q:t5rSF",
+              "name": "Account navigation",
+              "descendants": {
+                "q:R38Xc": {
+                  "fill": "$q:color-primary-bg"
+                },
+                "q:x018O0/q:UGUwm": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:x018O0/q:a2topR": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:msW7j": {
+                  "fill": "$q:color-text"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "a0i3F",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "O4gy4D",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:fieG1": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "q:RcOFm": {
+                      "content": "Help & Support"
+                    },
+                    "q:tEiyK": {
+                      "content": "Find answers or contact the 3T Ledger support team.",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width"
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "JHmhg",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Get help",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "siVfR",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "B3qwv",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Get help"
+                        },
+                        {
+                          "id": "hUnIh",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Help center",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Help center"
+                            },
+                            "q:bTkeO": {
+                              "content": "Guides for accounts, budgets, and reports"
+                            },
+                            "q:C8csR": {
+                              "id": "f0MPB",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Open help center"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "g0hOY",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Contact support",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Contact support"
+                            },
+                            "q:bTkeO": {
+                              "content": "We usually reply within one business day"
+                            },
+                            "q:C8csR": {
+                              "id": "WepcY",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "Send message"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "hmadV",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Resources",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "fN8Mz",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "TulVc",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Resources"
+                        },
+                        {
+                          "id": "g9KM7n",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Keyboard shortcuts",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Keyboard shortcuts"
+                            },
+                            "q:bTkeO": {
+                              "content": "Navigate faster with command shortcuts"
+                            },
+                            "q:C8csR": {
+                              "id": "Vhdg8",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "View shortcuts"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "hxfQK",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "System status",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "System status"
+                            },
+                            "q:bTkeO": {
+                              "content": "All systems operational"
+                            },
+                            "q:C8csR": {
+                              "id": "S8Vkm",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "View status"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

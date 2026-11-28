@@ -1,0 +1,968 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "r8L42k",
+      "x": 0,
+      "y": 0,
+      "name": "Profile · Desktop 1180",
+      "clip": true,
+      "width": 1180,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "c8lL8u",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "x": 0,
+          "y": 0,
+          "height": 820,
+          "descendants": {
+            "q:L2KX9B": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:QfuZQ/q:mbNYQ": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:QfuZQ/q:WgUKU": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:q1Sjxj": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "DvVFA",
+          "x": 210,
+          "y": 0,
+          "name": "Profile content",
+          "width": 970,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "k6TJBt",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "ZvHRL",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "id": "wl0me",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Profile"
+                    },
+                    "q:tEiyK": {
+                      "content": "Manage your identity and public account details."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "lRLyb",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Personal information",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "opgt2",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "E22ZtR",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Personal information"
+                        },
+                        {
+                          "id": "DVRTI",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Profile photo",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Profile photo"
+                            },
+                            "q:bTkeO": {
+                              "content": "Shown in your workspace"
+                            },
+                            "q:C8csR": {
+                              "id": "oJiK4",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Change",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "F5nruE",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Display name",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Display name"
+                            },
+                            "q:bTkeO": {
+                              "content": "Alex Kim"
+                            },
+                            "q:C8csR": {
+                              "id": "JZABj",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Edit",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "gvlj3",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Email address",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Email address"
+                            },
+                            "q:bTkeO": {
+                              "content": "alex@3tledger.app"
+                            },
+                            "q:C8csR": {
+                              "id": "lAAot",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Edit",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "OfCBZ",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Security",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "bwMlP",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "qj6En",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Security"
+                        },
+                        {
+                          "id": "Y7c11Y",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Password",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Password"
+                            },
+                            "q:bTkeO": {
+                              "content": "Last changed 2 months ago"
+                            },
+                            "q:C8csR": {
+                              "id": "K1zxe",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "content": "Update password",
+                                  "fill": "$q:color-text"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "DWURY",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Two-factor authentication",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Two-factor authentication"
+                            },
+                            "q:bTkeO": {
+                              "content": "Not enabled"
+                            },
+                            "q:C8csR": {
+                              "id": "f3O0dW",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "content": "Enable",
+                                  "fill": "$q:color-white"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ywsSd",
+      "x": 1244,
+      "y": 0,
+      "name": "Profile · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 820,
+      "fill": "$q:color-bg-alt",
+      "layout": "none",
+      "children": [
+        {
+          "id": "jgQ8D",
+          "type": "ref",
+          "ref": "q:Tvvia",
+          "name": "Profile sidebar",
+          "height": 820,
+          "x": 0,
+          "y": 0,
+          "descendants": {
+            "q:L2KX9B": {
+              "fill": "$q:color-primary-border"
+            },
+            "q:QfuZQ/q:mbNYQ": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:QfuZQ/q:WgUKU": {
+              "stroke": "$q:color-primary-light"
+            },
+            "q:q1Sjxj": {
+              "fill": "$q:color-white",
+              "fontWeight": "600"
+            }
+          }
+        },
+        {
+          "type": "frame",
+          "id": "BExiR",
+          "x": 210,
+          "y": 0,
+          "name": "Profile content",
+          "width": 558,
+          "height": 820,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "Z79yy",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Personal workspace  /  Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "sJuDZ",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "sIB5e",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:RcOFm": {
+                      "content": "Profile"
+                    },
+                    "q:tEiyK": {
+                      "content": "Manage your identity and public account details."
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "rd9Gw",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Personal information",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "L0APh",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "o7JRLz",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Personal information"
+                        },
+                        {
+                          "id": "M7jdr",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Profile photo",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Profile photo"
+                            },
+                            "q:bTkeO": {
+                              "content": "Shown in your workspace"
+                            },
+                            "q:C8csR": {
+                              "id": "B7jRWG",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "U2ZOs",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Display name",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Display name"
+                            },
+                            "q:bTkeO": {
+                              "content": "Alex Kim"
+                            },
+                            "q:C8csR": {
+                              "id": "rj8I7",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Edit"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "k2kN3K",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Email address",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Email address"
+                            },
+                            "q:bTkeO": {
+                              "content": "alex@3tledger.app"
+                            },
+                            "q:C8csR": {
+                              "id": "kBv48",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Edit"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "XMGW4",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Security",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "KpQqy",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "hJieH",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Security"
+                        },
+                        {
+                          "id": "uZGvF",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Password",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Password"
+                            },
+                            "q:bTkeO": {
+                              "content": "Last changed 2 months ago"
+                            },
+                            "q:C8csR": {
+                              "id": "ETO5c",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Update password"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "AQZXp",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Two-factor authentication",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Two-factor authentication"
+                            },
+                            "q:bTkeO": {
+                              "content": "Not enabled"
+                            },
+                            "q:C8csR": {
+                              "id": "EwWRI",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "Enable"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "YAl9e",
+      "x": 2076,
+      "y": 0,
+      "name": "Profile · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "HYtWA",
+          "name": "Profile content",
+          "width": 393,
+          "fill": "$q:color-bg-alt",
+          "layout": "vertical",
+          "children": [
+            {
+              "id": "jQwng",
+              "type": "ref",
+              "ref": "q:Jdgj2",
+              "name": "Page header",
+              "descendants": {
+                "q:mQ77o": {
+                  "enabled": false
+                },
+                "q:hKNyq": {
+                  "content": "Account"
+                },
+                "q:ST6Jp": {
+                  "enabled": false
+                },
+                "q:Q963P": {
+                  "content": "Alex Kim"
+                },
+                "q:TDpsE": {
+                  "content": "Free"
+                }
+              }
+            },
+            {
+              "id": "VTkXt",
+              "type": "ref",
+              "ref": "q:t5rSF",
+              "name": "Account navigation",
+              "descendants": {
+                "q:nP5yb": {
+                  "fill": "$q:color-primary-bg"
+                },
+                "q:kxiOL/q:mbNYQ": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:kxiOL/q:WgUKU": {
+                  "stroke": "$q:color-primary"
+                },
+                "q:U9V4z": {
+                  "fill": "$q:color-text"
+                }
+              }
+            },
+            {
+              "type": "frame",
+              "id": "O32Hz",
+              "name": "Account content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-16",
+              "children": [
+                {
+                  "id": "e7gSA",
+                  "type": "ref",
+                  "ref": "q:zFG6j",
+                  "name": "Content header",
+                  "descendants": {
+                    "q:fieG1": {
+                      "width": "fill_container",
+                      "height": "fit_content"
+                    },
+                    "q:RcOFm": {
+                      "content": "Profile"
+                    },
+                    "q:tEiyK": {
+                      "content": "Manage your identity and public account details.",
+                      "width": "fill_container",
+                      "textGrowth": "fixed-width"
+                    },
+                    "q:iy81x": {
+                      "enabled": false
+                    }
+                  }
+                },
+                {
+                  "id": "xWBLw",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Personal information",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "kb2Ln",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "JauPj",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Personal information"
+                        },
+                        {
+                          "id": "NyYUi",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Profile photo",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Profile photo"
+                            },
+                            "q:bTkeO": {
+                              "content": "Shown in your workspace"
+                            },
+                            "q:C8csR": {
+                              "id": "X5KxQ",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Change"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "QcwWG",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Display name",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Display name"
+                            },
+                            "q:bTkeO": {
+                              "content": "Alex Kim"
+                            },
+                            "q:C8csR": {
+                              "id": "sUJlm",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Edit"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "PfwVz",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Email address",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Email address"
+                            },
+                            "q:bTkeO": {
+                              "content": "alex@3tledger.app"
+                            },
+                            "q:C8csR": {
+                              "id": "bw67q",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Edit"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "id": "C9xOQM",
+                  "type": "ref",
+                  "ref": "q:CU2dS",
+                  "name": "Security",
+                  "width": "fill_container",
+                  "height": "fit_content",
+                  "descendants": {
+                    "q:O4i3fR": {
+                      "enabled": false
+                    },
+                    "q:CR1Ds": {
+                      "type": "frame",
+                      "id": "rZmSd",
+                      "name": "Card content",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": "$q:spacing-8",
+                      "padding": "$q:spacing-16",
+                      "children": [
+                        {
+                          "id": "HCpHI",
+                          "type": "ref",
+                          "ref": "q:S4yBue",
+                          "name": "Section title",
+                          "content": "Security"
+                        },
+                        {
+                          "id": "rWkbG",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Password",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Password"
+                            },
+                            "q:bTkeO": {
+                              "content": "Last changed 2 months ago"
+                            },
+                            "q:C8csR": {
+                              "id": "p1k1P",
+                              "type": "ref",
+                              "ref": "q:d0G9YV",
+                              "name": "Setting action",
+                              "height": 36,
+                              "fill": "$q:color-white",
+                              "stroke": "$q:color-border",
+                              "strokeWidth": 1,
+                              "strokeAlignment": "inner",
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:znDBJ": {
+                                  "fill": "$q:color-text",
+                                  "content": "Update password"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "id": "lko5Z",
+                          "type": "ref",
+                          "ref": "q:pY85M",
+                          "name": "Two-factor authentication",
+                          "descendants": {
+                            "q:D47y2": {
+                              "content": "Two-factor authentication"
+                            },
+                            "q:bTkeO": {
+                              "content": "Not enabled"
+                            },
+                            "q:C8csR": {
+                              "id": "BsUGV",
+                              "type": "ref",
+                              "ref": "q:AbSy4",
+                              "name": "Setting action",
+                              "height": 36,
+                              "justifyContent": "center",
+                              "descendants": {
+                                "q:HSwj7": {
+                                  "fill": "$q:color-white",
+                                  "content": "Enable"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}

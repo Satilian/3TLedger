@@ -1,0 +1,367 @@
+{
+  "version": "2.25",
+  "children": [
+    {
+      "type": "frame",
+      "id": "R8pYh",
+      "x": 0,
+      "y": 0,
+      "name": "Sign out · Desktop 640",
+      "clip": true,
+      "width": 640,
+      "height": 560,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "o0sXb",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign out dialog",
+          "width": 400,
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "E1t95f",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kVr2i",
+                  "name": "Sign out icon badge",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "$q:color-error-bg",
+                  "cornerRadius": "$q:radius-md",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "fqf1W",
+                      "type": "ref",
+                      "ref": "q:U8zVp",
+                      "name": "Sign out icon"
+                    }
+                  ]
+                },
+                {
+                  "id": "VpxMS",
+                  "type": "ref",
+                  "ref": "q:LaJ52",
+                  "name": "Dialog title",
+                  "content": "Sign out of 3T Ledger?"
+                },
+                {
+                  "id": "XHQP5",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Dialog message",
+                  "content": "You can sign back in at any time to access your workspace.",
+                  "width": "fill_container",
+                  "textGrowth": "fixed-width",
+                  "fill": "$q:color-text-secondary"
+                },
+                {
+                  "type": "frame",
+                  "id": "ZQ3mo",
+                  "name": "Dialog actions",
+                  "width": "fill_container",
+                  "gap": "$q:spacing-8",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "id": "gZIzu",
+                      "type": "ref",
+                      "ref": "q:d0G9YV",
+                      "name": "Cancel",
+                      "fill": "$q:color-white",
+                      "stroke": "$q:color-border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "height": 36,
+                      "justifyContent": "center",
+                      "descendants": {
+                        "q:znDBJ": {
+                          "content": "Cancel",
+                          "fill": "$q:color-text"
+                        }
+                      }
+                    },
+                    {
+                      "id": "BnZ4G",
+                      "type": "ref",
+                      "ref": "q:AbSy4",
+                      "name": "Sign out",
+                      "fill": "$q:color-error",
+                      "height": 36,
+                      "justifyContent": "center",
+                      "descendants": {
+                        "q:HSwj7": {
+                          "content": "Sign out",
+                          "fill": "$q:color-white"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "b42gp",
+      "x": 704,
+      "y": 0,
+      "name": "Sign out · Tablet 768",
+      "clip": true,
+      "width": 768,
+      "height": 560,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "MXW13",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign out dialog",
+          "width": 400,
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "HEJ8K",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IyBpA",
+                  "name": "Sign out icon badge",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "$q:color-error-bg",
+                  "cornerRadius": "$q:radius-md",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "oECXp",
+                      "type": "ref",
+                      "ref": "q:U8zVp",
+                      "name": "Sign out icon"
+                    }
+                  ]
+                },
+                {
+                  "id": "cpPm8",
+                  "type": "ref",
+                  "ref": "q:LaJ52",
+                  "name": "Dialog title",
+                  "content": "Sign out of 3T Ledger?"
+                },
+                {
+                  "id": "Sk4J6",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Dialog message",
+                  "width": "fill_container",
+                  "fill": "$q:color-text-secondary",
+                  "content": "You can sign back in at any time to access your workspace.",
+                  "textGrowth": "fixed-width"
+                },
+                {
+                  "type": "frame",
+                  "id": "Y4clTm",
+                  "name": "Dialog actions",
+                  "width": "fill_container",
+                  "gap": "$q:spacing-8",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "id": "z88RKn",
+                      "type": "ref",
+                      "ref": "q:d0G9YV",
+                      "name": "Cancel",
+                      "height": 36,
+                      "fill": "$q:color-white",
+                      "stroke": "$q:color-border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "justifyContent": "center",
+                      "descendants": {
+                        "q:znDBJ": {
+                          "fill": "$q:color-text",
+                          "content": "Cancel"
+                        }
+                      }
+                    },
+                    {
+                      "id": "ULU1C",
+                      "type": "ref",
+                      "ref": "q:AbSy4",
+                      "name": "Sign out",
+                      "height": 36,
+                      "fill": "$q:color-error",
+                      "justifyContent": "center",
+                      "descendants": {
+                        "q:HSwj7": {
+                          "fill": "$q:color-white",
+                          "content": "Sign out"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "EFeJ6",
+      "x": 1536,
+      "y": 0,
+      "name": "Sign out · Mobile 393",
+      "clip": true,
+      "width": 393,
+      "height": 852,
+      "fill": "$q:color-bg-alt",
+      "layout": "vertical",
+      "padding": "$q:spacing-16",
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "id": "CEQOR",
+          "type": "ref",
+          "ref": "q:CU2dS",
+          "name": "Sign out dialog",
+          "width": "fill_container",
+          "height": "fit_content",
+          "descendants": {
+            "q:O4i3fR": {
+              "enabled": false
+            },
+            "q:CR1Ds": {
+              "type": "frame",
+              "id": "tXbZ6",
+              "name": "Card content",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": "$q:spacing-16",
+              "padding": "$q:spacing-24",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZJtmC",
+                  "name": "Sign out icon badge",
+                  "width": 36,
+                  "height": 36,
+                  "fill": "$q:color-error-bg",
+                  "cornerRadius": "$q:radius-md",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "id": "vO8SA",
+                      "type": "ref",
+                      "ref": "q:U8zVp",
+                      "name": "Sign out icon"
+                    }
+                  ]
+                },
+                {
+                  "id": "p6cnv",
+                  "type": "ref",
+                  "ref": "q:LaJ52",
+                  "name": "Dialog title",
+                  "content": "Sign out of 3T Ledger?"
+                },
+                {
+                  "id": "FeQc4",
+                  "type": "ref",
+                  "ref": "q:NdT35",
+                  "name": "Dialog message",
+                  "width": "fill_container",
+                  "fill": "$q:color-text-secondary",
+                  "content": "You can sign back in at any time to access your workspace.",
+                  "textGrowth": "fixed-width"
+                },
+                {
+                  "type": "frame",
+                  "id": "K0eusd",
+                  "name": "Dialog actions",
+                  "width": "fill_container",
+                  "gap": "$q:spacing-8",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "id": "r2aLr",
+                      "type": "ref",
+                      "ref": "q:d0G9YV",
+                      "name": "Cancel",
+                      "height": 36,
+                      "fill": "$q:color-white",
+                      "stroke": "$q:color-border",
+                      "strokeWidth": 1,
+                      "strokeAlignment": "inner",
+                      "justifyContent": "center",
+                      "descendants": {
+                        "q:znDBJ": {
+                          "fill": "$q:color-text",
+                          "content": "Cancel"
+                        }
+                      }
+                    },
+                    {
+                      "id": "vSYDG",
+                      "type": "ref",
+                      "ref": "q:AbSy4",
+                      "name": "Sign out",
+                      "height": 36,
+                      "fill": "$q:color-error",
+                      "justifyContent": "center",
+                      "descendants": {
+                        "q:HSwj7": {
+                          "fill": "$q:color-white",
+                          "content": "Sign out"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "imports": {
+    "q": "../../ui-kit.lib.pen"
+  },
+  "fileToken": "6329de91-dbbc-448a-b395-8ab34b033178"
+}
