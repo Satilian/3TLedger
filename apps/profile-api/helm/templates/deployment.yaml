@@ -31,11 +31,16 @@ spec:
           ports:
             - name: http
               containerPort: 8080
-          {{- with .Values.existingSecret }}
-          envFrom:
-            - secretRef:
-                name: {{ . | quote }}
-          {{- end }}
+          env:
+            - name: IDENTITY_URL
+              value: {{ required "identityURL is required" .Values.identityURL | quote }}
+            - name: PUBLIC_BASE_URL
+              value: {{ required "publicBaseURL is required" .Values.publicBaseURL | quote }}
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: {{ required "existingSecret is required" .Values.existingSecret | quote }}
+                  key: DATABASE_URL
           readinessProbe:
             httpGet:
               path: /health/ready

@@ -34,7 +34,7 @@ jobs:
         id: image
         run: |
           case "$APP" in
-            api-gateway|identity-api|ledger-api|budgets-api|analytics-api|notifications-api) ;;
+            api-gateway|identity-api|profile-api|ledger-api|budgets-api|analytics-api|notifications-api) ;;
             *) exit 1 ;;
           esac
           echo "repository=ghcr.io/${GITHUB_REPOSITORY,,}-$APP" >> "$GITHUB_OUTPUT"
@@ -96,7 +96,9 @@ jobs:
           IMAGE_REPOSITORY: ${{ needs.build.outputs.image }}
           IMAGE_TAG: ${{ needs.build.outputs.tag }}
           BACKEND_API_HOST: ${{ vars.BACKEND_API_HOST }}
+          APP_HOST: ${{ vars.APP_HOST }}
           IDENTITY_ENV_SECRET: ${{ vars.IDENTITY_ENV_SECRET }}
+          PROFILE_ENV_SECRET: ${{ vars.PROFILE_ENV_SECRET }}
           KAFKA_ENV_SECRET: ${{ vars.KAFKA_ENV_SECRET }}
         run: |
           app_args=()
@@ -116,6 +118,17 @@ jobs:
           fi
 
           case "$APP" in
+            profile-api)
+              if [[ ! "$PROFILE_ENV_SECRET" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+                echo "::error::Set PROFILE_ENV_SECRET to the Kubernetes Secret name for profile-api."
+                exit 1
+              fi
+              if [[ ! "$APP_HOST" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+                echo "::error::Set APP_HOST to the production DNS hostname."
+                exit 1
+              fi
+              app_args+=(--set-string "existingSecret=$PROFILE_ENV_SECRET" --set-string "publicBaseURL=https://$APP_HOST")
+              ;;
             ledger-api|budgets-api|analytics-api|notifications-api)
               if [[ -n "$KAFKA_ENV_SECRET" ]]; then
                 if [[ ! "$KAFKA_ENV_SECRET" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then

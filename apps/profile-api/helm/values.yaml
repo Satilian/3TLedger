@@ -8,6 +8,8 @@ image:
 imagePullSecrets: []
 
 existingSecret: ""
+publicBaseURL: ""
+identityURL: http://identity-api-3tledger
 
 service:
   port: 80
