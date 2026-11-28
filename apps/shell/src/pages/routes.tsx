@@ -1,5 +1,6 @@
 import { RoutesConfigObject } from '@satilian/router';
 import Statistics from 'analytics/Statistics';
+import BudgetPlanning from 'budgets/BudgetPlanning';
 import Accounts from 'ledger/Accounts';
 import Transactions from 'ledger/Transactions';
 import Income from 'ledger/Income';
@@ -61,6 +62,11 @@ export const routesConfig: RoutesConfigObject = {
           id: 'statistics',
           path: 'statistics',
           element: <Statistics />,
+        },
+        {
+          id: 'budget-planning',
+          path: 'budget-planning',
+          element: <BudgetPlanning />,
         },
         {
           id: 'about',

@@ -1,0 +1,21 @@
+name: Budgets
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_tag:
+        description: "Existing image tag for deploy only (leave empty to build)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  release:
+    uses: ./.github/workflows/frontend-release.yml
+    with:
+      app: budgets
+      image_tag: ${{ inputs.image_tag }}
+    secrets: inherit

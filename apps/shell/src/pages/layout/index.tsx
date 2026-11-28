@@ -27,7 +27,7 @@ const navigation = [
   { label: 'Transfers', icon: ArrowLeftRight, to: '/transfers' },
   { label: 'Categories', icon: Tag, to: '/categories' },
   { label: 'Statistics', icon: BarChart3, to: '/statistics' },
-  { label: 'Budget Planning', icon: Target },
+  { label: 'Budget Planning', icon: Target, to: '/budget-planning' },
 ] as const;
 
 function Sidebar({

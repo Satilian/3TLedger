@@ -38,6 +38,7 @@ function appSettings() {
   const shellEnv = settings.shell.env;
   shellEnv.LEDGER_MF_URL ||= `http://localhost:${settings.ledger.env.PORT}/mf`;
   shellEnv.ANALYTICS_MF_URL ||= `http://localhost:${settings.analytics.env.PORT}/mf`;
+  shellEnv.BUDGETS_MF_URL ||= `http://localhost:${settings.budgets.env.PORT}/mf`;
   return settings;
 }
 

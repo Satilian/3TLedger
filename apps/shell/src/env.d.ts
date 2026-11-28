@@ -39,3 +39,8 @@ declare module 'ledger/Categories' {
   const Categories: import('react').ComponentType;
   export default Categories;
 }
+
+declare module 'budgets/BudgetPlanning' {
+  const BudgetPlanning: import('react').ComponentType;
+  export default BudgetPlanning;
+}

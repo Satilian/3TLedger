@@ -53,6 +53,7 @@ export default defineConfig(({ env }: ConfigParams) => {
           ...mfTypes.remotes,
           ledger: process.env.LEDGER_MF_URL ?? mfTypes.remotes.ledger,
           analytics: process.env.ANALYTICS_MF_URL ?? mfTypes.remotes.analytics,
+          budgets: process.env.BUDGETS_MF_URL ?? mfTypes.remotes.budgets,
         },
         types: { mode: 'off' },
         network: { requireServerIntegrity: true },
