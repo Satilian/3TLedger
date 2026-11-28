@@ -13,6 +13,7 @@ import (
 	"time"
 
 	"github.com/satilian/3tledger/apps/profile-api/internal/platform"
+	"github.com/satilian/3tledger/apps/profile-api/migrations"
 )
 
 func main() {
@@ -66,8 +67,14 @@ func run(ctx context.Context) error {
 		probe, cancel := context.WithTimeout(r.Context(), 2*time.Second)
 		defer cancel()
 		var schemaReady bool
-		if err := db.QueryRow(probe, "SELECT to_regclass('profiles') IS NOT NULL").Scan(&schemaReady); err != nil || !schemaReady {
-			http.Error(w, "profile database unavailable or migration pending", http.StatusServiceUnavailable)
+		if err := db.QueryRow(probe, migrations.SchemaReadyQuery).Scan(&schemaReady); err != nil {
+			slog.Warn("profile readiness database query failed")
+			http.Error(w, "profile database query failed", http.StatusServiceUnavailable)
+			return
+		}
+		if !schemaReady {
+			slog.Warn("profile readiness schema missing")
+			http.Error(w, "profile schema missing", http.StatusServiceUnavailable)
 			return
 		}
 		health(w, r)

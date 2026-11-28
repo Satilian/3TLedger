@@ -34,10 +34,17 @@ func main() {
 	if err := goose.SetDialect("postgres"); err != nil {
 		fail("cannot configure migrations")
 	}
-	err = goose.UpContext(ctx, db, ".")
-	closeErr := db.Close()
-	if err != nil {
+	if err := goose.UpContext(ctx, db, "."); err != nil {
 		fail("migration failed; inspect database permissions and schema (details suppressed)")
+	}
+	var schemaReady bool
+	schemaErr := db.QueryRowContext(ctx, migrations.SchemaReadyQuery).Scan(&schemaReady)
+	closeErr := db.Close()
+	if schemaErr != nil {
+		fail("cannot verify profile schema after migration")
+	}
+	if !schemaReady {
+		fail("profiles table is missing after migration; check DATABASE_URL, search_path and migration history")
 	}
 	if closeErr != nil {
 		fail("database close failed")
