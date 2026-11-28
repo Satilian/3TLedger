@@ -25,9 +25,6 @@ spec:
           envFrom:
             - secretRef:
                 name: {{ . | quote }}
-          env:
-            - name: KAFKA_TEST_EVENTS_ENABLED
-              value: "true"
           {{- end }}
           securityContext:
             runAsNonRoot: true

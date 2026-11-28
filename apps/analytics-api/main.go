@@ -9,8 +9,6 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
-
-	"github.com/satilian/3tledger/packages/kafkatest"
 )
 
 func main() {
@@ -32,14 +30,6 @@ func run(ctx context.Context) error {
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /health/live", health)
 	mux.HandleFunc("GET /health/ready", health)
-	closeKafka, err := kafkatest.Register(ctx, mux,
-		kafkatest.Publisher{},
-		kafkatest.Subscription{Path: "/api/v1/insights/test-events", TopicEnvs: []string{kafkatest.Transactions}},
-	)
-	if err != nil {
-		return err
-	}
-	defer closeKafka()
 
 	server := &http.Server{
 		Addr:              address,

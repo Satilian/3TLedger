@@ -26,8 +26,6 @@ spec:
             - secretRef:
                 name: {{ . | quote }}
           env:
-            - name: KAFKA_TEST_EVENTS_ENABLED
-              value: "true"
             - name: KAFKA_CONSUMER_GROUP_ID
               value: {{ $.Release.Name | quote }}
           {{- end }}
