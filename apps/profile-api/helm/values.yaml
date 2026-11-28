@@ -1,0 +1,13 @@
+replicaCount: 1
+
+image:
+  repository: ghcr.io/satilian/3tledger-profile-api
+  tag: latest
+  pullPolicy: Always
+
+imagePullSecrets: []
+
+existingSecret: ""
+
+service:
+  port: 80

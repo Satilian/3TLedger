@@ -75,6 +75,7 @@ func registerRoutes(mux *http.ServeMux) error {
 		paths []string
 	}{
 		{"IDENTITY_URL", []string{"/auth", "/session"}},
+		{"PROFILE_URL", []string{"/profile"}},
 		{"LEDGER_URL", []string{"/accounts", "/categories", "/operations", "/operation-requests"}},
 		{"BUDGETS_URL", []string{"/budgets"}},
 		{"ANALYTICS_URL", []string{"/insights", "/reports"}},

@@ -43,6 +43,9 @@ function Start-DevProcess($file, $directory, $arguments, $variables) {
 }
 
 $apps = 'api-gateway', 'identity-api', 'ledger-api', 'budgets-api', 'analytics-api', 'notifications-api'
+if (Test-Path -LiteralPath (Join-Path $PSScriptRoot 'apps/profile-api/.env') -PathType Leaf) {
+    $apps += 'profile-api'
+}
 $settings = @{}
 if ($FrontendPort -eq 3443) { throw 'FrontendPort is reserved for the HTTPS proxy.' }
 $ports = @(3443, $FrontendPort)

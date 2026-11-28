@@ -12,6 +12,7 @@ service:
 
 upstreams:
   IDENTITY_URL: http://identity-api-3tledger
+  PROFILE_URL: http://profile-api-3tledger
   LEDGER_URL: http://ledger-api-3tledger
   BUDGETS_URL: http://budgets-api-3tledger
   ANALYTICS_URL: http://analytics-api-3tledger
