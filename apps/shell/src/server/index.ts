@@ -54,7 +54,7 @@ app.use(handleError);
 server.listen(port, () => {
   const address = server.address();
   if (address && typeof address === 'object') {
-    console.info(`Listening on http://localhost:${address.port}`);
+    console.info(`Shell listening on http://localhost:${address.port}`);
   }
 });
 

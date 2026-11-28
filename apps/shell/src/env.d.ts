@@ -46,6 +46,7 @@ declare module 'budgets/BudgetPlanning' {
 }
 
 declare module 'profile/Profile' {
-  const Profile: import('react').ComponentType;
+  type Section = 'profile' | 'settings' | 'notifications' | 'billing' | 'privacy' | 'help-support';
+  const Profile: import('react').ComponentType<{ section?: Section }>;
   export default Profile;
 }

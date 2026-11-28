@@ -52,16 +52,16 @@ function HelpSupport() {
   );
 }
 
-export function Profile() {
-  return (
-    <>
-      <h1>Profile</h1>
-      <PersonalDetails />
-      <Settings />
-      <Notifications />
-      <Privacy />
-      <Billing />
-      <HelpSupport />
-    </>
-  );
+const sections = {
+  profile: PersonalDetails,
+  settings: Settings,
+  notifications: Notifications,
+  billing: Billing,
+  privacy: Privacy,
+  'help-support': HelpSupport,
+};
+
+export function Profile({ section = 'profile' }: { section?: keyof typeof sections }) {
+  const Section = sections[section];
+  return <Section />;
 }

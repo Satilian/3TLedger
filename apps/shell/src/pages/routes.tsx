@@ -12,6 +12,7 @@ import { getQueryClient } from 'src/utils';
 import AboutPage from './about';
 import HomePage from './home';
 import Layout from './layout';
+import { profileNavigation } from './layout/profile-navigation';
 import { NotFound } from './not-found';
 import { rootLoader } from './root.loader';
 
@@ -72,7 +73,11 @@ export const routesConfig: RoutesConfigObject = {
         {
           id: 'profile',
           path: 'profile',
-          element: <Profile />,
+          children: profileNavigation.map(({ section }) => ({
+            id: `profile-${section}`,
+            ...(section === 'profile' ? { index: true } : { path: section }),
+            element: <Profile section={section} />,
+          })),
         },
         {
           id: 'about',

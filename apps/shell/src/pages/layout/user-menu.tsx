@@ -1,9 +1,18 @@
 import { Link } from '@satilian/router';
 import { ChevronDown, LogOut, UserRound } from 'lucide-react';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import { useOnClickOutside } from 'src/hooks';
 import styles from './layout.module.css';
+import { profileNavigation } from './profile-navigation';
 
-export function UserMenu() {
+export function UserMenu({ pathname }: { pathname: string }) {
+  const menu = useRef<HTMLDetailsElement>(null);
+  const trigger = useRef<HTMLElement>(null);
+
+  useOnClickOutside(menu, () => {
+    if (menu.current?.open) menu.current.open = false;
+  });
+
   const [signOutStatus, setSignOutStatus] = useState<'idle' | 'pending' | 'error'>('idle');
 
   async function signOut() {
@@ -39,14 +48,15 @@ export function UserMenu() {
 
   return (
     <details
+      ref={menu}
       className={styles.userMenu}
       onKeyDown={(event) => {
         if (event.key !== 'Escape' || !event.currentTarget.open) return;
         event.currentTarget.open = false;
-        event.currentTarget.querySelector('summary')?.focus();
+        trigger.current?.focus();
       }}
     >
-      <summary className={styles.account} aria-label="User menu">
+      <summary ref={trigger} className={styles.account} aria-label="User menu">
         <span className={styles.avatar}>
           <UserRound size={14} aria-hidden="true" />
         </span>
@@ -54,18 +64,36 @@ export function UserMenu() {
         <ChevronDown size={14} className={styles.accountLabel} aria-hidden="true" />
       </summary>
       <div className={styles.userMenuPanel}>
-        <Link
-          to="/profile"
-          className={styles.userMenuAction}
-          onClick={(event) => {
-            const menu = event.currentTarget.closest('details');
-            if (menu) menu.open = false;
-          }}
+        <div className={styles.userMenuHeader}>
+          <span className={styles.avatar}><UserRound size={14} aria-hidden="true" /></span>
+          <strong>3T Ledger</strong>
+        </div>
+        <nav className={styles.userMenuLinks} aria-label="Profile pages">
+          {profileNavigation.map(({ label, description, icon: Icon, to }) => (
+            <Link
+              key={to}
+              to={to}
+              className={styles.userMenuAction}
+              aria-current={pathname === to ? 'page' : undefined}
+              onClick={() => {
+                if (menu.current) menu.current.open = false;
+                trigger.current?.focus();
+              }}
+            >
+              <Icon size={16} aria-hidden="true" />
+              <span>
+                {label}
+                {description && <small>{description}</small>}
+              </span>
+            </Link>
+          ))}
+        </nav>
+        <button
+          type="button"
+          className={`${styles.userMenuAction} ${styles.signOutAction}`}
+          disabled={signOutStatus === 'pending'}
+          onClick={signOut}
         >
-          <UserRound size={16} aria-hidden="true" />
-          Profile
-        </Link>
-        <button type="button" className={styles.userMenuAction} disabled={signOutStatus === 'pending'} onClick={signOut}>
           <LogOut size={16} aria-hidden="true" />
           {signOutStatus === 'pending' ? 'Signing out…' : 'Sign out'}
         </button>

@@ -1,6 +1,7 @@
 import { Link, Outlet, RouterSuspense, useRouter } from '@satilian/router';
 import {
   ArrowDownUp,
+  ArrowLeft,
   ArrowLeftRight,
   BarChart3,
   ChevronLeft,
@@ -16,6 +17,7 @@ import {
 } from 'lucide-react';
 import { memo, useRef, useState } from 'react';
 import styles from './layout.module.css';
+import { profileNavigation } from './profile-navigation';
 import { UserMenu } from './user-menu';
 
 const navigation = [
@@ -34,10 +36,12 @@ function Sidebar({
   pathname,
   onNavigate,
   control,
+  isProfile,
 }: {
   pathname: string;
   onNavigate?: () => void;
   control: React.ReactNode;
+  isProfile: boolean;
 }) {
   return (
     <>
@@ -53,55 +57,54 @@ function Sidebar({
         </Link>
         {control}
       </div>
-      <nav className={styles.navigation} aria-label="Main navigation">
-        {navigation.map(({ label, icon: Icon, ...item }) => {
-          const content = (
-            <>
-              <Icon size={16} aria-hidden="true" />
-              <span className={styles.label}>{label}</span>
-            </>
-          );
-
-          return 'to' in item ? (
-            <Link
-              key={label}
-              to={item.to}
-              onClick={onNavigate}
-              aria-current={pathname === item.to ? 'page' : undefined}
-              title={label}
-            >
-              {content}
-            </Link>
-          ) : (
-            <span key={label} aria-disabled="true" title={label}>
-              {content}
-            </span>
-          );
-        })}
+      <nav className={styles.navigation} aria-label={isProfile ? 'Account navigation' : 'Main navigation'}>
+        {isProfile && <div className={styles.navigationHeading}><span className={styles.label}>Account</span></div>}
+        {(isProfile ? profileNavigation : navigation).map(({ label, icon: Icon, to }) => (
+          <Link
+            key={to}
+            to={to}
+            onClick={onNavigate}
+            aria-current={pathname === to ? 'page' : undefined}
+            title={label}
+          >
+            <Icon size={16} aria-hidden="true" />
+            <span className={styles.label}>{label}</span>
+          </Link>
+        ))}
       </nav>
-      <Link to="/about" onClick={onNavigate} className={styles.sidebarFooter} aria-label="About 3T Ledger">
-        <span className={styles.avatar}>
-          <UserRound size={14} aria-hidden="true" />
-        </span>
-        <span className={styles.label}>About 3T Ledger</span>
-      </Link>
+      {isProfile ? (
+        <Link to="/" onClick={onNavigate} className={styles.sidebarFooter} title="Back to dashboard">
+          <ArrowLeft size={16} aria-hidden="true" />
+          <span className={styles.label}>Back to dashboard</span>
+        </Link>
+      ) : (
+        <Link to="/about" onClick={onNavigate} className={styles.sidebarFooter} aria-label="About 3T Ledger">
+          <span className={styles.avatar}>
+            <UserRound size={14} aria-hidden="true" />
+          </span>
+          <span className={styles.label}>About 3T Ledger</span>
+        </Link>
+      )}
     </>
   );
 }
 
 export default memo(function MainLayout() {
-  const { pathname } = useRouter();
+  const { pathname: currentPathname } = useRouter();
+  const pathname = currentPathname.replace(/\/+$/, '') || '/';
+  const profilePage = profileNavigation.find(({ to }) => to === pathname);
   const [collapsed, setCollapsed] = useState(false);
   const drawer = useRef<HTMLDialogElement>(null);
   const title = pathname === '/about'
     ? 'About'
-    : navigation.find((item) => 'to' in item && item.to === pathname)?.label ?? 'Dashboard';
+    : profilePage?.label ?? navigation.find(({ to }) => to === pathname)?.label ?? 'Dashboard';
 
   return (
     <div className={styles.shell}>
       <aside id="desktop-sidebar" className={styles.sidebar} data-collapsed={collapsed}>
         <Sidebar
           pathname={pathname}
+          isProfile={Boolean(profilePage)}
           control={
             <button
               type="button"
@@ -121,6 +124,7 @@ export default memo(function MainLayout() {
         <div className={styles.drawerContent}>
           <Sidebar
             pathname={pathname}
+            isProfile={Boolean(profilePage)}
             onNavigate={() => drawer.current?.close()}
             control={
               <button
@@ -149,7 +153,7 @@ export default memo(function MainLayout() {
             <Menu size={18} aria-hidden="true" />
           </button>
           <h1>{title}</h1>
-          <UserMenu />
+          <UserMenu pathname={pathname} />
         </header>
         <main className={styles.content}>
           <RouterSuspense fallback={<div role="status">Loading...</div>}>
