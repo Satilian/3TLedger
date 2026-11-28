@@ -1,0 +1,178 @@
+name: Frontend Release Pipeline
+
+on:
+  workflow_call:
+    inputs:
+      app:
+        required: true
+        type: string
+      image_tag:
+        type: string
+
+env:
+  APP: ${{ inputs.app }}
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}-${{ inputs.app }}
+  RELEASE_NAME: ${{ inputs.app }}-3tledger
+  NAMESPACE: 3tledger
+  CHART_PATH: ./apps/${{ inputs.app }}/helm
+  IMAGE_PULL_SECRET: ghcr-pull-secret
+
+jobs:
+  remotes:
+    if: inputs.app == 'shell' && inputs.image_tag == ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: production
+    permissions:
+      contents: read
+    outputs:
+      analytics_url: ${{ steps.remotes.outputs.analytics_url }}
+      ledger_url: ${{ steps.remotes.outputs.ledger_url }}
+    steps:
+      - name: Resolve microfrontend URLs
+        id: remotes
+        env:
+          APP_HOST: ${{ vars.APP_HOST }}
+        run: |
+          if [[ ! "$APP_HOST" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+            echo "::error::Set APP_HOST to the production DNS hostname."
+            exit 1
+          fi
+          echo "analytics_url=https://$APP_HOST/mf/analytics" >> "$GITHUB_OUTPUT"
+          echo "ledger_url=https://$APP_HOST/mf/ledger" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: remotes
+    if: >-
+      !cancelled() && inputs.image_tag == '' &&
+      (needs.remotes.result == 'success' || needs.remotes.result == 'skipped')
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    concurrency:
+      group: release-${{ inputs.app }}-${{ github.ref }}
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v4
+
+      - name: Log in to GHCR
+        uses: docker/login-action@v4
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v6
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=sha,format=long,prefix=sha-
+            type=ref,event=tag
+
+      - name: Build and push
+        uses: docker/build-push-action@v7
+        with:
+          context: ./apps/${{ inputs.app }}
+          build-args: |
+            ${{ needs.remotes.outputs.analytics_url && format('ANALYTICS_MF_URL={0}', needs.remotes.outputs.analytics_url) }}
+            ${{ needs.remotes.outputs.ledger_url && format('LEDGER_MF_URL={0}', needs.remotes.outputs.ledger_url) }}
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha,scope=${{ inputs.app }}
+          cache-to: type=gha,mode=max,scope=${{ inputs.app }}
+
+  deploy:
+    needs: build
+    if: >-
+      !cancelled() &&
+      ((inputs.image_tag != '' && needs.build.result == 'skipped') ||
+       (needs.build.result == 'success' &&
+        github.ref == format('refs/heads/{0}', github.event.repository.default_branch)))
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment: production
+    concurrency:
+      group: deploy-${{ inputs.app }}-production
+      cancel-in-progress: false
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Resolve image tag
+        id: image
+        env:
+          MANUAL_TAG: ${{ inputs.image_tag }}
+        run: |
+          tag="sha-$GITHUB_SHA"
+          if [[ -n "$MANUAL_TAG" ]]; then
+            tag="$MANUAL_TAG"
+          fi
+          if [[ ! "$tag" =~ ^[a-zA-Z0-9_][a-zA-Z0-9_.-]{0,127}$ || "$tag" == latest ]]; then
+            echo "::error::Specify a SHA or release image tag."
+            exit 1
+          fi
+          echo "repository=ghcr.io/${GITHUB_REPOSITORY,,}-$APP" >> "$GITHUB_OUTPUT"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Setup kubectl
+        uses: azure/setup-kubectl@v4
+
+      - name: Setup Helm
+        uses: azure/setup-helm@v5
+
+      - name: Kubeconfig
+        env:
+          KUBECONFIG_CONTENT: ${{ secrets.KUBECONFIG }}
+        run: |
+          umask 077
+          mkdir -p ~/.kube
+          printf '%s\n' "$KUBECONFIG_CONTENT" > ~/.kube/config
+
+      - name: Configure GHCR pull secret
+        env:
+          GHCR_USERNAME: ${{ secrets.GHCR_USERNAME }}
+          GHCR_PAT: ${{ secrets.GHCR_PAT }}
+        run: |
+          kubectl create namespace "$NAMESPACE" --dry-run=client -o yaml | kubectl apply -f -
+          kubectl create secret docker-registry "$IMAGE_PULL_SECRET" \
+            --namespace "$NAMESPACE" \
+            --docker-server=ghcr.io \
+            --docker-username="$GHCR_USERNAME" \
+            --docker-password="$GHCR_PAT" \
+            --dry-run=client -o yaml | kubectl apply -f -
+
+      - name: Deploy
+        env:
+          IMAGE_REPOSITORY: ${{ steps.image.outputs.repository }}
+          IMAGE_TAG: ${{ steps.image.outputs.tag }}
+          APP_HOST: ${{ vars.APP_HOST }}
+        run: |
+          ingress_args=()
+          if [[ -n "$APP_HOST" ]]; then
+            if [[ ! "$APP_HOST" =~ ^[a-z0-9]([a-z0-9.-]*[a-z0-9])?$ ]]; then
+              echo "::error::APP_HOST must be a DNS hostname."
+              exit 1
+            fi
+            ingress_args=(--set ingress.enabled=true --set-string "ingress.host=$APP_HOST")
+          fi
+          helm upgrade --install "$RELEASE_NAME" "$CHART_PATH" \
+            --namespace "$NAMESPACE" \
+            --wait \
+            --timeout 300s \
+            --rollback-on-failure \
+            --set-string "imagePullSecrets[0].name=$IMAGE_PULL_SECRET" \
+            --set-string "image.repository=$IMAGE_REPOSITORY" \
+            --set-string "image.tag=$IMAGE_TAG" \
+            "${ingress_args[@]}"
